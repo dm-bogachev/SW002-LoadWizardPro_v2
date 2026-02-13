@@ -1,5 +1,5 @@
 # Connection Manager configuration file
-# 2026/2/12  22:20:54
+# 2026/2/13  17:35:40
 Instance=0
 networkPath=192.168.1.115
 TargetConfigConnInstance=102
