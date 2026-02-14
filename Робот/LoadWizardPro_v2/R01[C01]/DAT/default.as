@@ -16,11 +16,11 @@
 .NETCONF     0.0.0.0,"",0.0.0.0,0.0.0.0,0.0.0.0,0.0.0.0,""
 .NETCONF2     0.0.0.0,0.0.0.0,0.0.0.0
 .ROBOTDATA1
-ZROBOT.TYPE    30  14   6   1        -766   RS013N-A001 ( 2026-02-13 00:27 )
+ZROBOT.TYPE    30  14   6   1        -766   RS013N-A001 ( 2026-02-14 23:05 )
 ZSYSTEM         1   5         -91
 ZLINEAR         0   0   0   0   0   0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1         179
 CONT_CODE     701      -10516
-ZZERO         269365069 268276678 267596037 268024644 268592244 268356065 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456   542900896
+ZZERO         268586729 268599027 267760593 268816734 268136868 268969547 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456   533019481
 ENDLESS_POS   0 100 1       -1516
 LANGUAGE      2
 ZSIGSPEC      256 256 512      -15361
@@ -56,7 +56,7 @@ ZSETKVFF_SVSPEC5    1.000   1.000   1.000   1.000   1.000   1.000  -1.000  -1.00
 ZSETKVFFACC_SVSPEC5    0.000   0.000   0.000   0.000   0.000   0.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -1832648705
 ZSETKVFFJRK_SVSPEC5    0.000   0.000   0.000   0.000   0.000   0.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -1832648705
 ZSETKAFF2_SVSPEC5    1.000   1.000   1.000   1.000   1.000   1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000 -1262485505
-ZSAVEMR             65535       65535       65535       65535           0           0           0           0           0           0           0           0           0           0           0           0           0           0    -3932101
+ZSAVEMR                11       65526           7       65532           5       65534           0           0           0           0           0           0           0           0           0           0           0           0    -2949226
 ZRADIUS        1663.943  1663.943   963.943   203.943   203.943    78.440     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000  -331702932
 ZJTSPEED        265.000   250.000   265.000   475.000   475.000   730.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000  -217235457
 ZACCTIME          0.282     0.352     0.238     0.208     0.222     0.262     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384   879587508
@@ -1000,7 +1000,7 @@ ZSWITCH ZCINTVEKAI      ON   -509
 ZSWITCH ZCYCFIX         ON   -503
 ZSWITCH ZCMNDJUMPDSP    OFF  -515
 ZSWITCH ZSOUKOU         ON   -503
-ZSWITCH ZCHK_MINCYC_FIX ON   -519
+ZSWITCH ZCHK_MINCYC_FIX OFF  -521
 ZSWITCH ZFIRFLT         OFF  -505
 ZSWITCH ZREFKAI         ON   -503
 ZSWITCH ZREFSIG         OFF  -505
@@ -1140,7 +1140,7 @@ ZSWITCH ZOPTACDC_MODE2_TRCHK_FIX ON   -537
 ZSWITCH ZOPTVELMAX_MODE2_FIX ON   -529
 ZSWITCH ZOPTACDC_CAL_COEFFICIENT_FIX ON   -545
 ZSWITCH ZARMIO_OLD      OFF  -511
-ZSWITCH ZDYCOMP_FRI_DIS ON   -519
+ZSWITCH ZDYCOMP_FRI_DIS OFF  -521
 ZSWITCH ZCHECK_COMM_HOLD ON   -521
 ZSWITCH ZSG_CHECK_CPOS  OFF  -519
 ZSWITCH ZENA_FB_HSENSE  ON   -517
@@ -1153,7 +1153,7 @@ ZSWITCH ZINTDATA_RW_BATCH OFF  -525
 ZSWITCH ZALTER_TITLE    OFF  -515
 ZSWITCH ZSKIP_IOBOARDERR OFF  -523
 ZSWITCH ZENCTEMPGET     ON   -511
-ZSWITCH ZCVCOOPJT.BREAK ON   -519
+ZSWITCH ZCVCOOPJT.BREAK OFF  -521
 ZSWITCH ZCVWORKCHG.BREAK ON   -521
 ZSWITCH ZCVRESET.SYNCCHK ON   -521
 ZSWITCH ZCVSET.SYNCCHK  ON   -517
@@ -1171,7 +1171,7 @@ ZSWITCH ZMARM_JT3LMT_ERR ON   -521
 ZSWITCH ZDREGFBUS       OFF  -509
 ZSWITCH ZTP_RENAME      ON   -509
 ZSWITCH ZTP_NOKILLDELETE OFF  -523
-ZSWITCH ZCONV_XYZFLT    ON   -513
+ZSWITCH ZCONV_XYZFLT    OFF  -515
 ZSWITCH ZERRPOP_REDISP  OFF  -519
 ZSWITCH ZBRKERR_CHKFB   ON   -515
 ZSWITCH ZWDOG_LOG       ON   -507
@@ -1203,7 +1203,7 @@ ZSWITCH ZPROF_ENABLE    ON   -513
 ZSWITCH ZCHK_TCPDEFLECT OFF  -521
 ZSWITCH ZCHK_TCPDEFLECT_KAI OFF  -529
 ZSWITCH ZFIX_CVHMOVE    OFF  -515
-ZSWITCH ZCV_SYNCCHK_XYZFLT ON   -525
+ZSWITCH ZCV_SYNCCHK_XYZFLT OFF  -527
 ZSWITCH ZFIXED_STRING_MEMORY ON   -529
 ZSWITCH ZFMEMSYNCLOAD   ON   -515
 ZSWITCH ZFMEMSYNCTIME   ON   -515
@@ -1214,19 +1214,19 @@ ZSWITCH ZTOOLINTERFERENCE_IGNORE OFF  -539
 ZSWITCH ZCATE1_HOLD     OFF  -513
 ZSWITCH ZSPD_UP_GEAR    OFF  -515
 ZSWITCH ZDBLREFFLT_STABLE_FIXED ON   -535
-ZSWITCH ZCINT_MINTIME_MOD ON   -523
+ZSWITCH ZCINT_MINTIME_MOD OFF  -525
 ZSWITCH ZCHK_CB_CUR     OFF  -513
 ZSWITCH ZSTG_AUTOSAVE   OFF  -517
 ZSWITCH ZSTG_AUTOTRIGGER OFF  -523
 ZSWITCH ZSTG_FILE_DATE  OFF  -519
 ZSWITCH ZOPTVELMAX_LINE_REJ0S0E ON   -535
 ZSWITCH ZOPTVELMAX_LINE_CP_LEGACY ON   -539
-ZSWITCH ZADMAXPLN_MTNTYPE_MOD ON   -531
-ZSWITCH ZREFFLTSTABLE_CHGOK ON   -527
+ZSWITCH ZADMAXPLN_MTNTYPE_MOD OFF  -533
+ZSWITCH ZREFFLTSTABLE_CHGOK OFF  -529
 ZSWITCH ZACDCDOWN       OFF  -509
-ZSWITCH ZREFFLTSTABLE_CHGOK_COMP ON   -537
-ZSWITCH ZDBLREFFLT_BREAK_NOSTABLE ON   -539
-ZSWITCH ZDBLREFFLT_COINCHK_NODBL ON   -537
+ZSWITCH ZREFFLTSTABLE_CHGOK_COMP OFF  -539
+ZSWITCH ZDBLREFFLT_BREAK_NOSTABLE OFF  -541
+ZSWITCH ZDBLREFFLT_COINCHK_NODBL OFF  -539
 ZSWITCH ZPATHCONST_LIMITSPD_IMP OFF  -537
 ZSWITCH ZFMEMSYNCERST   OFF  -517
 ZSWITCH ZNSLOAD_CONFIRM OFF  -521
@@ -1239,7 +1239,7 @@ ZSWITCH ZPMODCOINCHK    ON   -513
 ZSWITCH ZPMOD_OPERRKILL OFF  -521
 ZSWITCH ZENA_PMODJNT    OFF  -515
 ZSWITCH ZINIT_LANGUAGE  OFF  -519
-ZSWITCH ZDBLREFFLT_BREAK_ONLY_NOSTABLE ON   -549
+ZSWITCH ZDBLREFFLT_BREAK_ONLY_NOSTABLE OFF  -551
 ZSWITCH ZAUTO_ROBOTSET  OFF  -519
 ZSWITCH ZAUTO_ROBOTSET_INI OFF  -527
 ZSWITCH ZAUTO_ROBOTSET_F OFF  -523
@@ -1250,12 +1250,12 @@ ZSWITCH ZTYX.EXT_SVPRM_CHK ON   -525
 ZSWITCH ZPWREG_STD_ENABLE ON   -523
 ZSWITCH ZAUX_SVLD_KEEPMES ON   -523
 ZSWITCH ZCVMOVE2MOVE.NOBREAK OFF  -531
-ZSWITCH ZFIX_CV_CALL    ON   -513
-ZSWITCH ZFIX_CVCMOVE    ON   -513
-ZSWITCH ZFIX_CVLAPPRO   ON   -515
-ZSWITCH ZFIX_CVBREAK    ON   -513
-ZSWITCH ZCVNOBREAK.NOCIR ON   -521
-ZSWITCH ZCVBREAK_INSTOOL ON   -521
+ZSWITCH ZFIX_CV_CALL    OFF  -515
+ZSWITCH ZFIX_CVCMOVE    OFF  -515
+ZSWITCH ZFIX_CVLAPPRO   OFF  -517
+ZSWITCH ZFIX_CVBREAK    OFF  -515
+ZSWITCH ZCVNOBREAK.NOCIR OFF  -523
+ZSWITCH ZCVBREAK_INSTOOL OFF  -523
 ZSWITCH ZDBLREFFLT_STABLE_CHGOK ON   -535
 ZSWITCH ZEMG_LINEARSTOP ON   -519
 ZSWITCH ZHIGHDELTA_DISABLE OFF  -527
@@ -1272,7 +1272,7 @@ ZSWITCH ZQECALCTEST     OFF  -513
 ZSWITCH ZFMEM_LOG       OFF  -509
 ZSWITCH ZSRVCMNDCHK     ON   -511
 ZSWITCH ZTCPSTATUS_REVERSE OFF  -527
-ZSWITCH ZENC_ERR_LATCH_FUNC OFF  -529
+ZSWITCH ZENC_ERR_LATCH_FUNC ON   -527
 ZSWITCH ZATE_COMP       OFF  -509
 ZSWITCH ZRIPPLE_COMP    OFF  -515
 ZSWITCH ZPATHCONST_RPLN_ACMOD ON   -531
@@ -1294,14 +1294,14 @@ ZSWITCH ZOPTACDC_LOOP_FIX ON   -523
 ZSWITCH ZOPTACDC_LOOP_IMP ON   -523
 ZSWITCH ZSTG_IQ2JTTRQ   OFF  -517
 ZSWITCH ZSTG_IQCMD2MTTRQ OFF  -523
-ZSWITCH ZCHECK46_IMP    ON   -513
-ZSWITCH ZFIX_HOLDDEC_SKIPAXIS ON   -531
+ZSWITCH ZCHECK46_IMP    OFF  -515
+ZSWITCH ZFIX_HOLDDEC_SKIPAXIS OFF  -533
 ZSWITCH ZPATHCONST_LSTPOSSLOW ON   -531
 ZSWITCH ZPATHCONST_MODSAVEREFJA_FIX ON   -543
 ZSWITCH ZXYZSHIFT_BASE  OFF  -519
 ZSWITCH ZSTG_POWCON2TQVER OFF  -525
 ZSWITCH ZOVERDRIVE_PROTECT_WARN ON   -535
-ZSWITCH ZMOVEDIST_SUM_ALL ON   -523
+ZSWITCH ZMOVEDIST_SUM_ALL OFF  -525
 ZSWITCH ZPMOD_TOOLXYZ   ON   -515
 ZSWITCH ZFIX_SUSPEND    ON   -513
 ZSWITCH ZBRKSTS_CHECK   ON   -515
@@ -1312,24 +1312,24 @@ ZSWITCH ZOPTVELMAX_MODE2_INITFIX ON   -537
 ZSWITCH ZFIX_SUSPEND_FINALSTEP ON   -533
 ZSWITCH ZFIX_SUSPEND_REND ON   -523
 ZSWITCH ZOPTACDC_LMID_VEL_FIX ON   -531
-ZSWITCH ZWORK_SPACE_OSIG_CHK.OLD OFF  -539
-ZSWITCH ZOPTACDC_MODE2_CETTNFIX ON   -535
+ZSWITCH ZWORK_SPACE_OSIG_CHK.OLD ON   -537
+ZSWITCH ZOPTACDC_MODE2_CETTNFIX OFF  -537
 ZSWITCH ZFIX_XMOVE_NEXTENV ON   -525
 ZSWITCH ZFIX_XMOVE_PREFETCH ON   -527
 ZSWITCH ZFIX_SUSPEND_SENSING ON   -529
 ZSWITCH ZTURN_FOLLOW_COMP ON   -523
-ZSWITCH ZFIX_ADC_INPUT  ON   -517
-ZSWITCH ZWEIGHT_INPUT_INERTIA ON   -531
+ZSWITCH ZFIX_ADC_INPUT  OFF  -519
+ZSWITCH ZWEIGHT_INPUT_INERTIA OFF  -533
 ZSWITCH ZRGLOG_GRSALRT  ON   -517
-ZSWITCH ZMOD_NMV_JUDGE  ON   -517
+ZSWITCH ZMOD_NMV_JUDGE  OFF  -519
 ZSWITCH ZBRKDUTY        ON   -505
-ZSWITCH ZSOUKOU_AUTO    ON   -513
+ZSWITCH ZSOUKOU_AUTO    OFF  -515
 ZSWITCH ZFRI_COMP_CHG_TYPE OFF  -527
-ZSWITCH ZASIDE_BP       ON   -507
-ZSWITCH ZCHKROT6_REVERSAL ON   -523
+ZSWITCH ZASIDE_BP       OFF  -509
+ZSWITCH ZCHKROT6_REVERSAL OFF  -525
 ZSWITCH ZPHASELAGCOMP   OFF  -517
-ZSWITCH ZOPTACDC_CHGVEL_SLEW_U OFF  -535
-ZSWITCH ZOPTACDC_FTRQ_TN_FIX OFF  -531
+ZSWITCH ZOPTACDC_CHGVEL_SLEW_U ON   -533
+ZSWITCH ZOPTACDC_FTRQ_TN_FIX ON   -529
 ZSWITCH ZFIX_PG_CONTINUE ON   -521
 ZSWITCH ZFIX_CALL_1STEPPG ON   -523
 .END
@@ -1366,14 +1366,14 @@ DEFSIG_I EXT_PH_PULSE.   OFF     0
 DEFSIG_I EXT_PH_PULSE_8.  OFF     0
 DEFSIG_I EXT_PH_PULSE_9.  OFF     0
 DEFSIG_I EXT_PH_PULSE_10.  OFF     0
-DEFSIG_I I/F_PAGE1       OFF     0
-DEFSIG_I I/F_PAGE2       OFF     0
-DEFSIG_I I/F_PAGE3       OFF     0
-DEFSIG_I I/F_PAGE4       OFF     0
-DEFSIG_I I/F_PAGE5       OFF     0
-DEFSIG_I I/F_PAGE6       OFF     0
-DEFSIG_I I/F_PAGE7       OFF     0
-DEFSIG_I I/F_PAGE8       OFF     0
+DEFSIG_I I/F_PAGE1       ON   2001
+DEFSIG_I I/F_PAGE2       ON   2002
+DEFSIG_I I/F_PAGE3       ON   2003
+DEFSIG_I I/F_PAGE4       ON   2004
+DEFSIG_I I/F_PAGE5       ON   2005
+DEFSIG_I I/F_PAGE6       ON   2006
+DEFSIG_I I/F_PAGE7       ON   2007
+DEFSIG_I I/F_PAGE8       ON   2008
 DEFSIG_I OPTIMIZE_MODE   OFF     0
 DEFSIG_I AUTOSAVE_C1     OFF     0
 DEFSIG_I AUTOSAVE_C2     OFF     0
@@ -1818,9 +1818,9 @@ ARM_WX_NUM            0
 CHECK_SPEED2     10.000    20.000    30.000    40.000    50.000
 FASTCHK_KEYS  ON 
 SYS_BASE          0.000     0.000     0.000    90.000    30.000    90.000
-TOOL              0.000    97.000   102.000    90.000    90.000     0.000
+TOOL             93.800     0.000   102.000     0.000    90.000   180.000
 FTOOL             0.000     0.000     0.000     0.000     0.000     0.000
-DFF              13.000     0.000     0.000   100.000     0.100     0.100     0.100
+DFF              13.000     0.000     0.000   100.000     0.000     0.000     0.000
 SPDUPGEAR         0.000     0.000     0.000     0.000
 JT6GEAR_LOOPCNT         20        10
 JT6GEAR_PARA_P     60.000     1.000
@@ -2344,12 +2344,12 @@ SWITCH QTOOL           OFF
 SWITCH REP_ONCE        ON 
 SWITCH REP_ONCE.RPS_LAST OFF
 SWITCH RPS             OFF
-SWITCH STP_ONCE        OFF
+SWITCH STP_ONCE        ON 
 SWITCH AFTER.WAIT.TMR  OFF
 SWITCH FLEXCOMP        OFF
 SWITCH MESSAGES        ON 
 SWITCH SCREEN          ON 
-SWITCH AUTOSTART.PC    OFF
+SWITCH AUTOSTART.PC    ON 
 SWITCH AUTOSTART2.PC   OFF
 SWITCH AUTOSTART3.PC   OFF
 SWITCH AUTOSTART4.PC   OFF
@@ -2357,11 +2357,11 @@ SWITCH AUTOSTART5.PC   OFF
 SWITCH ERRSTART.PC     OFF
 SWITCH AUTOSTART.LSQ   OFF
 SWITCH DISPIO_01       OFF
-SWITCH HOLD.STEP       OFF
+SWITCH HOLD.STEP       ON 
 SWITCH WS_COMPOFF      OFF
 SWITCH WS.ZERO         OFF
 SWITCH SLOW_START      OFF
-SWITCH ABS.SPEED       OFF
+SWITCH ABS.SPEED       ON 
 SWITCH UDP_EMSG        ON 
 SWITCH TOUCH.ENA       ON 
 SWITCH TOUCHST.ENA     ON 
@@ -2377,7 +2377,7 @@ SWITCH SINGULAR        ON
 SWITCH TPSPEED.RESET   OFF
 SWITCH OXZERO          OFF
 SWITCH IFAKEY          OFF
-SWITCH DISP.EXESTEP    OFF
+SWITCH DISP.EXESTEP    ON 
 SWITCH NO_SJISCONV     OFF
 SWITCH NOPENABLE       OFF
 SWITCH SIGRSTCONF      ON 
@@ -2385,7 +2385,7 @@ SWITCH WAITREL_AUTO    OFF
 SWITCH STAT_ON_KYBD    ON 
 SWITCH CONF_VARIABLE   OFF
 SWITCH CVMOVE.NOBREAK  OFF
-SWITCH PROG.DATE       OFF
+SWITCH PROG.DATE       ON 
 SWITCH INSERTSTEP_CURRENT OFF
 SWITCH MODIFYSTEP_CURRENT OFF
 SWITCH INVALID.TPKEY_S OFF
@@ -2407,7 +2407,7 @@ SWITCH KANJI_DISPLAY   OFF
 SWITCH PCENDMSG_MASK   OFF
 SWITCH INTERP_FTOOL    OFF
 SWITCH KLGCNT_SAVE     OFF
-SWITCH PGFILE_AUTO_RECOVER OFF
+SWITCH PGFILE_AUTO_RECOVER ON 
 SWITCH FB_DISCON_ERR   OFF
 SWITCH FB_UNSIGNED_WORD ON 
 SWITCH OPELV_RESET     OFF
@@ -2604,8 +2604,8 @@ OUTSPED4          0.00  2000.00    15.00   -15.00      0 3003  16   1      0 0
 3D_MASTER         0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
 3D_SLAVE          0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
 3D_ETC           30.000   0   0
-1HOME             0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000    10.000
-2HOME             0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000    10.000
+1HOME             0.000    29.999    90.001     0.001   -44.999     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000    50.000
+2HOME             0.000    29.999    40.000     0.001   -44.999     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000    50.000
 WORK_SPACE_1      0.000     0.000     0.000     0.000     0.000     0.000         0         0
 WORK_SPACE_2      0.000     0.000     0.000     0.000     0.000     0.000         0         0
 WORK_SPACE_3      0.000     0.000     0.000     0.000     0.000     0.000         0         0
@@ -2836,12 +2836,110 @@ ROB_EXTERNAL_RESTART          0
 ROB_OP_AFTER_ERROR          0
 MOVING_AREA       0.000     0.000     0.000     0.000     0.000     0.000
 ENC_ALARM              0          0          0          0          0          0
+N_OX1    "k.shelf.pick"
+N_OX33   "gripper.open[1]"
+N_OX34   "gripper.close[1]"
+N_OX35   "gripper.open[2]"
+N_OX36   "gripper.close[2]"
+N_OX37   "air.blow.on"
+N_OX38   "air.blow.off"
+N_OX65   "do.motor.on"
+N_OX66   "do.error"
+N_OX67   "do.cs"
+N_OX68   "do.automatic"
+N_OX69   "do.teach"
+N_OX70   "do.teach.lock"
+N_OX71   "do.home"
+N_OX72   "do.home2"
+N_OX73   "do.power.on"
+N_OX74   "do.emg"
+N_OX75   "do.hold"
+N_OX76   "do.safety.fence"
+N_OX77   "do.bat.alarm"
+N_OX81   "eo.grip.opened[1]"
+N_OX82   "eo.grip.opened[2]"
+N_OX83   "eo.grip.error"
 N_OX84   "eo.grip.sensor[1]"
+N_OX85   "eo.grip.sensor[2]"
+N_OX97   "eo.cnc.ch.open[1]"
+N_OX98   "eo.cnc.ch.close[1]"
+N_OX99   "eo.cnc.ch.open[2]"
+N_OX100   "eo.cnc.ch.close[2]"
+N_OX101   "eo.cnc.mfinish"
+N_OX113   "eo.robot.ready"
 N_OX114   "eo.task.exec"
+N_OX115   "eo.process.err"
+N_OX129   "eo.shelf.opened[1]"
+N_OX130   "eo.shelf.opened[2]"
+N_OX131   "eo.shelf.opened[3]"
+N_OX132   "eo.shelf.opened[4]"
 N_OX133   "eo.shelf.unlock[1]"
+N_OX134   "eo.shelf.unlock[2]"
+N_OX135   "eo.shelf.unlock[3]"
+N_OX136   "eo.shelf.unlock[4]"
+N_WX33   "gripper.opened[1]"
+N_WX34   "gripper.opened[2]"
 N_WX35   "gripper.sensor[1]"
+N_WX36   "gripper.sensor[2]"
+N_WX65   "di.ext.motor.on"
+N_WX66   "di.ext.ereset"
+N_WX67   "di.ext.cs"
+N_WX68   "di.ext.pgreset"
+N_WX69   "di.ext.hold"
+N_WX70   "di.ext.motor.of"
+N_WX81   "ei.grip.open[1]"
+N_WX82   "ei.grip.close[1]"
+N_WX83   "ei.grip.open[2]"
+N_WX84   "ei.grip.close[2]"
+N_WX97   "ei.cnc.ch.opd[1]"
+N_WX98   "ei.cnc.ch.clsd[1]"
+N_WX99   "ei.cnc.ch.opd[2]"
+N_WX100   "ei.cnc.ch.clsd[2]"
+N_WX101   "ei.cnc.ready"
+N_WX113   "ei.task.start"
+N_WX129   "ei.shelf.ready[1]"
+N_WX130   "ei.shelf.ready[2]"
+N_WX131   "ei.shelf.ready[3]"
+N_WX132   "ei.shelf.ready[4]"
 N_WX133   "ei.shelf.state[1]"
+N_WX134   "ei.shelf.state[2]"
+N_WX135   "ei.shelf.state[3]"
+N_WX136   "ei.shelf.state[4]"
 N_WX137   "ei.shelf.failed"
+N_WX225   "ei.robot.speed[0]"
+N_WX226   "ei.robot.speed[1]"
+N_WX227   "ei.robot.speed[2]"
+N_WX228   "ei.robot.speed[3]"
+N_WX229   "ei.robot.speed[4]"
+N_WX230   "ei.robot.speed[5]"
+N_WX231   "ei.robot.speed[6]"
+N_WX232   "ei.robot.speed[7]"
+N_WX233   "ei.robot.speed[8]"
+N_WX234   "ei.robot.speed[9]"
+N_WX235   "ei.robot.speed[10]"
+N_WX236   "ei.robot.speed[11]"
+N_WX237   "ei.robot.speed[12]"
+N_WX238   "ei.robot.speed[13]"
+N_WX239   "ei.robot.speed[14]"
+N_WX240   "ei.robot.speed[15]"
+N_INT1    "di.ifp.page[1]"
+N_INT2    "di.ifp.page[2]"
+N_INT3    "di.ifp.page[3]"
+N_INT4    "di.ifp.page[4]"
+N_INT5    "di.ifp.page[5]"
+N_INT6    "di.ifp.page[6]"
+N_INT7    "di.ifp.page[7]"
+N_INT8    "di.ifp.page[8]"
+N_INT10   "s.shelf.failed"
+N_INT11   "s.search.fail"
+N_INT100   "s.pr.tch.shelf"
+N_INT101   "s.pr.tst.shelf"
+N_INT102   "s.hmi.tool.1"
+N_INT103   "s.hmi.chuck.1"
+N_INT104   "s.pr.tch.wp"
+N_INT105   "s.pr.tst.pick"
+N_INT106   "s.pr.home"
+N_INT107   "s.pr.tst.put"
 SENSING_SPEED     10.000     0.000 255
 SENS_STROKE       0.000
 PAL_TYPE_01     0
@@ -3134,689 +3232,1619 @@ TP_RECINHI      0   0   0
 0,9,1,6,9
 6,10,"","PCEXECUTE ","AUTOSTART","",10,4,6,1,"PCEXECUTE autostart.pc",0
 7,9,2,6,9
+13,2,"","   IO","","",10,4,11,2002,0
 14,9,3,6,9
+20,2,"","  DEBUG","","",10,4,11,2008,0
 21,9,8,6,9
+27,2,"","  TEACH","","",10,4,11,2003,0
+28,1,"  CHUCK 1","","","  OPENED",10,15,4,10,1097,0
+29,1,"  CHUCK 1","","","  CLOSED",10,15,4,10,1098,0
+30,1,"  CHUCK 2","","","  OPENED",10,15,4,10,1099,0
+31,1,"  CHUCK 2","","","  CLOSED",10,15,4,10,1100,0
+33,1," GRIPPER 1","","","  SEARCH",10,15,4,10,1035,0
+34,1," GRIPPER 2","","","  SEARCH",10,15,4,10,1036,0
+35,2,"","  CHUCK 1","   OPEN","",10,4,15,97,0
+36,2,"","  CHUCK 1","   CLOSE","",10,4,15,98,0
+37,2,"","  CHUCK 2","   OPEN","",10,4,15,99,0
+38,2,"","  CHUCK 2","   CLOSE","",10,4,15,100,0
+40,1," GRIPPER 1","","","  OPENED",10,15,4,10,1033,0
+41,1," GRIPPER 2","","","  OPENED",10,15,4,10,1034,0
+42,1,"   CNC","","","  WAITING",10,15,4,10,1101,0
+43,2,""," MCODE FIN","","",10,4,15,101,0
+47,4,2,"GRIPPER 1","OPEN","CLOSE","",10,4,4,33,34,0
+48,4,2,"GRIPPER 2","OPEN","CLOSE","",10,4,4,35,36,0
+49,2,"","   MAIN","<---------","",10,4,11,2001,0
+50,2,"","  TEACH","--------->","",10,4,11,2004,0
+55,4,2,"AIR BLOW","OFF","ON","",10,4,4,38,37,0
+56,2,"  PRIME","  TEACH","  PLATE","",10,4,3,2104,0
+57,8,"hmi.shelf.no"," Shelf No","",10,6,2,1,0
+58,8,"hmi.plate.id"," Plate ID","",10,6,2,1,0
+60,4,2,"TEACH TOOL","TOOL 1","TOOL 2","",10,4,4,2102,0,0
+61,4,2,"GRIPPER 1","OPEN","CLOSE","",10,4,4,33,34,0
+62,4,2,"GRIPPER 2","OPEN","CLOSE","",10,4,4,35,36,0
+63,2,"  PRIME","  TEST","  PICK","",10,4,3,2105,0
+64,8,"hmi.wp.id"," WORKPIECE","    ID",10,8,3,1,0
+70,2,"  PRIME","  TEST","  PUT","",10,4,3,2107,0
+77,2,"","   MAIN","<---------","",10,4,11,2001,0
+79,2,"","   TEACH","    CNC","",10,4,3,2004,0
+80,2,"","   TEACH","   SHELF","",10,4,3,2005,0
+83,2,"","   TEACH","   DATA","",10,4,3,2007,0
+105,2,"","   MAIN","<---------","",10,4,11,2001,0
+107,2,"","   TEACH","   PLATE","",10,4,3,2003,0
+108,2,"","   TEACH","   SHELF","",10,4,3,2005,0
+111,2,"","   TEACH","   DATA","",10,4,3,2007,0
+112,2,"  PRIME","  TEACH","  SHELF","",10,4,3,2100,0
+113,8,"hmi.shelf.no"," Shelf No","",10,6,2,1,0
+114,8,"hmi.plate.id"," Plate ID","",10,6,2,1,0
+119,2,"  PRIME","  TEST","  SHELF","",10,4,3,2101,0
+133,2,"","   MAIN","<---------","",10,4,11,2001,0
+135,2,"","   TEACH","   PLATE","",10,4,3,2003,0
+136,2,"","   TEACH","    CNC","",10,4,3,2004,0
+139,2,"","   TEACH","   DATA","",10,4,3,2007,0
+168,8,"hmi.gc1.full","ROB GRIP 1","JAW FULL",10,6,5,2,0
+169,8,"hmi.gc2.full","ROB GRIP 2","JAW FULL",10,6,5,2,0
+170,8,"hmi.cnc1c.full","CNC CHUCK1","JAW FULL",10,6,5,2,0
+171,8,"hmi.cnc2c.full","CNC CHUCK2","JAW FULL",10,6,5,2,0
+172,8,"hmi.plate.rows","PLATE ROWS","  COUNT",10,8,2,1,0
+173,8,"hmi.plate.col.o","PLATE ODD","CELL COUNT",10,8,2,1,0
+174,8,"hmi.plate.col.e","PLATE EVEN","CELL COUNT",10,8,2,1,0
+175,8,"hmi.gc1.body","ROB GRIP 1","JAW BODY",10,6,5,2,0
+176,8,"hmi.gc2.body","ROB GRIP 2","JAW BODY",10,6,5,2,0
+177,8,"hmi.cnc1c.body","CNC CHUCK1","JAW BODY",10,6,5,2,0
+178,8,"hmi.cnc2c.body","CNC CHUCK2","JAW BODY",10,6,5,2,0
+179,8,"hmi.plate.ox","PLATE OX","  SHIFT",10,8,5,2,0
+180,8,"hmi.plate.dy","PLATE CELL","  SHIFT",10,8,5,2,0
+181,8,"hmi.plate.e.dy","PLATE EVEN","  SHIFT",10,8,5,2,0
+186,8,"hmi.wp.length"," TEACH WP","  LENGTH",10,4,5,2,0
+187,8,"hmi.plate.ox","PLATE OX","  SHIFT",10,5,5,2,0
+188,8,"hmi.plate.oy","PLATE OY","  SHIFT",10,5,5,2,0
+189,2,"","   MAIN","<---------","",10,4,11,2001,0
+190,2,"","   TEACH","   PLATE","",10,4,3,2003,0
+191,2,"","   TEACH","    CNC","",10,4,3,2005,0
+192,2,"","   TEACH","   SHELF","",10,4,3,2005,0
+196,1," SHELF 1","","","  OPENED",10,15,4,10,129,0
+197,1," SHELF 2","","","  OPENED",10,15,4,10,130,0
+198,1," SHELF 3","","","  OPENED",10,15,4,10,131,0
+199,1," SHELF 4","","","  OPENED",10,15,4,10,132,0
+217,2,"","   MAIN","<---------","",10,4,11,2001,0
 .END
 .INTER_PANEL_TITLE
+"MAIN",1
+"IO",1
+"TEACH PLATE",1
+"TEACH CNC",1
+"TEACH SHELF",1
 "",0
-"",0
-"",0
-"",0
-"",0
-"",0
-"",0
-"",0
+"TEACH DATA",1
+"DEBUG",1
 .END
 .INTER_PANEL_COLOR_D
 182,3,224,244,28,159,252,255,251,255,0,31,2,241,52,255,
 .END
 .ERRLOG
-   1 - [26/02/13 00:22:40 SIGNAL:00 MON.SPEED : 10 REPEAT mode]
-       (E1087)End point for Jt5 beyond motion range.
-       OPERATION1:[26/02/13 00:22:39] ( HOLD->RUN )
-       OPERATION2:[26/02/13 00:22:38] ( CYCLE START )
-       OPERATION3:[26/02/13 00:22:36] ( STEP CHANGE )
-       OPERATION4:[26/02/13 00:22:34] ( STEP CHANGE )
-       OPERATION5:[26/02/13 00:22:34] ( STEP CHANGE )
-       OPERATION6:[26/02/13 00:22:34] ( STEP CHANGE )
-       OPERATION7:[26/02/13 00:22:33] ( STEP CHANGE )
-       OPERATION8:[26/02/13 00:22:33] ( STEP CHANGE )
-       OPERATION9:[26/02/13 00:22:33] ( STEP CHANGE )
+   1 - [26/02/14 23:26:42 SIGNAL:00 MON.SPEED : 5 TEACH mode]
+       (E4009)Communication time out error.
+       OPERATION1:[26/02/14 23:26:08] ( Motor power ON )
+       OPERATION2:[26/02/14 23:25:58] ( REPEAT->TEACH )
+       OPERATION3:[26/02/14 23:24:37] ( EMERGENCY STOP )
+       OPERATION4:[26/02/14 23:19:46] ( STPNEXT 1: )
+       OPERATION5:[26/02/14 23:19:44] ( STPNEXT 1: )
+       OPERATION6:[26/02/14 23:19:43] ( STPNEXT 1: )
+       OPERATION7:[26/02/14 23:19:42] ( STPNEXT 1: )
+       OPERATION8:[26/02/14 23:19:42] ( HOLD->RUN )
+       OPERATION9:[26/02/14 23:19:40] ( CYCLE START )
        ROBOT1:
-        PROGRAM:shelf.open Step:15 Cur_Step:18 STATUS:RUN
-        Interpolation Type:JOINT  S_parameter:0.999946
+        PROGRAM:wp.test.pick Step:0 Cur_Step:10 STATUS:STOP
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
        Current Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         81.896   -10.575   113.449    36.126    57.074    77.656
+         73.801    -1.311    86.930   -58.917   108.120     8.721
        Command Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         81.896   -10.575   113.449    36.126    57.074    77.656
+         72.942    -1.310    86.930   -58.916   108.119     8.721
        End Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         74.550    -1.369    94.201    29.570    77.449   100.616
+         70.029    -1.310    86.931   -58.916   108.119     8.721
 ------------------------------------------------------------------------------
-   2 - [26/02/13 00:22:26 SIGNAL:00 MON.SPEED : 10 REPEAT mode]
-       (E1087)End point for Jt5 beyond motion range.
-       OPERATION1:[26/02/13 00:22:25] ( HOLD->RUN )
-       OPERATION2:[26/02/13 00:22:25] ( CYCLE START )
-       OPERATION3:[26/02/13 00:22:24] ( Motor power ON )
-       OPERATION4:[26/02/13 00:22:23] ( PRIME/C 1:shelf.op )
-       OPERATION5:[26/02/13 00:22:21] ( DIRECTORY/N/P/CMT  )
-       OPERATION6:[26/02/13 00:22:19] ( DIRECTORY/N/P/CMT  )
-       OPERATION7:[26/02/13 00:22:17] ( DIRECTORY/N/P/CMT  )
-       OPERATION8:[26/02/13 00:22:15] ( DIRECTORY/N/P/CMT  )
-       OPERATION9:[26/02/13 00:22:15] ( DIRECTORY/SIZ )
+   2 - [26/02/14 23:01:55 SIGNAL:00 MON.SPEED : 5 TEACH mode]
+       (E1088)Destination is out of motion range.
+       OPERATION1:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
+       OPERATION2:[26/02/14 23:01:54] ( TYPE wp.in.length )
+       OPERATION3:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
+       OPERATION4:[26/02/14 23:01:54] ( TYPE wp.in.length )
+       OPERATION5:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
+       OPERATION6:[26/02/14 23:01:54] ( TYPE wp.in.length )
+       OPERATION7:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
+       OPERATION8:[26/02/14 23:01:54] ( TYPE wp.in.length )
+       OPERATION9:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
        ROBOT1:
-        PROGRAM:shelf.open Step:15 Cur_Step:18 STATUS:RUN
-        Interpolation Type:JOINT  S_parameter:0.999946
+        PROGRAM:wp.put Step:0 Cur_Step:28 STATUS:STOP
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
        Current Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         81.896   -10.575   113.449    36.126    57.074    77.656
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
        Command Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         81.896   -10.575   113.449    36.126    57.074    77.656
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
        End Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         74.550    -1.369    94.201    29.570    77.449   100.616
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
 ------------------------------------------------------------------------------
-   3 - [26/02/13 00:16:29 SIGNAL:00 MON.SPEED : 10 REPEAT mode]
+   3 - [26/02/14 23:00:50 SIGNAL:00 MON.SPEED : 5 TEACH mode]
+       (E1088)Destination is out of motion range.
+       OPERATION1:[26/02/14 23:00:43] ( CYCLE START )
+       OPERATION2:[26/02/14 23:00:41] ( STEP CHANGE )
+       OPERATION3:[26/02/14 23:00:31] ( ALLERESET )
+       OPERATION4:[26/02/14 23:00:23] ( STEP CHANGE )
+       OPERATION5:[26/02/14 23:00:19] ( ALLERESET )
+       OPERATION6:[26/02/14 23:00:17] ( STEP CHANGE )
+       OPERATION7:[26/02/14 23:00:13] ( REPEAT->TEACH )
+       OPERATION8:[26/02/14 23:00:08] ( ALLERESET )
+       OPERATION9:[26/02/14 23:00:06] ( RUN->HOLD )
+       ROBOT1:
+        PROGRAM:wp.put Step:0 Cur_Step:28 STATUS:STOP
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+------------------------------------------------------------------------------
+   4 - [26/02/14 23:00:29 SIGNAL:00 MON.SPEED : 5 TEACH mode]
+       (E1088)Destination is out of motion range.
+       OPERATION1:[26/02/14 23:00:23] ( STEP CHANGE )
+       OPERATION2:[26/02/14 23:00:19] ( ALLERESET )
+       OPERATION3:[26/02/14 23:00:17] ( STEP CHANGE )
+       OPERATION4:[26/02/14 23:00:13] ( REPEAT->TEACH )
+       OPERATION5:[26/02/14 23:00:08] ( ALLERESET )
+       OPERATION6:[26/02/14 23:00:06] ( RUN->HOLD )
+       OPERATION7:[26/02/14 23:00:06] ( HOLD->RUN )
+       OPERATION8:[26/02/14 23:00:05] ( CYCLE START )
+       OPERATION9:[26/02/14 23:00:04] ( Motor power ON )
+       ROBOT1:
+        PROGRAM:wp.put Step:0 Cur_Step:28 STATUS:STOP
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+------------------------------------------------------------------------------
+   5 - [26/02/14 23:00:18 SIGNAL:00 MON.SPEED : 5 TEACH mode]
+       (E1088)Destination is out of motion range.
+       OPERATION1:[26/02/14 23:00:17] ( STEP CHANGE )
+       OPERATION2:[26/02/14 23:00:13] ( REPEAT->TEACH )
+       OPERATION3:[26/02/14 23:00:08] ( ALLERESET )
+       OPERATION4:[26/02/14 23:00:06] ( RUN->HOLD )
+       OPERATION5:[26/02/14 23:00:06] ( HOLD->RUN )
+       OPERATION6:[26/02/14 23:00:05] ( CYCLE START )
+       OPERATION7:[26/02/14 23:00:04] ( Motor power ON )
+       OPERATION8:[26/02/14 23:00:03] ( TEACH->REPEAT )
+       OPERATION9:[26/02/14 23:00:01] ( REPEAT->TEACH )
+       ROBOT1:
+        PROGRAM:wp.put Step:27 Cur_Step:28 STATUS:RUN
+        Interpolation Type:JOINT  S_parameter:0.999932
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119     7.840
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.930   -58.916   108.119     7.841
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+------------------------------------------------------------------------------
+   6 - [26/02/14 23:00:06 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
+       (E1088)Destination is out of motion range.
+       OPERATION1:[26/02/14 23:00:06] ( HOLD->RUN )
+       OPERATION2:[26/02/14 23:00:05] ( CYCLE START )
+       OPERATION3:[26/02/14 23:00:04] ( Motor power ON )
+       OPERATION4:[26/02/14 23:00:03] ( TEACH->REPEAT )
+       OPERATION5:[26/02/14 23:00:01] ( REPEAT->TEACH )
+       OPERATION6:[26/02/14 22:59:58] ( ALLERESET )
+       OPERATION7:[26/02/14 22:59:57] ( RUN->HOLD )
+       OPERATION8:[26/02/14 22:59:56] ( HOLD->RUN )
+       OPERATION9:[26/02/14 22:59:56] ( CYCLE START )
+       ROBOT1:
+        PROGRAM:wp.put Step:27 Cur_Step:28 STATUS:RUN
+        Interpolation Type:JOINT  S_parameter:0.987627
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.917   108.119     7.842
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.930   -58.916   108.119     7.844
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+------------------------------------------------------------------------------
+   7 - [26/02/14 22:59:57 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
+       (E1088)Destination is out of motion range.
+       OPERATION1:[26/02/14 22:59:56] ( HOLD->RUN )
+       OPERATION2:[26/02/14 22:59:56] ( CYCLE START )
+       OPERATION3:[26/02/14 22:59:50] ( LOAD using.rcc )
+       OPERATION4:[26/02/14 22:59:33] ( ALLERESET )
+       OPERATION5:[26/02/14 22:59:31] ( RUN->HOLD )
+       OPERATION6:[26/02/14 22:59:31] ( HOLD->RUN )
+       OPERATION7:[26/02/14 22:59:29] ( CYCLE START )
+       OPERATION8:[26/02/14 22:59:20] ( STPNEXT 1: )
+       OPERATION9:[26/02/14 22:59:20] ( RUN->HOLD )
+       ROBOT1:
+        PROGRAM:wp.put Step:27 Cur_Step:28 STATUS:RUN
+        Interpolation Type:JOINT  S_parameter:0.999932
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.917   108.121     8.721
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.930   -58.916   108.119     8.721
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+         70.029    -1.310    86.931   -58.916   108.119  -171.278
+------------------------------------------------------------------------------
+   8 - [26/02/14 22:59:31 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
        (E0102)Variable is not defined.
-       OPERATION1:[26/02/13 00:16:29] ( HOLD->RUN )
-       OPERATION2:[26/02/13 00:16:27] ( CYCLE START )
-       OPERATION3:[26/02/13 00:16:25] ( LOAD using.rcc )
-       OPERATION4:[26/02/13 00:15:54] ( ALLERESET )
-       OPERATION5:[26/02/13 00:15:53] ( RUN->HOLD )
-       OPERATION6:[26/02/13 00:15:51] ( HOLD->RUN )
-       OPERATION7:[26/02/13 00:15:50] ( CYCLE START )
-       OPERATION8:[26/02/13 00:15:50] ( Motor power ON )
-       OPERATION9:[26/02/13 00:15:48] ( PRIME shelf.open )
+       OPERATION1:[26/02/14 22:59:31] ( HOLD->RUN )
+       OPERATION2:[26/02/14 22:59:29] ( CYCLE START )
+       OPERATION3:[26/02/14 22:59:20] ( STPNEXT 1: )
+       OPERATION4:[26/02/14 22:59:20] ( RUN->HOLD )
+       OPERATION5:[26/02/14 22:59:20] ( STPNEXT 1: )
+       OPERATION6:[26/02/14 22:59:19] ( STPNEXT 1: )
+       OPERATION7:[26/02/14 22:59:18] ( STPNEXT 1: )
+       OPERATION8:[26/02/14 22:59:17] ( STPNEXT 1: )
+       OPERATION9:[26/02/14 22:59:16] ( STPNEXT 1: )
        ROBOT1:
-        PROGRAM:gripper.close Step:0 Cur_Step:3 STATUS:STOP
+        PROGRAM:wp.put Step:0 Cur_Step:27 STATUS:STOP
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
        Current Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-       -139.019    46.061   -76.533    31.897   -38.296   -63.043
+         70.029    -1.310    86.931   -58.916   108.119     8.721
        Command Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-       -139.019    46.061   -76.533    31.897   -38.296   -63.043
+         70.029    -1.310    86.930   -58.916   108.119     8.721
        End Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-       -139.019    46.061   -76.533    31.897   -38.296   -63.043
+         70.029    -1.310    86.931   -58.916   108.119     8.721
 ------------------------------------------------------------------------------
-   4 - [26/02/12 23:16:10 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:15:34] ( Motor power ON )
-       OPERATION2:[26/02/12 23:14:04] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:58] ( hmi.stock.no = 4 )
-       OPERATION4:[26/02/12 23:13:34] ( REPEAT->TEACH )
-       OPERATION5:[26/02/12 23:13:33] ( TEACH->REPEAT )
-       OPERATION6:[26/02/12 23:13:33] ( ERROR RESET )
-       OPERATION7:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.874  -148.732   -87.229   -78.606
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-------------------------------------------------------------------------------
-   5 - [26/02/12 23:16:10 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:15:34] ( Motor power ON )
-       OPERATION2:[26/02/12 23:14:04] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:58] ( hmi.stock.no = 4 )
-       OPERATION4:[26/02/12 23:13:34] ( REPEAT->TEACH )
-       OPERATION5:[26/02/12 23:13:33] ( TEACH->REPEAT )
-       OPERATION6:[26/02/12 23:13:33] ( ERROR RESET )
-       OPERATION7:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.874  -148.732   -87.229   -78.606
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-------------------------------------------------------------------------------
-   6 - [26/02/12 23:16:10 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:15:34] ( Motor power ON )
-       OPERATION2:[26/02/12 23:14:04] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:58] ( hmi.stock.no = 4 )
-       OPERATION4:[26/02/12 23:13:34] ( REPEAT->TEACH )
-       OPERATION5:[26/02/12 23:13:33] ( TEACH->REPEAT )
-       OPERATION6:[26/02/12 23:13:33] ( ERROR RESET )
-       OPERATION7:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -143.621   -87.229   -78.606
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-------------------------------------------------------------------------------
-   7 - [26/02/12 23:16:10 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:15:34] ( Motor power ON )
-       OPERATION2:[26/02/12 23:14:04] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:58] ( hmi.stock.no = 4 )
-       OPERATION4:[26/02/12 23:13:34] ( REPEAT->TEACH )
-       OPERATION5:[26/02/12 23:13:33] ( TEACH->REPEAT )
-       OPERATION6:[26/02/12 23:13:33] ( ERROR RESET )
-       OPERATION7:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -143.621   -87.229   -78.606
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-------------------------------------------------------------------------------
-   8 - [26/02/12 23:16:09 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:15:34] ( Motor power ON )
-       OPERATION2:[26/02/12 23:14:04] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:58] ( hmi.stock.no = 4 )
-       OPERATION4:[26/02/12 23:13:34] ( REPEAT->TEACH )
-       OPERATION5:[26/02/12 23:13:33] ( TEACH->REPEAT )
-       OPERATION6:[26/02/12 23:13:33] ( ERROR RESET )
-       OPERATION7:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.874  -148.137   -87.229   -78.606
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-------------------------------------------------------------------------------
-   9 - [26/02/12 23:16:09 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:15:34] ( Motor power ON )
-       OPERATION2:[26/02/12 23:14:04] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:58] ( hmi.stock.no = 4 )
-       OPERATION4:[26/02/12 23:13:34] ( REPEAT->TEACH )
-       OPERATION5:[26/02/12 23:13:33] ( TEACH->REPEAT )
-       OPERATION6:[26/02/12 23:13:33] ( ERROR RESET )
-       OPERATION7:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.874  -148.505   -87.229   -78.606
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-------------------------------------------------------------------------------
-  10 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1378)[Main CPU board]Speed of flange center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         85.902   -11.370   115.020  -143.013   -58.284  -107.180
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  11 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         85.902   -11.370   115.020  -143.013   -58.284  -107.180
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  12 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1378)[Main CPU board]Speed of flange center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         85.902   -11.370   115.020  -143.013   -58.284  -107.180
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  13 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         85.902   -11.370   115.020  -143.013   -58.284  -107.180
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  14 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1378)[Main CPU board]Speed of flange center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.105   -11.111   114.905  -143.188   -58.682  -107.076
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  15 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.105   -11.111   114.905  -143.188   -58.682  -107.076
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  16 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1378)[Main CPU board]Speed of flange center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.105   -11.111   114.905  -143.188   -58.682  -107.076
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  17 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.105   -11.111   114.905  -143.188   -58.682  -107.076
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  18 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1378)[Main CPU board]Speed of flange center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         85.569   -11.806   115.195  -142.713   -57.636  -107.371
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  19 - [26/02/12 23:13:30 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1377)[Main CPU board]Speed of tool center point exceeded safety speed.
-       OPERATION1:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:13:09] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:13:07] ( hmi.stock.no = 1 )
-       OPERATION4:[26/02/12 23:13:01] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:52] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:10 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         85.569   -11.806   115.195  -142.713   -57.636  -107.371
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         86.223   -10.960   114.838  -143.293   -58.913  -107.010
-------------------------------------------------------------------------------
-  20 - [26/02/12 23:12:59 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1087)End point for Jt4 beyond motion range.
-       OPERATION1:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:12:54] ( STEP CHANGE )
-       OPERATION4:[26/02/12 23:12:53] ( STEP CHANGE )
-       OPERATION5:[26/02/12 23:12:52] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:52] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:37] ( ALLERESET )
-       OPERATION8:[26/02/12 23:12:35] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:12:34] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-------------------------------------------------------------------------------
-  21 - [26/02/12 23:12:36 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1087)End point for Jt4 beyond motion range.
-       OPERATION1:[26/02/12 23:12:35] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:12:34] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:12:33] ( ALLERESET )
-       OPERATION4:[26/02/12 23:12:32] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:30] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:29] ( ALLERESET )
-       OPERATION7:[26/02/12 23:12:23] ( len.finger=50 )
-       OPERATION8:[26/02/12 23:12:09] ( ALLERESET )
-       OPERATION9:[26/02/12 23:12:02] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:6 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-------------------------------------------------------------------------------
-  22 - [26/02/12 23:12:32 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (D2035)Program execution error.
-       OPERATION1:[26/02/12 23:12:32] ( ALLERESET )
-       OPERATION2:[26/02/12 23:12:30] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:12:29] ( ALLERESET )
-       OPERATION4:[26/02/12 23:12:23] ( len.finger=50 )
-       OPERATION5:[26/02/12 23:12:09] ( ALLERESET )
-       OPERATION6:[26/02/12 23:12:02] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION9:[26/02/12 23:11:57] ( CYCLE START )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:6 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-------------------------------------------------------------------------------
-  23 - [26/02/12 23:12:31 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1087)End point for Jt4 beyond motion range.
-       OPERATION1:[26/02/12 23:12:30] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:12:29] ( ALLERESET )
-       OPERATION3:[26/02/12 23:12:23] ( len.finger=50 )
-       OPERATION4:[26/02/12 23:12:09] ( ALLERESET )
-       OPERATION5:[26/02/12 23:12:02] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION7:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:11:57] ( CYCLE START )
-       OPERATION9:[26/02/12 23:11:56] ( STEP CHANGE )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:6 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-------------------------------------------------------------------------------
-  24 - [26/02/12 23:12:28 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1087)End point for Jt4 beyond motion range.
-       OPERATION1:[26/02/12 23:12:23] ( len.finger=50 )
-       OPERATION2:[26/02/12 23:12:09] ( ALLERESET )
-       OPERATION3:[26/02/12 23:12:02] ( STEP CHANGE )
-       OPERATION4:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION5:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:11:57] ( CYCLE START )
-       OPERATION7:[26/02/12 23:11:56] ( STEP CHANGE )
-       OPERATION8:[26/02/12 23:11:54] ( hmi.stock.no = 4 )
-       OPERATION9:[26/02/12 23:11:16] ( len.finger=15 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.607
-------------------------------------------------------------------------------
-  25 - [26/02/12 23:12:07 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E1087)End point for Jt4 beyond motion range.
-       OPERATION1:[26/02/12 23:12:02] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION3:[26/02/12 23:12:01] ( STEP CHANGE )
-       OPERATION4:[26/02/12 23:11:57] ( CYCLE START )
-       OPERATION5:[26/02/12 23:11:56] ( STEP CHANGE )
-       OPERATION6:[26/02/12 23:11:54] ( hmi.stock.no = 4 )
-       OPERATION7:[26/02/12 23:11:16] ( len.finger=15 )
-       OPERATION8:[26/02/12 23:11:04] ( ALLERESET )
-       OPERATION9:[26/02/12 23:10:59] ( hmi.stock.no=1 )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.231   -78.607
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.231   -78.607
-------------------------------------------------------------------------------
-  26 - [26/02/12 23:11:03 SIGNAL:00 MON.SPEED : 100 TEACH mode]
+   9 - [26/02/14 22:31:49 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
        (E0102)Variable is not defined.
-       OPERATION1:[26/02/12 23:10:59] ( hmi.stock.no=1 )
-       OPERATION2:[26/02/12 23:10:50] ( ALLERESET )
-       OPERATION3:[26/02/12 23:10:47] ( STEP CHANGE )
-       OPERATION4:[26/02/12 23:10:12] ( ALLERESET )
-       OPERATION5:[26/02/12 23:09:45] ( Motor power ON )
-       OPERATION6:[26/02/12 23:09:44] ( REPEAT->TEACH )
-       OPERATION7:[26/02/12 23:09:44] ( Motor power ON )
-       OPERATION8:[26/02/12 23:09:40] ( PRIME a.teach.st.a )
-       OPERATION9:[26/02/12 23:09:12] ( LOAD using.rcc )
+       OPERATION1:[26/02/14 22:31:49] ( HOLD->RUN )
+       OPERATION2:[26/02/14 22:31:48] ( do jm #safe.shelf )
+       OPERATION3:[26/02/14 22:23:41] ( LOAD using.rcc )
+       OPERATION4:[26/02/14 22:23:40] ( SAVE/R/SEL using.r )
+       OPERATION5:[26/02/14 22:17:26] ( LOAD using.rcc )
+       OPERATION6:[26/02/14 22:17:25] ( SAVE/R/SEL using.r )
+       OPERATION7:[26/02/14 22:12:51] ( LOAD using.rcc )
+       OPERATION8:[26/02/14 22:12:50] ( SAVE/R/SEL using.r )
+       OPERATION9:[26/02/14 21:46:45] ( LOAD using.rcc )
        ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:6 STATUS:STOP
+        PROGRAM:a.home Step:0 Cur_Step:6 STATUS:STOP
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
        Current Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.875  -148.253   -87.229   -78.607
+        -11.055    30.356   125.551   -63.943   -97.353    53.885
        Command Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
+        -11.055    30.356   125.551   -63.943   -97.353    53.885
        End Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.875  -148.253   -87.229   -78.607
+          0.000    30.000    90.000     0.000   -45.000    -0.000
 ------------------------------------------------------------------------------
-  27 - [26/02/12 23:10:48 SIGNAL:00 MON.SPEED : 100 TEACH mode]
-       (E0102)Variable is not defined.
-       OPERATION1:[26/02/12 23:10:47] ( STEP CHANGE )
-       OPERATION2:[26/02/12 23:10:12] ( ALLERESET )
-       OPERATION3:[26/02/12 23:09:45] ( Motor power ON )
-       OPERATION4:[26/02/12 23:09:44] ( REPEAT->TEACH )
-       OPERATION5:[26/02/12 23:09:44] ( Motor power ON )
-       OPERATION6:[26/02/12 23:09:40] ( PRIME a.teach.st.a )
-       OPERATION7:[26/02/12 23:09:12] ( LOAD using.rcc )
-       OPERATION8:[26/02/12 23:09:12] ( USB_FDEL ide_cmt.t )
-       OPERATION9:[26/02/12 23:09:11] ( TYPE TASK (1005) )
+  10 - [26/02/14 18:16:13 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
+       (E1089)Cannot do linear motion in current configuration.
+       OPERATION1:[26/02/14 18:16:12] ( HOLD->RUN )
+       OPERATION2:[26/02/14 18:16:12] ( do lm #homyak )
+       OPERATION3:[26/02/14 18:16:11] ( Motor power ON )
+       OPERATION4:[26/02/14 18:16:11] ( zpow on )
+       OPERATION5:[26/02/14 18:16:08] ( do lm #homyak )
+       OPERATION6:[26/02/14 18:16:01] ( here #a )
+       OPERATION7:[26/02/14 18:14:30] ( RUN->HOLD )
+       OPERATION8:[26/02/14 18:14:30] ( EMERGENCY STOP )
+       OPERATION9:[26/02/14 18:14:22] ( HOLD->RUN )
        ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:6 STATUS:STOP
+        PROGRAM:a.home Step:0 Cur_Step:6 STATUS:STOP
+       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
        Current Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.874  -148.253   -87.231   -78.607
+        169.161   -12.195  -112.377   122.858  -106.578    48.977
        Command Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
+        169.161   -12.195  -112.377   122.858  -106.578    48.977
        End Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.874  -148.253   -87.231   -78.607
+          0.000    30.000    90.000     0.000   -45.000    -0.000
 ------------------------------------------------------------------------------
-  28 - [26/02/12 23:10:10 SIGNAL:00 MON.SPEED : 100 TEACH mode]
+  11 - [26/02/14 16:59:10 SIGNAL:00 MON.SPEED : 100 REPEAT mode]
        (E0102)Variable is not defined.
-       OPERATION1:[26/02/12 23:09:45] ( Motor power ON )
-       OPERATION2:[26/02/12 23:09:44] ( REPEAT->TEACH )
-       OPERATION3:[26/02/12 23:09:44] ( Motor power ON )
-       OPERATION4:[26/02/12 23:09:40] ( PRIME a.teach.st.a )
-       OPERATION5:[26/02/12 23:09:12] ( LOAD using.rcc )
-       OPERATION6:[26/02/12 23:09:12] ( USB_FDEL ide_cmt.t )
-       OPERATION7:[26/02/12 23:09:11] ( TYPE TASK (1005) )
-       OPERATION8:[26/02/12 23:09:11] ( TYPE TASK (1004) )
-       OPERATION9:[26/02/12 23:09:11] ( TYPE TASK (1003) )
-       ROBOT1:
-        PROGRAM:a.teach.st.aux Step:0 Cur_Step:5 STATUS:STOP
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.875  -148.253   -87.231   -78.607
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.760    85.874  -148.252   -87.229   -78.606
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         76.577    -1.761    85.875  -148.253   -87.231   -78.607
-------------------------------------------------------------------------------
-  29 - [26/02/12 22:20:57 SIGNAL:00 MON.SPEED : 100 REPEAT mode]
-       (E0102)Variable is not defined.
-       OPERATION1:[26/02/12 22:20:56] ( AUX1 connect )
-       OPERATION2:[26/02/12 22:20:56] ( auxapi connect )
-       OPERATION3:[26/02/12 22:20:56] ( TEACH->REPEAT )
-       OPERATION4:[26/02/12 22:20:55] ( ERROR RESET )
-       OPERATION5:[26/02/12 22:20:54] ( Control Power ON )
+       OPERATION1:[26/02/14 16:59:09] ( AUX1 connect )
+       OPERATION2:[26/02/14 16:59:08] ( auxapi connect )
+       OPERATION3:[26/02/14 16:59:08] ( TEACH->REPEAT )
+       OPERATION4:[26/02/14 16:59:08] ( ERROR RESET )
+       OPERATION5:[26/02/14 16:59:04] ( Control Power ON )
        OPERATION6:[04/01/10 22:37:04] (  )
        OPERATION7:[04/01/10 22:37:04] (  )
        OPERATION8:[04/01/10 22:37:04] (  )
        OPERATION9:[04/08/04 06:13:36] (  )
        Current Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000    29.999    90.000     0.000    89.994   -14.461
+         59.919    13.448   119.826   -51.133   105.940    30.395
        Command Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000    29.999    90.000     0.000    89.994   -14.461
+         59.919    13.448   119.826   -51.133   105.940    30.395
        End Pose
          JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000    29.999    90.000     0.000    89.994   -14.461
+         59.919    13.448   119.826   -51.133   105.940    30.395
+------------------------------------------------------------------------------
+  12 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. task.get.data
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  13 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.unlock
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  14 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.sense
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  15 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.search
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  16 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.put
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  17 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.pick
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  18 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.open
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  19 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.get.cor
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  20 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.close
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  21 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. stocker.check
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  22 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. shelf.open
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  23 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. set.tool
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  24 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. set.io
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  25 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. sensing
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  26 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. safe.stocker
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  27 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. safe.home
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  28 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. safe.cnc
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  29 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. process.ultra
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  30 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. process.strict
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  31 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. process.reset
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  32 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. process.optimum
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  33 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. process.nobufer
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  34 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. process.buffer
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  35 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. process
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  36 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. plc.data.pc
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  37 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. plc.control.pc
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  38 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. pg999
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  39 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. pg1
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  40 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. pg0
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  41 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. log
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  42 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. initialize
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  43 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. gripper.open
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  44 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. gripper.close
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  45 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. gripper.check
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  46 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. dbg.init.data
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  47 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.run.pg
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  48 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.put
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  49 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.pick
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  50 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.move.out
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  51 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.move.in
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  52 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.mfinish
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  53 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.get.cor
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  54 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.door.open
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  55 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.door.close
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  56 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.chuck.open
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  57 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.chuck.close
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  58 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. cnc.change.tool
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  59 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. buffer.put.teac
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  60 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. buffer.put
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  61 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. buffer.pick.tea
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  62 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. buffer.pick
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  63 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. autostart2.pc
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  64 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. autostart.pc
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  65 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. ateach.pick.st
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  66 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. ateach.open.st
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  67 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. ateach.close.st
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  68 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. air.blowing
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  69 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. add.last
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  70 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. add.current
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  71 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. aatest
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  72 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.tool.calib
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  73 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.test.stocker
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  74 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.test.pick
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  75 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.teach.st.main
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  76 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.teach.st.aux
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  77 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.teach.global
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  78 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.teach.cnc
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  79 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.teach.buffer
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  80 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.man.home
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+------------------------------------------------------------------------------
+  81 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
+       (E0909)Program data file in CFast is broken. a.main
+       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
+       OPERATION2:[04/01/10 22:37:04] (  )
+       OPERATION3:[04/01/10 22:37:04] (  )
+       OPERATION4:[04/01/10 22:37:04] (  )
+       OPERATION5:[04/08/04 06:13:36] (  )
+       OPERATION6:[04/08/04 06:13:36] (  )
+       Current Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       Command Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
+       End Pose
+         JT1       JT2       JT3       JT4       JT5       JT6  
+          0.000     0.000     0.000     0.000     0.000     0.000
 ------------------------------------------------------------------------------
 .END
 .TP_TASK_SEQ
@@ -3830,7 +4858,7 @@ SEQ_LOCK   0
 ICOM_WRITE[0]  0
 ICOM_WRITE[1]  0
 ICOM_WRITE[2]  0
-ICOM_WRITE[3]  2
+ICOM_WRITE[3]  0
 ICOM_WRITE[4]  0
 ICOM_WRITE[5]  0
 ICOM_WRITE[6]  2
@@ -3846,19 +4874,19 @@ TP_SEM_ERROR_CNT    0
 .END
 .ENCTEMPLOG
 === MIN(deg C) ===
-  JT1  - [26/02/12 22:21:05]      0.000
-  JT2  - [26/02/12 22:21:05]      0.000
-  JT3  - [26/02/12 22:21:05]      0.000
-  JT4  - [26/02/12 22:21:05]      0.000
-  JT5  - [26/02/12 22:21:05]      0.000
-  JT6  - [26/02/12 22:21:05]      0.000
+  JT1  - [26/02/14 16:59:17]      0.000
+  JT2  - [26/02/14 16:59:17]      0.000
+  JT3  - [26/02/14 16:59:17]      0.000
+  JT4  - [26/02/14 16:59:17]      0.000
+  JT5  - [26/02/14 16:59:17]      0.000
+  JT6  - [26/02/14 16:59:17]      0.000
 === MAX(deg C) ===
-  JT1  - [26/02/12 22:21:05]      0.000
-  JT2  - [26/02/12 22:21:05]      0.000
-  JT3  - [26/02/12 22:21:05]      0.000
-  JT4  - [26/02/12 22:21:05]      0.000
-  JT5  - [26/02/12 22:21:05]      0.000
-  JT6  - [26/02/12 22:21:05]      0.000
+  JT1  - [26/02/14 16:59:17]      0.000
+  JT2  - [26/02/14 16:59:17]      0.000
+  JT3  - [26/02/14 16:59:17]      0.000
+  JT4  - [26/02/14 16:59:17]      0.000
+  JT5  - [26/02/14 16:59:17]      0.000
+  JT6  - [26/02/14 16:59:17]      0.000
 .END
 .REDUCTIONGEAR_LOG
 SUM_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
@@ -3970,7 +4998,7 @@ SUM_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 563 
+SUM_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 24804 
 SUM_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -3981,7 +5009,7 @@ SUM_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUM_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 23217 
+SUM_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 190654 
 SUM_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4080,7 +5108,7 @@ SUM_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 16 
-SUM_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 4070 
+SUM_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 14219 
 SUM_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4091,7 +5119,7 @@ SUM_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUM_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 18960 
+SUM_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 194901 
 SUM_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4102,7 +5130,7 @@ SUM_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 732 
+SUM_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 6320 
 SUM_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4157,7 +5185,7 @@ SUM_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 2 
+SUM_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 7 
 SUM_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4168,7 +5196,7 @@ SUM_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUM_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 23454 
 SUM_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4179,7 +5207,7 @@ SUM_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 2 
-SUM_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 3973 
+SUM_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 16263 
 SUM_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4189,8 +5217,8 @@ SUM_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 31 
-SUM_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 18003 
+SUM_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 52 
+SUM_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 168079 
 SUM_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4201,7 +5229,7 @@ SUM_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 1223 
+SUM_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 6844 
 SUM_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4212,7 +5240,7 @@ SUM_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 291 
+SUM_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 361 
 SUM_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4223,7 +5251,7 @@ SUM_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 274 
+SUM_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 415 
 SUM_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4333,7 +5361,7 @@ SUM_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUM_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 135870 
 SUM_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4344,7 +5372,7 @@ SUM_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 1 
 SUM_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 4 
-SUM_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 23795 
+SUM_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 79603 
 SUM_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4421,7 +5449,7 @@ SUM_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUM_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 44 
 SUM_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4432,7 +5460,7 @@ SUM_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUM_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 340 
 SUM_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4443,7 +5471,7 @@ SUM_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUM_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 36132 
 SUM_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4454,7 +5482,7 @@ SUM_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 443 
+SUM_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 9244 
 SUM_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4465,7 +5493,7 @@ SUM_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 7 
-SUM_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 23350 
+SUM_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 169711 
 SUM_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -4585,8 +5613,8 @@ SUM_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0
 SUM_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUM_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 23800 
+SUM_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 24 
+SUM_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 215454 
 SUB1_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB1_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB1_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11230,7 +12258,7 @@ SUB10_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 563 
+SUB10_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 24804 
 SUB10_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11241,7 +12269,7 @@ SUB10_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUB10_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 23217 
+SUB10_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 190654 
 SUB10_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11340,7 +12368,7 @@ SUB10_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 16 
-SUB10_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 4070 
+SUB10_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 14219 
 SUB10_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11351,7 +12379,7 @@ SUB10_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUB10_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 18960 
+SUB10_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 194901 
 SUB10_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11362,7 +12390,7 @@ SUB10_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 732 
+SUB10_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 6320 
 SUB10_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11417,7 +12445,7 @@ SUB10_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 2 
+SUB10_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 7 
 SUB10_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11428,7 +12456,7 @@ SUB10_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUB10_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 23454 
 SUB10_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11439,7 +12467,7 @@ SUB10_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 2 
-SUB10_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 3973 
+SUB10_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 16263 
 SUB10_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11449,8 +12477,8 @@ SUB10_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 31 
-SUB10_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 18003 
+SUB10_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 52 
+SUB10_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 168079 
 SUB10_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11461,7 +12489,7 @@ SUB10_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 1223 
+SUB10_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 6844 
 SUB10_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11472,7 +12500,7 @@ SUB10_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 291 
+SUB10_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 361 
 SUB10_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11483,7 +12511,7 @@ SUB10_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 274 
+SUB10_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 415 
 SUB10_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11593,7 +12621,7 @@ SUB10_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUB10_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 135870 
 SUB10_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11604,7 +12632,7 @@ SUB10_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 1 
 SUB10_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 4 
-SUB10_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 23795 
+SUB10_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 79603 
 SUB10_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11681,7 +12709,7 @@ SUB10_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUB10_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 44 
 SUB10_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11692,7 +12720,7 @@ SUB10_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUB10_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 340 
 SUB10_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11703,7 +12731,7 @@ SUB10_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
+SUB10_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 36132 
 SUB10_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11714,7 +12742,7 @@ SUB10_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 443 
+SUB10_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 9244 
 SUB10_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11725,7 +12753,7 @@ SUB10_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 7 
-SUB10_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 23350 
+SUB10_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 169711 
 SUB10_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
@@ -11845,8 +12873,8 @@ SUB10_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0
 SUB10_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
 SUB10_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 23800 
+SUB10_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 24 
+SUB10_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 215454 
 GRSALRT_TIME_JT1      0
 GRSALRT_PARAM_JT1      
 GRSALRT_TIME_JT2      0
@@ -11866,1981 +12894,351 @@ RGLOG 0
 === USERTP FAULT LOG ===
 === ARMAS  FAULT LOG ===
 .END
-.PROGRAM a.main() #0;
-  SPEED 100 ALWAYS
-  ACCURACY 100 ALWAYS
+.PROGRAM a.home()@26/02/14 22:38 #0
 ;
-;CALL initialize
+  SPEED 250 MM/S ALWAYS
+  ACCURACY 0.01 ALWAYS
+;
+  JMOVE #homyak
+  JMOVE #homyak.sby
+;
+.END
+.PROGRAM a.main()@26/02/14 22:38 #0
+;
+;RUNMASK eo.robot.ready
+;
+  CALL log("Main program executed")
   CALL safe.home
 ;
   WHILE TRUE DO
-; Reset process!
-    IF SIG(fo.process.res) THEN
-      CALL log("Process parameters was initialized")
-      CALL process.reset
-    END
-;
-; Move robot to HOME
-;IF SIG(fi.robot.home) THEN
-;  CALL log("Robot starts motion to home position")
-;  CALL safe.home
-;END
-;
-; Start process
-    IF SIG(fi.proc.start) THEN
-      CALL log("Process started")
-      SIGNAL fo.proc.on
-      FOR stocker.m = 4 TO 1 STEP -1
-;CALL process.reset
-        IF SIG(fi.st.ready[stocker.m]) THEN
-          SIGNAL fo.stocker.work[stocker.m]
-          CALL log("Start working with stocker "+$ENCODE(stocker.m))
-          CALL process(stocker.m)
-        END
-      END
-      BREAK
-      SIGNAL -fo.proc.on
-      HOME
-      HOME 2
+    .$pg.string = "state"+$ENCODE(/L,state)
+    IF EXISTPGM(.$pg.string) THEN
+      SCALL .$pg.string
+    ELSE
+      CALL log("Error! Program is in wrong state. Connect Robowizard")
+      RETURN
     END
   END
-.END
-.PROGRAM a.man.home() #14
-  HOME
-  HOME 2
-.END
-.PROGRAM a.teach.buffer() #0
-  CALL set.tool(1)
-  BREAK
-;
-  JMOVE buffer.put[hmi.buf.id]+TRANS(0,-200,-50)
-  JAPPRO buffer.put[hmi.buf.id],50
-  LMOVE buffer.put[hmi.buf.id]
-  LAPPRO buffer.put[hmi.buf.id],50
-  LMOVE buffer.put[hmi.buf.id]+TRANS(0,-200,-50)
-;
-  BREAK
-;
-  CALL set.tool(2)
-  BREAK
-  JMOVE buffer.pick[hmi.buf.id]+TRANS(0,-200,-50)
-  LAPPRO buffer.pick[hmi.buf.id],50
-  LMOVE buffer.pick[hmi.buf.id]
-  LAPPRO buffer.pick[hmi.buf.id],50
-  LMOVE buffer.pick[hmi.buf.id]+TRANS(0,-200,-50)
-.END
-.PROGRAM a.teach.cnc() #1
-  robot.chuck = (hmi.chuck.full-hmi.chuck.work)
-  cnc.chuck = (hmi.cnc.ch.full[hmi.cnc.no]-hmi.cnc.ch.work[hmi.cnc.no])
-  cdz = hmi.cnc.h+robot.chuck+cnc.chuck
-;
-  HOME
-  CALL set.tool(hmi.cnc.gr)
-  BREAK
-;
-  JMOVE #cnc.before[hmi.cnc.no,hmi.cnc.gr]
-  LMOVE cnc.in[hmi.cnc.no,hmi.cnc.gr]
-;
-  JAPPRO #cnc.c[hmi.cnc.no,hmi.cnc.gr],100
-  LMOVE #cnc.c[hmi.cnc.no,hmi.cnc.gr];*** TEACH POINT ***
-  LAPPRO #cnc.c[hmi.cnc.no,hmi.cnc.gr],100
-;
-;
-  POINT cnc.c[hmi.cnc.no,hmi.cnc.gr] = #cnc.c[hmi.cnc.no,hmi.cnc.gr]
-  POINT cnc.c[hmi.cnc.no,hmi.cnc.gr] = cnc.c[hmi.cnc.no,hmi.cnc.gr]+TRANS(0,0,cdz,0,0,0)
-;
-  LAPPRO cnc.c[hmi.cnc.no,hmi.cnc.gr]+TRANS(0,0,-cdz,0,0,0),100
-  LMOVE cnc.c[hmi.cnc.no,hmi.cnc.gr]+TRANS(0,0,-cdz,0,0,0)
-  LAPPRO cnc.c[hmi.cnc.no,hmi.cnc.gr]+TRANS(0,0,-cdz,0,0,0),100
-;
-  LMOVE cnc.in[hmi.cnc.no,hmi.cnc.gr]
-  LMOVE #cnc.before[hmi.cnc.no,hmi.cnc.gr]
-  HOME
-.END
-.PROGRAM a.teach.global() #0
-  JMOVE #stocker.safe
-.END
-.PROGRAM a.teach.st.aux() #0;
-  CALL set.tool(3)
-  BREAK
-; Stocker open
-  JMOVE #stocker.safe
-  JMOVE stocker.open[hmi.stock.no,1]+TRANS(-350,0,-(len.finger+15))
-  LAPPRO stocker.open[hmi.stock.no,1],len.finger+15
-  LMOVE SHIFT(stocker.open[hmi.stock.no,1] BY 0,len.finger+15,-50)
-  LMOVE SHIFT(stocker.open[hmi.stock.no,1] BY 0,0,-50)
-  LMOVE stocker.open[hmi.stock.no,1];*** TEACH POINT ***
-  LMOVE stocker.open[hmi.stock.no,2];*** TEACH POINT ***
-  LMOVE SHIFT(stocker.open[hmi.stock.no,2] BY 0,0,-50)
-  LMOVE SHIFT(stocker.open[hmi.stock.no,2] BY 0,len.finger+15,-50)
-  LAPPRO stocker.open[hmi.stock.no,2],30
-;IF hmi.stock.no==1 THEN
-;  JMOVE #kostil1
-;  JMOVE #kostil2
-;  JMOVE #kostil3
-;END
-  JMOVE #stocker.safe
-  BREAK
-; Stocker close
-  JMOVE #stocker.safe
-  IF hmi.stock.no==1 THEN
-    JMOVE #kostil3
-    JMOVE #kostil2
-    JMOVE #kostil1
-  END
-  LAPPRO stocker.close[hmi.stock.no,1],len.finger+15
-  LMOVE stocker.close[hmi.stock.no,1];*** TEACH POINT ***
-  LMOVE stocker.close[hmi.stock.no,2];*** TEACH POINT ***
-  LAPPRO stocker.close[hmi.stock.no,2],len.finger+15
-  LMOVE stocker.close[hmi.stock.no,2]+TRANS(-350,0,-len.finger+15)
-  JMOVE #stocker.safe
-  BREAK
-;
-; Stocker 2 open
-;JMOVE #stocker.safe
-;JAPPRO stocker.open[2, 1], 30
-;LMOVE stocker.open[2, 1]
-;LMOVE stocker.open[2, 2]
-;LAPPRO stocker.open[2, 2], 30
-;BREAK
-; Stocker 2 close
-;JMOVE #stocker.safe
-;JAPPRO stocker.close[2, 1], 30
-;LMOVE stocker.close[2, 1]
-;LMOVE stocker.close[2, 2]
-;LAPPRO stocker.close[2, 2], 30
-;BREAK
-;
-; Stocker 3 open
-;JMOVE #stocker.safe
-;JAPPRO stocker.open[3, 1], 30
-;LMOVE stocker.open[3, 1]
-;LMOVE stocker.open[3, 2]
-;LAPPRO stocker.open[3, 2], 30
-;BREAK
-; Stocker 3 close
-;JMOVE #stocker.safe
-;JAPPRO stocker.close[3, 1], 30
-;LMOVE stocker.close[3, 1]
-;LMOVE stocker.close[3, 2]
-;LAPPRO stocker.close[3, 2], 30
-;BREAK
-; Stocker 4 open
-;JMOVE #stocker.safe
-;JAPPRO stocker.open[4, 1], 30
-;LMOVE stocker.open[4, 1]
-;LMOVE stocker.open[4, 2]
-;LAPPRO stocker.open[4, 2], 30
-;BREAK
-; Stocker 4 close
-;JMOVE #stocker.safe
-;JAPPRO stocker.close[4, 1], 30
-;LMOVE stocker.close[4, 1]
-;LMOVE stocker.close[4, 2]
-;LAPPRO stocker.close[4, 2], 30
-;BREAK
 ;
 .END
-.PROGRAM a.teach.st.main() #0
-  robot.chuck = (hmi.chuck.full-hmi.chuck.work)
-  ts = robot.chuck+hmi.cnc.h
-  TOOL tool.gripper[1]+TRANS(0,0,ts)
-;CALL set.tool(1)
-  BREAK
+.PROGRAM autostart.pc()@26/02/14 17:02 #0
 ;
-; Stocker 1
-  JAPPRO #stp[hmi.stock.no,1],50
-  LMOVE #stp[hmi.stock.no,1]; ***TEACH POINT***
-  LAPPRO #stp[hmi.stock.no,1],50
-;
-  JAPPRO #stp[hmi.stock.no,2],50
-  LMOVE #stp[hmi.stock.no,2]; ***TEACH POINT***
-  LAPPRO #stp[hmi.stock.no,2],50
-;
-  JAPPRO #stp[hmi.stock.no,3],50
-  LMOVE #stp[hmi.stock.no,3]; ***TEACH POINT***
-  LAPPRO #stp[hmi.stock.no,3],50
-  BREAK
-  POINT stp[1] = #stp[hmi.stock.no,1]
-  POINT stp[2] = #stp[hmi.stock.no,2]
-  POINT stp[3] = #stp[hmi.stock.no,3]
-  POINT stf = FRAME(stp[1],stp[2],stp[3],stp[1])
-  POINT stf = stf+TRANS(-stock.absx,-stock.absy,0,0,0,0)
-  POINT stocker.frame[hmi.stock.no,hmi.stock.id] = stf
-  BREAK
-;
-; TEST
-  CALL set.tool(1)
-; Left down
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx,stock.absy,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx,stock.absy,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx,stock.absy,-ts),30
-; Left up
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+344,stock.absy,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+344,stock.absy,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+344,stock.absy,-ts),30
-; Right up
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+344,stock.absy+520,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+344,stock.absy+520,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+344,stock.absy+520,-ts),30
-; Right down
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+0,stock.absy+520,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+0,stock.absy+520,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+0,stock.absy+520,-ts),30
-;
-  BREAK
-  JMOVE #stocker.safe
-  BREAK
-;
-  CALL set.tool(2)
-  .dx = put.cor.x[hmi.stock.no]
-  .dy = put.cor.y[hmi.stock.no]
-;
-; Left down
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx,stock.absy+.dy,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx,stock.absy+.dy,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx,stock.absy+.dy,-ts),30
-; Left up
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+344,stock.absy+.dy,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+344,stock.absy+.dy,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+344,stock.absy+.dy,-ts),30
-; Right up
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+344,stock.absy+.dy+520,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+344,stock.absy+.dy+520,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+344,stock.absy+.dy+520,-ts),30
-; Right down
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+0,stock.absy+520+.dy,-ts),30
-  LMOVE stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+0,stock.absy+520+.dy,-ts)
-  LAPPRO stocker.frame[hmi.stock.no,hmi.stock.id]+TRANS(stock.absx+.dx+0,stock.absy+520+.dy,-ts),30
-.END
-.PROGRAM a.test.pick() #0
-;(.s.no,.g.no,.row,.col,.H) ;
-  LMOVE #stocker.safe
-  CALL stocker.pick(hmi.stock.no,1,1,1,hmi.cnc.h)
-  LMOVE #stocker.safe
-  CALL stocker.put(hmi.stock.no,1,1,1,hmi.cnc.h)
-  LMOVE #stocker.safe
-  CALL stocker.pick(hmi.stock.no,1,5,5,hmi.cnc.h)
-  LMOVE #stocker.safe
-  CALL stocker.put(hmi.stock.no,1,5,5,hmi.cnc.h)
-  LMOVE #stocker.safe
-.END
-.PROGRAM a.test.stocker() #0
-  CALL stocker.open(hmi.stock.no)
-  CALL stocker.close(hmi.stock.no)
-.END
-.PROGRAM a.tool.calib() #0
-  CALL set.tool(1)
-  LMOVE p.tool.cal
-  BREAK
-  CALL set.tool(2)
-  LMOVE p.tool.cal
-  BREAK
-.END
-.PROGRAM aatest() #0
-;.PROGRAM stocker.pick (.s.no,.g.no,.row,.col,.H) ;
-  stocker.lx = 86
-  stocker.ly = 104
-  stocker.l.even = 0
-  chuck.g.full[1] = 0
-  chuck.g.work[1] = 0
-  chuck.g.full[2] = 0
-  chuck.g.work[2] = 0
-  x.cor.stocker = 0
-  y.cor.stocker = 0
-  z.cor.stocker = 0
-  CALL stocker.pick(4,1,6,6,0)
-.END
-.PROGRAM add.current() #1759;
-; Update values
-  current.col = current.col+1
-  PULSE fo.col.add
-  IF current.row MOD 2==1 THEN
-    IF current.col>stocker.n.odd THEN
-      current.row = current.row+1
-      PULSE fo.row.add
-      current.col = 1
-    END
-  ELSE
-    IF current.col>stocker.n.even THEN
-      current.row = current.row+1
-      PULSE fo.row.add
-      current.col = 1
-    END
-  END
-  detail.done = detail.done+1
-.END
-.PROGRAM add.last() #1623;
-; Update values
-  last.col = last.col+1
-  IF last.row MOD 2==1 THEN
-    IF last.col>stocker.n.odd THEN
-      last.row = last.row+1
-      last.col = 1
-    END
-  ELSE
-    IF last.col>stocker.n.even THEN
-      last.row = last.row+1
-      last.col = 1
-    END
-  END
-.END
-.PROGRAM air.blowing() #0
-; *******************************************************************
-;
-; Program:      air.blowing
-; Comment:
-; Author:       User
-;
-; Date:         11/14/2025
-;
-; *******************************************************************
-;
-  SPEED spd.small
-  HERE #pos.temp.air
-  BREAK
-  JMOVE #pos.air
-  BREAK
-  SIGNAL -o.air.close,o.air.open
-  TWAIT 3
-  SIGNAL o.air.close,-o.air.open
-  BREAK
-  JMOVE #pos.temp.air
-  RETURN
-.END
-.PROGRAM ateach.close.st() #0;
-  CALL set.tool(3)
-;TOOL tool.pin
-  BREAK
-  WAIT FALSE
-; Stocker 1
-  JMOVE #stocker.safe
-  JAPPRO stocker.close[1,1],50
-  LMOVE stocker.close[1,1]
-  LMOVE stocker.close[1,2]
-  LAPPRO stocker.close[1,2],50
-  WAIT FALSE
-;
-; Stocker 2
-  JMOVE #stocker.safe
-  JAPPRO stocker.close[2,1],50
-  LMOVE stocker.close[2,1]
-  LMOVE stocker.close[2,2]
-  LAPPRO stocker.close[2,2],50
-  WAIT FALSE
-;
-; Stocker 3
-  JMOVE #stocker.safe
-  JAPPRO stocker.close[3,1],50
-  LMOVE stocker.close[3,1]
-  LMOVE stocker.close[3,2]
-  LAPPRO stocker.close[3,2],50
-  WAIT FALSE
-;
-; Stocker 4
-  JMOVE #stocker.safe
-  JAPPRO stocker.close[4,1],50
-  LMOVE stocker.close[4,1]
-  LMOVE stocker.close[4,2]
-  LAPPRO stocker.close[4,2],50
-  WAIT FALSE
-;
-.END
-.PROGRAM ateach.open.st() #0
-  CALL set.tool(3)
-;TOOL tool.pin
-  BREAK
-  WAIT FALSE
-; Stocker 1
-  JMOVE #stocker.safe
-  JAPPRO stocker.open[1,1],50
-  LMOVE stocker.open[1,1]
-  LMOVE stocker.open[1,2]
-  LAPPRO stocker.open[1,2],50
-  WAIT FALSE
-;
-; Stocker 2
-  JMOVE #stocker.safe
-  JAPPRO stocker.open[2,1],50
-  LMOVE stocker.open[2,1]
-  LMOVE stocker.open[2,2]
-  LAPPRO stocker.open[2,2],50
-  WAIT FALSE
-;
-; Stocker 3
-  JMOVE #stocker.safe
-  JAPPRO stocker.open[3,1],50
-  LMOVE stocker.open[3,1]
-  LMOVE stocker.open[3,2]
-  LAPPRO stocker.open[3,2],50
-  WAIT FALSE
-;
-; Stocker 4
-  JMOVE #stocker.safe
-  JAPPRO stocker.open[4,1],50
-  LMOVE stocker.open[4,1]
-  LMOVE stocker.open[4,2]
-  LAPPRO stocker.open[4,2],50
-  WAIT FALSE
-;
-.END
-.PROGRAM ateach.pick.st() #0;
-;
-  PROMPT 2: "Input stocker id (1-32)",teach.s.id 
-  PROMPT 2: "Input stocker number (1-4)",teach.s.no 
-  PROMPT 2: "Input chuck offset",teach.chuck.off 
-;
-  teach.height = 25
-;
-  WAIT FALSE
-  CALL stocker.open(teach.s.no)
-;
-  CALL set.tool(1)
-;TOOL tool.gripper[1]
-  BREAK
-  WAIT FALSE
-;
-; Stocker 1
-  JAPPRO #stocker.teach[1],50
-  LMOVE #stocker.teach[1]; TEACH POINT
-  LAPPRO #stocker.teach[1],50
-;
-  POINT temp = #stocker.teach[1]
-  JAPPRO temp+TRANS(430,0,0),50
-  LMOVE temp+TRANS(430,0,0)
-  LMOVE #stocker.teach[2]
-  LAPPRO temp+TRANS(430,0,0),50
-;
-  JAPPRO temp+TRANS(430,520,0),50
-  LMOVE temp+TRANS(430,520,0)
-  LMOVE #stocker.teach[3]
-  LAPPRO temp+TRANS(430,520,0),50
-;
-  BREAK
-  POINT st[1] = #stocker.teach[1]
-  POINT st[2] = #stocker.teach[2]
-  POINT st[3] = #stocker.teach[3]
-  POINT teach.f = FRAME(st[1],st[2],st[3],st[1])
-;
-  ts = teach.chuck.off+teach.height
-  POINT teach.f = teach.f+TRANS(0,0,ts,0,0,0)
-  POINT stocker.frame[teach.s.no,teach.s.id] = teach.f
-  WAIT FALSE
-; TEST
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(0,0,-(ts+30))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(0,0,-(ts+2))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(0,0,-(ts+30))
-;
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(430,0,-(ts+30))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(430,0,-(ts+2))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(430,0,-(ts+30))
-;
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(430,520,-(ts+30))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(430,520,-(ts+2))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(430,520,-(ts+30))
-;
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(0,520,-(ts+30))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(0,520,-(ts+2))
-  LMOVE stocker.frame[teach.s.no,teach.s.id]+TRANS(0,520,-(ts+30))
-.END
-.PROGRAM autostart.pc() #0;
-  CALL initialize
-  MC PRIME a.main
-  CALL plc.control.pc
-.END
-.PROGRAM autostart2.pc() #0
-  CALL plc.data.pc
-.END
-.PROGRAM buffer.pick(.t.id,.g.no) #0;
-; .t.id - Task id (0-31)
-; .g.no - Gripper № (1-2)
-;
-  $safe.flag = "buffer"
-  CALL log("Pick from buffer")
-;
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-  CALL set.tool(.g.no)
-;
-  JMOVE buffer.pick[.t.id]+TRANS(0,-200,-20)
-;
-  SPEED spd.high
-  ACCURACY accu.big
-  JAPPRO buffer.pick[.t.id],20
-;
-  SPEED spd.prec
-  ACCURACY accu.fine
-  LMOVE buffer.pick[.t.id]
-  BREAK
-  CALL gripper.close(.g.no,FALSE)
-;
-  SPEED spd.high
-  ACCURACY accu.big
-  LAPPRO buffer.pick[.t.id],20
-;
-  LMOVE buffer.pick[.t.id]+TRANS(0,-200,-20)
-  BREAK
-.END
-.PROGRAM buffer.pick.tea() #0;
-  CALL set.tool(2)
-;TOOL tool.gripper[2]
-;
-  JMOVE buffer.pick[0]+TRANS(-200,0,-50)
-  LAPPRO buffer.pick[0],50
-  LMOVE buffer.pick[0]
-  LAPPRO buffer.pick[0],50
-  LMOVE buffer.pick[0]+TRANS(-200,0,-50)
-.END
-.PROGRAM buffer.put(.t.id,.g.no) #0;
-; .t.id - Task id (0-31)
-; .g.no - Gripper № (1-2)
-;
-  $safe.flag = "buffer"
-  CALL log("Put to buffer")
-;
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-  CALL set.tool(.g.no)
-;
-  JMOVE buffer.put[.t.id]+TRANS(0,-200,-20)
-;
-  SPEED spd.high
-  ACCURACY accu.big
-  JAPPRO buffer.put[.t.id],20
-;
-  SPEED spd.prec
-  ACCURACY accu.fine
-  LMOVE buffer.put[.t.id]
-  BREAK
-  CALL gripper.open(.g.no,FALSE)
-;
-  IF SIG(fo.grip.chk.err) THEN
-    PAUSE
-  END
-;
-  SPEED spd.high
-  ACCURACY accu.big
-  LAPPRO buffer.put[.t.id],20
-;
-  LMOVE buffer.put[.t.id]+TRANS(0,-200,-20)
-  BREAK
-.END
-.PROGRAM buffer.put.teac() #0
-  CALL set.tool(1)
-;TOOL tool.gripper[1]
-;
-  JMOVE buffer.put[0]+TRANS(-200,0,-50)
-  JAPPRO buffer.put[0],50
-  LMOVE buffer.put[0]
-  LAPPRO buffer.put[0],50
-  LMOVE buffer.put[0]+TRANS(-200,0,-50)
-.END
-.PROGRAM cnc.change.tool(.c.no,.g.no) #1703
-;WAIT FALSE
-  IF (task.op2.c.no==task.op3.c.no) AND NOT first.iteration AND (task.op1.g.no<>task.op3.g.no) THEN
-    IF .g.no==1 THEN
-      TOOL NULL
-      SPEED 30
-      ACCEL 50
-      LMOVE #kostil5
-      $safe.flag = "cnc.change.tool1"
-    END
-    IF .g.no==2 THEN
-      TOOL NULL
-      SPEED 30
-      ACCEL 50
-      LMOVE #kostil7
-      $safe.flag = "cnc.change.tool2"
-    END
-    CALL set.tool(.g.no)
-    SPEED 30
-    ACCEL 50
-    $safe.flag = "cnc.put"
-    JAPPRO cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-put.shift.z,0,0,0),80
-  END
-  IF MSPEED>50 THEN
-    SPEED 20
-    ACCEL 20
-  END
-  IF MSPEED>90 THEN
-    MON_SPEED 90
-  END
-  BREAK
-  safe.c = .c.no
-  safe.g = .g.no
-.END
-.PROGRAM cnc.chuck.close(.c.no) #1697;
-  CALL log("Send CNC close chuck command")
-  PULSE fo.cnc.chuck.cl[.c.no]
-  WAIT SIG(fi.cnc.chuck.cl[.c.no]) OR SIG(fi.cnc.chuck.er[.c.no])
-.END
-.PROGRAM cnc.chuck.open(.c.no) #3343;
-  CALL log("Send CNC open chuck command")
-  PULSE fo.cnc.chuck.op[.c.no]
-  WAIT SIG(fi.cnc.chuck.op[.c.no]) OR SIG(fi.cnc.chuck.er[.c.no])
-.END
-.PROGRAM cnc.door.close() #0
-  CALL log("Send CNC close door command")
-  PULSE fo.cnc.door.cl
-  WAIT SIG(fi.cnc.door.cl) OR SIG(fi.cnc.door.er)
-.END
-.PROGRAM cnc.door.open() #0
-  CALL log("Send CNC open door command")
-  PULSE fo.cnc.door.op
-  WAIT SIG(fi.cnc.door.op) OR SIG(fi.cnc.door.er)
-.END
-.PROGRAM cnc.get.cor() #3
-; Get data from PLC settings
-  FOR .i = 1 TO 2
-    x.cor.cnc[.i] = BITS(fi.x.cor.cnc[.i,0],15)
-    IF SIG(fi.x.cor.cnc[.i,15]) THEN
-      x.cor.cnc[.i] = 32768-x.cor.cnc[.i]
-    END
-    x.cor.cnc[.i] = x.cor.cnc[.i]/10
-    IF (x.cor.cnc[.i]>20) THEN
-      x.cor.cnc[.i] = 20
-    END
-    IF SIG(fi.x.cor.cnc[.i,15]) THEN
-      x.cor.cnc[.i] = -x.cor.cnc[.i]
-    END
-;
-    y.cor.cnc[.i] = BITS(fi.y.cor.cnc[.i,0],15)
-    IF SIG(fi.y.cor.cnc[.i,15]) THEN
-      y.cor.cnc[.i] = 32768-y.cor.cnc[.i]
-    END
-    y.cor.cnc[.i] = y.cor.cnc[.i]/10
-    IF (y.cor.cnc[.i]>20) THEN
-      y.cor.cnc[.i] = 20
-    END
-    IF SIG(fi.y.cor.cnc[.i,15]) THEN
-      y.cor.cnc[.i] = -y.cor.cnc[.i]
-    END
-;
-    z.cor.cnc[.i] = BITS(fi.z.cor.cnc[.i,0],15)
-    IF SIG(fi.z.cor.cnc[.i,15]) THEN
-      z.cor.cnc[.i] = 32768-z.cor.cnc[.i]
-    END
-    z.cor.cnc[.i] = z.cor.cnc[.i]/10
-    IF (z.cor.cnc[.i]>20) THEN
-      z.cor.cnc[.i] = 20
-    END
-    IF SIG(fi.z.cor.cnc[.i,15]) THEN
-      z.cor.cnc[.i] = -z.cor.cnc[.i]
-    END
-;
-  END
-  cnc.pick.ovlp = BITS(fi.cnc.pick.ovp[0],8)
-  IF (cnc.pick.ovlp<0) THEN
-    cnc.pick.ovlp = 0
-  END
-  IF (cnc.pick.ovlp>5) THEN
-    cnc.pick.ovlp = 5
-  END
-;
-  cnc.put.ovlp = BITS(fi.cnc.put.ovp[0],8)
-  IF (cnc.put.ovlp<0) THEN
-    cnc.put.ovlp = 0
-  END
-  IF (cnc.put.ovlp>5) THEN
-    cnc.put.ovlp = 5
-  END
-;
-.END
-.PROGRAM cnc.mfinish() #1754;
-  CALL log("M CODE FINISH")
-  PULSE fo.mcode.fin,2
-;BITS fo.cnc.pg[0], 8 = .pg
-;TWAIT 1
-;SIGNAL fo.cnc.run
-;WAIT NOT SIG(fi.cnc.ready) OR SIG(fi.cnc.err)
-;SIGNAL -fo.cnc.run
-.END
-.PROGRAM cnc.move.in(.g.no,.c.no) #1827;
-; .g.no - Gripper № (1-2)
-;
-  safe.c = .c.no
-  safe.g = .g.no
-;
-  .$str = "Moving in with Gr = "+$ENCODE(.g.no)
-  .$str = .$str+" To chuck = "+$ENCODE(.c.no)
-  CALL log(.$str)
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-;.g.temp = .g.no
-;IF .c.no==2 THEN
-;  .g.temp = .g.no MOD 2+1
-;END
-  CALL set.tool(.g.no)
-;
-;
-  HOME
-  CALL log("Waiting for CNC to be ready")
-  SWAIT fi.cnc.ready
-  CALL log("CNC is ready")
-  JMOVE #cnc.before[.c.no,.g.no]
-  $safe.flag = "cnc.in.before"
-;
-;CALL cnc.door.open
-;IF SIG(fi.cnc.door.er) THEN
-;  CALL log ("Error opening the CNC door. Wait for reset or continue")
-;  WHILE SIG(fi.cnc.door.er)
-;    TWAIT 5
-;  END
-;  JMOVE cnc.out
-;END
-  BREAK
-  CALL log("CNC locked!")
-  SIGNAL fo.cnc.block
-;
-  SPEED spd.high
-  ACCURACY accu.big
-  LMOVE cnc.in[.c.no,.g.no]
-  $safe.flag = "cnc.in"
-.END
-.PROGRAM cnc.move.out(.g.no,.c.no) #1794;
-  $safe.flag = "cnc.in"
-  .$str = "Moving in with Gr = "+$ENCODE(.g.no)
-  .$str = .$str+" To chuck = "+$ENCODE(.c.no)
-;
-  safe.c = .c.no
-  safe.g = .g.no
-  CALL log(.$str)
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-;
-  CALL set.tool(.g.no)
-;
-  SPEED spd.high
-  ACCURACY accu.big
-  LMOVE cnc.in[.c.no,.g.no]
-  $safe.flag = "cnc.out"
-;
-  LMOVE #cnc.before[.c.no,.g.no]
-  $safe.flag = "cnc.out.before"
-;
-;CALL cnc.door.close
-; No check, because it is unnecessary
-  CALL log("CNC unlocked!")
-  SIGNAL -fo.cnc.block
-;
-.END
-.PROGRAM cnc.pick(.c.no,.g.no,.cnc.g.no,.h) #1617;
-; .g.no - Gripper № (1-2)
-; .cnc.g.no - CNC chuck No
-; .h - Detail height
-;
-  safe.c = .c.no
-  safe.g = .g.no
-  $safe.flag = "cnc.pick"
-;
-  .$str = "CNC pick Gr = "+$ENCODE(.g.no)
-  .$str = .$str+" Gc = "+$ENCODE(.cnc.g.no)
-  .$str = .$str+" H = "+$ENCODE(.h)
-  CALL log(.$str)
-;
-; Get data
-  g.cf = chuck.g.full[.g.no]
-  g.cw = chuck.g.work[.g.no]
-  cnc.cf = chuck.cnc.full[.cnc.g.no]
-  cnc.cw = chuck.cnc.work[.cnc.g.no]
-;
-; Calculation
-;CALL cnc.get.cor
-  g = g.cf-g.cw ;  chuck.g.full[.g.no] -chuck.g.work[.g.no] 
-  cnc = cnc.cf-cnc.cw ;chuck.cnc.full[.cnc.g.no] - chuck.cnc.work[.cnc.g.no]
-  put.shift.x = x.cor.cnc[.c.no]
-  put.shift.y = y.cor.cnc[.c.no]
-  put.shift.z = .h+g+cnc+z.cor.cnc[.c.no]
-;
-; Set motion aux defaults
-  SPEED spd.high ALWAYS
-  ACCURACY accu.big ALWAYS
-;
-  CALL set.tool(.g.no)
-;TOOL tool.gripper[.g.no]
-;
-;
-  BREAK
-  CALL gripper.open(.g.no,FALSE)
-; Motion
-  LAPPRO cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-put.shift.z,0,0,0),80
-;
-  SPEED spd.small
-  ACCURACY accu.small
-  LMOVE cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-(put.shift.z+cnc.cf+10),0,0,0)
-;
-;SPEED spd.prec
-;ACCURACY accu.fine
-;POINT .dest.point = cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-put.shift.z,0,0,0)
-;
-  SPEED spd.prec
-  ACCURACY accu.fine
-  POINT dest.point = cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-(put.shift.z-cnc.pick.ovlp),0,0,0)
-  CALL sensing(dest.point,.g.no)
-; -cdz
-  BREAK
-  CALL gripper.close(.g.no,FALSE)
-  BREAK
-  CALL cnc.chuck.open(.c.no)
-  IF SIG(fi.cnc.chuck.er[.c.no]) THEN
-    CALL log("Error opening the CNC chuck Wait for reset or continue")
-    WHILE SIG(fi.cnc.chuck.er[.c.no]) DO
-      SWAIT -fi.cnc.chuck.er[.c.no]
-    END
-  END
-;service hack
-  SWAIT fi.cnc.opened[.c.no]
-;WHILE SIG (fi.cnc.opened[.c.no]) == FALSE DO
-;  TWAIT 0.2
-;END
-  BREAK
-  IF state==6 THEN
-    state = 8
-  END
-  IF state==11 THEN
-    state = 12
-  END
-  IF state==5 THEN
-    state = 15
-  END
-;
-  SPEED spd.medium
-  ACCURACY accu.medium
-  LMOVE cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-(put.shift.z+cnc.cf+10),0,0,0)
-;
-  LAPPRO cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-put.shift.z,0,0,0),80
-.END
-.PROGRAM cnc.put(.c.no,.g.no,.cnc.g.no,.h) #1687;
-; .g.no - Gripper № (1-2)
-; .cnc.g.no - CNC chuck No
-; .h - Detail height
-;
-  .$str = "CNC put Gr = "+$ENCODE(.g.no)
-  .$str = .$str+" Gc = "+$ENCODE(.cnc.g.no)
-  .$str = .$str+" H = "+$ENCODE(.h)
-  CALL log(.$str)
-;
-; Get data
-  g.cf = chuck.g.full[.g.no]
-  g.cw = chuck.g.work[.g.no]
-  cnc.cf = chuck.cnc.full[.cnc.g.no]
-  cnc.cw = chuck.cnc.work[.cnc.g.no]
-;
-; Calculation
-;CALL cnc.get.cor
-  g = g.cf-g.cw
-  cnc = cnc.cf-cnc.cw
-  put.shift.x = x.cor.cnc[.c.no]
-  put.shift.y = y.cor.cnc[.c.no]
-  put.shift.z = .h+g+cnc+z.cor.cnc[.c.no]
-;
-; Set motion aux defaults
-  SPEED spd.high ALWAYS
-  ACCURACY accu.big ALWAYS
-;
-  CALL cnc.change.tool(.c.no,.g.no)
-;
-; Check chuck
-  CALL cnc.chuck.open(.c.no)
-  IF SIG(fi.cnc.chuck.er[.c.no]) THEN
-    CALL log("Error opening the CNC chuck Wait for reset or continue")
-    WHILE SIG(fi.cnc.chuck.er[.c.no]) DO
-      SWAIT -fi.cnc.chuck.er[.c.no]
-    END
-  END
-  SWAIT fi.cnc.opened[.c.no]
-; Motion
-  CALL set.tool(.g.no)
-  JAPPRO cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-put.shift.z,0,0,0),80
-  safe.c = .c.no
-  safe.g = .g.no
-  $safe.flag = "cnc.put"
-;
-  SPEED spd.small
-  ACCURACY accu.small
-  LMOVE cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-(put.shift.z+cnc.cf+10),0,0,0)
-;
-;SPEED spd.prec
-;ACCURACY accu.fine
-;LMOVE cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-put.shift.z,0,0,0)
-;
-  SPEED spd.prec
-  ACCURACY accu.fine
-  POINT dest.point = cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-(put.shift.z-cnc.put.ovlp),0,0,0)
-  CALL sensing(dest.point,.g.no)
-;XMOVE cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-(put.shift.z),0,0,0)
-;
-  BREAK
-  CALL cnc.chuck.close(.c.no)
-  IF SIG(fi.cnc.chuck.er[.c.no]) THEN
-    CALL log("Error closing the CNC chuck Wait for reset or continue")
-    WHILE SIG(fi.cnc.chuck.er[.c.no]) DO
-      SWAIT -fi.cnc.chuck.er[.c.no]
-    END
-  END
-  BREAK
-;service hack
-  SWAIT fi.cnc.closed[.c.no]
-;WHILE SIG (fi.cnc.closed[.c.no]) == FALSE DO
-;  TWAIT 0.2
-;END
-  CALL gripper.open(.g.no,FALSE)
-  IF state==2 THEN
-    state = 3
-  END
-  IF state==8 THEN
-    state = 9
-  END
-  IF state==17 THEN
-    state = 18
-  END
-;
-;IF SIG (fo.grip.chk.err) THEN
-;  PAUSE
-;END
-;
-  SPEED spd.medium
-  ACCURACY accu.medium
-  LMOVE cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-(put.shift.z+cnc.cf+10),0,0,0)
-;
-  LAPPRO cnc.c[.c.no,.g.no]+TRANS(put.shift.x,put.shift.y,-put.shift.z,0,0,0),80
-;
-.END
-.PROGRAM cnc.run.pg(.pg) #212;
-  CALL log("Start program PG = "+$ENCODE(.pg))
-  BITS fo.cnc.pg[0],8 = .pg
-  TWAIT 1
-  SIGNAL fo.cnc.run
-  WAIT SIG(fi.cnc.ok) OR SIG(fi.cnc.err)
-  SIGNAL -fo.cnc.run
-.END
-.PROGRAM dbg.init.data() #0
-  FOR .i = 1 TO 32
-    task.data[.i,1] = 1
-    task.data[.i,2] = 1
-    task.data[.i,3] = 1
-    task.data[.i,4] = 1
-    task.data[.i,5] = 2
-    task.data[.i,6] = 2
-    task.data[.i,7] = 1
-    task.data[.i,8] = 255
-    task.data[.i,9] = 2
-    task.data[.i,10] = 0
-    task.data[.i,11] = 0
-    task.data[.i,12] = 0
-    task.data[.i,13] = 0
-    task.data[.i,14] = 1
-    task.data[.i,15] = 1
-;
-    detail.data[.i,1] = 440
-    detail.data[.i,2] = 250
-    detail.data[.i,3] = FALSE
-    detail.data[.i,4] = 0
-    detail.data[.i,5] = 0
-    detail.data[.i,6] = 440
-    detail.data[.i,7] = 250
-;
-    stocker.data[.i,1] = 6
-    stocker.data[.i,2] = 6
-    stocker.data[.i,3] = 6
-    stocker.data[.i,4] = 860
-    stocker.data[.i,5] = 1040
-    stocker.data[.i,6] = 0
-;
-    chuck.data[.i,1] = 400
-    chuck.data[.i,2] = 110
-    chuck.data[.i,3] = 0
-    chuck.data[.i,4] = 0
-    FOR .j = 1 TO 13
-      corr.data[.i,.j] = 0
-    END
-;
-;POINT stocker.frame[1, .i] = teach.f
-;POINT stocker.frame[2, .i] = teach.f + TRANS(0,0,155)
-;POINT stocker.frame[3, .i] = teach.f + TRANS(0,0,2*155)
-;POINT stocker.frame[4, .i] = teach.f + TRANS(0,0,3*155)
-  END
-  chuck.data[2,1] = 35
-  chuck.data[2,2] = 15
-  chuck.data[2,3] = 0
-  chuck.data[2,4] = 0
-;POINT cnc.c = cnc.f
-.END
-.PROGRAM gripper.check(.g.no) #6831
-; .g.no - Gripper № (1-2)
-;
-;Check requirement
-  SIGNAL -fo.grip.chk.err
-  IF NOT SIG(fi.grip.check) THEN
-    RETURN
-  END
-; Get data from PLC settings
-  g.error.time = BITS(fi.plc.g.etime[0],8)/10
-  IF (g.error.time<1) THEN
-    g.error.time = 1
-  END
-  IF (g.error.time>10) THEN
-    g.error.time = 10
-  END
-; Perform check
-  TIMER 1 = 0
-  g.failed = TRUE
-  WHILE TIMER(1)<g.error.time DO
-    IF SIG(i.grip.opened[.g.no]) THEN
-      g.failed = FALSE
-      TIMER 1 = g.error.time+1
-    END
-  END
-; Set result
-  IF g.failed THEN
-    CALL log("Error opening gripper "+$ENCODE(.g.no))
-    SIGNAL fo.grip.chk.err
-    SWAIT -fo.grip.chk.err
-  END
-.END
-.PROGRAM gripper.close(.gripper.no,.time,.reverse) #20
-;
-  IF NOT .reverse THEN
-    PULSE gripper.close[.gripper.no]
-  ELSE
-    PULSE gripper.open[.gripper.no]
-  END
-  TWAIT .time
-;
-  CALL log("Gripper"+$ENCODE(.gripper.no)+" closed")
-;
-.END
-.PROGRAM gripper.open(.gripper.no,.time,.reverse) #0
-;
-  IF NOT .reverse THEN
-    PULSE gripper.open[.gripper.no]
-  ELSE
-    PULSE gripper.close[.gripper.no]
-  END
-  TWAIT .time
-;
-  CALL log("Gripper"+$ENCODE(.gripper.no)+" opened")
-;
-.END
-.PROGRAM initialize() #60
-  CALL set.io
-;
-; Persistent
-  IF NOT EXISTREAL("accu.free") THEN
-; Accuracy set
-    accu.free = 100
-    accu.big = 50
-    accu.medium = 10
-    accu.small = 1
-    accu.fine = 0
-; Speed set
-    spd.max = 100
-    spd.high = 80
-    spd.medium = 50
-    spd.small = 30
-    spd.prec = 15
-    spd.sensing = 50 ; MM/S
-;
-    hmi.cnc.h = 25
-    hmi.chuck.full = 40
-    hmi.chuck.work = 11
-    hmi.cnc.ch.full[1] = 35
-    hmi.cnc.ch.work[1] = 15
-    hmi.cnc.ch.full[2] = 35
-    hmi.cnc.ch.work[2] = 15
-    hmi.cnc.no = 1
-    hmi.buf.id = 1
-    hmi.stock.id = 1
-    hmi.stock.no = 1
-    hmi.stock.h = 25
-;
-    stock.absx = 60
-    stock.absy = 60
-    detail.count = 0
-;
-    $safe.flag = ""
-  END
 ; System switches
   CP ON
   PREFETCH.SIGINS OFF
   QTOOL OFF
   REP_ONCE ON
-;STP_ONCE OFF
   HOLD.STEP ON
   DISP.EXESTEP ON
   PROG.DATE ON
+  ABS.SPEED ON
   AUTOSTART.PC ON
-  AUTOSTART2.PC ON
-; Reset BASE and TOOL coordinates
-  IF NOT EXISTTRANS("current.tool") THEN
-    POINT current.tool = NULL
-  END
+  ERRSTART.PC ON  ;
 ;
-  CALL process.reset
-; Reset output signals
-  RESET
-; TOOLs
-  POINT tool.gripper[1] = TRANS(-87.8,0,102,-180,90,180)
-  POINT tool.gripper[2] = TRANS(87.8,0,102,0,90,180)
-  POINT tool.pin = TRANS(0,82,102,90,90,180)
-  POINT tool.sensor = TRANS(-88.62,-51.5,101.8,-180,90,180)
-; Initialization complete
-  CALL log("Initialization complete")
+  IFPWPRINT 8,1,1,5,10="Robot: RS013N S/N: XXXXX","Controller: F60 S/N: XXXXX"," ","Powered by Robowizard Co.Ltd."
+;
+  CALL set.io.pc
+  CALL set.vars.pc
+;
+  MC PRIME a.main
+  TWAIT 1
+;
+  CALL pclog1.pc("Initialization complete!")
+;
+  CALL watchdog.pc
+;
 .END
-.PROGRAM log(.$msg) #50471;
-  IF NOT EXISTREAL("debug") THEN
-    debug = TRUE
-    PRINT 0: "Debug variable was initialized"
-  END
+.PROGRAM check.gripper(.tool.no)@26/02/14 22:38 #0
 ;
-  IF debug THEN
-    PRINT 0: $TIME+": "+.$msg
-  END
-.END
-.PROGRAM pg0() #8
-  ALIGN
-.END
-.PROGRAM pg1() #0
-  HOME
-  HOME 2
-.END
-.PROGRAM pg999() #0
-  HOME
-.END
-.PROGRAM plc.control.pc() #0
-  RUNMASK fo.pc.error
-  SIGNAL fo.pc.error
-  WHILE TRUE DO
-    IF NOT SWITCH(CS ) THEN
-      IF SIG(fi.plc.g.open[1]) THEN
-        CALL gripper.open(1,FALSE)
-      END
-;
-      IF SIG(fi.plc.g.open[2]) THEN
-        CALL gripper.open(2,FALSE)
-      END
-;
-      IF SIG(fi.plc.g.close[1]) THEN
-        CALL gripper.close(1,FALSE)
-      END
-;
-      IF SIG(fi.plc.g.close[2]) THEN
-        CALL gripper.close(2,FALSE)
-      END
-;
-      r.speed = BITS(fi.mon.speed[0],16)
-      IF r.speed<=0 THEN
-        r.speed = 10
-      END
-      IF r.speed>100 THEN
-        r.speed = 100
-      END
-      MC SPEED r.speed
-;
-    END
-    IF SIG(di.ext.ereset) THEN
-      SIGNAL -fo.grip.chk.err
-    END
-    IF SIG(fi.proc.stop) THEN
-      PRINT 0: "Process reset requested"
-      SIGNAL fo.process.res
-      SIGNAL -fo.proc.on
-      SWAIT -fi.proc.stop
-    END
-    IF SIG(fo.grip.chk.err) THEN
-      SOUT 82 = 33
-      SOUT 83 = -33
-      SOUT 84 = 34
-      SOUT 85 = -34
-    END
-    SOUT 86 = 35
-    TWAIT 0.1
-    IF SIG(int.grip.open[1]) THEN
-      SIGNAL -o.grip.close[1],o.grip.open[1]
-    END
-    IF SIG(int.grip.close[1]) THEN
-      SIGNAL -o.grip.open[1],o.grip.close[1]
-    END
-    IF SIG(int.grip.open[2]) THEN
-      SIGNAL -o.grip.close[2],o.grip.open[2]
-    END
-    IF SIG(int.grip.close[2]) THEN
-      SIGNAL -o.grip.open[2],o.grip.close[2]
-    END
-  END
-.END
-.PROGRAM plc.data.pc() #0;
-  RUNMASK fo.pc.error
-  SIGNAL fo.pc.error
-  WHILE TRUE DO
-    data.el = 0
-    data.max = 32
-    SWAIT fi.de.start
-    CALL log("Data exchange started")
-    SIGNAL fo.de.robot.rdy
-    TWAIT 0.1
-    WHILE data.el<=data.max DO
-;CALL log ("Waiting for data")
-      SWAIT fi.de.data.rdy
-;IF SIG (fi.de.data.rdy) THEN air
-      data.type = BITS(fi.de.recipe[0],8)
-      data.id = BITS(fi.de.table.id[0],8)
-      data.el = BITS(fi.de.table.el[0],8)+1
-      data = BITS(fi.de.data[0],16)
-;
-      CASE data.type OF
-       VALUE 1:
-        $type = "Detail "
-        detail.data[data.id,data.el] = data
-        data.max = 6
-       VALUE 2:
-        $type = "Stocker "
-        stocker.data[data.id,data.el] = data
-        data.max = 7
-       VALUE 3:
-        $type = "Chuck "
-        chuck.data[data.id,data.el] = data
-        data.max = 2
-       VALUE 4:
-        $type = "Task "
-        task.data[data.id,data.el] = data
-        data.max = 19
-       VALUE 5:
-        $type = "Corr"
-;
-        corr.data[data.id,data.el] = BITS(fi.de.data[0],15)
-        IF SIG(fi.de.data[15]) THEN
-          corr.data[data.id,data.el] = 32768-corr.data[data.id,data.el]
-        END
-        corr.data[data.id,data.el] = corr.data[data.id,data.el]/10
-;IF (corr.data[data.id, data.el] > 20) THEN
-;  corr.data[data.id, data.el] = 20
-;END
-        IF SIG(fi.de.data[15]) THEN
-          corr.data[data.id,data.el] = -corr.data[data.id,data.el]
-        END
-;
-      END
-      CALL log("Loaded data: "+$type+"id = "+$ENCODE(data.id)+"PARAMETER "+$ENCODE(data.el)+" = "+$ENCODE(data))
-;
-      PULSE fo.de.data.ack,0.05
-      TWAIT 0.1
-    END
-    SIGNAL -fo.de.robot.rdy
-    TWAIT 1
-  END
-.END
-.PROGRAM process(.s.no) #45;
-  task.id = BITS(fi.st.task[.s.no,0],8)
-  CALL log("Working on stocker "+$ENCODE(.s.no)+" with task "+$ENCODE(task.id))
-  CALL task.get.data(task.id)
-; Run program
-  CALL cnc.run.pg(task.op2.pg)
-; Check if it is required to open stocker
-  IF SIG(fi.cnc.err) THEN
-    CALL log("Failed to run program "+$ENCODE(task.op2.pg))
-    .s.no = 100 ; Dirty hack!
-    RETURN
-  END
-  HOME
-; Check if it is required to open stocker
-  IF state==0 THEN
-    IF NOT SIG(fo.st.opened[.s.no]) THEN
-      CALL log("Required to open stocker "+$ENCODE(.s.no))
-      CALL stocker.open(.s.no)
-      IF SIG(fi.unlock.fail) THEN
-        .s.no = 100 ; Dirty hack!
-        state = 0
-        RETURN
-      END
-    END
-    state = 1
-  END
-;
-  IF SIG(fi.st.search) AND detail.count==0 THEN
-    CALL stocker.search(.s.no)
-    BITS fo.detail.cnt[.s.no],16 = detail.count+1000 ; Dirty, dirty hack, OMG
-    IF detail.count==0 THEN
-      CALL log("No details found")
-      GOTO finish
-    END
-  END
-  IF NOT SIG(fi.st.search) THEN
-    detail.count = BITS(fi.detail.cnt[.s.no],16)
-  END
-  CALL log("Details count: "+$ENCODE(detail.count))
-;detail.done = 0
-;
-  IF first.iteration THEN
-; First iteration
-    CALL log("First iteration started")
-    IF state==1 THEN
-      CALL stocker.pick(.s.no,task.op1.g.no,detail.l1)
-    END
-    IF state==2 THEN
-      CALL cnc.move.in(task.op1.g.no,task.op2.c.no)
-      CALL cnc.put(task.op2.c.no,task.op1.g.no,task.op2.cnc.g,detail.l1)
-      CALL cnc.move.out(task.op1.g.no,task.op2.c.no)
-      BREAK
-    END
-    IF state==3 THEN
-      CALL cnc.mfinish
-      HOME
-      BREAK
-      state = 4
-    END
-;
-    first.iteration = FALSE
-    state = 5
-  END
-  IF detail.count==1 THEN
-    CALL log("Last detail")
-    state = 11
-    GOTO last_iter
-  END
-  WHILE current.row<=stocker.m DO
-    CALL process.nobufer(.s.no)
-;
-;IF task.buffer THEN
-;  CALL process.buffer (.s.no)
-;  BREAK
-;ELSE
-;  CALL process.nobufer (.s.no)
-;END
-;
-  END
-  IF state==6 OR state==8 THEN
-    CALL cnc.move.in(task.op3.g.no,task.op3.c.no)
-    BREAK
-  END
-  IF state==6 THEN
-    CALL cnc.pick(task.op3.c.no,task.op3.g.no,task.op3.c.no,detail.l2)
-  END
-  IF state==8 THEN
-    IF task.air==1 THEN
-      PRINT 0: "AIR"
-      CALL air.blowing
-    END
-    CALL cnc.put(task.op2.c.no,task.op1.g.no,task.op2.cnc.g,detail.l1)
-    CALL cnc.move.out(task.op1.g.no,task.op2.c.no)
-    BREAK
-  END
-  IF state==9 THEN
-    CALL cnc.mfinish
-    state = 10
-  END
-  HOME
-;
-  IF state==10 THEN
-    CALL stocker.put(.s.no,task.op3.g.no,detail.l2)
-  END
-  BREAK
-  IF state==5 THEN
-    state = 11
-  END
-last_iter:
-; Last iteration
-  IF state==11 THEN
-    CALL cnc.move.in(task.op3.g.no,task.op3.c.no)
-    CALL cnc.pick(task.op3.c.no,task.op3.g.no,task.op3.c.no,detail.l2)
-    IF task.air==1 THEN
-      PRINT 0: "AIR"
-      CALL air.blowing
-    END
-    CALL cnc.move.out(task.op3.g.no,task.op3.c.no)
-    HOME
-  END
-;IF task.buffer AND chuck.g.id[1] <> chuck.g.id[2] THEN
-;  CALL buffer.put (task.id, task.op3.g.no)
-;  CALL buffer.pick (task.id, task.op4.g.no)
-;  ;
-;  CALL cnc.move.in (task.op4.g.no, task.op5.c.no)
-;  CALL cnc.put (task.op5.c.no, task.op4.g.no, task.op5.cnc.g, detail.lp)
-;  CALL cnc.move.out (task.op4.g.no, task.op5.c.no)
-;  BREAK
-;  CALL cnc.mfinish
-;  ;
-;  HOME
-;  ;
-;  CALL cnc.move.in (task.op6.g.no, task.op6.c.no)
-;  CALL cnc.pick (task.op6.c.no, task.op6.g.no, task.op5.cnc.g, detail.l2)
-;  CALL cnc.move.out (task.op6.g.no, task.op6.c.no)
-;  HOME
-;END
-  BREAK
-  IF state==12 THEN
-    CALL cnc.mfinish
-    state = 13
-  END
-  IF state==13 THEN
-    CALL stocker.put(.s.no,task.op3.g.no,detail.l2)
-  END
-;CALL add.last
-finish:
-  IF state==14 THEN
-;JMOVE #stocker.safe
-;HOME
-    CALL stocker.close(.s.no)
-    IF SIG(fi.unlock.fail) THEN
+  TIMER 1 = 0
+  WHILE NOT SIG(gripper.opened[.tool.no]) DO
+    CALL gripper.open(.tool.no,0.5,FALSE)
+    IF TIMER(1)>3 THEN
+      CALL log("Error opening gripper")
+      SIGNAL eo.grip.error
+      SIGNAL eo.process.err
       RETURN
     END
-    state = 15
   END
 ;
-  IF state==15 THEN
-    CALL process.reset
-    HOME
-;
-    PULSE fo.st.complete[.s.no]
-    SIGNAL -fo.stocker.work[.s.no]
-    CALL log("Finished working with stocker "+$ENCODE(.s.no))
-  END
 .END
-.PROGRAM process.buffer(.s.no) #0;
-; Subtask
-  .x1 = task.op6.g.no-1
-  .x2 = task.op4.g.no-1
-  .x3 = task.op3.g.no-1
-  .x4 = task.op1.g.no-1
-  .subtask = .x4*8+.x3*4+.x2*2+.x1
+.PROGRAM check.teach.lim()@26/02/14 22:38 #0
 ;
-  IF chuck.g.id[1]==chuck.g.id[2] THEN
-    .subtask = 250
+  IF hmi.shelf.no<1 THEN
+    CALL log("Wrong teach parameters: Shelf No")
+    HALT
+  END
+  IF hmi.shelf.no>4 THEN
+    CALL log("Wrong teach parameters: Shelf No")
+    HALT
   END
 ;
-  CASE .subtask OF
-   VALUE 1,3,5,7,8,10,12,14:
-    CALL process.optimum(.s.no)
-   VALUE 255:
-    CALL process.ultra(.s.no)
-   ANY :
-    CALL process.strict(.s.no)
+  IF hmi.plate.id<1 THEN
+    CALL log("Wrong teach parameters: Plate Id")
+    HALT
   END
+  IF hmi.plate.id>64 THEN
+    CALL log("Wrong teach parameters: Plate Id")
+    HALT
+  END
+  IF hmi.wp.length<0 THEN
+    CALL log("Wrong teach parameters: Workpiece length")
+    HALT
+  END
+;
 .END
-.PROGRAM process.nobufer(.s.no) #1518;
-  IF task.op1.g.no<>task.op3.g.no THEN
-    IF state==5 THEN
-      CALL stocker.pick(.s.no,task.op1.g.no,detail.l1)
-;CALL add.current
-    END
-; WAIT FOR CNC READY
-    IF state==6 OR state==8 THEN
-      CALL cnc.move.in(task.op3.g.no,task.op3.c.no)
-      BREAK
-    END
-    IF state==6 THEN
-      CALL cnc.pick(task.op3.c.no,task.op3.g.no,task.op3.c.no,detail.l2)
-    END
-    IF state==8 THEN
-      IF task.air==1 THEN
-        CALL air.blowing
-      END
-      CALL cnc.put(task.op2.c.no,task.op1.g.no,task.op2.cnc.g,detail.l1)
-      CALL cnc.move.out(task.op1.g.no,task.op2.c.no)
-      BREAK
-    END
-    IF state==9 THEN
-      CALL cnc.mfinish
-      state = 10
-    END
-    HOME
+.PROGRAM check.teach.pc()@26/02/14 22:59 #4089
 ;
-    IF state==10 THEN
-      CALL stocker.put(.s.no,task.op3.g.no,detail.l2)
-    END
-    BREAK
+  IF SIG(s.pr.tch.shelf) THEN
+    MC PRIME shelf.teach
+  END
 ;
-    IF detail.done>=detail.count THEN
-      CALL log("Last detail")
-      current.row = 1000
-      state = 11
-      RETURN
-    END
-    state = 5
+  IF SIG(s.pr.tst.shelf) THEN
+    MC PRIME shelf.test
+  END
 ;
+;
+  IF SIG(s.pr.tch.wp) THEN
+    MC PRIME wp.teach
+  END
+;
+  IF SIG(s.pr.tst.pick) THEN
+    MC PRIME wp.test.pick
+  END
+;
+  IF SIG(s.pr.tst.put) THEN
+    MC PRIME wp.test.put
+  END
+;
+  IF SIG(s.pr.home) THEN
+    MC PRIME a.home
+  END
+;
+.END
+.PROGRAM get.task.data()@26/02/14 22:38 #0
+;
+  IF kroset THEN
+    CALL log("KROSET mod activated. Get data from Robot TP")
+; Task parameters
+    wp.in.length = hmi.wp.length
+    wp.out.length = hmi.wp.length
+    wp.mid.length = hmi.wp.length
+    grip.jaws.full[1] = hmi.gc1.full
+    grip.jaws.body[1] = hmi.gc1.body
+    grip.jaws.full[2] = hmi.gc2.full
+    grip.jaws.body[2] = hmi.gc2.body
+    cnc.jaws.full[1] = hmi.cnc1c.full
+    cnc.jaws.body[1] = hmi.cnc1c.body
+; Plate parameters (Right in task!)
+    plate.id = hmi.plate.id
+    plate.rows = hmi.plate.rows
+    plate.cells.o = hmi.plate.col.o
+    plate.cells.e = hmi.plate.col.e
+    plate.dx = hmi.plate.dx
+    plate.dy = hmi.plate.dy
+    plate.e.dy = hmi.plate.e.dy
+    plate.ox = hmi.plate.ox
+    plate.oy = hmi.plate.oy
   ELSE
-    IF state==5 THEN
-; WAIT FOR CNC READY
-      CALL cnc.move.in(task.op3.g.no,task.op3.c.no)
-; CALL cnc.move.in (task.op1.g.no, task.op2.c.no)
-      CALL cnc.pick(task.op3.c.no,task.op3.g.no,task.op3.c.no,detail.l2)
-      CALL cnc.move.out(task.op3.g.no,task.op3.c.no)
-      HOME
-    END
-    IF state==15 THEN
-      CALL stocker.put(.s.no,task.op3.g.no,detail.l2)
-    END
-; CALL add.last
+; Task parameters
+    wp.in.length = hmi.wp.length
+    wp.out.length = hmi.wp.length
+    wp.mid.length = hmi.wp.length
+    grip.jaws.full[1] = hmi.gc1.full
+    grip.jaws.body[1] = hmi.gc1.body
+    grip.jaws.full[2] = hmi.gc2.full
+    grip.jaws.body[2] = hmi.gc2.body
+    cnc.jaws.full[1] = hmi.cnc1c.full
+    cnc.jaws.body[1] = hmi.cnc1c.body
+; Plate parameters (Right in task!)
+    plate.rows = hmi.plate.rows
+    plate.cells.o = hmi.plate.col.o
+    plate.cells.e = hmi.plate.col.e
+    plate.dx = hmi.plate.dx
+    plate.dy = hmi.plate.dy
+    plate.e.dy = hmi.plate.e.dy
+    plate.ox = hmi.plate.ox
+    plate.oy = hmi.plate.oy
+  END
 ;
-    IF detail.done>=detail.count THEN
-      CALL log("Last detail")
-      current.row = 1000
-      state = 11
+.END
+.PROGRAM gripper.close(.gripper.no,.time,.reverse)@26/02/14 23:19 #0
+;
+  IF NOT .reverse THEN
+    SIGNAL gripper.close[.gripper.no],-gripper.open[.gripper.no]
+  ELSE
+    SIGNAL gripper.open[.gripper.no],-gripper.close[.gripper.no]
+  END
+  TWAIT .time
+;
+  CALL log("Command close gripper"+$ENCODE(.gripper.no))
+;
+.END
+.PROGRAM gripper.is.open(.tool.no)@26/02/14 23:19 #0
+; Check if tool is opened
+  IF kroset THEN
+    SIGNAL -eo.grip.error
+    RETURN
+  END
+  TIMER 1 = 0
+  WHILE NOT SIG(gripper.opened[.tool.no]) DO
+    CALL gripper.open(.tool.no,0.5,FALSE)
+    IF TIMER(1)>3 THEN
+      CALL log("Error opening gripper")
+      SIGNAL eo.grip.error
+      SIGNAL eo.process.err
       RETURN
     END
-;
-    IF current.row<=stocker.m THEN
-;
-      IF state==16 THEN
-        CALL stocker.pick(.s.no,task.op1.g.no,detail.l1)
-      END
-      IF state==17 THEN
-; CALL add.current
-        CALL cnc.move.in(task.op1.g.no,task.op2.c.no)
-        CALL cnc.put(task.op2.c.no,task.op1.g.no,task.op2.cnc.g,detail.l1)
-        CALL cnc.move.out(task.op1.g.no,task.op2.c.no)
-      END
-      BREAK
-      IF state==18 THEN
-        CALL cnc.mfinish
-        HOME
-      END
-      IF detail.done>=detail.count THEN
-        CALL log("Last detail")
-        current.row = 1000
-        state = 11
-        RETURN
-      END
-      state = 5
-;
-    END
   END
+;
 .END
-.PROGRAM process.optimum(.s.no) #0;
-  $str = "Opti " ; + $ENCODE(.type)
+.PROGRAM gripper.open(.gripper.no,.time,.reverse)@26/02/14 23:19 #0
 ;
-  CALL cnc.move.in(task.op3.g.no,task.op3.c.no)
-  CALL cnc.pick(task.op3.c.no,task.op3.g.no,task.op2.cnc.g,detail.lp)
-  CALL cnc.move.out(task.op3.g.no,task.op3.c.no)
-  HOME
+  IF NOT .reverse THEN
+    SIGNAL gripper.open[.gripper.no],-gripper.close[.gripper.no]
+  ELSE
+    SIGNAL gripper.close[.gripper.no],-gripper.open[.gripper.no]
+  END
+  TWAIT .time
 ;
-  CALL buffer.put(task.id,task.op3.g.no)
-  CALL buffer.pick(task.id,task.op4.g.no)
-;;
-  CALL cnc.move.in(task.op4.g.no,task.op5.c.no)
-  CALL cnc.put(task.op5.c.no,task.op4.g.no,task.op5.cnc.g,detail.lp)
-  CALL cnc.move.out(task.op4.g.no,task.op5.c.no)
-  BREAK
-  CALL cnc.mfinish
-  HOME
+  CALL log("Command open gripper"+$ENCODE(.gripper.no))
 ;
-  CALL stocker.pick(.s.no,task.op1.g.no,detail.l1)
-  CALL add.current
-;
-  CALL cnc.move.in(task.op6.g.no,task.op6.c.no)
-  CALL cnc.pick(task.op6.c.no,task.op6.g.no,task.op5.cnc.g,detail.l2)
-  CALL cnc.put(task.op2.c.no,task.op1.g.no,task.op2.cnc.g,detail.l1)
-  CALL cnc.move.out(task.op1.g.no,task.op2.c.no)
-  BREAK
-  CALL cnc.mfinish
-  HOME
-;
-  CALL stocker.put(.s.no,task.op6.g.no,detail.l2)
-  CALL add.last
 .END
-.PROGRAM process.reset() #260;
-  CALL log("Process reset!")
-  first.iteration = TRUE
-  last.iteration = FALSE
-  current.row = 1
-  current.col = 1
-  last.row = 1
-  last.col = 1
-  detail.done = 0
-  detail.count = 0
+.PROGRAM id.to.ij(.id,.i,.j)@26/02/14 22:38 #0
+;
+  .p = plate.cells.o+plate.cells.e
+  .pair = INT((.id-1)/.p)
+  .offset = (.id-1) MOD .p
+;
+  IF .offset<plate.cells.o THEN
+    .i = 2*.pair
+    .j = .offset
+  ELSE
+    .i = 2*.pair+1
+    .j = .offset-plate.cells.o
+  END
+;
+  CALL log("ID:"+$ENCODE(.id)+" --> i:"+$ENCODE(.i)+" j:"+$ENCODE(.j))
+;
+.END
+.PROGRAM log(.$msg)@26/02/14 22:38 #0
+;
+; 1 line = 55 symbols max
+  .max.lines = 255
+;
+  FOR .i = 0 TO .max.lines-1
+    $log.entry[.i] = $log.entry[.i+1]
+  END
+  $log.entry[.max.lines] = $TIME+" "+.$msg
+;
+  IFPWPRINT 1,1,1,9,10=$log.entry[.max.lines-11],$log.entry[.max.lines-10],$log.entry[.max.lines-9],$log.entry[.max.lines-8]
+  IFPWPRINT 2,1,1,9,10=$log.entry[.max.lines-7],$log.entry[.max.lines-6],$log.entry[.max.lines-5],$log.entry[.max.lines-4]
+  IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
+;
+.END
+.PROGRAM log.clear()@26/02/14 22:38 #0
+;
+; 1 line = 55 symbols max
+  .max.lines = 255
+;
+  FOR .i = 0 TO .max.lines-1
+    $log.entry[.i] = " "
+  END
+;
+  IFPWPRINT 1,1,1,9,10=$log.entry[.max.lines-11],$log.entry[.max.lines-10],$log.entry[.max.lines-9],$log.entry[.max.lines-8]
+  IFPWPRINT 2,1,1,9,10=$log.entry[.max.lines-7],$log.entry[.max.lines-6],$log.entry[.max.lines-5],$log.entry[.max.lines-4]
+  IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
+;
+.END
+.PROGRAM pclog1.pc(.$msg)@26/02/14 17:02 #2
+;
+; 1 line = 55 symbols max
+  .max.lines = 255
+;
+  FOR .i = 0 TO .max.lines-1
+    $log.entry[.i] = $log.entry[.i+1]
+  END
+  $log.entry[.max.lines] = $TIME+" "+.$msg
+;
+  IFPWPRINT 1,1,1,9,10=$log.entry[.max.lines-11],$log.entry[.max.lines-10],$log.entry[.max.lines-9],$log.entry[.max.lines-8]
+  IFPWPRINT 2,1,1,9,10=$log.entry[.max.lines-7],$log.entry[.max.lines-6],$log.entry[.max.lines-5],$log.entry[.max.lines-4]
+  IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
+;
+.END
+.PROGRAM pclog2.pc(.$msg)@26/02/14 17:02 #0
+;
+; 1 line = 55 symbols max
+  .max.lines = 255
+;
+  FOR .i = 0 TO .max.lines-1
+    $log.entry[.i] = $log.entry[.i+1]
+  END
+  $log.entry[.max.lines] = $TIME+" "+.$msg
+;
+  IFPWPRINT 1,1,1,9,10=$log.entry[.max.lines-11],$log.entry[.max.lines-10],$log.entry[.max.lines-9],$log.entry[.max.lines-8]
+  IFPWPRINT 2,1,1,9,10=$log.entry[.max.lines-7],$log.entry[.max.lines-6],$log.entry[.max.lines-5],$log.entry[.max.lines-4]
+  IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
+;
+.END
+.PROGRAM pg0()@26/02/14 22:38 #0
+;
   state = 0
-  SIGNAL -fo.process.res
-  RESET
-;MC PRIME a.main,-1
+  CALL a.main
+;
 .END
-.PROGRAM process.strict(.s.no) #0;
-  $str = "STRICT"
-  CALL cnc.move.in(task.op3.g.no,task.op3.c.no)
-  CALL cnc.pick(task.op3.c.no,task.op3.g.no,task.op2.cnc.g,detail.lp)
-  CALL cnc.move.out(task.op3.g.no,task.op3.c.no)
-  HOME
-;
-  CALL buffer.put(task.id,task.op3.g.no)
-  CALL buffer.pick(task.id,task.op4.g.no)
-;
-  CALL cnc.move.in(task.op4.g.no,task.op5.c.no)
-  CALL cnc.put(task.op5.c.no,task.op4.g.no,task.op5.cnc.g,detail.lp)
-  CALL cnc.move.out(task.op4.g.no,task.op5.c.no)
-  BREAK
-  CALL cnc.mfinish
-  HOME
-;
-  CALL cnc.move.in(task.op6.g.no,task.op6.c.no)
-  CALL cnc.pick(task.op6.c.no,task.op6.g.no,task.op5.cnc.g,detail.l2)
-  CALL cnc.move.out(task.op6.g.no,task.op6.c.no)
-  HOME
-;
-  CALL stocker.put(.s.no,task.op6.g.no,detail.l2)
-  CALL add.last
-;
-  IF current.row<=stocker.m THEN
-;
-    CALL stocker.pick(.s.no,task.op1.g.no,current.row,current.col,detail.l1)
-    CALL add.current
-    CALL cnc.move.in(task.op1.g.no,task.op2.c.no)
-    CALL cnc.put(task.op2.c.no,task.op1.g.no,task.op2.cnc.g,detail.l1)
-    CALL cnc.move.out(task.op1.g.no,task.op2.c.no)
-    BREAK
-    CALL cnc.mfinish(task.op2.pg)
-    HOME
-;
-  END
-.END
-.PROGRAM process.ultra(.s.no) #0;
-  $str = "Ultra"
-  CALL stocker.pick(.s.no,1,detail.l1)
-  CALL add.current
-;
-  CALL cnc.move.in(2)
-  CALL cnc.pick(2,task.op2.cnc.g,detail.lp)
-  CALL cnc.put(1,task.op5.cnc.g,detail.l1)
-  CALL cnc.move.out(1)
-  BREAK
-  CALL cnc.mfinish
-  HOME
-;
-  CALL buffer.put(task.id,2)
-  CALL buffer.pick(task.id,1)
-;
-  CALL cnc.move.in(2)
-  CALL cnc.pick(2,task.op2.cnc.g,detail.lp)
-  CALL cnc.put(1,task.op5.cnc.g,detail.lp)
-  CALL cnc.move.out(1)
-  BREAK
-  CALL cnc.mfinish; ???
-  HOME
-;
-  CALL buffer.put(task.id,2)
-  CALL buffer.pick(task.id,1)
-;
-  CALL cnc.move.in(2)
-  CALL cnc.pick(2,task.op2.cnc.g,detail.l2)
-  CALL cnc.put(1,task.op5.cnc.g,detail.lp)
-  CALL cnc.move.out(1)
-  BREAK
-  CALL cnc.mfinish;???
-  HOME
-;
-  CALL stocker.put(.s.no,2,detail.l2)
-  CALL add.last
-;
-  IF current.row<=stocker.m THEN
-    CALL stocker.pick(.s.no,1,detail.l1)
-    CALL add.current
-;
-    CALL cnc.move.in(2)
-    CALL cnc.pick(2,task.op2.cnc.g,detail.l2)
-    CALL cnc.put(1,task.op5.cnc.g,detail.l1)
-    CALL cnc.move.out(1)
-    BREAK
-    CALL cnc.mfinish
-    HOME
-;
-    CALL stocker.put(.s.no,2,detail.l2)
-    CALL add.last
-  END
-.END
-.PROGRAM safe.cnc() #55
-  CP OFF
-  SCASE $safe.flag OF
-   SVALUE "cnc.in.before":
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "cnc.in":
-    CALL set.tool(safe.g)
-    LMOVE #cnc.before[safe.c,safe.g]
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "cnc.out":
-    CALL set.tool(safe.g)
-    LMOVE cnc.in[safe.c,safe.g]
-    LMOVE #cnc.before[safe.c,safe.g]
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "cnc.out.before":
-    CALL set.tool(safe.g)
-    JMOVE #cnc.before[safe.c,safe.g]
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "cnc.pick":
-    IF state==6 OR state==5 OR state==11 THEN
-      CALL gripper.open(safe.g,FALSE)
-    END
-    CALL set.tool(safe.g)
-    LMOVE cnc.in[safe.c,safe.g]
-    LMOVE #cnc.before[safe.c,safe.g]
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "cnc.change.tool1":
-    TOOL NULL
-    SPEED 30
-    ACCEL 50
-    LMOVE #kostil5
-    BREAK
-    safe.g = 1
-    CALL set.tool(safe.g)
-    LMOVE cnc.in[safe.c,safe.g]
-    LMOVE #cnc.before[safe.c,safe.g]
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "cnc.change.tool2":
-    TOOL NULL
-    SPEED 30
-    ACCEL 50
-    LMOVE #kostil7
-    BREAK
-    CALL set.tool(safe.g)
-    LMOVE cnc.in[safe.c,safe.g]
-    LMOVE #cnc.before[safe.c,safe.g]
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "cnc.put":
-    CALL set.tool(safe.g)
-    LMOVE cnc.in[safe.c,safe.g]
-    LMOVE #cnc.before[safe.c,safe.g]
-    HOME
-    HOME 2
-    RETURN
-  END
-.END
-.PROGRAM safe.home() #164;
+.PROGRAM safe.home()@26/02/14 22:38 #0
 ;
   IF SIG(do.home) THEN
-    HOME 2
+    CALL log("Robot is already at home. Skip safe.home program")
     RETURN
   END
+;
   IF SIG(do.home2) THEN
+    CALL log("Robot is already at home. Skip safe.home program")
     RETURN
   END
 ;
-  SPEED spd.prec
-  ACCURACY accu.fine
+  CALL log("Performing safe movement to home position")
+  SPEED 250 MM/S ALWAYS
+  ACCURACY 0.01 ALWAYS
 ;
-  CALL log("Safe moving to home with "+$safe.flag)
+  JMOVE #homyak
+  JMOVE #homyak.sby
 ;
-  CALL safe.stocker
-  CALL safe.cnc
-  BREAK
-  CALL log("Robot moved to home position")
-  $safe.flag = ""
-  CP ON
 .END
-.PROGRAM safe.stocker() #70
-  CP OFF
-  SCASE $safe.flag OF
-   SVALUE "stocker.start":
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.safe":
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open.before":
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open.below":
-    LMOVE stocker.open[safe.st,1]+TRANS(-350,0,-30)
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open1":
-    LAPPRO stocker.open[safe.st,1],30
-    LMOVE stocker.open[safe.st,1]+TRANS(-350,0,-30)
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open2":
-    LMOVE stocker.open[safe.st,1]
-    LAPPRO stocker.open[safe.st,1],30
-    SIGNAL -fo.st.unlock[safe.st]
-;SIGNAL fo.st.opened[safe.st]
-    LMOVE stocker.open[safe.st,1]+TRANS(-350,0,-30)
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open.above":
-    LAPPRO stocker.open[safe.st,2],30
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL fo.st.opened[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open.above1":
-    LAPPRO stocker.open[safe.st,2],30
-    JMOVE #kostil1
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL fo.st.opened[safe.st]
-    JMOVE #kostil2
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open.k1":
-    JMOVE #kostil1
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL fo.st.opened[safe.st]
-    JMOVE #kostil2
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open.k2":
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL fo.st.opened[safe.st]
-    JMOVE #kostil2
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.open.k3":
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL fo.st.opened[safe.st]
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close.k3":
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close.k2":
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close.k1":
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #kostil2
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close.above":
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close.above1":
-    JMOVE #kostil1
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #kostil2
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close1":
-    LAPPRO stocker.close[safe.st,1],30
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close11":
-    LAPPRO stocker.close[safe.st,1],30
-    JMOVE #kostil1
-    SIGNAL -fo.st.unlock[safe.st]
-    JMOVE #kostil2
-    JMOVE #kostil3
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close2":
-    LMOVE stocker.close[safe.st,2]
-    LAPPRO stocker.close[safe.st,2],30
-    LMOVE stocker.close[safe.st,2]+TRANS(-350,0,-30)
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL -fo.st.opened[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close.below":
-    LAPPRO stocker.close[safe.st,2],30
-    LMOVE stocker.close[safe.st,2]+TRANS(-350,0,-30)
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL -fo.st.opened[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.close.before":
-    LMOVE stocker.close[safe.st,2]+TRANS(-350,0,-30)
-    SIGNAL -fo.st.unlock[safe.st]
-    SIGNAL -fo.st.opened[safe.st]
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-   SVALUE "stocker.any":
-    TDRAW 0,0,10
-    JMOVE #stocker.safe
-    HOME
-    HOME 2
-    RETURN
-any:
-    RETURN
-  END
+.PROGRAM send.plc.pc()@26/02/14 17:02 #0
+;
+  SOUT eo.grip.opened[1] = gripper.opened[1]
+  SOUT eo.grip.opened[2] = gripper.opened[2]
+  SOUT eo.grip.sensor[1] = gripper.sensor[1]
+  SOUT eo.grip.sensor[2] = gripper.sensor[2]
+;
 .END
-.PROGRAM sensing(.dest_point,.g.no) #1
-; *******************************************************************
+.PROGRAM set.io.pc()@26/02/14 17:07 #1
 ;
-; Program:      sensing
-; Comment:      
-; Author:       User
+; For KROSET!
+  k.shelf.pick = 1
 ;
-; Date:         12/2/2025
+; Gripper IO
 ;
-; *******************************************************************
+; Gripper
+  gripper.open[1] = 33
+  gripper.close[1] = 34
+  gripper.open[2] = 35
+  gripper.close[2] = 36
+  air.blow.on = 37
+  air.blow.off = 38
+; Gripper input
+  gripper.opened[1] = 1033
+  gripper.opened[2] = 1034
+  gripper.sensor[1] = 1035
+  gripper.sensor[2] = 1036
 ;
-  SPEED spd.sensing MM/S
-  PRINT 0: "start sensing"
-  XMOVE dest.point TILL i.grip.sensor[.g.no]
-  RETURN
-.END
-.PROGRAM set.io() #60
-; DEDICATED INPUT SIGNALS
-  di.ext.mot.on = 1065
-  di.ext.ereset = 1066
-  di.ext.cs = 1067
-  di.ext.pgreset = 1068
-  di.ext.hold = 1069
-  di.ext.slow.rep = 1070
-  di.ext.mot.off = 1071
+; Ethernet I/P IO (Start: 65 Count:896)
 ;
-; DEDICATED OUTPUT SIGNALS
-  do.mot.on = 65
+; Outputs
+;
+  do.motor.on = 65
   do.error = 66
   do.cs = 67
   do.automatic = 68
@@ -13851,183 +13249,282 @@ any:
   do.power.on = 73
   do.emg = 74
   do.hold = 75
-  do.saf.fence = 76
+  do.safety.fence = 76
   do.bat.alarm = 77
+;
+  eo.grip.opened[1] = 81
+  eo.grip.opened[2] = 82
+  eo.grip.error = 83
+  eo.grip.sensor[1] = 84
+  eo.grip.sensor[2] = 85
+;
+  eo.cnc.ch.open[1] = 97
+  eo.cnc.ch.close[1] = 98
+  eo.cnc.ch.open[2] = 99
+  eo.cnc.ch.close[2] = 100
+  eo.cnc.mfinish = 101
+;
+  eo.robot.ready = 113
+  eo.task.exec = 114
+;
+  eo.shelf.opened[1] = 129
+  eo.shelf.opened[2] = 130
+  eo.shelf.opened[3] = 131
+  eo.shelf.opened[4] = 132
+;
+  eo.shelf.unlock[1] = 133
+  eo.shelf.unlock[2] = 134
+  eo.shelf.unlock[3] = 135
+  eo.shelf.unlock[4] = 136
+;eo.pg.started = 113
+;eo.pg.completed = 114
+;eo.process.err = 115
+;eo.pg.active = 116
+;eo.robot.ready = 117
+;;
+;; Task state
+;st.stocker.cell[1, 0] = 225
+;st.gripper[1, 0] = 481
+;st.cnc[1, 0] = 513
+;st.robot[0] = 545
+;st.changer[0] = 561
+;st.total.put[0] = 577
+;st.cur.cell.id[0] = 593
+;
+; Inputs
+;
+  di.ext.motor.on = 1065
+  di.ext.ereset = 1066
+  di.ext.cs = 1067
+  di.ext.pgreset = 1068
+  di.ext.hold = 1069
+  di.ext.motor.of = 1070
+;
+  ei.grip.open[1] = 1081
+  ei.grip.close[1] = 1082
+  ei.grip.open[2] = 1083
+  ei.grip.close[2] = 1084
+;;
+  ei.cnc.ch.opd[1] = 1097
+  ei.cnc.ch.clsd[1] = 1098
+  ei.cnc.ch.opd[2] = 1099
+  ei.cnc.ch.clsd[2] = 1100
+  ei.cnc.ready = 1101
+;
+  ei.task.start = 1113
+;
+  ei.shelf.ready[1] = 1129
+  ei.shelf.ready[2] = 1130
+  ei.shelf.ready[3] = 1131
+  ei.shelf.ready[4] = 1132
+;
+  ei.shelf.state[1] = 1133
+  ei.shelf.state[2] = 1134
+  ei.shelf.state[3] = 1135
+  ei.shelf.state[4] = 1136
+  ei.shelf.failed = 1137
+;ei.pg.start = 1113
+;ei.stocker.ena = 1114
+;ei.rotation.ena = 1115
+;ei.stocker.a = 1116
+;ei.stocker.b = 1117
+;ei.rotate.table = 1118
+;;ei.mv.home = 1119
+;ei.reset.states = 1120
+;ei.move.service = 1121
+;ei.move.home = 1122
+;;
+  ei.robot.speed[0] = 1225
+;; Task data
+;d.cnc1.jaws.ful[0] = 1225
+;d.cnc1.jaws.bod[0] = 1241
+;d.cnc2.jaws.ful[0] = 1257
+;d.cnc2.jaws.bod[0] = 1273
+;d.chg.jaws.full[0] = 1289
+;d.chg.jaws.body[0] = 1305
+;d.g1.jaws.full[0] = 1321
+;d.g1.jaws.body[0] = 1337
+;d.g2.jaws.full[0] = 1353
+;d.g2.jaws.body[0] = 1369
+;d.obj.new.len[0] = 1385
+;d.obj.new.d[0] = 1401
+;d.obj.pre.len[0] = 1417
+;d.obj.pre.d[0] = 1433
+;d.obj.fin.len[0] = 1449
+;d.obj.fin.d[0] = 1465
+;d.finger.len[0] = 1481
+;d.used.cells[0] = 1497
+;d.stack.enabled[0] = 1513
+;d.cnc1.air.ena[0] = 1529
+;d.cnc2.air.ena[0] = 1545
+;ei.mon.speed[0] = 1561
 ;
 ;
 ; Internal signals
-  int.grip.open[1] = 2133
-  int.grip.close[1] = 2134
-  int.grip.open[2] = 2135
-  int.grip.close[2] = 2136
+; IFP page change 2001-2008
+  di.ifp.page[1] = 2001
+  di.ifp.page[2] = 2002
+  di.ifp.page[3] = 2003
+  di.ifp.page[4] = 2004
+  di.ifp.page[5] = 2005
+  di.ifp.page[6] = 2006
+  di.ifp.page[7] = 2007
+  di.ifp.page[8] = 2008
 ;
+  s.shelf.failed = 2010
 ;
-; Output signals
-  o.grip.open[1] = 33
-  o.grip.close[1] = 34
-  o.grip.open[2] = 35
-  o.grip.close[2] = 36
-  o.air.open = 37
-  o.air.close = 38
+  s.pr.tch.shelf = 2100
+  s.pr.tst.shelf = 2101
+  s.hmi.tool.1 = 2102
+  s.hmi.chuck.1 = 2103
+  s.pr.tch.wp = 2104
+  s.pr.tst.wp = 2105
+  s.pr.home = 2106
+;s.pr.tch.appro = 2010
+;s.pr.tch.stock = 2011
+;s.pr.tch.cnc1 = 2012
+;s.pr.tch.cnc2 = 2013
+;s.pr.mv.a = 2014
+;s.pr.mv.b = 2015
+;s.pr.tch.cncin = 2016
+;s.pr.tch.chr = 2017
+;s.pr.tch.cnc = 2018
+;;
+;s.hmi.tool[1] = 2030
+;s.hmi.tool[2] = 2031
+;s.hmi.cnc[1] = 2032
+;s.hmi.cnc[2] = 2033
+;;
+;s.hmi.stack = 2034
+;;
+;s.search.fail = 2050
+;s.cnc.first.it[1] = 2051
+;s.cnc.first.it[2] = 2052
+;s.cnc.last.it[1] = 2053
+;s.cnc.last.it[2] = 2054
+;s.first.pick = 2055
+;s.inside.cnc[1] = 2056
+;s.inside.cnc[2] = 2057
+;s.stock.put.req = 2058
 ;
-  fo.grip.chk.err = 81
-  fo.grip.opened[1] = 82
-  fo.grip.closed[1] = 83
-  fo.grip.opened[2] = 84
-  fo.grip.closed[2] = 85
-  fo.grip.sensor = 86
-;
-  fo.cnc.chuck.op[1] = 113
-  fo.cnc.chuck.cl[1] = 114
-  fo.cnc.chuck.op[2] = 116
-  fo.cnc.chuck.cl[2] = 117
-  fo.mcode.fin = 118
-  fo.cnc.run = 119
-  fo.cnc.block = 120
-;
-  fo.cnc.pg[0] = 121
-;
-  fo.st.unlock[1] = 193
-  fo.st.unlock[2] = 194
-  fo.st.unlock[3] = 195
-  fo.st.unlock[4] = 196
-;
-  fo.st.opened[1] = 198
-  fo.st.opened[2] = 199
-  fo.st.opened[3] = 200
-  fo.st.opened[4] = 201
-;
-  fo.st.complete[1] = 209
-  fo.st.complete[2] = 210
-  fo.st.complete[3] = 211
-  fo.st.complete[4] = 212
-;
-  fo.stocker.work[1] = 225
-  fo.stocker.work[2] = 226
-  fo.stocker.work[3] = 227
-  fo.stocker.work[4] = 228
-;
-  fo.proc.on = 257
-  fo.proc.err = 258
-;
-  fo.de.robot.rdy = 297
-  fo.de.data.ack = 298
-;
-  fo.col.add = 261
-  fo.row.add = 260
-  fo.process.end = 262
-  fo.process.last = 263
-  fo.process.res = 264
-;
-  fo.pc.error = 273
-;
-  fo.detail.cnt[1] = 401
-  fo.detail.cnt[2] = 417
-  fo.detail.cnt[3] = 433
-  fo.detail.cnt[4] = 449
-;
-; Input signals
-  i.grip.opened[1] = 1033
-  i.grip.opened[2] = 1034
-  i.grip.sensor[1] = 1035
-  i.grip.sensor[2] = 1036
-;
-  fi.grip.check = 1081
-  fi.plc.g.open[1] = 1082
-  fi.plc.g.close[1] = 1083
-  fi.plc.g.open[2] = 1084
-  fi.plc.g.close[2] = 1085
-  fi.plc.g.etime[0] = 1086
-  fi.plc.g.otime[0] = 1097
-  fi.plc.g.ctime[0] = 1105
-;
-  fi.cnc.chuck.op[1] = 1113
-  fi.cnc.chuck.cl[1] = 1114
-  fi.cnc.chuck.er[1] = 1115
-  fi.cnc.chuck.op[2] = 1116
-  fi.cnc.chuck.cl[2] = 1117
-  fi.cnc.chuck.er[2] = 1118
-;fi.cnc.door.op      = 1116
-;fi.cnc.door.cl      = 1117
-;fi.cnc.door.er      = 1118
-  fi.cnc.ready = 1119
-  fi.cnc.blocked = 1120
-  fi.cnc.err = 1121
-  fi.cnc.ok = 1122
-;
-  fi.x.cor.cnc[1,0] = 1129
-  fi.x.cor.cnc[1,15] = 1144
-  fi.y.cor.cnc[1,0] = 1145
-  fi.y.cor.cnc[1,15] = 1160
-  fi.z.cor.cnc[1,0] = 1161
-  fi.z.cor.cnc[1,15] = 1176
-  fi.x.cor.cnc[2,0] = 1353
-  fi.x.cor.cnc[2,15] = 1368
-  fi.y.cor.cnc[2,0] = 1369
-  fi.y.cor.cnc[2,15] = 1384
-  fi.z.cor.cnc[2,0] = 1385
-  fi.z.cor.cnc[2,15] = 1400
-;
-  fi.cnc.put.ovp[0] = 1177
-  fi.cnc.pick.ovp[0] = 1185
-  fi.st.unlocked[1] = 1193
-  fi.st.unlocked[2] = 1194
-  fi.st.unlocked[3] = 1195
-  fi.st.unlocked[4] = 1196
-  fi.unlock.fail = 1197
-;
-  fi.st.search = 1208
-  fi.st.ready[1] = 1209
-  fi.st.ready[2] = 1210
-  fi.st.ready[3] = 1211
-  fi.st.ready[4] = 1212
-;
-  fi.st.task[1,0] = 1225
-  fi.st.task[2,0] = 1233
-  fi.st.task[3,0] = 1241
-  fi.st.task[4,0] = 1249
-;
-  fi.proc.start = 1257
-  fi.proc.reset = 1258
-  fi.proc.stop = 1259
-;
-  fi.robot.home = 1263
-;fi.robot.pgreset    = 1264
-;
-  fi.de.recipe[0] = 1273
-  fi.de.table.id[0] = 1281
-  fi.de.table.el[0] = 1289
-;
-  fi.de.start = 1297
-  fi.de.data.rdy = 1298
-;
-  fi.de.data[0] = 1305
-  fi.de.data[15] = 1320
-;
-  fi.mon.speed[0] = 1321
-;
-  fi.detail.cnt[1] = 1385
-  fi.detail.cnt[2] = 1401
-  fi.detail.cnt[3] = 1417
-  fi.detail.cnt[4] = 1433
-; service
-  fi.cnc.opened[1] = 1337
-  fi.cnc.closed[1] = 1338
-  fi.cnc.opened[2] = 1339
-  fi.cnc.closed[2] = 1340
+;do.workspace[1] = 2101
+;do.workspace[2] = 2102
+;do.workspace[3] = 2103
 .END
-.PROGRAM set.tool(.tool.no) #10
+.PROGRAM set.speed.pc()@26/02/14 17:02 #291629
+; Set speed from HMI at any time
+  .speed = BITS(ei.robot.speed[0],16)
+  .speed = MAXVAL(.speed,5)
+  .speed = MINVAL(.speed,100)
+  IF .speed<>MSPEED THEN
+    MON_SPEED .speed
+    CALL pclog1.pc("Speed"+$ENCODE(.speed)+" was applied")
+  END
 ;
-  TOOL tool.gripper[.tool.no]
+.END
+.PROGRAM set.tool(.tool.no)@26/02/14 22:38 #0
+;
+  IF .tool.no<>3 THEN
+    TOOL tool.gripper[.tool.no]
+  ELSE
+    TOOL tool.gripper[.tool.no]+TRANS(0,0,finger.length)
+  END
   WEIGHT 20,0,0,100,0.1,0.1,0.1
   current.tool = .tool.no
 ;
   CALL log("Tool #"+$ENCODE(/L,.tool.no)+" set")
 ;
 .END
-.PROGRAM shelf.open(.shelf.no) #1
+.PROGRAM set.vars.pc()@26/02/14 17:02 #1
 ;
-  .shelf.no = 4
+  IF NOT EXISTCHAR("$log.entry[255]") THEN
+    FOR .i = 0 TO 256
+      $log.entry[.i] = " "
+    END
+  END
+;
+  finger.length = 55
+;grip.open.tmo = 
+.END
+.PROGRAM shelf.close(.shelf.no)@26/02/14 22:38 #0
+;
+  CALL log("Closing shelf"+$ENCODE(.shelf.no))
+;
+  SPEED 60 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool(3)
+; gripper.no, time, reverse
+  CALL gripper.close(1,0,FALSE)
+  CALL gripper.close(2,0,FALSE)
+;
+  POINT .start = shelf.close[.shelf.no,1]
+  POINT .end = shelf.close[.shelf.no,2]
+;
+  JMOVE #shelf.safe
+  $safe.flag = "shelf.safe"
+;
+  LMOVE .start+TRANS(150,0,-50)
+  LMOVE .start+TRANS(-50,0,-50)
+  LMOVE .start+TRANS(-50,0,0)
+  BREAK
+; Open shelf
+  CALL log("Request unlock shelf"+$ENCODE(.shelf.no))
+  SIGNAL eo.shelf.unlock[.shelf.no]
+  WAIT BITS(ei.shelf.state[1],5)<>0
+;
+  IF NOT SIG(ei.shelf.failed) THEN
+;
+    CALL log("Shelf"+$ENCODE(.shelf.no)+" successfully unlocked")
+;
+    SPEED 50 MM/S
+    ACCURACY 0.1
+    LMOVE .start
+    BREAK
+    $safe.flag = "shelf.closing"
+    IF kroset THEN
+      SIGNAL k.shelf.pick
+    END
+;
+    SPEED 100 MM/S
+    ACCURACY 0.1
+    LMOVE .end
+    BREAK
+    $safe.flag = "shelf.closed"
+    IF kroset THEN
+      SIGNAL -k.shelf.pick
+    END
+;
+    SPEED 50 MM/S
+    ACCURACY 0.1
+    LMOVE .end+TRANS(-50,0,0)
+    BREAK
+;
+    SIGNAL -eo.shelf.unlock[.shelf.no]
+    SIGNAL -eo.shelf.opened[.shelf.no]
+;
+    ACCURACY 0.1
+    LMOVE .end+TRANS(-50,0,-150)
+;
+    LMOVE #shelf.safe
+    $safe.flag = "shelf.safe"
+;
+    RETURN
+  ELSE
+    CALL log("Failed to open shelf"+$ENCODE(.shelf.no)+". Task will be stopped")
+    SIGNAL s.shelf.failed
+    SIGNAL -eo.shelf.unlock[.shelf.no]
+    ACCURACY 0.1
+    LMOVE .start+TRANS(-50,0,-50)
+    LMOVE .start+TRANS(150,0,-50)
+    JMOVE #shelf.safe
+    $safe.flag = "shelf.safe"
+    JMOVE #homyak
+    JMOVE #homyak.sby
+  END
+;
+.END
+.PROGRAM shelf.open(.shelf.no)@26/02/14 22:38 #0
+;
   CALL log("Opening shelf"+$ENCODE(.shelf.no))
 ;
   SPEED 60 ALWAYS
@@ -14046,969 +13543,1590 @@ any:
   LMOVE .start+TRANS(-50,0,-150)
   LMOVE .start+TRANS(-50,0,0)
   BREAK
+; Open shelf
+  CALL log("Request unlock shelf"+$ENCODE(.shelf.no))
+  SIGNAL eo.shelf.unlock[.shelf.no]
+  WAIT BITS(ei.shelf.state[1],5)<>0
 ;
-  SPEED 50 MM/S
-  ACCURACY 0.1
-  LMOVE .start
-  BREAK
+  IF NOT SIG(ei.shelf.failed) THEN
 ;
-  SPEED 100 MM/S
-  ACCURACY 0.1
-  LMOVE .end
-  BREAK
+    CALL log("Shelf"+$ENCODE(.shelf.no)+" successfully unlocked")
 ;
-  SPEED 50 MM/S
-  ACCURACY 0.1
-  LMOVE .end+TRANS(-50,0,0)
+    SPEED 50 MM/S
+    ACCURACY 0.1
+    LMOVE .start
+    BREAK
+    $safe.flag = "shelf.opening"
+    IF kroset THEN
+      SIGNAL k.shelf.pick
+    END
 ;
-  ACCURACY 0.1
-  LMOVE .end+TRANS(-50,0,-50)
-  LMOVE .end+TRANS(150,0,-50)
+    SPEED 100 MM/S
+    ACCURACY 0.1
+    LMOVE .end
+    BREAK
+    $safe.flag = "shelf.opened"
+    IF kroset THEN
+      SIGNAL -k.shelf.pick
+    END
 ;
-  LMOVE #shelf.safe
+    SPEED 50 MM/S
+    ACCURACY 0.1
+    LMOVE .end+TRANS(-50,0,0)
+    BREAK
 ;
-.END
-.PROGRAM stocker.check(.s.no,.result) #0;
-  IF NOT SIG(fi.st.check) THEN
+    SIGNAL -eo.shelf.unlock[.shelf.no]
+    SIGNAL eo.shelf.opened[.shelf.no]
+;
+    ACCURACY 0.1
+    LMOVE .end+TRANS(-50,0,-50)
+    LMOVE .end+TRANS(150,0,-50)
+;
+    LMOVE #shelf.safe
+    $safe.flag = "shelf.safe"
+;
     RETURN
-  END
-  IF SIG(fo.st.opened[.s.no]) THEN
-    POINT temp = stocker.close[.s.no,1]
   ELSE
-    POINT temp = stocker.open[.s.no,1]
+    CALL log("Failed to open shelf"+$ENCODE(.shelf.no)+". Task will be stopped")
+    SIGNAL s.shelf.failed
+    SIGNAL -eo.shelf.unlock[.shelf.no]
+    ACCURACY 0.1
+    LMOVE .start+TRANS(-50,0,-150)
+    JMOVE #shelf.safe
+    $safe.flag = "shelf.safe"
+    JMOVE #homyak
+    JMOVE #homyak.sby
   END
-  CALL set.tool(4)
-  LAPPRO temp,80
-  BREAK
-  SOUT fo.st.error.pt = i.grip.oldsenso
+;
 .END
-.PROGRAM stocker.close(.s.no) #104;
-; .s.no - Stocker № (1-4)
+.PROGRAM shelf.teach()@26/02/14 22:38 #0
 ;
-  safe.st = .s.no
-  $safe.flag = "stocker.start"
-  CALL log("Program: Close stocker "+$ENCODE(.s.no))
-  CALL gripper.close(1,FALSE)
-  CALL gripper.close(2,FALSE)
-;
-  IF FALSE THEN
-    .s.no = 1
-    GOTO dbg
-    .s.no = 2
-    GOTO dbg
-    .s.no = 3
-    GOTO dbg
-    .s.no = 4
-    GOTO dbg
-  END
-dbg:
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
+  CALL check.teach.lim
   CALL set.tool(3)
+; gripper.no, time, reverse
+  CALL gripper.close(1,0,FALSE)
+  CALL gripper.close(2,0,FALSE)
 ;
-  JMOVE #stocker.safe
-  $safe.flag = "stocker.safe"
+  JMOVE #shelf.safe
 ;
-  ACCURACY accu.fine
-  JAPPRO stocker.open[.s.no,2],len.finger
-  LMOVE SHIFT(stocker.open[.s.no,2] BY 0,len.finger,-50)
-  LMOVE SHIFT(stocker.open[.s.no,2] BY 0,0,-50)
-  $safe.flag = "stocker.close.above"
-;IF .s.no == 1 THEN
-;  $safe.flag = "stocker.close.above1"
-;END
-  BREAK
-  CALL stocker.unlock(.s.no)
+; Teach points for open shelf
+  LMOVE shelf.open[hmi.shelf.no,1]+TRANS(-50,0,-150)
+  LMOVE shelf.open[hmi.shelf.no,1]+TRANS(-50,0,0)
+  LMOVE shelf.open[hmi.shelf.no,1]; **== TEACH POINT ==**
+  SIGNAL eo.shelf.unlock[hmi.shelf.no]
+  WAIT BITS(ei.shelf.state[1],4)<>0
+  LMOVE shelf.open[hmi.shelf.no,2]; **== TEACH POINT ==**
+  LMOVE shelf.open[hmi.shelf.no,2]+TRANS(-50,0,0)
+  LMOVE shelf.open[hmi.shelf.no,2]+TRANS(-50,0,-50)
+  LMOVE shelf.open[hmi.shelf.no,2]+TRANS(150,0,-50)
+  SIGNAL -eo.shelf.unlock[hmi.shelf.no]
 ;
-  IF NOT SIG(fi.unlock.fail) THEN
+; Teach points for close shelf
+  LMOVE shelf.close[hmi.shelf.no,1]+TRANS(150,0,-50)
+  LMOVE shelf.close[hmi.shelf.no,1]+TRANS(-50,0,-50)
+  LMOVE shelf.close[hmi.shelf.no,1]+TRANS(-50,0,0)
+  LMOVE shelf.close[hmi.shelf.no,1]; **== TEACH POINT ==**
+  SIGNAL eo.shelf.unlock[hmi.shelf.no]
+  WAIT BITS(ei.shelf.state[1],4)<>0
+  LMOVE shelf.close[hmi.shelf.no,2]; **== TEACH POINT ==**
+  LMOVE shelf.close[hmi.shelf.no,2]+TRANS(-50,0,0)
+  LMOVE shelf.close[hmi.shelf.no,2]+TRANS(-50,0,-150)
+  SIGNAL -eo.shelf.unlock[hmi.shelf.no]
 ;
-    SPEED spd.small
-    ACCURACY accu.fine
-    LMOVE stocker.open[.s.no,2]
-    $safe.flag = "stocker.close1"
-;IF .s.no == 1 THEN
-;  $safe.flag = "stocker.close11" 
-;END
-    BREAK
-;
-    CALL log("Stocker "+$ENCODE(.s.no)+" unlocked")
-    SPEED spd.medium
-    ACCURACY accu.fine
-    LMOVE stocker.open[.s.no,1]
-    $safe.flag = "stocker.close2"
-    BREAK
-;
-    SPEED spd.medium
-    ACCURACY accu.fine
-    LMOVE SHIFT(stocker.open[.s.no,1] BY 0,0,-50)
-    LMOVE SHIFT(stocker.open[.s.no,1] BY 0,len.finger+15,-50)
-    LAPPRO stocker.open[.s.no,1],len.finger+15
-    $safe.flag = "stocker.close.below"
-    BREAK
-    LMOVE stocker.open[.s.no,1]+TRANS(-350,0,-len.finger+15)
-    $safe.flag = "stocker.close.before"
-    SIGNAL -fo.st.unlock[.s.no]
-    SIGNAL -fo.st.opened[.s.no]
-  ELSE
-    CALL log("Failed to unlock stocker "+$ENCODE(.s.no))
-;IF .s.no == 1 THEN
-;  JMOVE #kostil1
-;  $safe.flag = "stocker.close.k1"
-;  JMOVE #kostil2
-;  $safe.flag = "stocker.close.k2"
-;  JMOVE #kostil3
-;  $safe.flag = "stocker.close.k3"
-;END
-  END
-;
-  BREAK
-  JMOVE #stocker.safe
+  JMOVE #shelf.safe
 ;
 .END
-.PROGRAM stocker.get.cor(.s.id,.s.no) #3;
-  CASE .s.no OF
-   VALUE 1:
-    x.cor.stocker = corr.data[.s.id,1]
-    y.cor.stocker = corr.data[.s.id,2]
-    z.cor.stocker = corr.data[.s.id,3]
-   VALUE 2:
-    x.cor.stocker = corr.data[.s.id,4]
-    y.cor.stocker = corr.data[.s.id,5]
-    z.cor.stocker = corr.data[.s.id,6]
-   VALUE 3:
-    x.cor.stocker = corr.data[.s.id,7]
-    y.cor.stocker = corr.data[.s.id,8]
-    z.cor.stocker = corr.data[.s.id,9]
-   VALUE 4:
-    x.cor.stocker = corr.data[.s.id,10]
-    y.cor.stocker = corr.data[.s.id,11]
-    z.cor.stocker = corr.data[.s.id,12]
-  END
-.END
-.PROGRAM stocker.open(.s.no) #188;
-  safe.st = .s.no
-; .s.no - Stocker № (1-4)
+.PROGRAM shelf.test()@26/02/14 22:38 #0
 ;
-  $safe.flag = "stocker.start"
-;IF .s.no == 1 THEN
-;  $safe.flag = "stocker2" mCODE
-;END
-  CALL log("Program: Open stocker "+$ENCODE(.s.no))
-  CALL gripper.close(1,FALSE)
-  CALL gripper.close(2,FALSE)
-;
-  IF FALSE THEN
-    .s.no = 1
-    GOTO dbg
-    .s.no = 2
-    GOTO dbg
-    .s.no = 3
-    GOTO dbg
-    .s.no = 4
-    GOTO dbg
-  END
-dbg:
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-  CALL set.tool(3)
-;
-  JMOVE #stocker.safe
-  $safe.flag = "stocker.safe"
-;
-  ACCURACY accu.big
-  JMOVE stocker.open[.s.no,1]+TRANS(-350,0,-len.finger)
-  $safe.flag = "stocker.open.before"
-  ACCURACY accu.fine
-  LAPPRO stocker.open[.s.no,1],70
-  LMOVE SHIFT(stocker.open[.s.no,1] BY 0,len.finger,-50)
-  LMOVE SHIFT(stocker.open[.s.no,1] BY 0,0,-50)
-  $safe.flag = "stocker.open.below"
-  BREAK
-  CALL stocker.unlock(.s.no)
-;
-  IF NOT SIG(fi.unlock.fail) THEN
-    SPEED spd.small
-    ACCURACY accu.fine
-    LMOVE stocker.open[.s.no,1]
-    $safe.flag = "stocker.open1"
-    BREAK
-;
-    CALL log("Stocker "+$ENCODE(.s.no)+" unlocked")
-    SPEED spd.medium
-    ACCURACY accu.fine
-    LMOVE stocker.open[.s.no,2]
-    $safe.flag = "stocker.open2"
-    BREAK
-;
-    SPEED spd.medium
-    ACCURACY accu.big
-    LMOVE SHIFT(stocker.open[.s.no,2] BY 0,0,-50)
-    LMOVE SHIFT(stocker.open[.s.no,2] BY 0,len.finger,-50)
-    LAPPRO stocker.open[.s.no,2],len.finger
-    LMOVE SHIFT(stocker.open[.s.no,2] BY 0,len.finger,100)
-    $safe.flag = "stocker.open.above"
-;IF .s.no==1 THEN
-;  $safe.flag = "stocker.open.above1"
-;END
-    BREAK
-;IF .s.no==1 THEN
-;  JMOVE #kostil1
-;  $safe.flag = "stocker.open.k1"
-;  JMOVE #kostil2
-;  $safe.flag = "stocker.open.k2"
-;  JMOVE #kostil3
-;  $safe.flag = "stocker.open.k3"
-;END
-    SIGNAL -fo.st.unlock[.s.no]
-    SIGNAL fo.st.opened[.s.no]
-  ELSE
-    CALL log("Failed to unlock stocker "+$ENCODE(.s.no))
-;ACCURACY accu.fine
-;LAPPRO stocker.open[.s.no, 1], 30
-;$safe.flag = "stocker.open.below"
-;BREAK
-    LMOVE SHIFT(stocker.open[.s.no,2] BY 0,0,-50)
-    LMOVE SHIFT(stocker.open[.s.no,2] BY 0,70,-50)
-    LMOVE stocker.open[.s.no,1]+TRANS(-350,0,-70)
-    $safe.flag = "stocker.open.below"
-  END
-;
-  JMOVE #stocker.safe
-  JMOVE #kostil_n[1]
-  $safe.flag = "stocker.safe"
+  CALL shelf.open(hmi.shelf.no)
+  CALL shelf.close(hmi.shelf.no)
 ;
 .END
-.PROGRAM stocker.pick(.s.no,.g.no,.h) #1753;
-; .s.no - Stocker № (1-4)
-; .g.no - Gripper № (1-2)
-; .row - Stocker row
-; .col - Stocker column
-; .h - Detail height 
-;
-  .$str = "Stocker pick St = "+$ENCODE(.s.no)
-  .$str = .$str+" G = "+$ENCODE(.g.no)
-  .$str = .$str+" Row = "+$ENCODE(current.row)
-  .$str = .$str+" Col = "+$ENCODE(current.col)
-  .$str = .$str+" H = "+$ENCODE(.h)
-  CALL log(.$str)
-;
-; Get data
-  lx = stocker.lx
-  ly = stocker.ly
-  l.even = stocker.l.even
-  g.cf = chuck.g.full[.g.no]
-  g.cw = chuck.g.work[.g.no]
-  s.delta.x = stocker.dx
-  s.delta.y = stocker.dy
-;
-; Calculation
-;CALL stocker.get.cor(stocker.id,.s.no)
-  IF current.col%2<>0 THEN
-    pick.shift.x = (current.row-1)*lx
-  ELSE
-    pick.shift.x = (current.row-1)*lx+l.even
-  END
-;
-  pick.shift.x = pick.shift.x+stock.absx+x.cor.stocker+s.delta.x
-  pick.shift.y = (current.col-1)*ly+stock.absy+y.cor.stocker+s.delta.y
-  pick.shift.z = .h+(g.cf-g.cw)+z.cor.stocker
-;
-;.H1 = detail.l1, g.cf = chuck.g.full[.g.no], g.cw = chuck.g.work[.g.no]
-;pick.shift.z = .H + (g.cf - g.cw) + z.cor.stocker
-; #kostil_n
-  CALL gripper.open(.g.no,FALSE)
-; Set motion aux defaults
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-  BREAK
-  CALL set.tool(.g.no)
-;TOOL tool.gripper[.g.no]
-; Motion
-  SPEED spd.max ALWAYS
-  ACCURACY accu.big ALWAYS
-  JAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),100
-  $safe.flag = "stocker.any"
-;
-  SPEED spd.small
-  ACCURACY accu.fine
-  JAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),30
-  POINT dest.point = stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z+10)
-;LMOVE .dest.point
-  CALL sensing(dest.point,.g.no)
-;
-;SPEED spd.small
-;ACCURACY accu.fine
-;LMOVE stocker.frame[.s.no, stocker.id] + TRANS (pick.shift.x, pick.shift.y, -pick.shift.z)
-;XMOVE stocker.frame[.s.no,stocker.id]+TRANS() TILL i.grip.sensor[.g.no]
-;
-  BREAK
-  CALL gripper.close(.g.no,FALSE)
-  CALL add.current
-  BREAK
-  TWAIT 0.1
-;
-  IF state==1 THEN
-    state = 2
-  END
-  IF state==5 THEN
-    state = 6
-  END
-  IF state==16 THEN
-    state = 17
-  END
-;
-  SPEED spd.small
-  ACCURACY accu.fine
-  LAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),30
-;
-  LAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),40
-  JMOVE #stocker.safe
-;
-.END
-.PROGRAM stocker.put(.s.no,.g.no,.h) #1605;
-; .s.no - Stocker № (1-4)
-; .g.no - Gripper № (1-2)
-; .row - Stocker row
-; .col - Stocker column
-; .h - Detail height
-;
-  .$str = "Stocker put St = "+$ENCODE(.s.no)
-  .$str = .$str+" G = "+$ENCODE(.g.no)
-  .$str = .$str+" Row = "+$ENCODE(last.row)
-  .$str = .$str+" Col = "+$ENCODE(last.col)
-  .$str = .$str+" H = "+$ENCODE(.h)
-  CALL log(.$str)
-;
-; Get data
-  lx = stocker.lx
-  ly = stocker.ly
-  l.even = stocker.l.even
-  g.cf = chuck.g.full[.g.no]
-  g.cw = chuck.g.work[.g.no]
-  s.delta.x = stocker.dx
-  s.delta.y = stocker.dy
-;
-; Calculation
-;CALL stocker.get.cor(stocker.id,.s.no)
-  IF current.col%2<>0 THEN
-    pick.shift.x = (last.row-1)*lx
-  ELSE
-    pick.shift.x = (last.row-1)*lx+l.even
-  END
-;
-  pick.shift.x = pick.shift.x+stock.absx+x.cor.stocker+put.cor.x[.s.no]+s.delta.x
-  pick.shift.y = (last.col-1)*ly+stock.absy+y.cor.stocker+put.cor.y[.s.no]+s.delta.y
-  pick.shift.z = .h+(g.cf-g.cw)+z.cor.stocker
-;
-; Set motion aux defaults
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-  CALL set.tool(.g.no)
-;TOOL tool.gripper[.g.no]
-; Motion
-  JMOVE #kostil_n[1]
-;JMOVE #stocker.safe
-  $safe.flag = "stocker.any"
-  SPEED spd.max ALWAYS
-  ACCURACY accu.big ALWAYS
-  JAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),50
-;
-  SPEED spd.small
-  ACCURACY accu.fine
-  JAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),30
-  POINT dest.point = stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z+10)
-  CALL sensing(dest.point,.g.no)
+.PROGRAM state0()@26/02/14 22:38 #0; Inititalization of parameters and waiting for progeam start
 ; 
-  BREAK
-  CALL gripper.open(.g.no,FALSE)
-  BREAK
-  TWAIT 0.1
-  CALL add.last
-  IF state==10 THEN
-    state = 11
-  END
-  IF state==13 THEN
-    state = 14
-  END
-  IF state==15 THEN
-    state = 16
-  END
+  CALL log("State 0: Initialization")
 ;
-  SPEED spd.small
-  ACCURACY accu.fine
-  LAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),30
+  SIGNAL eo.robot.ready
+  CALL log("Waiting for task start")
+  SWAIT ei.task.start
 ;
-  LAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),100
-  JMOVE #stocker.safe
-  JMOVE #kostil_n[1]
+; Resetting signals
+  SIGNAL -s.shelf.failed
+;
+  SIGNAL -eo.robot.ready
+  SIGNAL eo.task.exec
+;
+;
+  gripper.id[1] = 0
+  gripper.id[2] = 0
+  cnc.id[1] = 0
+  cnc.id[2] = 0
+;
+;
+  current.shelf = 1
+;
+  state = 1
+  RETURN
 ;
 .END
-.PROGRAM stocker.search(.s.no) #6;
-  $safe.flag = "stocker.any"
-  CALL log("Search started")
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-  CALL set.tool(4)
+.PROGRAM state1()@26/02/14 22:38 #0; Check ready shelves
 ;
-  detail.count = 0
-;
-  JMOVE #stocker.safe
-  FOR .row = 1 TO stocker.m
-    IF .row MOD 2==0 THEN
-      FOR .col = 1 TO stocker.n.even
-        CALL stocker.sense(.s.no,.row,.col,detail.l1,.stop)
-        IF .stop THEN
-          CALL log("Count finished. Found "+$ENCODE(detail.count))
-          JMOVE #stocker.safe
-          RETURN
-        END
-      END
-    ELSE
-      FOR .col = 1 TO stocker.n.even
-        CALL stocker.sense(.s.no,.row,.col,detail.l1,.stop)
-        IF .stop THEN
-          CALL log("Count finished. Found "+$ENCODE(detail.count))
-          JMOVE #stocker.safe
-          RETURN
-        END
-      END
+  CALL log("State 1: Check ready shelves")
+  WHILE TRUE DO
+    IF SIG(ei.shelf.ready[current.shelf]) THEN
+      CALL log("Shelf"+$ENCODE(current.shelf)+" is ready. Working!")
+      state = 100
+      RETURN
+    END
+    current.shelf = current.shelf+1
+    IF current.shelf==5 THEN
+      current.shelf = 1
     END
   END
-.END
-.PROGRAM stocker.sense(.s.no,.row,.col,.h,.stop) #15;
-  .$str = "Stocker search St = "+$ENCODE(.s.no)
-  .$str = .$str+" Row = "+$ENCODE(.row)
-  .$str = .$str+" Col = "+$ENCODE(.col)
-  .$str = .$str+" H = "+$ENCODE(.h)
-  CALL log(.$str)
-  $safe.flag = "stocker.any"
 ;
-; Get data
-  lx = stocker.lx
-  ly = stocker.ly
-  l.even = stocker.l.even
+.END
+.PROGRAM state100()@26/02/14 22:38 #0; Decision making module
+;
+  CALL log("State 100: Decision making module")
+  state = 101
+  RETURN
+;
+.END
+.PROGRAM state101()@26/02/14 22:38 #0; Decision making module
+;
+  .c1 = SIG(eo.shelf.opened[current.shelf])
+; Open shelf if not opened 
+  IF NOT .c1 THEN
+    state = 2
+    RETURN
+  END
+;
+;IF .c1 
+;
+  state = 7
+;
+.END
+.PROGRAM state2()@26/02/14 22:38 #0; Open shelf
+;
+  CALL log("State 2: Open shelf")
+  CALL shelf.open(current.shelf)
+;
+  IF NOT SIG(s.shelf.failed) THEN
+    state = 100
+    RETURN
+  ELSE
+    state = 255
+    RETURN
+  END
+;
+.END
+.PROGRAM state255()@26/02/14 22:38 #0; Task finished
+;
+  CALL log("State 255: Task complete")
+;
+  SIGNAL -eo.task.exec
+;
+  state = 0
+  RETURN
+;
+.END
+.PROGRAM state7()@26/02/14 22:38 #0; Close shelf
+;
+  CALL log("State 7: Close shelf")
+  CALL shelf.close(current.shelf)
+;
+  IF NOT SIG(s.shelf.failed) THEN
+    state = 1
+    RETURN
+  ELSE
+    state = 255
+    RETURN
+  END
+;
+.END
+.PROGRAM watchdog.pc()@26/02/14 17:02 #0
+  WHILE TRUE DO
+;
+;IF kroset THEN
+;  CALL kroset.pc
+;END
+;
+    IF NOT SWITCH(REPEAT ) THEN
+      CALL check.teach.pc
+    END
+;CALL send.plc.pc
+; Signal retranslation
+;IF SIG (di.ext.ereset) THEN
+;  SIGNAL -eo.process.err
+;  SIGNAL -eo.grip.error
+;END
+;
+;IF SIG (ei.reset.states) THEN
+;  CALL log ("Request reset from HMI")
+;  CALL data.reset
+;END
+;
+;.c = SIG (do.automatic) AND NOT SWITCH(CS)
+;IF .c AND SIG (ei.move.service) AND SIG(do.home) THEN
+;  MC ZPOWER ON
+;  WAIT SWITCH (POWER)
+;  TWAIT 0.1
+;  MC EXECUTE move.service
+;  WAIT NOT SWITCH(CS)
+;  TWAIT 0.5
+;  MC PRIME a.main
+;END
+;IF .c AND SIG (ei.move.home) THEN
+;  MC ZPOWER ON
+;  WAIT SWITCH (POWER)
+;  TWAIT 0.1
+;  MC EXECUTE safe.home
+;  WAIT NOT SWITCH(CS)
+;  TWAIT 0.5
+;  MC PRIME a.main
+;END
+;IF .c AND SIG (ei.rotate.table) AND SIG(do.home)  THEN
+;  MC ZPOWER ON
+;  WAIT SWITCH (POWER)
+;  TWAIT 0.1
+;  MC EXECUTE stocker.rotate
+;  WAIT NOT SWITCH(CS)
+;  TWAIT 0.5
+;  MC PRIME a.main
+;END
+;
+    CALL set.speed.pc
+;
+    TWAIT 0.1
+  END
+.END
+.PROGRAM wp.pick(.shelf.no,.tool.no,.wp.no)@26/02/14 22:54 #0
+;
+  .$temp = "Pick workpiece. Shelf:"+$ENCODE(.shelf.no)
+  .$temp = .$temp+" Tool:"+$ENCODE(.tool.no)
+  .$temp = .$temp+" ID:"+$ENCODE(.wp.no)
+  CALL log(.$temp)
+;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool(.tool.no)
+; gripper.no, time, reverse
+  CALL gripper.open(.tool.no,0,FALSE)
+;
+  CALL id.to.ij(.wp.no,.i,.j)
+;
+  IF kroset THEN
+    .epsilon = -1
+  ELSE
+    .epsilon = pick.epsilon
+  END
+;
+; Calculate shifts
+  .dx = plate.dx*.i
+  IF .i MOD 2==0 THEN
+    .dy = plate.dy*.j
+  ELSE
+    .dy = plate.dy*.j+plate.e.dy
+  END
+  .dz = wp.in.length+grip.jaws.body[.tool.no]-shelf.pick.ovlp ;
+  .z.appro = grip.jaws.full[.tool.no]+10
+;
+; Calculate points
+  POINT .temp = shelf.frame[.shelf.no,.tool.no,plate.id]
+  POINT .x.pick = .temp+TRANS(.dx,-.dy,-.dz)
+; Approach
+  JMOVE #wp.safe[.tool.no]
+  JAPPRO .x.pick,.z.appro
+; Check if gripper is opened
+  CALL gripper.is.open(.tool.no)
+  IF SIG(eo.grip.error) THEN
+; Return home if not. Error
+    JMOVE #wp.safe[.tool.no]
+    JMOVE #homyak
+    RETURN
+  END
+;
+  SPEED pick.speed MM/S
+  XMOVE .x.pick TILL gripper.sensor[.tool.no]
+  BREAK
+  TWAIT 0.1
+  HERE .current
+;
+  .d = DISTANCE(.current,.x.pick)
+  CALL log("Distance:"+$ENCODE(.d))
+  IF DISTANCE(.current,.x.pick)<=.epsilon THEN
+    CALL log("Detail search failed, move to the next pick")
+    SIGNAL s.search.fail
+  ELSE
+    CALL log("Detail found")
+    CALL gripper.close(.tool.no,0.75,FALSE)
+    gripper.id[.tool.no] = .wp.no
+  END
+;
+  SPEED 20
+  LAPPRO .x.pick,.z.appro
+  LMOVE #wp.safe[.tool.no]
+;
+.END
+.PROGRAM wp.put(.shelf.no,.tool.no,.wp.no)@26/02/14 22:54 #0
+;
+  .$temp = "Put workpiece. Shelf:"+$ENCODE(.shelf.no)
+  .$temp = .$temp+" Tool:"+$ENCODE(.tool.no)
+  .$temp = .$temp+" ID:"+$ENCODE(.wp.no)
+  CALL log(.$temp)
+;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool(.tool.no)
+;
+  CALL id.to.ij(.wp.no,.i,.j)
+;
+; Calculate shifts
+  .dx = plate.dx*.i
+  IF .i MOD 2==0 THEN
+    .dy = plate.dy*.j
+  ELSE
+    .dy = plate.dy*.j+plate.e.dy
+  END
+  .dz = wp.out.length+grip.jaws.body[.tool.no]-shelf.put.ovlp ;
+  .z.appro = grip.jaws.full[.tool.no]+10
+;
+; Calculate points
+  POINT .temp = shelf.frame[.shelf.no,.tool.no,plate.id]
+  POINT .x.put = .temp+TRANS(.dx,-.dy,-.dz)
+; Approach
+  JMOVE #wp.safe[.tool.no]
+  JAPPRO .x.put,.z.appro
+;
+  SPEED put.speed MM/S
+  XMOVE .x.put TILL gripper.sensor[.tool.no]
+  BREAK
+  TWAIT 0.1
+  CALL gripper.open(.tool.no,0.75,FALSE)
+;
+  SPEED 20
+  LAPPRO .x.put,.z.appro
+  LMOVE #wp.safe[.tool.no]
+;
+.END
+.PROGRAM wp.teach()@26/02/14 23:08 #0
+;
+  CALL check.teach.lim
+;
+  IF SIG(s.hmi.tool.1) THEN
+    .tool = 1
+    .gc.full = hmi.gc1.full
+    .gc.body = hmi.gc1.body
+  ELSE
+    .tool = 2
+    .gc.full = hmi.gc2.full
+    .gc.body = hmi.gc2.body
+  END
+  CALL set.tool(.tool)
+;
+  JMOVE #wp.safe[.tool]
+;
+  JAPPRO #shelf.point.o[hmi.shelf.no,.tool,hmi.plate.id],.gc.full
+  LMOVE #shelf.point.o[hmi.shelf.no,.tool,hmi.plate.id]; **== TEACH POINT ==**
+  LAPPRO #shelf.point.o[hmi.shelf.no,.tool,hmi.plate.id],.gc.full
+;
+  JAPPRO #shelf.point.x[hmi.shelf.no,.tool,hmi.plate.id],.gc.full
+  LMOVE #shelf.point.x[hmi.shelf.no,.tool,hmi.plate.id]; **== TEACH POINT ==**
+  LAPPRO #shelf.point.x[hmi.shelf.no,.tool,hmi.plate.id],.gc.full
+;
+  JAPPRO #shelf.point.y[hmi.shelf.no,.tool,hmi.plate.id],.gc.full
+  LMOVE #shelf.point.y[hmi.shelf.no,.tool,hmi.plate.id]; **== TEACH POINT ==**
+  LAPPRO #shelf.point.y[hmi.shelf.no,.tool,hmi.plate.id],.gc.full
 ;
 ; Calculation
-;CALL stocker.get.cor (stocker.id, .s.no)
-  IF .col%2<>0 THEN
-    pick.shift.x = (.row-1)*lx
-  ELSE
-    pick.shift.x = (.row-1)*lx+l.even
+  .z.shift = hmi.wp.length+.gc.body
+  POINT .po = #shelf.point.o[hmi.shelf.no,.tool,hmi.plate.id]
+  POINT .px = #shelf.point.x[hmi.shelf.no,.tool,hmi.plate.id]
+  POINT .py = #shelf.point.y[hmi.shelf.no,.tool,hmi.plate.id]
+  POINT .f = FRAME(.po,.px,.py,.py)
+  POINT .f = .f+TRANS(0,0,.z.shift)
+  POINT shelf.frame[hmi.shelf.no,.tool,hmi.plate.id] = .f
+;
+; Check
+  IF kroset THEN
+    POINT .temp1 = shelf.frame[hmi.shelf.no,.tool,hmi.plate.id]
+    POINT .temp2 = .temp1+TRANS(390,0,0)
+    POINT .temp3 = .temp1+TRANS(0,-520,0)
+    POINT .temp4 = .temp1+TRANS(390,-520,0)
+;
+    LAPPRO .temp1,.z.shift+.gc.full
+    LMOVE .temp1
+    LAPPRO .temp1,.z.shift+.gc.full
+;
+    LAPPRO .temp2,.z.shift+.gc.full
+    LMOVE .temp2
+    LAPPRO .temp2,.z.shift+.gc.full
+;
+    LAPPRO .temp3,.z.shift+.gc.full
+    LMOVE .temp3
+    LAPPRO .temp3,.z.shift+.gc.full
+;
+    LAPPRO .temp4,.z.shift+.gc.full
+    LMOVE .temp4
+    LAPPRO .temp4,.z.shift+.gc.full
+;  
+;ELSE
+;  
+;  .z.shift = hmi.wp.length + .gc.body
+;  POINT .temp1 = shelf.frame[hmi.shelf.no, .tool, hmi.plate.id] + TRANS(0, 0, -.z.shift)
+;  POINT .temp2 = .temp1 + TRANS (390, 0)
+;  POINT .temp3 = .temp1 + TRANS (0, -520)
+;  POINT .temp4 = .temp1 + TRANS (390, -520)
+;  
+;  LAPPRO .temp1, .gc.full
+;  LMOVE .temp1
+;  LAPPRO .temp1, .gc.full
+;  
+;  LAPPRO .temp2, .gc.full
+;  LMOVE .temp2
+;  LAPPRO .temp2, .gc.full
+;  
+;  LAPPRO .temp3, .gc.full
+;  LMOVE .temp3
+;  LAPPRO .temp3, .gc.full
+;  
+;  LAPPRO .temp4, .gc.full
+;  LMOVE .temp4
+;  LAPPRO .temp4, .gc.full
   END
 ;
-  pick.shift.x = pick.shift.x+stock.absx+x.cor.stocker
-  pick.shift.y = (.col-1)*ly+stock.absy+y.cor.stocker
-  pick.shift.z = .h+(g.cf-g.cw)+z.cor.stocker
+  JMOVE #wp.safe[.tool]
 ;
-; Set motion aux defaults
-  SPEED spd.max ALWAYS
-  ACCURACY accu.free ALWAYS
-  CALL set.tool(4)
-; TOOL tool.gripper[.g.no]
-; Motion
-  SPEED spd.max ALWAYS
-  ACCURACY accu.big ALWAYS
-  JAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),50
-;LAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),10
-  BREAK
-  IF SIG(i.grip.oldsens) THEN
-    detail.count = detail.count+1
-    .stop = FALSE
-    CALL log("Detail Found!")
-  ELSE
-    .stop = TRUE
-    CALL log("Detail not found!")
-  END
-;
-  JAPPRO stocker.frame[.s.no,stocker.id]+TRANS(pick.shift.x,pick.shift.y,-pick.shift.z),50
 .END
-.PROGRAM stocker.unlock(.s.no) #305
-; .s.no - Stocker № (1-4)
+.PROGRAM wp.test()@26/02/14 22:38 #0
 ;
-  IF FALSE THEN
-    .s.no = 1
-    GOTO dbg
-    .s.no = 2
-    GOTO dbg
-    .s.no = 3
-    GOTO dbg
-    .s.no = 4
-    GOTO dbg
+  IF SIG(s.hmi.tool.1) THEN
+    .tool = 1
+  ELSE
+    .tool = 2
   END
-dbg:
 ;
-  CALL log("Request stocker "+$ENCODE(.s.no)+" unlock")
-  SIGNAL fo.st.unlock[.s.no]
-  WAIT BITS(fi.st.unlocked[1],5)<>0
+  CALL get.task.data
+  CALL wp.pick(hmi.shelf.no,.tool,hmi.wp.id)
+;
 .END
-.PROGRAM task.get.data(.t.id) #212;
-  CALL log("Get data for task"+$ENCODE(.t.id))
-; Obtain data:
-  detail.id = task.data[.t.id,1]
-  stocker.id = task.data[.t.id,2]
-  chuck.g.id[1] = task.data[.t.id,3]
-  chuck.g.id[2] = task.data[.t.id,4]
-  chuck.cnc.id[1] = task.data[.t.id,5]
-  chuck.cnc.id[2] = task.data[.t.id,6]
+.PROGRAM wp.test.pick()@26/02/14 22:54 #0
 ;
-  task.op1.g.no = 1;task.data[.t.id,7]
-  task.op2.pg = task.data[.t.id,8]
-  task.op2.cnc.g = 1;task.data[.t.id,16];task.data[.t.id,14]
-  task.op2.c.no = 1;task.data[.t.id,16]
-  task.op3.g.no = task.data[.t.id,9]
-  task.op3.c.no = task.data[.t.id,17]
-  task.buffer = 0;task.data[.t.id,10]
-  task.op4.g.no = task.data[.t.id,11]
-  task.op5.pg = task.data[.t.id,12]
-  task.op5.cnc.g = task.data[.t.id,18];task.data[.t.id,15]
-  task.op5.c.no = task.data[.t.id,18]
-  task.op6.g.no = task.data[.t.id,13]
-  task.op6.c.no = task.data[.t.id,19]
-  task.air = task.data[.t.id,20]
+  IF SIG(s.hmi.tool.1) THEN
+    .tool = 1
+  ELSE
+    .tool = 2
+  END
 ;
-  detail.d1 = detail.data[detail.id,1]/10
-  detail.l1 = detail.data[detail.id,2]/10
-  detail.buffer = detail.data[detail.id,3]
-  detail.dp = detail.data[detail.id,4]/10
-  detail.lp = detail.data[detail.id,5]/10
-  detail.d2 = detail.data[detail.id,6]/10
-  detail.l2 = detail.data[detail.id,7]/10
+  CALL get.task.data
+  CALL wp.pick(hmi.shelf.no,.tool,hmi.wp.id)
 ;
-  stocker.m = stocker.data[stocker.id,1]
-  stocker.n.odd = stocker.data[stocker.id,2]
-  stocker.n.even = stocker.data[stocker.id,3]
-  stocker.lx = stocker.data[stocker.id,4]/10
-  stocker.ly = stocker.data[stocker.id,5]/10
-  stocker.l.even = stocker.data[stocker.id,6]/10
-  stocker.dx = stocker.data[stocker.id,7]/10
-  stocker.dy = stocker.data[stocker.id,8]/10
+.END
+.PROGRAM wp.test.put()@26/02/14 22:54 #0
 ;
+  IF SIG(s.hmi.tool.1) THEN
+    .tool = 1
+  ELSE
+    .tool = 2
+  END
 ;
-  chuck.g.full[1] = chuck.data[chuck.g.id[1],1]/10
-  chuck.g.work[1] = chuck.data[chuck.g.id[1],2]/10
+  CALL get.task.data
+  CALL wp.put(hmi.shelf.no,.tool,hmi.wp.id)
 ;
-  chuck.g.full[2] = chuck.data[chuck.g.id[2],1]/10
-  chuck.g.work[2] = chuck.data[chuck.g.id[2],2]/10
-;
-  chuck.cnc.full[1] = chuck.data[chuck.cnc.id[1],1]/10
-  chuck.cnc.work[1] = chuck.data[chuck.cnc.id[1],2]/10
-;
-  chuck.cnc.full[2] = chuck.data[chuck.cnc.id[2],1]/10
-  chuck.cnc.work[2] = chuck.data[chuck.cnc.id[2],2]/10
 .END
 .TRANS
-buffer.pick[0] 749.970398 -30.001101 451.368195 99.777779 0.005100 175.218704
-buffer.pick[1] 749.981873 -29.989201 534.712524 11.647000 179.997604 -83.356293
-buffer.pick[2] 749.981873 -29.989201 534.712524 11.647000 179.997604 -83.356293
-buffer.put[0] 749.981873 -29.989201 534.712524 11.647000 179.997604 -83.356293
-buffer.put[1] 749.970398 -30.001101 451.368195 99.777779 0.005100 175.218704
-buffer.put[2] 749.970398 -30.001101 451.368195 99.777779 0.005100 175.218704
-cnc.before[1,1] -390.772583 169.859039 548.430725 -90.257332 90.694229 -154.030197
-cnc.before[1,2] -381.313599 112.111397 248.619171 -89.938614 89.384552 -9.358279
-cnc.before[2,1] -454.139923 402.934021 450.899292 88.966377 90.067574 123.582306
-cnc.before[2,2] -424.963867 373.319794 329.668945 89.998108 90.001221 53.131096
-cnc.c[1,1] -1111.493164 125.592606 233.970963 -89.010635 89.945427 -103.491409
-cnc.c[1,2] -1318.764160 719.867981 245.693588 90.569412 89.524330 104.876656
-cnc.c[2,1] -977.919189 590.368469 248.550232 89.219864 90.248024 87.423759
-cnc.c[2,2] -1121.988892 664.275146 236.843628 91.327606 89.252037 148.128586
-cnc.f -741.542175 173.237106 296.476013 -89.999290 89.999001 -89.994003
-cnc.frame -741.542175 173.237106 296.476013 -89.999290 89.999001 -89.994003
-cnc.in[1,1] -1115.638672 344.156006 233.665451 -89.011238 89.943779 -103.485687
-cnc.in[1,2] -836.134155 236.337128 323.379364 -90.013054 89.954826 -148.112411
-cnc.in[2,1] -796.605225 361.414032 347.858276 89.987022 90.045288 148.112656
-cnc.in[2,2] -1120.454102 494.446136 240.312088 91.861786 91.180420 148.189850
-cnc.out -209.677399 299.407410 419.470581 -89.999809 90.000221 -90.811890
-cnc.safe -888.965942 191.605042 318.527191 -89.997627 89.994431 -90.814919
-cnc.teach -741.543213 247.737106 296.474701 -89.999290 89.999001 -89.994003
-cnc.test -978.967896 543.908325 248.643234 90.002029 89.996391 5.976454
-current.tool 0.000000 82.000000 102.000000 90.000015 90.000015 180.000000
-dest.point 861.454102 560.553711 91.785301 -16.547457 179.429672 -106.585648
-dest_point 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-home2 0.086736 2.872192 1401.023682 -90.010529 163.896576 179.985565
-kostil1 922.416870 911.129822 -169.284119 -47.718433 64.366966 42.881195
-kostil2 786.171997 1001.582031 296.842896 -49.367252 68.418701 64.967979
-kostil3 786.175049 1001.585449 502.064148 -49.366879 68.417786 64.968018
-p.tool.cal -980.722778 104.234833 250.394653 -90.017921 89.791573 -58.148243
-shelf.open[1,1] 751.072266 54.354179 -5.816890 -89.936821 89.997192 -179.968033
-shelf.open[1,2] 750.400452 674.358704 -5.836730 -89.937180 89.997948 -179.967606
-shelf.open[2,1] 751.174561 53.350368 -185.814789 -89.936951 89.997612 -179.967667
-shelf.open[2,2] 750.504150 673.346863 -185.840393 -89.937668 89.997726 -179.967621
-shelf.open[3,1] 751.272522 54.342201 -365.817444 -89.937233 89.997643 -179.968048
-shelf.open[3,2] 750.601318 674.341553 -365.841370 -89.937149 89.997650 -179.967773
-shelf.open[4,1] 751.374512 54.336342 -545.817749 -89.936783 89.997673 -179.967957
-shelf.open[4,2] 750.700256 674.334412 -545.842285 -89.937439 89.997719 -179.967957
-st[1] 1005.959229 580.419128 -117.649368 154.178757 179.983643 64.166916
-st[2] 1006.046936 150.423843 -117.717346 155.231842 179.982025 65.221359
-st[3] 486.038452 150.322723 -117.572647 151.147491 179.983047 61.135036
-stf 1052.013428 621.502075 29.727701 -16.547457 179.429672 -106.585648
-stocker.close[1,1] 742.460938 744.433960 31.336533 27.236313 0.253675 -117.761368
-stocker.close[1,2] 745.973389 121.710968 31.158371 27.489569 0.249701 -118.016327
-stocker.close[2,1] 747.792297 743.527466 -189.284286 -170.296173 179.990692 99.214539
-stocker.close[2,2] 747.789917 123.740585 -189.267136 169.973785 179.988708 79.486092
-stocker.close[3,1] 749.749268 743.163818 -367.875244 178.385437 179.987076 87.882217
-stocker.close[3,2] 747.848022 121.252991 -370.268585 165.513672 179.990799 75.009224
-stocker.close[4,1] 747.280579 741.254211 -554.270874 -168.159393 179.987000 101.349709
-stocker.close[4,2] 747.808899 122.725800 -549.120728 177.753372 179.992706 87.265114
-stocker.frame[1,1] 1052.013428 621.502075 29.727701 -16.547457 179.429672 -106.585648
-stocker.frame[1,2] 1005.944092 580.427734 -172.149368 150.409302 179.981674 60.397602
-stocker.frame[1,3] 1005.944092 580.427734 -351.149384 150.409302 179.981674 60.397602
-stocker.frame[1,4] 1005.944092 580.427734 -530.149353 150.409302 179.981674 60.397602
-stocker.frame[1,5] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,6] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,7] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,8] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,9] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,10] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,11] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,12] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,13] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,14] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,15] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,16] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,17] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,18] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,19] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,20] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,21] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,22] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,23] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,24] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,25] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,26] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,27] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,28] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,29] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,30] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,31] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[1,32] 1006.002625 580.326721 6.876600 24.837299 179.999100 -65.166801
-stocker.frame[2,1] 1063.937256 645.281799 -166.382355 -30.057419 179.284470 -119.829247
-stocker.frame[2,2] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,3] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,4] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,5] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,6] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,7] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,8] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,9] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,10] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,11] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,12] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,13] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,14] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,15] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,16] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,17] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,18] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,19] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,20] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,21] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,22] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,23] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,24] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,25] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,26] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,27] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,28] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,29] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,30] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,31] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[2,32] 1006.004883 580.327698 -148.123398 24.837299 179.999100 -65.166801
-stocker.frame[3,1] 1063.729126 646.079163 -349.150055 -49.048252 179.473541 -139.103195
-stocker.frame[3,2] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,3] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,4] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,5] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,6] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,7] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,8] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,9] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,10] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,11] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,12] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,13] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,14] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,15] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,16] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,17] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,18] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,19] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,20] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,21] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,22] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,23] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,24] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,25] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,26] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,27] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,28] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,29] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,30] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,31] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[3,32] 1006.007080 580.328796 -303.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,1] 1063.661621 644.997070 -528.269531 -35.600700 179.178345 -125.721954
-stocker.frame[4,2] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,3] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,4] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,5] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,6] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,7] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,8] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,9] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,10] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,11] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,12] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,13] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,14] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,15] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,16] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,17] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,18] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,19] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,20] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,21] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,22] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,23] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,24] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,25] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,26] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,27] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,28] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,29] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,30] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,31] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.frame[4,32] 1006.009521 580.329773 -458.123413 24.837299 179.999100 -65.166801
-stocker.open[1,1] 744.596130 84.602699 4.393921 -90.214111 90.791878 -0.952017
-stocker.open[1,2] 744.611816 703.182007 4.399475 -90.215584 90.789680 -0.951809
-stocker.open[2,1] 747.824219 122.729401 -189.212601 -178.226532 179.995514 91.286514
-stocker.open[2,2] 747.791138 745.023193 -189.290222 -169.225998 179.991776 100.284508
-stocker.open[3,1] 747.830627 121.248154 -370.000000 169.084106 179.989380 78.583107
-stocker.open[3,2] 749.747498 743.164307 -367.876343 176.880325 179.986786 86.377541
-stocker.open[4,1] 747.808044 122.714355 -549.110718 -172.622833 179.990585 96.886810
-stocker.open[4,2] 747.280579 741.254211 -554.270874 -168.159393 179.987000 101.349709
-stp[1] 992.055359 561.461548 29.325790 -7.528727 179.473358 -97.827827
-stp[2] 992.316772 161.061905 30.463470 -7.406154 179.475037 -97.708672
-stp[3] 491.591187 562.261230 24.547989 -7.154973 179.469818 -97.458321
-teach.f 1005.944092 580.427734 -172.149368 150.409302 179.981674 60.397602
-teach.p[1] 1006.001770 580.326294 61.376598 84.486603 179.999695 -5.514400
-teach.p[2] 1006.033081 150.341202 61.373600 119.509026 179.999496 29.508410
-teach.p[3] 486.001709 150.321899 61.365898 -151.773895 179.999405 118.225716
-teach.p[4] 1006.002930 580.327393 61.374199 37.497398 179.998306 -52.503403
-temp 1000.989075 580.884766 -457.177673 -52.244198 179.394669 -142.275833
-tool.gripper[1] 93.800003 0.000000 102.000000 0.000000 90.000008 0.000000
-tool.gripper[2] -93.800003 0.000000 102.000000 180.000000 90.000008 0.000000
-tool.gripper[3] 0.000000 97.000000 102.000000 90.000008 90.000008 0.000000
-tool.pin 0.000000 82.000000 102.000000 90.000015 90.000015 180.000000
-tool.sensor -88.620003 -51.500000 101.800003 -180.000000 90.000015 180.000000
+shelf.close[1,1] 750.385193 689.357788 -5.836640 -89.936699 89.997849 -179.967209
+shelf.close[1,2] 751.058228 69.358681 -5.815570 -89.936432 89.997467 -179.967209
+shelf.close[2,1] 750.485474 688.354614 -185.837326 -89.936333 89.997993 -179.967407
+shelf.close[2,2] 751.160339 68.347237 -185.815125 -89.937141 89.997467 -179.967407
+shelf.close[3,1] 750.587769 689.344727 -365.837067 -89.936699 89.997963 -179.967499
+shelf.close[3,2] 751.259277 69.342216 -365.815063 -89.936386 89.997452 -179.967651
+shelf.close[4,1] 750.684204 689.335449 -545.843933 -89.936646 89.997627 -179.967819
+shelf.close[4,2] 751.359985 69.334229 -545.815002 -89.937027 89.997551 -179.967865
+shelf.frame[1,1,1] 490.508392 559.512695 15.402588 44.486439 179.863174 -45.514656
+shelf.frame[1,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,1] 490.330292 559.328918 -14.671242 47.502068 179.999359 -42.498474
+shelf.frame[1,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[2,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[3,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[4,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.open[1,1] 751.058228 69.358681 -5.815570 -89.936432 89.997467 -179.967209
+shelf.open[1,2] 750.385193 689.357788 -5.836640 -89.936699 89.997849 -179.967209
+shelf.open[2,1] 751.160339 68.347237 -185.815125 -89.937141 89.997467 -179.967407
+shelf.open[2,2] 750.485474 688.354614 -185.837326 -89.936333 89.997993 -179.967407
+shelf.open[3,1] 751.259277 69.342216 -365.815063 -89.936386 89.997452 -179.967651
+shelf.open[3,2] 750.587769 689.344727 -365.837067 -89.936699 89.997963 -179.967499
+shelf.open[4,1] 751.359985 69.334229 -545.815002 -89.937027 89.997551 -179.967865
+shelf.open[4,2] 750.684204 689.335449 -545.843933 -89.936646 89.997627 -179.967819
+tool.gripper[1] 93.800003 0.000000 102.000000 0.000000 90.000015 180.000000
+tool.gripper[2] -93.800003 0.000000 102.000000 -180.000000 90.000015 180.000000
+tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
 .END
 .JOINTS
-#a 39.858841 20.144741 127.262924 -103.806648 52.228321 51.861828
-#c11 -97.546936 -19.882307 88.370529 147.452606 -68.727730 -163.659103
-#cnc.before[1,1] -52.362118 23.663712 132.279312 -48.589367 -69.957512 202.244537
-#cnc.before[1,2] -80.214966 45.193630 129.252655 -36.527695 -58.582539 13.402812
-#cnc.before[2,1] -80.214966 45.193630 129.252655 -36.527695 -58.582539 13.402812
-#cnc.before[2,2] -52.443542 9.394018 126.764023 -42.153397 -101.356438 196.315643
-#cnc.c[1,1] -77.244354 -22.431105 91.040024 -32.194599 -39.994354 179.297897
-#cnc.c[1,2] -65.106094 9.276853 124.554977 -44.368244 -49.612198 189.106400
-#cnc.c[2,1] -75.252029 -9.687478 101.109604 -34.996376 -22.797319 2.646593
-#cnc.c[2,2] -69.445442 -33.098972 77.764580 -37.064793 -86.677330 186.910507
-#cnc_actual -75.735413 -38.993000 62.320831 -43.729630 -32.599873 192.666748
+#a 169.161453 -12.194666 -112.377380 122.858002 -106.577682 48.976845
 #homyak 0.000000 29.999758 89.999863 0.000000 -45.000000 -0.000220
 #homyak.sby 0.000000 29.999758 39.999680 0.000000 -45.000000 -0.000220
-#kostil1 41.395981 -33.832260 70.789101 139.586227 -17.223816 -47.718624
-#kostil2 41.396381 -11.966176 70.788124 139.586838 -17.221071 -47.719666
-#kostil3 46.113857 -9.311893 60.077900 165.969330 -27.254335 -74.818169
-#kostil4 -83.421913 -17.955469 107.258682 -23.330303 -67.561798 -12.216715
-#kostil5 -79.903168 1.051201 117.160439 -21.172060 -25.037157 172.529526
-#kostil6 -90.729095 -12.510756 95.128006 140.731781 -40.416645 -345.732910
-#kostil7 -90.729095 -12.510756 95.128006 140.731781 -40.416645 -170.000000
-#kostil_n[1] 76.717667 -1.720247 86.009636 54.898594 -87.061844 -78.843285
-#shelf.safe 80.030273 0.116435 85.895584 29.498642 88.665848 100.664551
-#stocker.close[1,1] 44.682762 -26.362890 71.279205 132.736816 -122.003860 -236.542267
-#stocker.close[1,2] 71.251480 -14.979619 110.219833 124.049721 -85.654228 -230.776932
-#stocker.close[2,1] 41.472240 -34.667019 71.018837 137.998306 -118.484123 132.590775
-#stocker.close[2,2] 65.395248 -26.039860 109.959137 126.748123 -83.025047 -219.349106
-#stocker.close[3,1] 38.621979 -44.793961 67.017212 141.980103 -115.525368 139.330734
-#stocker.close[3,2] 60.038689 -38.662312 106.031799 129.575745 -80.341637 -210.310822
-#stocker.close[4,1] 36.087879 -56.585659 58.898273 144.867401 -113.960487 143.792816
-#stocker.close[4,2] 55.202061 -51.885189 98.632690 132.525177 -78.473289 -204.114517
-#stocker.open[0,1] 71.251480 -14.979619 110.219833 124.049721 -85.654228 -230.776932
-#stocker.open[1,1] 71.251480 -14.979619 110.219833 124.049721 -85.654228 -230.776932
-#stocker.open[1,2] 44.682762 -26.362890 71.279205 132.736816 -122.003860 -236.542267
-#stocker.open[2,1] 65.395248 -26.039860 109.959137 126.748123 -83.025047 -219.349106
-#stocker.open[2,2] 41.472240 -34.667019 71.018837 137.998306 -118.484123 132.590775
-#stocker.open[3,1] 60.038689 -38.662312 106.031799 129.575745 -80.341637 -210.310822
-#stocker.open[3,2] 38.621979 -44.793961 67.017212 141.980103 -115.525368 139.330734
-#stocker.open[4,1] 55.202061 -51.885189 98.632690 132.525177 -78.473289 -204.114517
-#stocker.open[4,2] 36.087879 -56.585659 58.898273 144.867401 -113.960487 143.792816
-#stocker.safe 76.577461 -1.760397 85.874397 -148.251801 -87.229393 -78.606041
-#stocker.teach[1] 59.869476 -35.412708 59.201969 125.453682 -113.145447 20.355749
-#stocker.teach[2] 78.127724 -28.875193 85.910568 121.954216 -87.256157 27.191771
-#stocker.teach[3] 66.483566 9.786030 131.142349 127.383659 -92.000214 38.417198
-#stp[1,1] 61.069809 -32.185013 62.081974 124.772614 -112.110680 19.753515
-#stp[1,2] 78.596405 -26.114325 86.469757 121.659523 -87.812347 25.621685
-#stp[1,3] 41.645817 0.420481 103.178192 137.322769 -121.197746 40.981930
-#stp[2,1] 55.979763 -41.540340 60.746574 129.214600 -111.336823 30.559763
-#stp[2,2] 69.373154 -35.617844 84.159691 125.536118 -90.794449 36.845001
-#stp[2,3] 51.454132 -4.039825 128.190338 136.915482 -93.602142 55.658962
-#stp[3,1] 52.857021 -49.641525 58.282051 132.384293 -109.934013 36.875298
-#stp[3,2] 65.348778 -44.457424 81.885803 127.761421 -89.584587 43.770809
-#stp[3,3] 46.265980 -18.667219 125.683456 140.835770 -86.739120 65.861900
-#stp[4,1] 49.764866 -60.364147 51.517406 135.101791 -109.736938 41.616543
-#stp[4,2] 61.329575 -55.359989 76.291344 130.194656 -89.115601 49.467812
-#stp[4,3] 41.168388 -35.227657 119.148537 144.487183 -80.761871 73.642212
-#teach.p[1] 59.869484 -35.412712 59.201969 125.453682 -113.145454 20.355745
-#teach.p[2] 78.127716 -28.875189 85.910568 121.954216 -87.256165 27.191769
-#teach.p[3] 66.483566 9.786028 131.142349 127.383659 -92.000206 38.417198
-#teach.p[4] 59.869484 -35.412712 59.201969 -54.545452 113.145454 -159.642609
-#teach.stocker[1] 59.869476 -35.412708 59.201969 125.453682 -113.145447 20.355749
-#teach.stocker[2] 78.127724 -28.875193 85.910568 121.954216 -87.256157 27.191771
-#teach.stocker[3] 66.483566 9.786030 131.142349 127.383659 -92.000214 38.417198
+#pick.safe[1] 70.028526 -1.309620 86.930527 -58.916073 108.119202 8.721220
+#pick.safe[2] 70.028526 -1.309990 86.930527 -58.916073 108.119202 -171.277695
+#shelf.point.o[1,1,1] 62.309052 -33.022324 58.987877 -56.176434 112.624290 16.527023
+#shelf.point.o[1,1,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,1,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,1] 61.625080 -33.838100 59.780704 -55.433231 112.282333 -161.616547
+#shelf.point.o[1,2,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[1,2,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,1] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,1,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,1] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[2,2,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,1] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,1,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,1] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[3,2,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,1] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,1,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,1] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,5] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,6] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,7] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,8] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,9] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,10] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,11] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,12] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,13] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,14] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,15] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,16] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,17] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,18] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,19] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,20] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,21] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,22] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,23] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,24] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,25] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,26] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,27] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,28] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,29] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.o[4,2,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
+#shelf.point.x[1,1,1] 79.195366 -26.710735 83.342430 -58.301456 88.915794 22.647945
+#shelf.point.x[1,1,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,1,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,1] 78.368805 -27.707552 84.014030 -58.044289 88.689888 -155.526245
+#shelf.point.x[1,2,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[1,2,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,1] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,1,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,1] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[2,2,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,1] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,1,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,1] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[3,2,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,1] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,1,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,1] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,5] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,6] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,7] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,8] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,9] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,10] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,11] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,12] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,13] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,14] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,15] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,16] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,17] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,18] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,19] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,20] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,21] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,22] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,23] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,24] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,25] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,26] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,27] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,28] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,29] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.x[4,2,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
+#shelf.point.y[1,1,1] 42.736912 2.002028 102.622917 -43.996025 122.211922 37.968529
+#shelf.point.y[1,1,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,1,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,1] 41.940140 0.646781 103.301697 -42.620979 121.264359 -139.721313
+#shelf.point.y[1,2,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[1,2,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,1] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,1,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,1] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[2,2,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,1] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,1,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,1] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[3,2,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,1] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,1,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,1] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,5] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,6] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,7] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,8] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,9] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,10] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,11] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,12] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,13] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,14] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,15] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,16] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,17] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,18] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,19] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,20] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,21] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,22] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,23] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,24] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,25] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,26] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,27] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,28] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,29] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.point.y[4,2,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
+#shelf.safe 80.030273 0.116440 85.895576 29.498642 88.665848 100.664551
+#wp.safe[1] 70.028526 -1.309620 86.930527 -58.916073 108.119202 8.721220
+#wp.safe[2] 70.028526 -1.309990 86.930527 -58.916073 108.119202 -171.277695
 .END
 .REALS
-accu.big = 50
-accu.fine = 0
-accu.free = 100
-accu.medium = 10
-accu.small = 1
 air.blow.off = 38
 air.blow.on = 37
-cdz = 90.7
-chuck.cnc.full[1] = 40
-chuck.cnc.full[2] = 40
-chuck.cnc.id[1] = 2
-chuck.cnc.id[2] = 2
-chuck.cnc.work[1] = 11
-chuck.cnc.work[2] = 11
-chuck.data[1,1] = 400
-chuck.data[1,2] = 110
-chuck.data[1,3] = 0
-chuck.data[2,1] = 400
-chuck.data[2,2] = 110
-chuck.data[2,3] = 0
-chuck.data[3,1] = 400
-chuck.data[3,2] = 110
-chuck.data[3,3] = 1
-chuck.data[4,1] = 385
-chuck.data[4,2] = 20
-chuck.g.full[1] = 40
-chuck.g.full[2] = 40
-chuck.g.id[1] = 1
-chuck.g.id[2] = 1
-chuck.g.work[1] = 11
-chuck.g.work[2] = 11
-cnc = 29
-cnc.cf = 40
-cnc.chuck = -25
-cnc.cw = 11
-cnc.pick.ovlp = 0
-cnc.put.ovlp = 0
-corr.data[1,1] = 0
-corr.data[1,2] = 0
-corr.data[1,3] = 0
-corr.data[1,4] = 0
-corr.data[1,5] = 0
-corr.data[1,6] = 0
-corr.data[1,7] = 0
-corr.data[1,8] = 0
-corr.data[1,9] = 0
-corr.data[1,10] = 0
-corr.data[1,11] = 0
-corr.data[1,12] = 0
-corr.data[1,13] = 0
-corr.data[1,14] = 0
-corr.data[1,15] = 0
-corr.data[1,16] = 0
-corr.data[1,17] = 0
-corr.data[1,18] = 0
-corr.data[1,19] = 0
-corr.data[1,20] = 0
-corr.data[1,21] = 0
-corr.data[1,22] = 0
-corr.data[1,23] = 0
-corr.data[1,24] = 0
-corr.data[1,25] = 0
-corr.data[1,26] = 0
-corr.data[1,27] = 0
-corr.data[1,28] = 0
-corr.data[1,29] = 0
-corr.data[1,30] = 0
-corr.data[1,31] = 0
-corr.data[1,32] = 0
-corr.data[1,33] = 0
-corr.data[1,34] = 0
-current.col = 1
-current.row = 1
+cnc.id[1] = 0
+cnc.id[2] = 0
+cnc.jaws.body[1] = 23
+cnc.jaws.body[2] = 0
+cnc.jaws.full[1] = 39
+cnc.jaws.full[2] = 0
 current.shelf = 0
-current.tool = 3
-data = 1
-data.el = 0
-data.id = 1
-data.max = 32
-data.type = 4
-debug = -1
-detail.buffer = 1
-detail.count = 0
-detail.d1 = 42
-detail.d2 = 42
-detail.data[1,1] = 420
-detail.data[1,2] = 447
-detail.data[1,3] = 1
-detail.data[1,4] = 420
-detail.data[1,5] = 447
-detail.data[1,6] = 420
-detail.data[1,7] = 447
-detail.data[2,1] = 500
-detail.data[2,2] = 250
-detail.data[2,3] = 0
-detail.data[2,4] = 0
-detail.data[2,5] = 0
-detail.data[2,6] = 420
-detail.data[2,7] = 222
-detail.data[3,1] = 450
-detail.data[3,2] = 180
-detail.data[3,3] = 0
-detail.data[3,4] = 0
-detail.data[3,5] = 0
-detail.data[3,6] = 450
-detail.data[3,7] = 180
-detail.done = 0
-detail.dp = 42
-detail.id = 1
-detail.l1 = 44.7
-detail.l2 = 44.7
-detail.lp = 44.7
-di.ext.cs = 1068
-di.ext.ereset = 1067
-di.ext.hold = 1070
-di.ext.mot.off = 1071
-di.ext.mot.on = 1065
-di.ext.motor.of = 1071
-di.ext.motor.on = 1066
-di.ext.pgreset = 1069
-di.ext.slow.rep = 1070
-di.ifp.page[1] = 2002
-di.ifp.page[2] = 2003
-di.ifp.page[3] = 2004
-di.ifp.page[4] = 2005
-di.ifp.page[5] = 2006
-di.ifp.page[6] = 2007
-di.ifp.page[7] = 2008
-di.ifp.page[8] = 2009
-do.automatic = 69
-do.bat.alarm = 78
-do.cs = 68
-do.emg = 75
-do.error = 67
-do.hold = 76
-do.home = 72
-do.home2 = 73
-do.mot.on = 65
-do.motor.on = 66
-do.power.on = 74
-do.saf.fence = 76
-do.safety.fence = 77
-do.teach = 70
-do.teach.lock = 71
+current.tool = 1
+di.ext.cs = 1067
+di.ext.ereset = 1066
+di.ext.hold = 1069
+di.ext.motor.of = 1070
+di.ext.motor.on = 1065
+di.ext.pgreset = 1068
+di.ifp.page[1] = 2001
+di.ifp.page[2] = 2002
+di.ifp.page[3] = 2003
+di.ifp.page[4] = 2004
+di.ifp.page[5] = 2005
+di.ifp.page[6] = 2006
+di.ifp.page[7] = 2007
+di.ifp.page[8] = 2008
+do.automatic = 68
+do.bat.alarm = 77
+do.cs = 67
+do.emg = 74
+do.error = 66
+do.hold = 75
+do.home = 71
+do.home2 = 72
+do.motor.on = 65
+do.power.on = 73
+do.safety.fence = 76
+do.teach = 69
+do.teach.lock = 70
 ei.cnc.ch.clsd[1] = 1098
 ei.cnc.ch.clsd[2] = 1100
 ei.cnc.ch.opd[1] = 1097
@@ -15054,593 +15172,340 @@ eo.grip.opened[1] = 81
 eo.grip.opened[2] = 82
 eo.grip.sensor[1] = 84
 eo.grip.sensor[2] = 85
+eo.process.err = 115
 eo.robot.ready = 113
+eo.shelf.opened[1] = 129
+eo.shelf.opened[2] = 130
+eo.shelf.opened[3] = 131
+eo.shelf.opened[4] = 132
 eo.shelf.unlock[1] = 133
 eo.shelf.unlock[2] = 134
 eo.shelf.unlock[3] = 135
 eo.shelf.unlock[4] = 136
 eo.task.exec = 114
-fi.cnc.blocked = 1120
-fi.cnc.chuck.cl[1] = 1114
-fi.cnc.chuck.cl[2] = 1117
-fi.cnc.chuck.er[1] = 1115
-fi.cnc.chuck.er[2] = 1118
-fi.cnc.chuck.op[1] = 1113
-fi.cnc.chuck.op[2] = 1116
-fi.cnc.closed[1] = 1338
-fi.cnc.closed[2] = 1340
-fi.cnc.err = 1121
-fi.cnc.ok = 1122
-fi.cnc.opened[1] = 1337
-fi.cnc.opened[2] = 1339
-fi.cnc.pick.ovp[0] = 1185
-fi.cnc.put.ovp[0] = 1177
-fi.cnc.ready = 1119
-fi.de.data[0] = 1305
-fi.de.data[15] = 1320
-fi.de.data.rdy = 1298
-fi.de.recipe[0] = 1273
-fi.de.start = 1297
-fi.de.table.el[0] = 1289
-fi.de.table.id[0] = 1281
-fi.detail.cnt[1] = 1385
-fi.detail.cnt[2] = 1401
-fi.detail.cnt[3] = 1417
-fi.detail.cnt[4] = 1433
-fi.grip.check = 1081
-fi.mon.speed[0] = 1321
-fi.plc.g.close[1] = 1083
-fi.plc.g.close[2] = 1085
-fi.plc.g.ctime[0] = 1105
-fi.plc.g.etime[0] = 1086
-fi.plc.g.open[1] = 1082
-fi.plc.g.open[2] = 1084
-fi.plc.g.otime[0] = 1097
-fi.proc.reset = 1258
-fi.proc.start = 1257
-fi.proc.stop = 1259
-fi.robot.home = 1263
-fi.st.ready[1] = 1209
-fi.st.ready[2] = 1210
-fi.st.ready[3] = 1211
-fi.st.ready[4] = 1212
-fi.st.search = 1208
-fi.st.task[1,0] = 1225
-fi.st.task[2,0] = 1233
-fi.st.task[3,0] = 1241
-fi.st.task[4,0] = 1249
-fi.st.unlocked[1] = 1193
-fi.st.unlocked[2] = 1194
-fi.st.unlocked[3] = 1195
-fi.st.unlocked[4] = 1196
-fi.unlock.fail = 1197
-fi.x.cor.cnc[1,0] = 1129
-fi.x.cor.cnc[1,15] = 1144
-fi.x.cor.cnc[2,0] = 1353
-fi.x.cor.cnc[2,15] = 1368
-fi.y.cor.cnc[1,0] = 1145
-fi.y.cor.cnc[1,15] = 1160
-fi.y.cor.cnc[2,0] = 1369
-fi.y.cor.cnc[2,15] = 1384
-fi.z.cor.cnc[1,0] = 1161
-fi.z.cor.cnc[1,15] = 1176
-fi.z.cor.cnc[2,0] = 1385
-fi.z.cor.cnc[2,15] = 1400
 finger.length = 55
-first.iteration = -1
-fo.cnc.block = 120
-fo.cnc.chuck.cl[1] = 114
-fo.cnc.chuck.cl[2] = 117
-fo.cnc.chuck.op[1] = 113
-fo.cnc.chuck.op[2] = 116
-fo.cnc.pg[0] = 121
-fo.cnc.run = 119
-fo.col.add = 261
-fo.de.data.ack = 298
-fo.de.robot.rdy = 297
-fo.detail.cnt[1] = 401
-fo.detail.cnt[2] = 417
-fo.detail.cnt[3] = 433
-fo.detail.cnt[4] = 449
-fo.grip.chk.err = 81
-fo.grip.closed[1] = 83
-fo.grip.closed[2] = 85
-fo.grip.opened[1] = 82
-fo.grip.opened[2] = 84
-fo.grip.sensor = 86
-fo.mcode.fin = 118
-fo.pc.error = 273
-fo.proc.err = 258
-fo.proc.on = 257
-fo.process.end = 262
-fo.process.last = 263
-fo.process.res = 264
-fo.row.add = 260
-fo.st.complete[1] = 209
-fo.st.complete[2] = 210
-fo.st.complete[3] = 211
-fo.st.complete[4] = 212
-fo.st.opened[1] = 198
-fo.st.opened[2] = 199
-fo.st.opened[3] = 200
-fo.st.opened[4] = 201
-fo.st.unlock[1] = 193
-fo.st.unlock[2] = 194
-fo.st.unlock[3] = 195
-fo.st.unlock[4] = 196
-fo.stocker.work[1] = 225
-fo.stocker.work[2] = 226
-fo.stocker.work[3] = 227
-fo.stocker.work[4] = 228
-g = 29
-g.cf = 40
-g.close.time = 1
-g.cw = 11
-g.error.time = 5
-g.failed = -1
-g.open.time = 1
+grip.jaws.body[1] = 30
+grip.jaws.body[2] = 30
+grip.jaws.full[1] = 41
+grip.jaws.full[2] = 41
 gripper.close[1] = 34
 gripper.close[2] = 36
+gripper.id[1] = 1
+gripper.id[2] = 0
 gripper.open[1] = 33
 gripper.open[2] = 35
 gripper.opened[1] = 1033
 gripper.opened[2] = 1034
 gripper.sensor[1] = 1035
 gripper.sensor[2] = 1036
-hmi.buf.id = 1
-hmi.chuck.full = 40
-hmi.chuck.work = 11
-hmi.cnc.ch.full[1] = 40
-hmi.cnc.ch.full[2] = 40
-hmi.cnc.ch.work[1] = 11
-hmi.cnc.ch.work[2] = 11
-hmi.cnc.gr = 1
-hmi.cnc.h = 44.7
-hmi.cnc.no = 1
-hmi.stock.h = 42
-hmi.stock.id = 1
-hmi.stock.no = 4
-i.grip.opened[1] = 1033
-i.grip.opened[2] = 1034
-i.grip.sensor[1] = 1035
-i.grip.sensor[2] = 1036
-int.grip.close[1] = 2134
-int.grip.close[2] = 2136
-int.grip.open[1] = 2133
-int.grip.open[2] = 2135
-l.even = 0
-last.col = 1
-last.iteration = 0
-last.row = 1
-len.finger = 50
-lx = 130
-ly = 130
-o.air.close = 38
-o.air.open = 37
-o.grip.close[1] = 34
-o.grip.close[2] = 36
-o.grip.open[1] = 33
-o.grip.open[2] = 35
-pick.shift.x = 61
-pick.shift.y = 190
-pick.shift.z = 73.7
-put.cor.x[1] = 1
-put.cor.x[2] = 0
-put.cor.x[3] = 3
-put.cor.x[4] = 1.2
-put.cor.y[1] = 0
-put.cor.y[2] = -1
-put.cor.y[3] = 0
-put.cor.y[4] = 1.5
-put.shift.x = 0
-put.shift.y = 0
-put.shift.z = 102.7
-r.speed = 10
-robot.chuck = 29
-s.delta.x = 0
-s.delta.y = 0
-safe.c = 2
-safe.g = 2
-safe.st = 1
-spd.high = 80
-spd.max = 100
-spd.medium = 50
-spd.prec = 15
-spd.sensing = 50
-spd.small = 30
+hmi.cnc1c.body = 23
+hmi.cnc1c.full = 39
+hmi.cnc2c.body = 23
+hmi.cnc2c.full = 39
+hmi.gc1.body = 30
+hmi.gc1.full = 41
+hmi.gc2.body = 30
+hmi.gc2.full = 41
+hmi.plate.col.e = 5
+hmi.plate.col.o = 5
+hmi.plate.dx = 130
+hmi.plate.dy = 130
+hmi.plate.e.dy = 0
+hmi.plate.id = 1
+hmi.plate.ox = 0
+hmi.plate.oy = 0
+hmi.plate.rows = 4
+hmi.shelf.no = 1
+hmi.wp.id = 1
+hmi.wp.length = 80
+k.shelf.pick = 1
+kroset = -1
+pick.epsilon = 0.1
+pick.speed = 50
+plate.cells.e = 5
+plate.cells.o = 5
+plate.dx = 130
+plate.dy = 130
+plate.e.dy = 0
+plate.id = 1
+plate.ox = 0
+plate.oy = 0
+plate.rows = 4
+put.speed = 50
+s.hmi.chuck.1 = 2103
+s.hmi.tool.1 = 2102
+s.pr.home = 2106
+s.pr.tch.shelf = 2100
+s.pr.tch.wp = 2104
+s.pr.tst.pick = 2105
+s.pr.tst.put = 2107
+s.pr.tst.shelf = 2101
+s.pr.tst.wp = 2105
+s.search.fail = 2011
+s.shelf.failed = 2010
+shelf.pick.ovlp = 10
+shelf.put.ovlp = 10
 state = 0
-stock.absx = 60
-stock.absy = 60
-stocker.data[1,1] = 4
-stocker.data[1,2] = 2
-stocker.data[1,3] = 2
-stocker.data[1,4] = 1000
-stocker.data[1,5] = 1000
-stocker.data[1,6] = 0
-stocker.data[1,7] = 0
-stocker.data[1,8] = 1000
-stocker.data[2,1] = 0
-stocker.data[2,2] = 0
-stocker.data[2,3] = 0
-stocker.data[2,4] = 0
-stocker.data[2,5] = 0
-stocker.data[2,6] = 10
-stocker.dx = 0
-stocker.dy = 0
-stocker.id = 1
-stocker.l.even = 0
-stocker.lx = 130
-stocker.ly = 130
-stocker.m = 0
-stocker.n.even = 2
-stocker.n.odd = 2
-task.air = 1
-task.buffer = 0
-task.data[1,1] = 1
-task.data[1,2] = 1
-task.data[1,3] = 1
-task.data[1,4] = 1
-task.data[1,5] = 2
-task.data[1,6] = 2
-task.data[1,7] = 0
-task.data[1,8] = 1
-task.data[1,9] = 2
-task.data[1,10] = 0
-task.data[1,11] = 0
-task.data[1,12] = 0
-task.data[1,13] = 0
-task.data[1,14] = 0
-task.data[1,15] = 0
-task.data[1,16] = 0
-task.data[1,17] = 2
-task.data[1,18] = 0
-task.data[1,19] = 0
-task.data[1,20] = 1
-task.data[1,21] = 0
-task.data[2,1] = 2
-task.data[2,2] = 1
-task.data[2,3] = 1
-task.data[2,4] = 1
-task.data[2,5] = 4
-task.data[2,6] = 3
-task.data[2,7] = 1
-task.data[2,8] = 10
-task.data[2,9] = 2
-task.data[2,10] = 0
-task.data[2,11] = 1
-task.data[2,12] = 1
-task.data[2,13] = 1
-task.data[2,14] = 1
-task.data[2,15] = 2
-task.data[2,16] = 1
-task.data[2,17] = 2
-task.data[2,18] = 0
-task.data[2,19] = 0
-task.data[2,20] = 0
-task.data[3,1] = 2
-task.data[3,2] = 1
-task.data[3,3] = 1
-task.data[3,4] = 1
-task.data[3,5] = 4
-task.data[3,6] = 3
-task.data[3,7] = 1
-task.data[3,8] = 1
-task.data[3,9] = 2
-task.data[3,10] = 0
-task.data[3,11] = 1
-task.data[3,12] = 1
-task.data[3,13] = 1
-task.data[3,14] = 1
-task.data[3,15] = 1
-task.data[3,16] = 1
-task.data[3,17] = 1
-task.data[3,18] = 0
-task.data[3,19] = 0
-task.data[3,20] = 0
-task.data[32,1] = 5
-task.data[32,2] = 1
-task.data[32,3] = 32
-task.data[32,4] = 32
-task.data[32,5] = 19
-task.data[32,6] = 32
-task.data[32,7] = 1
-task.data[32,8] = 1
-task.data[32,9] = 1
-task.data[32,10] = 1
-task.data[32,11] = 1
-task.data[32,12] = 1
-task.data[32,13] = 1
-task.data[32,14] = 1
-task.data[32,15] = 1
-task.data[32,16] = 1
-task.data[32,17] = 2
-task.data[32,18] = 0
-task.data[32,19] = 0
-task.data[32,20] = 0
-task.data[32,21] = 0
-task.data[32,22] = 0
-task.id = 1
-task.op1.g.no = 1
-task.op2.c.no = 1
-task.op2.cnc.g = 1
-task.op2.pg = 1
-task.op3.c.no = 2
-task.op3.g.no = 2
-task.op4.g.no = 0
-task.op5.c.no = 0
-task.op5.cnc.g = 0
-task.op5.pg = 0
-task.op6.c.no = 0
-task.op6.g.no = 0
-ts = 73.7
-x.cor.cnc[1] = 0
-x.cor.cnc[2] = 0
-x.cor.stocker = 0
-y.cor.cnc[1] = 0
-y.cor.cnc[2] = 0
-y.cor.stocker = 0
-z.cor.cnc[1] = 0
-z.cor.cnc[2] = 0
-z.cor.stocker = 0
+wp.in.length = 80
+wp.mid.length = 80
+wp.out.length = 80
 .END
 .STRINGS
-$log.entry[0] = "18:19:37 Initialization complete!"
-$log.entry[1] = "18:19:37 Initialization complete!"
-$log.entry[2] = "18:19:37 Initialization complete!"
-$log.entry[3] = "18:19:37 Initialization complete!"
-$log.entry[4] = "18:19:37 Initialization complete!"
-$log.entry[5] = "18:19:37 Initialization complete!"
-$log.entry[6] = "18:19:37 Initialization complete!"
-$log.entry[7] = "18:19:37 Initialization complete!"
-$log.entry[8] = "18:19:37 Initialization complete!"
-$log.entry[9] = "18:19:37 Initialization complete!"
-$log.entry[10] = "18:19:37 Initialization complete!"
-$log.entry[11] = "18:19:37 Initialization complete!"
-$log.entry[12] = "18:19:37 Initialization complete!"
-$log.entry[13] = "18:19:37 Initialization complete!"
-$log.entry[14] = "18:19:37 Initialization complete!"
-$log.entry[15] = "18:19:37 Initialization complete!"
-$log.entry[16] = "18:19:37 Initialization complete!"
-$log.entry[17] = "18:19:37 Initialization complete!"
-$log.entry[18] = "18:19:37 Initialization complete!"
-$log.entry[19] = "18:19:37 Initialization complete!"
-$log.entry[20] = "18:19:37 Initialization complete!"
-$log.entry[21] = "18:19:37 Initialization complete!"
-$log.entry[22] = "18:19:37 Initialization complete!"
-$log.entry[23] = "18:19:37 Initialization complete!"
-$log.entry[24] = "18:19:37 Initialization complete!"
-$log.entry[25] = "18:19:37 Initialization complete!"
-$log.entry[26] = "18:19:37 Initialization complete!"
-$log.entry[27] = "18:19:37 Initialization complete!"
-$log.entry[28] = "18:19:37 Initialization complete!"
-$log.entry[29] = "18:19:37 Initialization complete!"
-$log.entry[30] = "18:19:37 Initialization complete!"
-$log.entry[31] = "18:19:37 Initialization complete!"
-$log.entry[32] = "18:19:37 Initialization complete!"
-$log.entry[33] = "18:19:37 Initialization complete!"
-$log.entry[34] = "18:19:37 Initialization complete!"
-$log.entry[35] = "18:19:37 Initialization complete!"
-$log.entry[36] = "18:19:37 Initialization complete!"
-$log.entry[37] = "18:19:37 Initialization complete!"
-$log.entry[38] = "18:19:37 Initialization complete!"
-$log.entry[39] = "18:19:37 Initialization complete!"
-$log.entry[40] = "18:19:37 Initialization complete!"
-$log.entry[41] = "18:19:37 Initialization complete!"
-$log.entry[42] = "18:19:37 Initialization complete!"
-$log.entry[43] = "18:19:37 Initialization complete!"
-$log.entry[44] = "18:19:37 Initialization complete!"
-$log.entry[45] = "18:19:37 Initialization complete!"
-$log.entry[46] = "18:19:37 Initialization complete!"
-$log.entry[47] = "18:19:37 Initialization complete!"
-$log.entry[48] = "18:19:37 Initialization complete!"
-$log.entry[49] = "18:19:37 Initialization complete!"
-$log.entry[50] = "18:19:37 Initialization complete!"
-$log.entry[51] = "18:19:37 Initialization complete!"
-$log.entry[52] = "18:19:37 Initialization complete!"
-$log.entry[53] = "18:19:37 Initialization complete!"
-$log.entry[54] = "18:19:37 Initialization complete!"
-$log.entry[55] = "18:19:37 Initialization complete!"
-$log.entry[56] = "18:19:37 Initialization complete!"
-$log.entry[57] = "18:19:37 Initialization complete!"
-$log.entry[58] = "18:19:37 Initialization complete!"
-$log.entry[59] = "18:19:37 Initialization complete!"
-$log.entry[60] = "18:19:37 Initialization complete!"
-$log.entry[61] = "18:19:37 Initialization complete!"
-$log.entry[62] = "18:19:37 Initialization complete!"
-$log.entry[63] = "18:19:37 Initialization complete!"
-$log.entry[64] = "18:19:37 Initialization complete!"
-$log.entry[65] = "18:19:37 Initialization complete!"
-$log.entry[66] = "18:19:37 Initialization complete!"
-$log.entry[67] = "18:19:37 Initialization complete!"
-$log.entry[68] = "18:19:37 Initialization complete!"
-$log.entry[69] = "18:19:37 Initialization complete!"
-$log.entry[70] = "18:19:37 Initialization complete!"
-$log.entry[71] = "18:19:37 Initialization complete!"
-$log.entry[72] = "18:19:37 Initialization complete!"
-$log.entry[73] = "18:19:37 Initialization complete!"
-$log.entry[74] = "18:19:37 Initialization complete!"
-$log.entry[75] = "18:19:37 Initialization complete!"
-$log.entry[76] = "18:19:37 Initialization complete!"
-$log.entry[77] = "18:19:37 Initialization complete!"
-$log.entry[78] = "18:19:37 Initialization complete!"
-$log.entry[79] = "18:19:37 Initialization complete!"
-$log.entry[80] = "18:19:37 Initialization complete!"
-$log.entry[81] = "18:19:37 Initialization complete!"
-$log.entry[82] = "18:19:37 Initialization complete!"
-$log.entry[83] = "18:19:37 Initialization complete!"
-$log.entry[84] = "18:19:37 Initialization complete!"
-$log.entry[85] = "18:19:37 Initialization complete!"
-$log.entry[86] = "18:19:37 Initialization complete!"
-$log.entry[87] = "18:19:37 Initialization complete!"
-$log.entry[88] = "18:19:37 Initialization complete!"
-$log.entry[89] = "18:19:37 Initialization complete!"
-$log.entry[90] = "18:19:37 Initialization complete!"
-$log.entry[91] = "18:19:37 Initialization complete!"
-$log.entry[92] = "18:19:37 Initialization complete!"
-$log.entry[93] = "18:19:37 Initialization complete!"
-$log.entry[94] = "18:19:37 Initialization complete!"
-$log.entry[95] = "18:19:37 Initialization complete!"
-$log.entry[96] = "18:19:37 Initialization complete!"
-$log.entry[97] = "18:19:37 Initialization complete!"
-$log.entry[98] = "18:19:37 Initialization complete!"
-$log.entry[99] = "18:19:37 Initialization complete!"
-$log.entry[100] = "18:19:37 Initialization complete!"
-$log.entry[101] = "18:19:37 Initialization complete!"
-$log.entry[102] = "18:19:37 Initialization complete!"
-$log.entry[103] = "18:19:37 Initialization complete!"
-$log.entry[104] = "18:19:37 Initialization complete!"
-$log.entry[105] = "18:19:37 Initialization complete!"
-$log.entry[106] = "18:19:37 Initialization complete!"
-$log.entry[107] = "18:19:37 Initialization complete!"
-$log.entry[108] = "18:19:37 Initialization complete!"
-$log.entry[109] = "18:19:37 Initialization complete!"
-$log.entry[110] = "18:19:37 Initialization complete!"
-$log.entry[111] = "18:19:37 Initialization complete!"
-$log.entry[112] = "18:19:37 Initialization complete!"
-$log.entry[113] = "18:19:37 Initialization complete!"
-$log.entry[114] = "18:19:37 Initialization complete!"
-$log.entry[115] = "18:19:37 Initialization complete!"
-$log.entry[116] = "18:19:37 Initialization complete!"
-$log.entry[117] = "18:19:37 Initialization complete!"
-$log.entry[118] = "18:19:37 Initialization complete!"
-$log.entry[119] = "18:19:37 Initialization complete!"
-$log.entry[120] = "18:19:37 Initialization complete!"
-$log.entry[121] = "18:19:37 Initialization complete!"
-$log.entry[122] = "18:19:37 Initialization complete!"
-$log.entry[123] = "18:19:37 Initialization complete!"
-$log.entry[124] = "18:19:37 Initialization complete!"
-$log.entry[125] = "18:19:37 Initialization complete!"
-$log.entry[126] = "18:19:37 Initialization complete!"
-$log.entry[127] = "18:19:37 Initialization complete!"
-$log.entry[128] = "18:19:37 Initialization complete!"
-$log.entry[129] = "18:19:37 Initialization complete!"
-$log.entry[130] = "18:19:37 Initialization complete!"
-$log.entry[131] = "18:19:37 Initialization complete!"
-$log.entry[132] = "18:19:37 Initialization complete!"
-$log.entry[133] = "18:19:37 Initialization complete!"
-$log.entry[134] = "18:19:37 Initialization complete!"
-$log.entry[135] = "18:19:37 Initialization complete!"
-$log.entry[136] = "18:19:37 Initialization complete!"
-$log.entry[137] = "18:19:37 Initialization complete!"
-$log.entry[138] = "18:19:37 Initialization complete!"
-$log.entry[139] = "18:19:37 Initialization complete!"
-$log.entry[140] = "18:19:37 Initialization complete!"
-$log.entry[141] = "18:19:37 Initialization complete!"
-$log.entry[142] = "18:19:37 Initialization complete!"
-$log.entry[143] = "18:19:37 Initialization complete!"
-$log.entry[144] = "18:19:37 Initialization complete!"
-$log.entry[145] = "18:19:37 Initialization complete!"
-$log.entry[146] = "18:19:37 Initialization complete!"
-$log.entry[147] = "18:19:37 Initialization complete!"
-$log.entry[148] = "18:19:37 Initialization complete!"
-$log.entry[149] = "18:19:37 Initialization complete!"
-$log.entry[150] = "18:19:37 Initialization complete!"
-$log.entry[151] = "18:19:37 Initialization complete!"
-$log.entry[152] = "18:19:37 Initialization complete!"
-$log.entry[153] = "18:19:37 Initialization complete!"
-$log.entry[154] = "18:19:37 Initialization complete!"
-$log.entry[155] = "18:19:37 Initialization complete!"
-$log.entry[156] = "18:19:37 Initialization complete!"
-$log.entry[157] = "18:19:37 Initialization complete!"
-$log.entry[158] = "18:19:37 Initialization complete!"
-$log.entry[159] = "18:19:37 Initialization complete!"
-$log.entry[160] = "18:19:37 Initialization complete!"
-$log.entry[161] = "18:19:37 Initialization complete!"
-$log.entry[162] = "18:19:37 Initialization complete!"
-$log.entry[163] = "18:19:37 Initialization complete!"
-$log.entry[164] = "18:19:37 Initialization complete!"
-$log.entry[165] = "18:19:37 Initialization complete!"
-$log.entry[166] = "18:19:37 Initialization complete!"
-$log.entry[167] = "18:19:37 Initialization complete!"
-$log.entry[168] = "18:19:37 Initialization complete!"
-$log.entry[169] = "18:19:37 Initialization complete!"
-$log.entry[170] = "18:19:37 Initialization complete!"
-$log.entry[171] = "18:19:37 Initialization complete!"
-$log.entry[172] = "18:19:37 Initialization complete!"
-$log.entry[173] = "18:19:37 Initialization complete!"
-$log.entry[174] = "18:19:37 Initialization complete!"
-$log.entry[175] = "18:19:37 Initialization complete!"
-$log.entry[176] = "18:19:37 Initialization complete!"
-$log.entry[177] = "18:19:37 Initialization complete!"
-$log.entry[178] = "18:19:37 Initialization complete!"
-$log.entry[179] = "18:19:37 Initialization complete!"
-$log.entry[180] = "18:19:37 Initialization complete!"
-$log.entry[181] = "18:19:37 Initialization complete!"
-$log.entry[182] = "18:19:37 Initialization complete!"
-$log.entry[183] = "18:19:37 Initialization complete!"
-$log.entry[184] = "18:19:37 Initialization complete!"
-$log.entry[185] = "18:19:37 Initialization complete!"
-$log.entry[186] = "18:19:37 Initialization complete!"
-$log.entry[187] = "18:19:37 Initialization complete!"
-$log.entry[188] = "18:19:37 Initialization complete!"
-$log.entry[189] = "18:19:37 Initialization complete!"
-$log.entry[190] = "18:19:37 Initialization complete!"
-$log.entry[191] = "18:19:37 Initialization complete!"
-$log.entry[192] = "18:19:37 Initialization complete!"
-$log.entry[193] = "18:19:37 Initialization complete!"
-$log.entry[194] = "18:19:37 Initialization complete!"
-$log.entry[195] = "18:19:37 Initialization complete!"
-$log.entry[196] = "18:19:37 Initialization complete!"
-$log.entry[197] = "18:19:37 Initialization complete!"
-$log.entry[198] = "18:19:37 Initialization complete!"
-$log.entry[199] = "18:19:37 Initialization complete!"
-$log.entry[200] = "18:19:37 Initialization complete!"
-$log.entry[201] = "18:19:37 Initialization complete!"
-$log.entry[202] = "18:19:37 Initialization complete!"
-$log.entry[203] = "18:19:37 Initialization complete!"
-$log.entry[204] = "18:19:37 Initialization complete!"
-$log.entry[205] = "18:19:37 Initialization complete!"
-$log.entry[206] = "18:19:37 Initialization complete!"
-$log.entry[207] = "18:19:37 Initialization complete!"
-$log.entry[208] = "18:19:37 Initialization complete!"
-$log.entry[209] = "18:19:37 Initialization complete!"
-$log.entry[210] = "18:19:37 Initialization complete!"
-$log.entry[211] = "18:19:37 Initialization complete!"
-$log.entry[212] = "18:19:37 Initialization complete!"
-$log.entry[213] = "18:19:37 Initialization complete!"
-$log.entry[214] = "18:19:37 Initialization complete!"
-$log.entry[215] = "18:19:37 Initialization complete!"
-$log.entry[216] = "18:19:37 Initialization complete!"
-$log.entry[217] = "18:19:37 Initialization complete!"
-$log.entry[218] = "18:19:37 Initialization complete!"
-$log.entry[219] = "18:19:37 Initialization complete!"
-$log.entry[220] = "18:19:37 Initialization complete!"
-$log.entry[221] = "18:19:37 Initialization complete!"
-$log.entry[222] = "18:19:37 Initialization complete!"
-$log.entry[223] = "18:19:37 Initialization complete!"
-$log.entry[224] = "18:19:37 Initialization complete!"
-$log.entry[225] = "18:19:37 Initialization complete!"
-$log.entry[226] = "18:19:37 Initialization complete!"
-$log.entry[227] = "18:19:37 Initialization complete!"
-$log.entry[228] = "18:19:37 Initialization complete!"
-$log.entry[229] = "18:19:37 Initialization complete!"
-$log.entry[230] = "18:19:37 Initialization complete!"
-$log.entry[231] = "18:19:37 Initialization complete!"
-$log.entry[232] = "18:19:37 Initialization complete!"
-$log.entry[233] = "18:19:37 Initialization complete!"
-$log.entry[234] = "18:19:37 Initialization complete!"
-$log.entry[235] = "18:19:37 Initialization complete!"
-$log.entry[236] = "18:19:37 Initialization complete!"
-$log.entry[237] = "18:19:37 Initialization complete!"
-$log.entry[238] = "18:19:37 Initialization complete!"
-$log.entry[239] = "18:19:37 Initialization complete!"
-$log.entry[240] = "18:19:37 Initialization complete!"
-$log.entry[241] = "18:19:37 Initialization complete!"
-$log.entry[242] = "18:19:37 Initialization complete!"
-$log.entry[243] = "18:19:37 Initialization complete!"
-$log.entry[244] = "18:19:37 Initialization complete!"
-$log.entry[245] = "18:19:37 Initialization complete!"
-$log.entry[246] = "18:19:37 Initialization complete!"
-$log.entry[247] = "18:19:37 Initialization complete!"
-$log.entry[248] = "18:19:37 Initialization complete!"
-$log.entry[249] = "18:19:37 Initialization complete!"
-$log.entry[250] = "18:19:37 Initialization complete!"
-$log.entry[251] = "18:19:37 Initialization complete!"
-$log.entry[252] = "18:19:37 Initialization complete!"
-$log.entry[253] = "18:19:37 Initialization complete!"
-$log.entry[254] = "18:19:37 Initialization complete!"
-$log.entry[255] = "18:21:27 Initialization complete!"
-$safe.flag = "shelf.safe"
-$str = "STRICT"
-$type = "Task "
+$log.entry[0] = "00:23:26 ID: 12 --> i: 2 j: 1"
+$log.entry[1] = "00:27:05 KROSET mod activated. Get data from Robot TP"
+$log.entry[2] = "00:27:05 Pick workpiece; Shelf: 1 Tool: 1 ID: 6"
+$log.entry[3] = "00:27:05 Tool #1 set"
+$log.entry[4] = "00:27:05 Gripper 1 opened"
+$log.entry[5] = "00:27:05 ID: 6 --> i: 1 j: 0"
+$log.entry[6] = "00:27:24 KROSET mod activated. Get data from Robot TP"
+$log.entry[7] = "00:27:24 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[8] = "00:27:24 Tool #1 set"
+$log.entry[9] = "00:27:24 Gripper 1 opened"
+$log.entry[10] = "00:27:24 ID: 10 --> i: 2 j: 0"
+$log.entry[11] = "17:28:11 Initialization complete!"
+$log.entry[12] = "17:28:11 Speed 5 was applied"
+$log.entry[13] = "17:29:54 Main program executed"
+$log.entry[14] = "17:29:54 Performing safe movement to home position"
+$log.entry[15] = "17:30:17 KROSET mod activated. Get data from Robot TP"
+$log.entry[16] = "17:30:18 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[17] = "17:30:20 Tool #1 set"
+$log.entry[18] = "17:30:28 Opening shelf 1"
+$log.entry[19] = "17:30:28 Tool #3 set"
+$log.entry[20] = "17:30:32 Gripper 1 closed"
+$log.entry[21] = "17:30:34 Gripper 2 closed"
+$log.entry[22] = "17:30:51 Request unlock shelf 1"
+$log.entry[23] = "17:31:06 Shelf 1 successfully unlocked"
+$log.entry[24] = "17:31:24 Closing shelf 1"
+$log.entry[25] = "17:31:24 Tool #3 set"
+$log.entry[26] = "17:31:50 Opening shelf 1"
+$log.entry[27] = "17:31:50 Tool #3 set"
+$log.entry[28] = "17:31:50 Gripper 1 closed"
+$log.entry[29] = "17:31:50 Gripper 2 closed"
+$log.entry[30] = "17:31:52 Request unlock shelf 1"
+$log.entry[31] = "17:31:52 Shelf 1 successfully unlocked"
+$log.entry[32] = "17:31:57 Closing shelf 1"
+$log.entry[33] = "17:31:58 Tool #3 set"
+$log.entry[34] = "17:31:58 Gripper 1 closed"
+$log.entry[35] = "17:31:58 Gripper 2 closed"
+$log.entry[36] = "17:32:00 Request unlock shelf 1"
+$log.entry[37] = "17:32:00 Shelf 1 successfully unlocked"
+$log.entry[38] = "17:32:10 Opening shelf 1"
+$log.entry[39] = "17:32:10 Tool #3 set"
+$log.entry[40] = "17:32:10 Gripper 1 closed"
+$log.entry[41] = "17:32:10 Gripper 2 closed"
+$log.entry[42] = "17:32:14 Request unlock shelf 1"
+$log.entry[43] = "17:32:14 Shelf 1 successfully unlocked"
+$log.entry[44] = "17:32:28 KROSET mod activated. Get data from Robot TP"
+$log.entry[45] = "17:32:29 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[46] = "17:32:31 Tool #1 set"
+$log.entry[47] = "17:32:34 Gripper 1 opened"
+$log.entry[48] = "17:32:37 ID: 10 --> i: 1 j: 4"
+$log.entry[49] = "17:33:38 KROSET mod activated. Get data from Robot TP"
+$log.entry[50] = "17:33:39 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[51] = "17:33:40 Tool #1 set"
+$log.entry[52] = "17:33:46 Gripper 1 opened"
+$log.entry[53] = "17:33:46 ID: 10 --> i: 1 j: 4"
+$log.entry[54] = "17:34:39 KROSET mod activated. Get data from Robot TP"
+$log.entry[55] = "17:34:39 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[56] = "17:34:39 Tool #1 set"
+$log.entry[57] = "17:34:39 Gripper 1 opened"
+$log.entry[58] = "17:34:39 ID: 10 --> i: 1 j: 4"
+$log.entry[59] = "17:35:02 Tool #1 set"
+$log.entry[60] = "17:35:36 KROSET mod activated. Get data from Robot TP"
+$log.entry[61] = "17:35:36 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[62] = "17:35:36 Tool #1 set"
+$log.entry[63] = "17:35:36 Gripper 1 opened"
+$log.entry[64] = "17:35:36 ID: 10 --> i: 1 j: 4"
+$log.entry[65] = "17:35:48 KROSET mod activated. Get data from Robot TP"
+$log.entry[66] = "17:35:48 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[67] = "17:35:48 Tool #1 set"
+$log.entry[68] = "17:35:48 Gripper 1 opened"
+$log.entry[69] = "17:35:48 ID: 10 --> i: 1 j: 4"
+$log.entry[70] = "17:35:56 KROSET mod activated. Get data from Robot TP"
+$log.entry[71] = "17:35:56 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
+$log.entry[72] = "17:35:56 Tool #1 set"
+$log.entry[73] = "17:35:56 Gripper 1 opened"
+$log.entry[74] = "17:35:56 ID: 10 --> i: 1 j: 4"
+$log.entry[75] = "22:41:59 KROSET mod activated. Get data from Robot TP"
+$log.entry[76] = "22:41:59 Pick workpiece. Shelf: 1 Tool: 1 ID: 10"
+$log.entry[77] = "22:42:00 Tool #1 set"
+$log.entry[78] = "22:42:00 Command open gripper 1"
+$log.entry[79] = "22:42:00 ID: 10 --> i: 1 j: 4"
+$log.entry[80] = "22:42:15 Command open gripper 1"
+$log.entry[81] = "22:42:15 Command open gripper 1"
+$log.entry[82] = "22:42:15 Error opening gripper"
+$log.entry[83] = "22:44:10 KROSET mod activated. Get data from Robot TP"
+$log.entry[84] = "22:44:10 Pick workpiece. Shelf: 1 Tool: 1 ID: 10"
+$log.entry[85] = "22:44:10 Tool #1 set"
+$log.entry[86] = "22:44:11 Command open gripper 1"
+$log.entry[87] = "22:44:11 ID: 10 --> i: 1 j: 4"
+$log.entry[88] = "22:44:59 KROSET mod activated. Get data from Robot TP"
+$log.entry[89] = "22:44:59 Pick workpiece. Shelf: 1 Tool: 1 ID: 10"
+$log.entry[90] = "22:44:59 Tool #1 set"
+$log.entry[91] = "22:44:59 Command open gripper 1"
+$log.entry[92] = "22:44:59 ID: 10 --> i: 1 j: 4"
+$log.entry[93] = "22:45:03 Distance: 0.04297"
+$log.entry[94] = "22:45:03 Detail found"
+$log.entry[95] = "22:45:03 Command close gripper 1"
+$log.entry[96] = "22:59:15 KROSET mod activated. Get data from Robot TP"
+$log.entry[97] = "22:59:15 Put workpiece. Shelf: 1 Tool: 1 ID: 10"
+$log.entry[98] = "22:59:15 Tool #1 set"
+$log.entry[99] = "22:59:15 ID: 10 --> i: 1 j: 4"
+$log.entry[100] = "22:59:18 Command open gripper 1"
+$log.entry[101] = "22:59:31 KROSET mod activated. Get data from Robot TP"
+$log.entry[102] = "22:59:31 Put workpiece. Shelf: 1 Tool: 2 ID: 10"
+$log.entry[103] = "22:59:31 Tool #2 set"
+$log.entry[104] = "22:59:31 ID: 10 --> i: 1 j: 4"
+$log.entry[105] = "23:00:44 Put workpiece. Shelf: 1 Tool: 2 ID: 10"
+$log.entry[106] = "23:00:45 Tool #2 set"
+$log.entry[107] = "23:00:46 ID: 10 --> i: 1 j: 4"
+$log.entry[108] = "23:01:47 KROSET mod activated. Get data from Robot TP"
+$log.entry[109] = "23:01:48 Put workpiece. Shelf: 1 Tool: 2 ID: 10"
+$log.entry[110] = "23:01:49 Tool #2 set"
+$log.entry[111] = "23:01:52 ID: 10 --> i: 1 j: 4"
+$log.entry[112] = "23:02:49 KROSET mod activated. Get data from Robot TP"
+$log.entry[113] = "23:02:49 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
+$log.entry[114] = "23:02:49 Tool #2 set"
+$log.entry[115] = "23:02:49 ID: 1 --> i: 0 j: 0"
+$log.entry[116] = "23:03:03 Command open gripper 2"
+$log.entry[117] = "23:03:12 KROSET mod activated. Get data from Robot TP"
+$log.entry[118] = "23:03:12 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
+$log.entry[119] = "23:03:12 Tool #2 set"
+$log.entry[120] = "23:03:12 ID: 1 --> i: 0 j: 0"
+$log.entry[121] = "23:04:18 Tool #2 set"
+$log.entry[122] = "23:05:44 KROSET mod activated. Get data from Robot TP"
+$log.entry[123] = "23:05:44 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
+$log.entry[124] = "23:05:44 Tool #2 set"
+$log.entry[125] = "23:05:44 ID: 1 --> i: 0 j: 0"
+$log.entry[126] = "23:05:49 Command open gripper 2"
+$log.entry[127] = "23:06:02 KROSET mod activated. Get data from Robot TP"
+$log.entry[128] = "23:06:02 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[129] = "23:06:02 Tool #1 set"
+$log.entry[130] = "23:06:02 Command open gripper 1"
+$log.entry[131] = "23:06:02 ID: 1 --> i: 0 j: 0"
+$log.entry[132] = "23:06:36 KROSET mod activated. Get data from Robot TP"
+$log.entry[133] = "23:06:36 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
+$log.entry[134] = "23:06:36 Tool #2 set"
+$log.entry[135] = "23:06:36 ID: 1 --> i: 0 j: 0"
+$log.entry[136] = "23:07:04 KROSET mod activated. Get data from Robot TP"
+$log.entry[137] = "23:07:04 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[138] = "23:07:04 Tool #1 set"
+$log.entry[139] = "23:07:04 Command open gripper 1"
+$log.entry[140] = "23:07:04 ID: 1 --> i: 0 j: 0"
+$log.entry[141] = "23:07:18 Distance: 0.02455"
+$log.entry[142] = "23:07:18 Detail found"
+$log.entry[143] = "23:07:18 Command close gripper 1"
+$log.entry[144] = "23:12:02 KROSET mod activated. Get data from Robot TP"
+$log.entry[145] = "23:12:03 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[146] = "23:12:03 Tool #1 set"
+$log.entry[147] = "23:12:03 Command open gripper 1"
+$log.entry[148] = "23:12:03 ID: 1 --> i: 0 j: 0"
+$log.entry[149] = "23:12:06 Distance: 0.02505"
+$log.entry[150] = "23:12:06 Detail found"
+$log.entry[151] = "23:12:06 Command close gripper 1"
+$log.entry[152] = "23:12:11 KROSET mod activated. Get data from Robot TP"
+$log.entry[153] = "23:12:11 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[154] = "23:12:11 Tool #1 set"
+$log.entry[155] = "23:12:11 Command open gripper 1"
+$log.entry[156] = "23:12:11 ID: 1 --> i: 0 j: 0"
+$log.entry[157] = "23:12:14 Distance: 0.01702"
+$log.entry[158] = "23:12:14 Detail found"
+$log.entry[159] = "23:12:14 Command close gripper 1"
+$log.entry[160] = "23:12:46 KROSET mod activated. Get data from Robot TP"
+$log.entry[161] = "23:12:46 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[162] = "23:12:46 Tool #1 set"
+$log.entry[163] = "23:12:47 Command open gripper 1"
+$log.entry[164] = "23:12:47 ID: 1 --> i: 0 j: 0"
+$log.entry[165] = "23:12:50 Distance: 0.02012"
+$log.entry[166] = "23:12:50 Detail found"
+$log.entry[167] = "23:12:50 Command close gripper 1"
+$log.entry[168] = "23:12:56 KROSET mod activated. Get data from Robot TP"
+$log.entry[169] = "23:12:56 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[170] = "23:12:57 Tool #1 set"
+$log.entry[171] = "23:12:57 Command open gripper 1"
+$log.entry[172] = "23:12:57 ID: 1 --> i: 0 j: 0"
+$log.entry[173] = "23:13:08 Distance: 0.0245"
+$log.entry[174] = "23:13:08 Detail found"
+$log.entry[175] = "23:13:08 Command close gripper 1"
+$log.entry[176] = "23:13:41 KROSET mod activated. Get data from Robot TP"
+$log.entry[177] = "23:13:41 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[178] = "23:13:41 Tool #1 set"
+$log.entry[179] = "23:13:41 Command open gripper 1"
+$log.entry[180] = "23:13:41 ID: 1 --> i: 0 j: 0"
+$log.entry[181] = "23:13:43 Distance: 0.02505"
+$log.entry[182] = "23:13:43 Detail found"
+$log.entry[183] = "23:13:43 Command close gripper 1"
+$log.entry[184] = "23:13:48 KROSET mod activated. Get data from Robot TP"
+$log.entry[185] = "23:13:48 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[186] = "23:13:48 Tool #1 set"
+$log.entry[187] = "23:13:48 Command open gripper 1"
+$log.entry[188] = "23:13:48 ID: 1 --> i: 0 j: 0"
+$log.entry[189] = "23:13:50 Distance: 0.0253"
+$log.entry[190] = "23:13:50 Detail found"
+$log.entry[191] = "23:13:51 Command close gripper 1"
+$log.entry[192] = "23:15:16 KROSET mod activated. Get data from Robot TP"
+$log.entry[193] = "23:15:17 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[194] = "23:15:17 Tool #1 set"
+$log.entry[195] = "23:15:17 Command open gripper 1"
+$log.entry[196] = "23:15:17 ID: 1 --> i: 0 j: 0"
+$log.entry[197] = "23:15:20 Distance: 0.01166"
+$log.entry[198] = "23:15:20 Detail found"
+$log.entry[199] = "23:15:20 Command close gripper 1"
+$log.entry[200] = "23:15:26 KROSET mod activated. Get data from Robot TP"
+$log.entry[201] = "23:15:26 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[202] = "23:15:26 Tool #1 set"
+$log.entry[203] = "23:15:26 Command open gripper 1"
+$log.entry[204] = "23:15:26 ID: 1 --> i: 0 j: 0"
+$log.entry[205] = "23:15:29 Distance: 0.0253"
+$log.entry[206] = "23:15:29 Detail found"
+$log.entry[207] = "23:15:29 Command close gripper 1"
+$log.entry[208] = "23:15:39 KROSET mod activated. Get data from Robot TP"
+$log.entry[209] = "23:15:39 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[210] = "23:15:39 Tool #1 set"
+$log.entry[211] = "23:15:39 Command open gripper 1"
+$log.entry[212] = "23:15:39 ID: 1 --> i: 0 j: 0"
+$log.entry[213] = "23:15:40 Distance: 0.02505"
+$log.entry[214] = "23:15:41 Detail found"
+$log.entry[215] = "23:15:41 Command close gripper 1"
+$log.entry[216] = "23:19:42 KROSET mod activated. Get data from Robot TP"
+$log.entry[217] = "23:19:42 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[218] = "23:19:42 Tool #1 set"
+$log.entry[219] = "23:19:42 Command open gripper 1"
+$log.entry[220] = "23:19:42 ID: 1 --> i: 0 j: 0"
+$log.entry[221] = "23:19:44 Distance: 0.0146"
+$log.entry[222] = "23:19:44 Detail found"
+$log.entry[223] = "23:19:44 Command close gripper 1"
+$log.entry[224] = "23:26:09 KROSET mod activated. Get data from Robot TP"
+$log.entry[225] = "23:26:09 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[226] = "23:26:09 Tool #1 set"
+$log.entry[227] = "23:26:09 Command open gripper 1"
+$log.entry[228] = "23:26:09 ID: 1 --> i: 0 j: 0"
+$log.entry[229] = "23:26:11 Distance: 0.03027"
+$log.entry[230] = "23:26:11 Detail found"
+$log.entry[231] = "23:26:12 Command close gripper 1"
+$log.entry[232] = "23:26:21 KROSET mod activated. Get data from Robot TP"
+$log.entry[233] = "23:26:21 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[234] = "23:26:21 Tool #1 set"
+$log.entry[235] = "23:26:21 Command open gripper 1"
+$log.entry[236] = "23:26:21 ID: 1 --> i: 0 j: 0"
+$log.entry[237] = "23:26:23 Distance: 0.02146"
+$log.entry[238] = "23:26:23 Detail found"
+$log.entry[239] = "23:26:24 Command close gripper 1"
+$log.entry[240] = "23:26:53 KROSET mod activated. Get data from Robot TP"
+$log.entry[241] = "23:26:53 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[242] = "23:26:53 Tool #1 set"
+$log.entry[243] = "23:26:53 Command open gripper 1"
+$log.entry[244] = "23:26:53 ID: 1 --> i: 0 j: 0"
+$log.entry[245] = "23:26:54 Distance: 0.02352"
+$log.entry[246] = "23:26:54 Detail found"
+$log.entry[247] = "23:26:55 Command close gripper 1"
+$log.entry[248] = "23:27:01 KROSET mod activated. Get data from Robot TP"
+$log.entry[249] = "23:27:01 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[250] = "23:27:01 Tool #1 set"
+$log.entry[251] = "23:27:02 Command open gripper 1"
+$log.entry[252] = "23:27:02 ID: 1 --> i: 0 j: 0"
+$log.entry[253] = "23:27:03 Distance: 0.02352"
+$log.entry[254] = "23:27:03 Detail found"
+$log.entry[255] = "23:27:04 Command close gripper 1"
+$safe.flag = "shelf.opened"
 .END

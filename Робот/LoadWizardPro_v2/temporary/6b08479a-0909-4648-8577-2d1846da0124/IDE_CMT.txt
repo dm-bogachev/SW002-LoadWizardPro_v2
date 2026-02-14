@@ -3,22 +3,60 @@
 LoadWizardPro_v2
 @@@ HISTORY @@@
 @@@ INSPECTION @@@
+hmi.gc1.body
+wp.in.length
+grip.jaws.body[1]
+plate.dy
+plate.dx
+plate.cells.o
+plate.cells.e
+hmi.wp.id
 @@@ CONNECTION @@@
 KROSET R01
 127.0.0.1
 9105
 @@@ PROGRAM @@@
-Group:Grippers:1
-1:gripper.close:F
+Group:Workpiece:1
+1:wp.pick:F
+.shelf.no 
+.tool.no 
+.wp.no 
+.i 
+.j 
+.dx 
+.dy 
+.dz 
+.z.appro 
+.temp 
+.x.pick 
+1:wp.teach:F
+.tool 
+.gc.full 
+.full 
+.gc.body 
+.body 
+.z.shift 
+.po 
+.px 
+.py 
+.f 
+.temp1 
+.temp2 
+.temp3 
+.temp4 
+1:wp.test:F
+.tool 
+Group:Grippers:2
+2:gripper.close:F
 .gripper.no 
 .timeout 
 .reverse 
 .time 
-1:gripper.open:F
+2:gripper.open:F
 .gripper.no 
 .reverse 
 .time 
-Group:Shelves:2
-2:shelf.open:F
+Group:Shelves:3
+3:shelf.open:F
 .shelf.no 
 .start 
