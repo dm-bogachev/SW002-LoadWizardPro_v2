@@ -16,14 +16,14 @@
 .NETCONF     0.0.0.0,"",0.0.0.0,0.0.0.0,0.0.0.0,0.0.0.0,""
 .NETCONF2     0.0.0.0,0.0.0.0,0.0.0.0
 .ROBOTDATA1
-ZROBOT.TYPE    30  14   6   1        -766   RS013N-A001 ( 2026-02-14 23:05 )
+ZROBOT.TYPE    30  14   6   1        -766   RS013N-A001 ( 2026-02-16 18:40 )
 ZSYSTEM         1   5         -91
 ZLINEAR         0   0   0   0   0   0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1         179
 CONT_CODE     701      -10516
-ZZERO         268586729 268599027 267760593 268816734 268136868 268969547 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456   533019481
+ZZERO         268234677 268506927 268689671 268237938 268305741 268414348 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456   540222421
 ENDLESS_POS   0 100 1       -1516
 LANGUAGE      2
-ZSIGSPEC      256 256 512      -15361
+ZSIGSPEC      960 960 512      -36481
 ZSIGSPEC2       0   0          -1
 ZSETAPPLI          0      0      8      8      0    255       -4066
 ZAXCONFIG       1  -1  -1  -1  -1  -1  -1  -1  -1  -1         119
@@ -46,7 +46,7 @@ ZWCOMPK           0.000     0.000     0.000     0.000     0.000     0.000     0.
 FLEXCAL_REPEAT_CNT    8
 ZCPUCACHE     OFF -3595
 ZULIMIT         180.000   138.000   135.000   200.000   125.000   360.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000   -87474177
-ZLLIMIT        -180.000  -105.000  -159.000  -200.000  -125.000  -360.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000  2061115391
+ZLLIMIT        -180.000  -105.000  -159.000  -200.000  -130.000  -360.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000  2060500991
 ZSETACCEL       1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   680525823
 ZSETDECEL       1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   680525823
 ZSETENVCHK      1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   680525823
@@ -56,7 +56,7 @@ ZSETKVFF_SVSPEC5    1.000   1.000   1.000   1.000   1.000   1.000  -1.000  -1.00
 ZSETKVFFACC_SVSPEC5    0.000   0.000   0.000   0.000   0.000   0.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -1832648705
 ZSETKVFFJRK_SVSPEC5    0.000   0.000   0.000   0.000   0.000   0.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -1832648705
 ZSETKAFF2_SVSPEC5    1.000   1.000   1.000   1.000   1.000   1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000 -1262485505
-ZSAVEMR                11       65526           7       65532           5       65534           0           0           0           0           0           0           0           0           0           0           0           0    -2949226
+ZSAVEMR                 0           0           0       65500       65497          19           0           0           0           0           0           0           0           0           0           0           0           0    -1965241
 ZRADIUS        1663.943  1663.943   963.943   203.943   203.943    78.440     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000  -331702932
 ZJTSPEED        265.000   250.000   265.000   475.000   475.000   730.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000  -217235457
 ZACCTIME          0.282     0.352     0.238     0.208     0.222     0.262     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384   879587508
@@ -1102,7 +1102,7 @@ ZSWITCH ZLMCOMP         ON   -503
 ZSWITCH ZVMESTOP_ACFAIL OFF  -521
 ZSWITCH ZDDCOUT_RPS_PGNO OFF  -523
 ZSWITCH ZSGRLOG         OFF  -505
-ZSWITCH ZCHKSTP         OFF  -505
+ZSWITCH ZCHKSTP         ON   -503
 ZSWITCH ZMCON_ALLERESET ON   -519
 ZSWITCH ZSAVE_NO_INDENT OFF  -521
 ZSWITCH ZZERO.OXRESET   ON   -515
@@ -1325,7 +1325,7 @@ ZSWITCH ZMOD_NMV_JUDGE  OFF  -519
 ZSWITCH ZBRKDUTY        ON   -505
 ZSWITCH ZSOUKOU_AUTO    OFF  -515
 ZSWITCH ZFRI_COMP_CHG_TYPE OFF  -527
-ZSWITCH ZASIDE_BP       OFF  -509
+ZSWITCH ZASIDE_BP       ON   -507
 ZSWITCH ZCHKROT6_REVERSAL OFF  -525
 ZSWITCH ZPHASELAGCOMP   OFF  -517
 ZSWITCH ZOPTACDC_CHGVEL_SLEW_U ON   -533
@@ -1342,7 +1342,7 @@ ENV_DATA              0   0   8   0   0   0   0   0   0   0
 ENV2_DATA       0   0   0   0   0   0   0   0   0   0
 CHECK_SPEC      1   1   1   1   1   1   0   1   0
 CHECK_SPEC_JUMP    1
-CHECK_SPEC11  OFF
+CHECK_SPEC11  ON 
 DEFSIG_I EXT_MTRON       OFF     0
 DEFSIG_I EXT_ERR_RESET   OFF     0
 DEFSIG_I EXT_CYC_START   OFF     0
@@ -1818,7 +1818,7 @@ ARM_WX_NUM            0
 CHECK_SPEED2     10.000    20.000    30.000    40.000    50.000
 FASTCHK_KEYS  ON 
 SYS_BASE          0.000     0.000     0.000    90.000    30.000    90.000
-TOOL             93.800     0.000   102.000     0.000    90.000   180.000
+TOOL            -93.800     0.000   102.000   180.000    90.000  -180.000
 FTOOL             0.000     0.000     0.000     0.000     0.000     0.000
 DFF              13.000     0.000     0.000   100.000     0.000     0.000     0.000
 SPDUPGEAR         0.000     0.000     0.000     0.000
@@ -2344,7 +2344,7 @@ SWITCH QTOOL           OFF
 SWITCH REP_ONCE        ON 
 SWITCH REP_ONCE.RPS_LAST OFF
 SWITCH RPS             OFF
-SWITCH STP_ONCE        ON 
+SWITCH STP_ONCE        OFF
 SWITCH AFTER.WAIT.TMR  OFF
 SWITCH FLEXCOMP        OFF
 SWITCH MESSAGES        ON 
@@ -2354,7 +2354,7 @@ SWITCH AUTOSTART2.PC   OFF
 SWITCH AUTOSTART3.PC   OFF
 SWITCH AUTOSTART4.PC   OFF
 SWITCH AUTOSTART5.PC   OFF
-SWITCH ERRSTART.PC     OFF
+SWITCH ERRSTART.PC     ON 
 SWITCH AUTOSTART.LSQ   OFF
 SWITCH DISPIO_01       OFF
 SWITCH HOLD.STEP       ON 
@@ -2877,6 +2877,9 @@ N_OX133   "eo.shelf.unlock[1]"
 N_OX134   "eo.shelf.unlock[2]"
 N_OX135   "eo.shelf.unlock[3]"
 N_OX136   "eo.shelf.unlock[4]"
+N_OX225   "eo.grip.state[1,0]"
+N_OX257   "eo.cnc.state[1,0]"
+N_OX289   "eo.wp.processed[0]"
 N_WX33   "gripper.opened[1]"
 N_WX34   "gripper.opened[2]"
 N_WX35   "gripper.sensor[1]"
@@ -2932,6 +2935,8 @@ N_INT7    "di.ifp.page[7]"
 N_INT8    "di.ifp.page[8]"
 N_INT10   "s.shelf.failed"
 N_INT11   "s.search.fail"
+N_INT12   "s.inside.cnc"
+N_INT13   "s.mfinish.req"
 N_INT100   "s.pr.tch.shelf"
 N_INT101   "s.pr.tst.shelf"
 N_INT102   "s.hmi.tool.1"
@@ -2940,6 +2945,8 @@ N_INT104   "s.pr.tch.wp"
 N_INT105   "s.pr.tst.pick"
 N_INT106   "s.pr.home"
 N_INT107   "s.pr.tst.put"
+N_INT108   "s.pr.cnc.appr"
+N_INT109   "s.pr.cnc.tch"
 SENSING_SPEED     10.000     0.000 255
 SENS_STROKE       0.000
 PAL_TYPE_01     0
@@ -3269,6 +3276,16 @@ TP_RECINHI      0   0   0
 79,2,"","   TEACH","    CNC","",10,4,3,2004,0
 80,2,"","   TEACH","   SHELF","",10,4,3,2005,0
 83,2,"","   TEACH","   DATA","",10,4,3,2007,0
+84,2,"  PRIME","  TEACH","  CNC","",10,4,3,2109,0
+88,4,2,"TEACH TOOL","TOOL 1","TOOL 2","",10,4,4,2102,0,0
+89,4,2,"GRIPPER 1","OPEN","CLOSE","",10,4,4,33,34,0
+90,4,2,"GRIPPER 2","OPEN","CLOSE","",10,4,4,35,36,0
+91,2,"  PRIME","  TEACH","  CNC","  APPROACH",10,4,3,2108,0
+95,4,2,"TEACH CNC","CHUCK 1","CHUCK 2","",10,4,4,2103,0,0
+96,2,"","  CHUCK 1","   OPEN","",10,4,15,97,0
+97,2,"","  CHUCK 2","   OPEN","",10,4,15,99,0
+103,2,"","  CHUCK 1","   CLOSE","",10,4,15,98,0
+104,2,"","  CHUCK 2","   CLOSE","",10,4,15,100,0
 105,2,"","   MAIN","<---------","",10,4,11,2001,0
 107,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 108,2,"","   TEACH","   SHELF","",10,4,3,2005,0
@@ -3295,6 +3312,10 @@ TP_RECINHI      0   0   0
 179,8,"hmi.plate.ox","PLATE OX","  SHIFT",10,8,5,2,0
 180,8,"hmi.plate.dy","PLATE CELL","  SHIFT",10,8,5,2,0
 181,8,"hmi.plate.e.dy","PLATE EVEN","  SHIFT",10,8,5,2,0
+182,8,"hmi.st3.tool","  STATE 3 ","  TOOL",10,6,5,2,0
+183,8,"hmi.st5.chuck","  STATE 5 ","  CHUCK",10,6,5,2,0
+184,8,"hmi.st6.tool","  STATE 6 ","  TOOL",10,6,5,2,0
+185,8,"hmi.st6.chuck","  STATE 6","  CHUCK",10,6,5,2,0
 186,8,"hmi.wp.length"," TEACH WP","  LENGTH",10,4,5,2,0
 187,8,"hmi.plate.ox","PLATE OX","  SHIFT",10,5,5,2,0
 188,8,"hmi.plate.oy","PLATE OY","  SHIFT",10,5,5,2,0
@@ -3306,6 +3327,16 @@ TP_RECINHI      0   0   0
 197,1," SHELF 2","","","  OPENED",10,15,4,10,130,0
 198,1," SHELF 3","","","  OPENED",10,15,4,10,131,0
 199,1," SHELF 4","","","  OPENED",10,15,4,10,132,0
+200,8,"current.wp"," Next"," workpiece",10,15,4,2,0
+201,8,"gripper.id[1]","Gripper 1","   ID",10,15,4,2,0
+202,8,"gripper.id[2]","Gripper 2","   ID",10,15,4,2,0
+203,1,"INSIDE CNC","","","",10,15,4,10,2012,0
+206,14,"safe.flag","Safe flag","",10,15,0
+207,8,"state"," State","  ",10,15,4,2,0
+208,8,"cnc.id[1]","Chuck 1","   ID",10,15,4,2,0
+209,8,"cnc.id[2]","Chuck 2","   ID",10,15,4,2,0
+210,8,"hmi.wp.id"," WORKPIECE","    ID",10,8,3,1,0
+214,8,"processed.wp"," Processed"," Workpiece",10,15,4,1,0
 217,2,"","   MAIN","<---------","",10,4,11,2001,0
 .END
 .INTER_PANEL_TITLE

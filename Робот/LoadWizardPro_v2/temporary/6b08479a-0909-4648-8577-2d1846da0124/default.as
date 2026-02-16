@@ -16,14 +16,14 @@
 .NETCONF     0.0.0.0,"",0.0.0.0,0.0.0.0,0.0.0.0,0.0.0.0,""
 .NETCONF2     0.0.0.0,0.0.0.0,0.0.0.0
 .ROBOTDATA1
-ZROBOT.TYPE    30  14   6   1        -766   RS013N-A001 ( 2026-02-14 23:05 )
+ZROBOT.TYPE    30  14   6   1        -766   RS013N-A001 ( 2026-02-16 18:40 )
 ZSYSTEM         1   5         -91
 ZLINEAR         0   0   0   0   0   0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1         179
 CONT_CODE     701      -10516
-ZZERO         268586729 268599027 267760593 268816734 268136868 268969547 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456   533019481
+ZZERO         268234677 268506927 268689671 268237938 268305741 268414348 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456 268435456   540222421
 ENDLESS_POS   0 100 1       -1516
-LANGUAGE      2
-ZSIGSPEC      256 256 512      -15361
+LANGUAGE 2
+ZSIGSPEC      960 960 512      -36481
 ZSIGSPEC2       0   0          -1
 ZSETAPPLI          0      0      8      8      0    255       -4066
 ZAXCONFIG       1  -1  -1  -1  -1  -1  -1  -1  -1  -1         119
@@ -46,7 +46,7 @@ ZWCOMPK           0.000     0.000     0.000     0.000     0.000     0.000     0.
 FLEXCAL_REPEAT_CNT    8
 ZCPUCACHE     OFF -3595
 ZULIMIT         180.000   138.000   135.000   200.000   125.000   360.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000   -87474177
-ZLLIMIT        -180.000  -105.000  -159.000  -200.000  -125.000  -360.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000  2061115391
+ZLLIMIT        -180.000  -105.000  -159.000  -200.000  -130.000  -360.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000   -10.000  2060500991
 ZSETACCEL       1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   680525823
 ZSETDECEL       1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   680525823
 ZSETENVCHK      1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   680525823
@@ -56,7 +56,7 @@ ZSETKVFF_SVSPEC5    1.000   1.000   1.000   1.000   1.000   1.000  -1.000  -1.00
 ZSETKVFFACC_SVSPEC5    0.000   0.000   0.000   0.000   0.000   0.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -1832648705
 ZSETKVFFJRK_SVSPEC5    0.000   0.000   0.000   0.000   0.000   0.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -11.000 -1832648705
 ZSETKAFF2_SVSPEC5    1.000   1.000   1.000   1.000   1.000   1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000  -1.000 -1262485505
-ZSAVEMR                11       65526           7       65532           5       65534           0           0           0           0           0           0           0           0           0           0           0           0    -2949226
+ZSAVEMR                 0           0           0       65500       65497          19           0           0           0           0           0           0           0           0           0           0           0           0    -1965241
 ZRADIUS        1663.943  1663.943   963.943   203.943   203.943    78.440     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000     1.000  -331702932
 ZJTSPEED        265.000   250.000   265.000   475.000   475.000   730.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000    10.000  -217235457
 ZACCTIME          0.282     0.352     0.238     0.208     0.222     0.262     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384     0.384   879587508
@@ -485,7 +485,7 @@ OP_ACCUTYPE2  ON  -3818
 OP_MTN_CHK    OFF -4417
 OP_CHKINCHING  OFF -4345
 OP_COLDET     OFF -4300
-OP_BLTARM     OFF -4280
+OP_BLTARM OFF -4280
 OP_IPKALM     OFF -4145
 OP_KADOUINFO  ON  -4586
 OP_IMON2      OFF -3341
@@ -504,7 +504,7 @@ OP_MCALL      ON  -3893
 OP_COOP       OFF -4120
 OP_ROBNET     OFF -4426
 OP_1TP_ROBNET  OFF -4967
-OP_KRNX       ON  -4546
+OP_KRNX ON -4546
 OP_OPENAS     OFF -4330
 OPT_BLTINVISION  OFF -5113
 OP_EDIEXE     OFF -4012
@@ -517,7 +517,7 @@ OP_WEBSERVER_FUNC  OFF -5041
 OP_WEBSERVER_OPE  OFF -5094
 OP_COMMU1     OFF -3562
 OP_KLOGIC     OFF -3816
-OP_CUBIC_S    OFF -4851
+OP_CUBIC_S OFF -4851
 OP_EIP_SAFETY  OFF -5310
 OP_TP_WRITE_CBS  OFF -5255
 OP_BLUETOOTH  ON  -4697
@@ -1102,7 +1102,7 @@ ZSWITCH ZLMCOMP         ON   -503
 ZSWITCH ZVMESTOP_ACFAIL OFF  -521
 ZSWITCH ZDDCOUT_RPS_PGNO OFF  -523
 ZSWITCH ZSGRLOG         OFF  -505
-ZSWITCH ZCHKSTP         OFF  -505
+ZSWITCH ZCHKSTP         ON   -503
 ZSWITCH ZMCON_ALLERESET ON   -519
 ZSWITCH ZSAVE_NO_INDENT OFF  -521
 ZSWITCH ZZERO.OXRESET   ON   -515
@@ -1325,13 +1325,48 @@ ZSWITCH ZMOD_NMV_JUDGE  OFF  -519
 ZSWITCH ZBRKDUTY        ON   -505
 ZSWITCH ZSOUKOU_AUTO    OFF  -515
 ZSWITCH ZFRI_COMP_CHG_TYPE OFF  -527
-ZSWITCH ZASIDE_BP       OFF  -509
+ZSWITCH ZASIDE_BP       ON   -507
 ZSWITCH ZCHKROT6_REVERSAL OFF  -525
 ZSWITCH ZPHASELAGCOMP   OFF  -517
 ZSWITCH ZOPTACDC_CHGVEL_SLEW_U ON   -533
 ZSWITCH ZOPTACDC_FTRQ_TN_FIX ON   -529
 ZSWITCH ZFIX_PG_CONTINUE ON   -521
 ZSWITCH ZFIX_CALL_1STEPPG ON   -523
+.END
+.OPE_INFO1
+OPEINFO  30 14 6 1  1771055942  ;(26/2/14 16:59:02) RS013N-A001 
+CONT_TIM  38.3 
+SERV_TIM  22.2 
+MTON_CNT  356 
+ESTP_CNT  9 
+BRKE_CNT  380 
+CON_PWR  0.228 
+SUP_PWR  0.228 
+REG_PWR  0.000 
+MOVE_TJT  5.3 4.6 4.9 5.2 4.5 5.2 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+DIST_DJT  170.112 101.568 129.288 219.880 122.104 310.640 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+DIST_DJT_PLUS  85.376 50.792 64.744 109.392 62.160 156.248 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+OPEINFO TP_BKLIGHT  0 22.8 50000 
+OPEINFO MC  0 0 2000000 
+OPEINFO PARTS1  0 0 0 0 0 0 0 0 0 0 0 
+OPEINFO PARTS2  0 0 0 0 0 0 0 0 0 0 0 
+OPEINFO PARTS3  0 0 0 0 0 0 0 0 0 0 0 
+M_OPEINFO  30 14 6 1  1771055942  ;(26/2/14 16:59:02) RS013N-A001 
+M_CONT_TIM  38.3 
+M_SERV_TIM  22.2 
+M_MTON_CNT  356 
+M_ESTP_CNT  9 
+M_BRKE_CNT  380 
+M_CON_PWR  0.228 
+M_SUP_PWR  0.228 
+M_REG_PWR  0.000 
+M_MOVE_TJT  5.3 4.6 4.9 5.2 4.5 5.2 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+M_DIST_DJT  170.112 101.568 129.288 219.880 122.104 310.640 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+M_DIST_DJT_PLUS  85.376 50.792 64.744 109.392 62.160 156.248 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+M_MOVE_TJT_OVERDRIVE  0.0 0.0 0.0 0.0 0.0 0.0 
+M_DIST_DJT_OVERDRIVE  0.000 0.000 0.000 0.000 0.000 0.000 
+M_WARN_CJT_OVERDRIVE  0 0 0 0 0 0 
+HOUR_MTR  38.3 
 .END
 .SYSDATA
 REG_POINT       4
@@ -1342,7 +1377,7 @@ ENV_DATA              0   0   8   0   0   0   0   0   0   0
 ENV2_DATA       0   0   0   0   0   0   0   0   0   0
 CHECK_SPEC      1   1   1   1   1   1   0   1   0
 CHECK_SPEC_JUMP    1
-CHECK_SPEC11  OFF
+CHECK_SPEC11  ON 
 DEFSIG_I EXT_MTRON       OFF     0
 DEFSIG_I EXT_ERR_RESET   OFF     0
 DEFSIG_I EXT_CYC_START   OFF     0
@@ -1818,7 +1853,7 @@ ARM_WX_NUM            0
 CHECK_SPEED2     10.000    20.000    30.000    40.000    50.000
 FASTCHK_KEYS  ON 
 SYS_BASE          0.000     0.000     0.000    90.000    30.000    90.000
-TOOL             93.800     0.000   102.000     0.000    90.000   180.000
+TOOL            -93.800     0.000   102.000  -180.000    90.000   180.000
 FTOOL             0.000     0.000     0.000     0.000     0.000     0.000
 DFF              13.000     0.000     0.000   100.000     0.000     0.000     0.000
 SPDUPGEAR         0.000     0.000     0.000     0.000
@@ -2344,7 +2379,7 @@ SWITCH QTOOL           OFF
 SWITCH REP_ONCE        ON 
 SWITCH REP_ONCE.RPS_LAST OFF
 SWITCH RPS             OFF
-SWITCH STP_ONCE        ON 
+SWITCH STP_ONCE        OFF
 SWITCH AFTER.WAIT.TMR  OFF
 SWITCH FLEXCOMP        OFF
 SWITCH MESSAGES        ON 
@@ -2419,6 +2454,186 @@ SWITCH LIST_VERTICAL   OFF
 SWITCH REP_SINGULAR    OFF
 SWITCH TCH_SINGULAR    OFF
 SWITCH SLOW_REP_MM     OFF
+.END
+.CONDITION
+AS_VER       ASF_01000001G
+ELOG_NUM            131
+CHK_ONCE      255
+MAN_SPEED     4
+CHK_SPEED     4
+MON_SPEED         3.000
+PRG_ACCEL       100.000
+PRG_SPEED       100.000
+PRG_DECEL       100.000
+PRM_SPEED       100.000
+PRM_ACCEL       100.000
+PRM_DECEL       100.000
+BLK_SPEED       100.000
+PRG_TIME      0
+PRM_TIME      0
+PRG_NOT_SPEED    100.000
+PRM_NOT_SPEED    100.000
+ACCEL_TICK           -1
+DECEL_TICK           -1
+ABS_SPEED         0.000
+SPEED_TYPE2       0.000
+VEL_E             0.000
+EXT_R1            0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
+EXT_R2            0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
+CINT_PRM_SPEED1    100.000
+CINT_PRG_SPEED1    100.000
+CINT_PRM_SPEED2    100.000
+CINT_PRG_SPEED2    100.000
+CINT_PRM_SPEED3    100.000
+CINT_PRG_SPEED3    100.000
+CINT_PRM_ACCEL    100.000
+CINT_PRG_ACCEL    100.000
+CINT_PRM_DECEL    100.000
+CINT_PRG_DECEL    100.000
+PRG_ACCEL_ORG    100.000
+PRG_SPEED_ORG    100.000
+PRG_DECEL_ORG    100.000
+PRG_JT_ACCEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
+PRG_JT_DECEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
+PRM_JT_ACCEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
+PRM_JT_DECEL    100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000   100.000
+STEP1ENV_CALL_PRGNAME a.main
+STEP1ENV_PRG_STEP          1
+STEP2ENV0_CALL_PRGNAME autostart.pc
+STEP2ENV0_PRG_STEP          1
+USR_DO1      00000000000000000000000011111111
+USR_DO2      00000000000000000000000010101001
+USR_DO3      00000000000000000000000000000000
+USR_DO4      00000000000000100000000000000000
+USR_DO5      00000000000000000000000000000001
+USR_DO6      00000000000000000000000000000000
+USR_DO7      00000000000000000000000000000000
+USR_DO8      11111111111111000000000000000000
+USR_DO9      00000000000000000000000000000000
+USR_DO10     00000000000000000000000000000000
+USR_DO11     00000000000000000000000000000000
+USR_DO12     00000000000000000000000000000000
+USR_DO13     00000000000000000000000000000000
+USR_DO14     00000000000000000000000000000000
+USR_DO15     00000000000000000000000000000000
+USR_DO16     00000000000000000000000000000000
+USR_DO17     00000000000000000000000000000000
+USR_DO18     00000000000000000000000000000000
+USR_DO19     00000000000000000000000000000000
+USR_DO20     00000000000000000000000000000000
+USR_DO21     00000000000000000000000000000000
+USR_DO22     00000000000000000000000000000000
+USR_DO23     00000000000000000000000000000000
+USR_DO24     00000000000000000000000000000000
+USR_DO25     00000000000000000000000000000000
+USR_DO26     00000000000000000000000000000000
+USR_DO27     00000000000000000000000000000000
+USR_DO28     00000000000000000000000000000000
+USR_DO29     00000000000000000000000000000000
+USR_DO30     00000000000000000000000000000000
+USR_INTERNAL 00000000000000000000000000000000
+USR_INTERNAL1 00000000000000000000000000000000
+USR_INTERNAL2 00000000000000000000000000000000
+USR_INTERNAL3 00000000000000000000000000000000
+USR_INTERNAL4 00000000000000000000000001100000
+USR_INTERNAL5 00000000000000000000000000000000
+USR_INTERNAL6 00000000000000000000000000000000
+USR_INTERNAL7 00000000000000000000000000000000
+USR_INTERNAL8 00000000000000000000000000000000
+USR_INTERNAL9 00000000000000000000000000000000
+USR_INTERNAL10 00000000000000000000000000000000
+USR_INTERNAL11 00000000000000000000000000000000
+USR_INTERNAL12 00000000000000000000000000000000
+USR_INTERNAL13 00000000000000000000000000000000
+USR_INTERNAL14 00000000000000000000000000000000
+USR_INTERNAL15 00000000000000000000000000000000
+USR_INTERNAL16 00000000000000000000000000000000
+USR_INTERNAL17 00000000000000000000000000000000
+USR_INTERNAL18 00000000000000000000000000000000
+USR_INTERNAL19 00000000000000000000000000000000
+USR_INTERNAL20 00000000000000000000000000000000
+USR_INTERNAL21 00000000000000000000000000000000
+USR_INTERNAL22 00000000000000000000000000000000
+USR_INTERNAL23 00000000000000000000000000000000
+USR_INTERNAL24 00000000000000000000000000000000
+USR_INTERNAL25 00000000000000000000000000000000
+USR_INTERNAL26 00000000000000000000000000000000
+USR_INTERNAL27 00000000000000000000000000000000
+USR_INTERNAL28 00000000000000000000000000000000
+USR_INTERNAL29 00000000000000000000000000000000
+USR_INTERNAL30 00000000000000000000000000000000
+USR_AD       00000000000000000000000000000000
+USR_DA                0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+USR_ADO_1          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO_2          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO_3          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO_4          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO_5          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO_6          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO_7          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO_8          0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_1         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_2         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_3         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_4         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_5         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_6         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_7         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+USR_ADO2_8         0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+UCINDENT1          0
+UCLINE1            0
+UCFGCOLOR1        11
+UCBGCOLOR1        10
+UCCHARWINSTR1 17:14:02 CNC chuck 2 opened
+17:14:02 State 100: Decision making module
+17:14:02 State 7: Move outside CNC
+17:14:02 Move outside CNC. Tool: 2 Chuck: 2
+
+UCINDENT2          0
+UCLINE2            0
+UCFGCOLOR2        11
+UCBGCOLOR2        10
+UCCHARWINSTR2 17:14:02 Tool #2 set
+17:14:03 Robot outside CNC
+17:14:03 State 100: Decision making module
+17:14:03 State 8: Execute MFINISH
+
+UCINDENT3          0
+UCLINE3            0
+UCFGCOLOR3        11
+UCBGCOLOR3        10
+UCCHARWINSTR3 17:14:04 State 100: Decision making module
+17:14:04 State 9: Put detail to shelf
+17:14:04 Put workpiece. Shelf: 1 Tool: 2 ID: 4
+18:40:16 Initialization complete!
+
+UCINDENT4          0
+UCLINE4            0
+UCFGCOLOR4         0
+UCBGCOLOR4         0
+UCINDENT5          0
+UCLINE5            0
+UCFGCOLOR5         0
+UCBGCOLOR5         0
+UCINDENT6          0
+UCLINE6            0
+UCFGCOLOR6         0
+UCBGCOLOR6         0
+UCINDENT7          0
+UCLINE7            0
+UCFGCOLOR7         0
+UCBGCOLOR7         0
+UCINDENT8          0
+UCLINE8            0
+UCFGCOLOR8        11
+UCBGCOLOR8         6
+UCCHARWINSTR8 Robot: RS013N S/N: XXXXX
+Controller: F60 S/N: XXXXX
+ 
+Powered by Robowizard Co.Ltd.
+
+SEQEXECUTE            0
+TPHOLDSTAT    ON 
 .END
 .AUXDATA
 ROB_START_LIM      0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
@@ -2877,6 +3092,9 @@ N_OX133   "eo.shelf.unlock[1]"
 N_OX134   "eo.shelf.unlock[2]"
 N_OX135   "eo.shelf.unlock[3]"
 N_OX136   "eo.shelf.unlock[4]"
+N_OX225   "eo.grip.state[1,0]"
+N_OX257   "eo.cnc.state[1,0]"
+N_OX289   "eo.wp.processed[0]"
 N_WX33   "gripper.opened[1]"
 N_WX34   "gripper.opened[2]"
 N_WX35   "gripper.sensor[1]"
@@ -2932,6 +3150,8 @@ N_INT7    "di.ifp.page[7]"
 N_INT8    "di.ifp.page[8]"
 N_INT10   "s.shelf.failed"
 N_INT11   "s.search.fail"
+N_INT12   "s.inside.cnc"
+N_INT13   "s.mfinish.req"
 N_INT100   "s.pr.tch.shelf"
 N_INT101   "s.pr.tst.shelf"
 N_INT102   "s.hmi.tool.1"
@@ -2940,6 +3160,8 @@ N_INT104   "s.pr.tch.wp"
 N_INT105   "s.pr.tst.pick"
 N_INT106   "s.pr.home"
 N_INT107   "s.pr.tst.put"
+N_INT108   "s.pr.cnc.appr"
+N_INT109   "s.pr.cnc.tch"
 SENSING_SPEED     10.000     0.000 255
 SENS_STROKE       0.000
 PAL_TYPE_01     0
@@ -3269,6 +3491,16 @@ TP_RECINHI      0   0   0
 79,2,"","   TEACH","    CNC","",10,4,3,2004,0
 80,2,"","   TEACH","   SHELF","",10,4,3,2005,0
 83,2,"","   TEACH","   DATA","",10,4,3,2007,0
+84,2,"  PRIME","  TEACH","  CNC","",10,4,3,2109,0
+88,4,2,"TEACH TOOL","TOOL 1","TOOL 2","",10,4,4,2102,0,0
+89,4,2,"GRIPPER 1","OPEN","CLOSE","",10,4,4,33,34,0
+90,4,2,"GRIPPER 2","OPEN","CLOSE","",10,4,4,35,36,0
+91,2,"  PRIME","  TEACH","  CNC","  APPROACH",10,4,3,2108,0
+95,4,2,"TEACH CNC","CHUCK 1","CHUCK 2","",10,4,4,2103,0,0
+96,2,"","  CHUCK 1","   OPEN","",10,4,15,97,0
+97,2,"","  CHUCK 2","   OPEN","",10,4,15,99,0
+103,2,"","  CHUCK 1","   CLOSE","",10,4,15,98,0
+104,2,"","  CHUCK 2","   CLOSE","",10,4,15,100,0
 105,2,"","   MAIN","<---------","",10,4,11,2001,0
 107,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 108,2,"","   TEACH","   SHELF","",10,4,3,2005,0
@@ -3295,6 +3527,10 @@ TP_RECINHI      0   0   0
 179,8,"hmi.plate.ox","PLATE OX","  SHIFT",10,8,5,2,0
 180,8,"hmi.plate.dy","PLATE CELL","  SHIFT",10,8,5,2,0
 181,8,"hmi.plate.e.dy","PLATE EVEN","  SHIFT",10,8,5,2,0
+182,8,"hmi.st3.tool","  STATE 3 ","  TOOL",10,6,5,2,0
+183,8,"hmi.st5.chuck","  STATE 5 ","  CHUCK",10,6,5,2,0
+184,8,"hmi.st6.tool","  STATE 6 ","  TOOL",10,6,5,2,0
+185,8,"hmi.st6.chuck","  STATE 6","  CHUCK",10,6,5,2,0
 186,8,"hmi.wp.length"," TEACH WP","  LENGTH",10,4,5,2,0
 187,8,"hmi.plate.ox","PLATE OX","  SHIFT",10,5,5,2,0
 188,8,"hmi.plate.oy","PLATE OY","  SHIFT",10,5,5,2,0
@@ -3306,6 +3542,16 @@ TP_RECINHI      0   0   0
 197,1," SHELF 2","","","  OPENED",10,15,4,10,130,0
 198,1," SHELF 3","","","  OPENED",10,15,4,10,131,0
 199,1," SHELF 4","","","  OPENED",10,15,4,10,132,0
+200,8,"current.wp"," Next"," workpiece",10,15,4,2,0
+201,8,"gripper.id[1]","Gripper 1","   ID",10,15,4,2,0
+202,8,"gripper.id[2]","Gripper 2","   ID",10,15,4,2,0
+203,1,"INSIDE CNC","","","",10,15,4,10,2012,0
+206,14,"safe.flag","Safe flag","",10,15,0
+207,8,"state"," State","  ",10,15,4,2,0
+208,8,"cnc.id[1]","Chuck 1","   ID",10,15,4,2,0
+209,8,"cnc.id[2]","Chuck 2","   ID",10,15,4,2,0
+210,8,"hmi.wp.id"," WORKPIECE","    ID",10,8,3,1,0
+214,8,"processed.wp"," Processed"," Workpiece",10,15,4,1,0
 217,2,"","   MAIN","<---------","",10,4,11,2001,0
 .END
 .INTER_PANEL_TITLE
@@ -3321,9580 +3567,9 @@ TP_RECINHI      0   0   0
 .INTER_PANEL_COLOR_D
 182,3,224,244,28,159,252,255,251,255,0,31,2,241,52,255,
 .END
-.ERRLOG
-   1 - [26/02/14 23:26:42 SIGNAL:00 MON.SPEED : 5 TEACH mode]
-       (E4009)Communication time out error.
-       OPERATION1:[26/02/14 23:26:08] ( Motor power ON )
-       OPERATION2:[26/02/14 23:25:58] ( REPEAT->TEACH )
-       OPERATION3:[26/02/14 23:24:37] ( EMERGENCY STOP )
-       OPERATION4:[26/02/14 23:19:46] ( STPNEXT 1: )
-       OPERATION5:[26/02/14 23:19:44] ( STPNEXT 1: )
-       OPERATION6:[26/02/14 23:19:43] ( STPNEXT 1: )
-       OPERATION7:[26/02/14 23:19:42] ( STPNEXT 1: )
-       OPERATION8:[26/02/14 23:19:42] ( HOLD->RUN )
-       OPERATION9:[26/02/14 23:19:40] ( CYCLE START )
-       ROBOT1:
-        PROGRAM:wp.test.pick Step:0 Cur_Step:10 STATUS:STOP
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         73.801    -1.311    86.930   -58.917   108.120     8.721
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         72.942    -1.310    86.930   -58.916   108.119     8.721
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119     8.721
-------------------------------------------------------------------------------
-   2 - [26/02/14 23:01:55 SIGNAL:00 MON.SPEED : 5 TEACH mode]
-       (E1088)Destination is out of motion range.
-       OPERATION1:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
-       OPERATION2:[26/02/14 23:01:54] ( TYPE wp.in.length )
-       OPERATION3:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
-       OPERATION4:[26/02/14 23:01:54] ( TYPE wp.in.length )
-       OPERATION5:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
-       OPERATION6:[26/02/14 23:01:54] ( TYPE wp.in.length )
-       OPERATION7:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
-       OPERATION8:[26/02/14 23:01:54] ( TYPE wp.in.length )
-       OPERATION9:[26/02/14 23:01:54] ( TYPE grip.jaws.ful )
-       ROBOT1:
-        PROGRAM:wp.put Step:0 Cur_Step:28 STATUS:STOP
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-------------------------------------------------------------------------------
-   3 - [26/02/14 23:00:50 SIGNAL:00 MON.SPEED : 5 TEACH mode]
-       (E1088)Destination is out of motion range.
-       OPERATION1:[26/02/14 23:00:43] ( CYCLE START )
-       OPERATION2:[26/02/14 23:00:41] ( STEP CHANGE )
-       OPERATION3:[26/02/14 23:00:31] ( ALLERESET )
-       OPERATION4:[26/02/14 23:00:23] ( STEP CHANGE )
-       OPERATION5:[26/02/14 23:00:19] ( ALLERESET )
-       OPERATION6:[26/02/14 23:00:17] ( STEP CHANGE )
-       OPERATION7:[26/02/14 23:00:13] ( REPEAT->TEACH )
-       OPERATION8:[26/02/14 23:00:08] ( ALLERESET )
-       OPERATION9:[26/02/14 23:00:06] ( RUN->HOLD )
-       ROBOT1:
-        PROGRAM:wp.put Step:0 Cur_Step:28 STATUS:STOP
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-------------------------------------------------------------------------------
-   4 - [26/02/14 23:00:29 SIGNAL:00 MON.SPEED : 5 TEACH mode]
-       (E1088)Destination is out of motion range.
-       OPERATION1:[26/02/14 23:00:23] ( STEP CHANGE )
-       OPERATION2:[26/02/14 23:00:19] ( ALLERESET )
-       OPERATION3:[26/02/14 23:00:17] ( STEP CHANGE )
-       OPERATION4:[26/02/14 23:00:13] ( REPEAT->TEACH )
-       OPERATION5:[26/02/14 23:00:08] ( ALLERESET )
-       OPERATION6:[26/02/14 23:00:06] ( RUN->HOLD )
-       OPERATION7:[26/02/14 23:00:06] ( HOLD->RUN )
-       OPERATION8:[26/02/14 23:00:05] ( CYCLE START )
-       OPERATION9:[26/02/14 23:00:04] ( Motor power ON )
-       ROBOT1:
-        PROGRAM:wp.put Step:0 Cur_Step:28 STATUS:STOP
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-------------------------------------------------------------------------------
-   5 - [26/02/14 23:00:18 SIGNAL:00 MON.SPEED : 5 TEACH mode]
-       (E1088)Destination is out of motion range.
-       OPERATION1:[26/02/14 23:00:17] ( STEP CHANGE )
-       OPERATION2:[26/02/14 23:00:13] ( REPEAT->TEACH )
-       OPERATION3:[26/02/14 23:00:08] ( ALLERESET )
-       OPERATION4:[26/02/14 23:00:06] ( RUN->HOLD )
-       OPERATION5:[26/02/14 23:00:06] ( HOLD->RUN )
-       OPERATION6:[26/02/14 23:00:05] ( CYCLE START )
-       OPERATION7:[26/02/14 23:00:04] ( Motor power ON )
-       OPERATION8:[26/02/14 23:00:03] ( TEACH->REPEAT )
-       OPERATION9:[26/02/14 23:00:01] ( REPEAT->TEACH )
-       ROBOT1:
-        PROGRAM:wp.put Step:27 Cur_Step:28 STATUS:RUN
-        Interpolation Type:JOINT  S_parameter:0.999932
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119     7.840
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.930   -58.916   108.119     7.841
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-------------------------------------------------------------------------------
-   6 - [26/02/14 23:00:06 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
-       (E1088)Destination is out of motion range.
-       OPERATION1:[26/02/14 23:00:06] ( HOLD->RUN )
-       OPERATION2:[26/02/14 23:00:05] ( CYCLE START )
-       OPERATION3:[26/02/14 23:00:04] ( Motor power ON )
-       OPERATION4:[26/02/14 23:00:03] ( TEACH->REPEAT )
-       OPERATION5:[26/02/14 23:00:01] ( REPEAT->TEACH )
-       OPERATION6:[26/02/14 22:59:58] ( ALLERESET )
-       OPERATION7:[26/02/14 22:59:57] ( RUN->HOLD )
-       OPERATION8:[26/02/14 22:59:56] ( HOLD->RUN )
-       OPERATION9:[26/02/14 22:59:56] ( CYCLE START )
-       ROBOT1:
-        PROGRAM:wp.put Step:27 Cur_Step:28 STATUS:RUN
-        Interpolation Type:JOINT  S_parameter:0.987627
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.917   108.119     7.842
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.930   -58.916   108.119     7.844
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-------------------------------------------------------------------------------
-   7 - [26/02/14 22:59:57 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
-       (E1088)Destination is out of motion range.
-       OPERATION1:[26/02/14 22:59:56] ( HOLD->RUN )
-       OPERATION2:[26/02/14 22:59:56] ( CYCLE START )
-       OPERATION3:[26/02/14 22:59:50] ( LOAD using.rcc )
-       OPERATION4:[26/02/14 22:59:33] ( ALLERESET )
-       OPERATION5:[26/02/14 22:59:31] ( RUN->HOLD )
-       OPERATION6:[26/02/14 22:59:31] ( HOLD->RUN )
-       OPERATION7:[26/02/14 22:59:29] ( CYCLE START )
-       OPERATION8:[26/02/14 22:59:20] ( STPNEXT 1: )
-       OPERATION9:[26/02/14 22:59:20] ( RUN->HOLD )
-       ROBOT1:
-        PROGRAM:wp.put Step:27 Cur_Step:28 STATUS:RUN
-        Interpolation Type:JOINT  S_parameter:0.999932
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.917   108.121     8.721
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.930   -58.916   108.119     8.721
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119  -171.278
-------------------------------------------------------------------------------
-   8 - [26/02/14 22:59:31 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
-       (E0102)Variable is not defined.
-       OPERATION1:[26/02/14 22:59:31] ( HOLD->RUN )
-       OPERATION2:[26/02/14 22:59:29] ( CYCLE START )
-       OPERATION3:[26/02/14 22:59:20] ( STPNEXT 1: )
-       OPERATION4:[26/02/14 22:59:20] ( RUN->HOLD )
-       OPERATION5:[26/02/14 22:59:20] ( STPNEXT 1: )
-       OPERATION6:[26/02/14 22:59:19] ( STPNEXT 1: )
-       OPERATION7:[26/02/14 22:59:18] ( STPNEXT 1: )
-       OPERATION8:[26/02/14 22:59:17] ( STPNEXT 1: )
-       OPERATION9:[26/02/14 22:59:16] ( STPNEXT 1: )
-       ROBOT1:
-        PROGRAM:wp.put Step:0 Cur_Step:27 STATUS:STOP
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119     8.721
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.930   -58.916   108.119     8.721
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         70.029    -1.310    86.931   -58.916   108.119     8.721
-------------------------------------------------------------------------------
-   9 - [26/02/14 22:31:49 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
-       (E0102)Variable is not defined.
-       OPERATION1:[26/02/14 22:31:49] ( HOLD->RUN )
-       OPERATION2:[26/02/14 22:31:48] ( do jm #safe.shelf )
-       OPERATION3:[26/02/14 22:23:41] ( LOAD using.rcc )
-       OPERATION4:[26/02/14 22:23:40] ( SAVE/R/SEL using.r )
-       OPERATION5:[26/02/14 22:17:26] ( LOAD using.rcc )
-       OPERATION6:[26/02/14 22:17:25] ( SAVE/R/SEL using.r )
-       OPERATION7:[26/02/14 22:12:51] ( LOAD using.rcc )
-       OPERATION8:[26/02/14 22:12:50] ( SAVE/R/SEL using.r )
-       OPERATION9:[26/02/14 21:46:45] ( LOAD using.rcc )
-       ROBOT1:
-        PROGRAM:a.home Step:0 Cur_Step:6 STATUS:STOP
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-        -11.055    30.356   125.551   -63.943   -97.353    53.885
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-        -11.055    30.356   125.551   -63.943   -97.353    53.885
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000    30.000    90.000     0.000   -45.000    -0.000
-------------------------------------------------------------------------------
-  10 - [26/02/14 18:16:13 SIGNAL:00 MON.SPEED : 5 REPEAT mode]
-       (E1089)Cannot do linear motion in current configuration.
-       OPERATION1:[26/02/14 18:16:12] ( HOLD->RUN )
-       OPERATION2:[26/02/14 18:16:12] ( do lm #homyak )
-       OPERATION3:[26/02/14 18:16:11] ( Motor power ON )
-       OPERATION4:[26/02/14 18:16:11] ( zpow on )
-       OPERATION5:[26/02/14 18:16:08] ( do lm #homyak )
-       OPERATION6:[26/02/14 18:16:01] ( here #a )
-       OPERATION7:[26/02/14 18:14:30] ( RUN->HOLD )
-       OPERATION8:[26/02/14 18:14:30] ( EMERGENCY STOP )
-       OPERATION9:[26/02/14 18:14:22] ( HOLD->RUN )
-       ROBOT1:
-        PROGRAM:a.home Step:0 Cur_Step:6 STATUS:STOP
-       PC1 PROGRAM: watchdog.pc Step No: 53 STATUS: WAIT
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-        169.161   -12.195  -112.377   122.858  -106.578    48.977
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-        169.161   -12.195  -112.377   122.858  -106.578    48.977
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000    30.000    90.000     0.000   -45.000    -0.000
-------------------------------------------------------------------------------
-  11 - [26/02/14 16:59:10 SIGNAL:00 MON.SPEED : 100 REPEAT mode]
-       (E0102)Variable is not defined.
-       OPERATION1:[26/02/14 16:59:09] ( AUX1 connect )
-       OPERATION2:[26/02/14 16:59:08] ( auxapi connect )
-       OPERATION3:[26/02/14 16:59:08] ( TEACH->REPEAT )
-       OPERATION4:[26/02/14 16:59:08] ( ERROR RESET )
-       OPERATION5:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION6:[04/01/10 22:37:04] (  )
-       OPERATION7:[04/01/10 22:37:04] (  )
-       OPERATION8:[04/01/10 22:37:04] (  )
-       OPERATION9:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         59.919    13.448   119.826   -51.133   105.940    30.395
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         59.919    13.448   119.826   -51.133   105.940    30.395
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-         59.919    13.448   119.826   -51.133   105.940    30.395
-------------------------------------------------------------------------------
-  12 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. task.get.data
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  13 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.unlock
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  14 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.sense
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  15 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.search
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  16 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.put
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  17 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.pick
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  18 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.open
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  19 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.get.cor
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  20 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.close
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  21 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. stocker.check
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  22 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. shelf.open
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  23 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. set.tool
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  24 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. set.io
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  25 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. sensing
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  26 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. safe.stocker
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  27 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. safe.home
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  28 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. safe.cnc
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  29 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. process.ultra
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  30 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. process.strict
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  31 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. process.reset
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  32 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. process.optimum
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  33 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. process.nobufer
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  34 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. process.buffer
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  35 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. process
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  36 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. plc.data.pc
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  37 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. plc.control.pc
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  38 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. pg999
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  39 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. pg1
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  40 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. pg0
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  41 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. log
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  42 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. initialize
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  43 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. gripper.open
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  44 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. gripper.close
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  45 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. gripper.check
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  46 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. dbg.init.data
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  47 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.run.pg
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  48 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.put
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  49 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.pick
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  50 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.move.out
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  51 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.move.in
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  52 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.mfinish
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  53 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.get.cor
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  54 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.door.open
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  55 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.door.close
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  56 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.chuck.open
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  57 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.chuck.close
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  58 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. cnc.change.tool
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  59 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. buffer.put.teac
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  60 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. buffer.put
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  61 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. buffer.pick.tea
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  62 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. buffer.pick
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  63 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. autostart2.pc
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  64 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. autostart.pc
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  65 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. ateach.pick.st
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  66 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. ateach.open.st
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  67 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. ateach.close.st
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  68 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. air.blowing
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  69 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. add.last
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  70 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. add.current
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  71 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. aatest
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  72 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.tool.calib
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  73 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.test.stocker
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  74 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.test.pick
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  75 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.teach.st.main
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  76 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.teach.st.aux
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  77 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.teach.global
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  78 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.teach.cnc
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  79 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.teach.buffer
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  80 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.man.home
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
-  81 - [26/02/14 16:59:06 SIGNAL:00 MON.SPEED : 10 TEACH mode]
-       (E0909)Program data file in CFast is broken. a.main
-       OPERATION1:[26/02/14 16:59:04] ( Control Power ON )
-       OPERATION2:[04/01/10 22:37:04] (  )
-       OPERATION3:[04/01/10 22:37:04] (  )
-       OPERATION4:[04/01/10 22:37:04] (  )
-       OPERATION5:[04/08/04 06:13:36] (  )
-       OPERATION6:[04/08/04 06:13:36] (  )
-       Current Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       Command Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-       End Pose
-         JT1       JT2       JT3       JT4       JT5       JT6  
-          0.000     0.000     0.000     0.000     0.000     0.000
-------------------------------------------------------------------------------
+.SIG_COMMENT
 .END
-.TP_TASK_SEQ
-COMM  0, 0, 0
-TPMA  0, 3, 3
-MFP_  0, 3, 3
-DTL_  0, 3, 3
-TPFLT  0, 0, 0
-DRAW_LOCK  0
-SEQ_LOCK   0
-ICOM_WRITE[0]  0
-ICOM_WRITE[1]  0
-ICOM_WRITE[2]  0
-ICOM_WRITE[3]  0
-ICOM_WRITE[4]  0
-ICOM_WRITE[5]  0
-ICOM_WRITE[6]  2
-ICOM_READ[0]   0
-ICOM_READ[1]   0
-ICOM_READ[2]   0
-ICOM_READ[3]   2
-ICOM_READ[4]   2
-ICOM_READ[5]   2
-ICOM_READ[6]   2
-TP_RELOAD_CNT    0
-TP_SEM_ERROR_CNT    0
-.END
-.ENCTEMPLOG
-=== MIN(deg C) ===
-  JT1  - [26/02/14 16:59:17]      0.000
-  JT2  - [26/02/14 16:59:17]      0.000
-  JT3  - [26/02/14 16:59:17]      0.000
-  JT4  - [26/02/14 16:59:17]      0.000
-  JT5  - [26/02/14 16:59:17]      0.000
-  JT6  - [26/02/14 16:59:17]      0.000
-=== MAX(deg C) ===
-  JT1  - [26/02/14 16:59:17]      0.000
-  JT2  - [26/02/14 16:59:17]      0.000
-  JT3  - [26/02/14 16:59:17]      0.000
-  JT4  - [26/02/14 16:59:17]      0.000
-  JT5  - [26/02/14 16:59:17]      0.000
-  JT6  - [26/02/14 16:59:17]      0.000
-.END
-.REDUCTIONGEAR_LOG
-SUM_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 24804 
-SUM_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUM_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 190654 
-SUM_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 2 
-SUM_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 16 
-SUM_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 14219 
-SUM_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUM_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 194901 
-SUM_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 6320 
-SUM_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 1 
-SUM_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 7 
-SUM_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 23454 
-SUM_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 2 
-SUM_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 16263 
-SUM_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 52 
-SUM_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 168079 
-SUM_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 6844 
-SUM_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 361 
-SUM_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 415 
-SUM_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 135870 
-SUM_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 1 
-SUM_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 4 
-SUM_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 79603 
-SUM_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 44 
-SUM_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 340 
-SUM_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 36132 
-SUM_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 9244 
-SUM_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 7 
-SUM_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 169711 
-SUM_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUM_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 24 
-SUM_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 215454 
-SUB1_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB1_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB2_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB3_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB4_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB5_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB6_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB7_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB8_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB9_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t10_v11    0 0 0 0 0 0 0 0 0 0 24804 
-SUB10_JT1_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT1_t11_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUB10_JT1_t11_v11    0 0 0 0 0 0 0 0 0 0 190654 
-SUB10_JT2_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t08_v11    0 0 0 0 0 0 0 0 0 0 2 
-SUB10_JT2_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t09_v10    0 0 0 0 0 0 0 0 0 0 16 
-SUB10_JT2_t09_v11    0 0 0 0 0 0 0 0 0 0 14219 
-SUB10_JT2_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t10_v10    0 0 0 0 0 0 0 0 0 0 20 
-SUB10_JT2_t10_v11    0 0 0 0 0 0 0 0 0 0 194901 
-SUB10_JT2_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT2_t11_v11    0 0 0 0 0 0 0 0 0 0 6320 
-SUB10_JT3_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t04_v11    0 0 0 0 0 0 0 0 0 0 1 
-SUB10_JT3_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t05_v11    0 0 0 0 0 0 0 0 0 0 7 
-SUB10_JT3_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t06_v11    0 0 0 0 0 0 0 0 0 0 23454 
-SUB10_JT3_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t07_v10    0 0 0 0 0 0 0 0 0 0 2 
-SUB10_JT3_t07_v11    0 0 0 0 0 0 0 0 0 0 16263 
-SUB10_JT3_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t08_v10    0 0 0 0 0 0 0 0 0 0 52 
-SUB10_JT3_t08_v11    0 0 0 0 0 0 0 0 0 0 168079 
-SUB10_JT3_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t09_v11    0 0 0 0 0 0 0 0 0 0 6844 
-SUB10_JT3_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t10_v11    0 0 0 0 0 0 0 0 0 0 361 
-SUB10_JT3_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT3_t11_v11    0 0 0 0 0 0 0 0 0 0 415 
-SUB10_JT4_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t10_v11    0 0 0 0 0 0 0 0 0 0 135870 
-SUB10_JT4_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT4_t11_v09    0 0 0 0 0 0 0 0 0 0 1 
-SUB10_JT4_t11_v10    0 0 0 0 0 0 0 0 0 0 4 
-SUB10_JT4_t11_v11    0 0 0 0 0 0 0 0 0 0 79603 
-SUB10_JT5_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t07_v11    0 0 0 0 0 0 0 0 0 0 44 
-SUB10_JT5_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t08_v11    0 0 0 0 0 0 0 0 0 0 340 
-SUB10_JT5_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t09_v11    0 0 0 0 0 0 0 0 0 0 36132 
-SUB10_JT5_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t10_v11    0 0 0 0 0 0 0 0 0 0 9244 
-SUB10_JT5_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT5_t11_v10    0 0 0 0 0 0 0 0 0 0 7 
-SUB10_JT5_t11_v11    0 0 0 0 0 0 0 0 0 0 169711 
-SUB10_JT6_t01_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t01_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t02_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t03_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t04_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t05_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t06_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t07_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t08_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t09_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v10    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t10_v11    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v01    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v02    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v03    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v04    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v05    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v06    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v07    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v08    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v09    0 0 0 0 0 0 0 0 0 0 0 
-SUB10_JT6_t11_v10    0 0 0 0 0 0 0 0 0 0 24 
-SUB10_JT6_t11_v11    0 0 0 0 0 0 0 0 0 0 215454 
-GRSALRT_TIME_JT1      0
-GRSALRT_PARAM_JT1      
-GRSALRT_TIME_JT2      0
-GRSALRT_PARAM_JT2      
-GRSALRT_TIME_JT3      0
-GRSALRT_PARAM_JT3      
-GRSALRT_TIME_JT4      0
-GRSALRT_PARAM_JT4      
-GRSALRT_TIME_JT5      0
-GRSALRT_PARAM_JT5      
-GRSALRT_TIME_JT6      0
-GRSALRT_PARAM_JT6      
-RGLOG 0
-.END
-.FLTLOG
-=== USERAS FAULT LOG ===
-=== USERTP FAULT LOG ===
-=== ARMAS  FAULT LOG ===
-.END
-.PROGRAM a.home()@26/02/14 22:38 #0
+.PROGRAM a.home()@26/02/16 16:41 #0
 ;
   SPEED 250 MM/S ALWAYS
   ACCURACY 0.01 ALWAYS
@@ -12903,7 +3578,7 @@ RGLOG 0
   JMOVE #homyak.sby
 ;
 .END
-.PROGRAM a.main()@26/02/14 22:38 #0
+.PROGRAM a.main()@26/02/16 16:41 #0
 ;
 ;RUNMASK eo.robot.ready
 ;
@@ -12921,7 +3596,7 @@ RGLOG 0
   END
 ;
 .END
-.PROGRAM autostart.pc()@26/02/14 17:02 #0
+.PROGRAM autostart.pc()@26/02/16 18:37 #0
 ;
 ; System switches
   CP ON
@@ -12948,7 +3623,16 @@ RGLOG 0
   CALL watchdog.pc
 ;
 .END
-.PROGRAM check.gripper(.tool.no)@26/02/14 22:38 #0
+.PROGRAM calc.rotation(.tool.no,.chuck.no)@26/02/16 16:41 #34
+;
+  .j6 = cnc.rotations[.tool.no,.chuck.no]
+  DECOMPOSE .j[1] = #cnc.out.base
+  POINT #cnc.out = #PPOINT(.j[1],.j[2],.j[3],.j[4],.j[5],.j[6]+.j6)
+  DECOMPOSE .j[1] = #cnc.in.base
+  POINT #cnc.in = #PPOINT(.j[1],.j[2],.j[3],.j[4],.j[5],.j[6]+.j6)
+;
+.END
+.PROGRAM check.gripper(.tool.no)@26/02/16 16:41 #0
 ;
   TIMER 1 = 0
   WHILE NOT SIG(gripper.opened[.tool.no]) DO
@@ -12962,7 +3646,7 @@ RGLOG 0
   END
 ;
 .END
-.PROGRAM check.teach.lim()@26/02/14 22:38 #0
+.PROGRAM check.teach.lim()@26/02/16 16:41 #0
 ;
   IF hmi.shelf.no<1 THEN
     CALL log("Wrong teach parameters: Shelf No")
@@ -12987,7 +3671,7 @@ RGLOG 0
   END
 ;
 .END
-.PROGRAM check.teach.pc()@26/02/14 22:59 #4089
+.PROGRAM check.teach.pc()@26/02/16 18:37 #0
 ;
   IF SIG(s.pr.tch.shelf) THEN
     MC PRIME shelf.teach
@@ -13010,12 +3694,243 @@ RGLOG 0
     MC PRIME wp.test.put
   END
 ;
+  IF SIG(s.pr.cnc.appr) THEN
+    MC PRIME cnc.appro.teach
+  END
+;
+  IF SIG(s.pr.cnc.tch) THEN
+    MC PRIME cnc.teach
+  END
+;
   IF SIG(s.pr.home) THEN
     MC PRIME a.home
   END
 ;
 .END
-.PROGRAM get.task.data()@26/02/14 22:38 #0
+.PROGRAM chuck.close(.chuck.no,.time)@26/02/16 16:41 #9
+;
+  CALL log("Close CNC chuck"+$ENCODE(.chuck.no))
+  SIGNAL eo.cnc.ch.close[.chuck.no]
+  SWAIT ei.cnc.ch.clsd[.chuck.no]
+  CALL log("CNC chuck"+$ENCODE(.chuck.no)+" closed")
+  TWAIT .time
+  SIGNAL -eo.cnc.ch.close[.chuck.no]
+;
+.END
+.PROGRAM chuck.open(.chuck.no,.time)@26/02/16 16:41 #5
+;
+  CALL log("Open CNC chuck"+$ENCODE(.chuck.no))
+  SIGNAL eo.cnc.ch.open[.chuck.no]
+  SWAIT ei.cnc.ch.opd[.chuck.no]
+  CALL log("CNC chuck"+$ENCODE(.chuck.no)+" opened")
+  TWAIT .time
+  SIGNAL -eo.cnc.ch.open[.chuck.no]
+;
+.END
+.PROGRAM cnc.appro.teach()@26/02/16 16:41 #0
+;
+  JMOVE #cnc.out.base; **== TEACH POINT ==**
+;
+  LMOVE #cnc.in.base; **== TEACH POINT ==**
+  LMOVE #cnc.out.base
+;
+.END
+.PROGRAM cnc.in(.tool.no,.chuck.no)@26/02/16 16:41 #9
+;
+  .$temp = "Move inisde CNC. Tool:"+$ENCODE(.tool.no)
+  .$temp = .$temp+" Chuck:"+$ENCODE(.chuck.no)
+  CALL log(.$temp)
+;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool(.tool.no)
+  CALL calc.rotation(.tool.no,.chuck.no)
+;
+  JMOVE #homyak
+  JMOVE #cnc.out
+  BREAK
+  $safe.flag = "cnc.out"
+;
+  CALL log("Waiting for CNC ready")
+  SWAIT ei.cnc.ready
+  CALL log("CNC ready signal received")
+;
+  LMOVE #cnc.in
+  BREAK
+  $safe.flag = "cnc.in"
+  CALL log("Robot inside CNC")
+  SIGNAL s.inside.cnc
+;
+.END
+.PROGRAM cnc.out(.tool.no,.chuck.no)@26/02/16 16:41 #7
+;
+  .$temp = "Move outside CNC. Tool:"+$ENCODE(.tool.no)
+  .$temp = .$temp+" Chuck:"+$ENCODE(.chuck.no)
+  CALL log(.$temp)
+;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool(.tool.no)
+  CALL calc.rotation(.tool.no,.chuck.no)
+;
+  JMOVE #cnc.in
+  LMOVE #cnc.out
+  BREAK
+  $safe.flag = "cnc.out"
+  CALL log("Robot outside CNC")
+  SIGNAL -s.inside.cnc
+;
+  JMOVE #homyak
+;
+;
+.END
+.PROGRAM cnc.pick(.tool.no,.chuck.no)@26/02/16 16:41 #5
+;
+  .$temp = "Pick workpiece from CNC. Tool:"+$ENCODE(.tool.no)
+  .$temp = .$temp+" Chuck:"+$ENCODE(.chuck.no)
+  CALL log(.$temp)
+;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool(.tool.no)
+  CALL calc.rotation(.tool.no,.chuck.no)
+; gripper.no, time, reverse
+  CALL gripper.open(.tool.no,0,st6.reverse)
+;
+; Calculate shifts
+  .c1 = wp.out.length+grip.jaws.body[.tool.no]+cnc.jaws.body[.chuck.no]
+  .dz = .c1-cnc.pick.ovlp ;
+  .c2 = cnc.jaws.full[.tool.no]-cnc.jaws.body[.tool.no]
+  .z.appro = .c2+cnc.pick.ovlp+10
+;
+; Calculate points
+  POINT .temp = cnc.point[.tool.no,.chuck.no]
+  POINT .x.pick = .temp+TRANS(0,0,-.dz)
+;
+; Approach
+  JMOVE #cnc.in
+  LAPPRO .x.pick,.z.appro
+;
+  SPEED put.speed MM/S
+  XMOVE .x.pick TILL gripper.sensor[.tool.no]
+  BREAK
+  TWAIT 0.1
+  CALL gripper.close(.tool.no,0.75,st6.reverse)
+  CALL chuck.open(.chuck.no,0.75)
+;
+  gripper.id[.tool.no] = cnc.id[.chuck.no]
+  cnc.id[.chuck.no] = 0
+;
+  SPEED 20
+  LAPPRO .x.pick,.z.appro
+  LMOVE #cnc.in
+;
+.END
+.PROGRAM cnc.put(.tool.no,.chuck.no)@26/02/16 16:41 #9
+;
+  .$temp = "Put workpiece in CNC. Tool:"+$ENCODE(.tool.no)
+  .$temp = .$temp+" Chuck:"+$ENCODE(.chuck.no)
+  CALL log(.$temp)
+;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool(.tool.no)
+  CALL calc.rotation(.tool.no,.chuck.no)
+;
+; Calculate shifts
+  .c1 = wp.in.length+grip.jaws.body[.tool.no]+cnc.jaws.body[.chuck.no]
+  .dz = .c1-cnc.put.ovlp ;
+  .c2 = cnc.jaws.full[.tool.no]-cnc.jaws.body[.tool.no]
+  .z.appro = .c2+cnc.put.ovlp+10
+;
+; Calculate points
+  POINT .temp = cnc.point[.tool.no,.chuck.no]
+  POINT .x.put = .temp+TRANS(0,0,-.dz)
+;
+; Approach
+  JMOVE #cnc.in
+  LAPPRO .x.put,.z.appro
+;
+  SPEED put.speed MM/S
+  XMOVE .x.put TILL gripper.sensor[.tool.no]
+  BREAK
+  TWAIT 0.1
+;
+  IF cnc.first THEN
+    CALL log("CNC close chuck first")
+    CALL chuck.close(.chuck.no,0.75)
+    CALL gripper.open(.tool.no,0.75,st3.reverse)
+  ELSE
+    CALL log("Robot open chuck first")
+    CALL gripper.open(.tool.no,0.75,st3.reverse)
+    CALL chuck.close(.chuck.no,0.75)
+  END
+;
+  SIGNAL s.mfinish.req
+  cnc.id[.chuck.no] = gripper.id[.tool.no]
+  gripper.id[.tool.no] = 0
+;
+  SPEED 20
+  LAPPRO .x.put,.z.appro
+  LMOVE #cnc.in
+;
+.END
+.PROGRAM cnc.teach()@26/02/16 16:41 #0
+;
+  CALL check.teach.lim
+;
+  IF SIG(s.hmi.tool.1) THEN
+    .tool = 1
+    .gc.full = hmi.gc1.full
+    .gc.body = hmi.gc1.body
+  ELSE
+    .tool = 2
+    .gc.full = hmi.gc2.full
+    .gc.body = hmi.gc2.body
+  END
+;
+  IF SIG(s.hmi.chuck.1) THEN
+    .chuck = 1
+    .cncc.full = hmi.cnc1c.full
+    .cncc.body = hmi.cnc1c.body
+  ELSE
+    .chuck = 2
+    .cncc.full = hmi.cnc2c.full
+    .cncc.body = hmi.cnc2c.body
+  END
+  CALL set.tool(.tool)
+  CALL calc.rotation(.tool,.chuck)
+;
+  LMOVE #cnc.in
+;
+  LAPPRO #cnc.point[.tool,.chuck],50
+  LMOVE #cnc.point[.tool,.chuck]; **== TEACH POINT ==**
+  LAPPRO #cnc.point[.tool,.chuck],50
+;
+  POINT .temp = #cnc.point[.tool,.chuck]
+  .zshift = .gc.body+.cncc.body+hmi.wp.length
+  POINT cnc.point[.tool,.chuck] = .temp+TRANS(,,.zshift)
+  IF kroset THEN
+    LMOVE cnc.point[.tool,.chuck]
+  END
+;
+  POINT .temp = cnc.point[.tool,.chuck]+TRANS(,,-.zshift)
+  LAPPRO .temp,50
+  LMOVE .temp
+  LAPPRO .temp,50
+;
+.END
+.PROGRAM cnc.test()@26/02/16 16:41 #0
+;
+  CALL cnc.put(1,1)
+  CALL cnc.pick(2,2)
+  LMOVE #cnc.out
+  CALL cnc.put(1,1)
+  CALL cnc.pick(2,1)
+  LMOVE #cnc.out
+;
+.END
+.PROGRAM get.task.data()@26/02/16 16:41 #13
 ;
   IF kroset THEN
     CALL log("KROSET mod activated. Get data from Robot TP")
@@ -13039,6 +3954,23 @@ RGLOG 0
     plate.e.dy = hmi.plate.e.dy
     plate.ox = hmi.plate.ox
     plate.oy = hmi.plate.oy
+;
+    wp.count = hmi.wp.id
+;
+    st3.tool = hmi.st3.tool
+    st5.chuck = hmi.st5.chuck
+;
+    st6.tool = hmi.st6.tool
+    st6.chuck = hmi.st6.chuck
+;
+    st3.reverse = FALSE
+    st6.reverse = FALSE
+    cnc.first = FALSE
+;op12.gripper  = 1
+;op2.chuck     = 1
+;op34.gripper  = 2
+;op3.chuck     = 2
+;
   ELSE
 ; Task parameters
     wp.in.length = hmi.wp.length
@@ -13059,10 +3991,11 @@ RGLOG 0
     plate.e.dy = hmi.plate.e.dy
     plate.ox = hmi.plate.ox
     plate.oy = hmi.plate.oy
+    wp.count = hmi.wp.id
   END
 ;
 .END
-.PROGRAM gripper.close(.gripper.no,.time,.reverse)@26/02/14 23:19 #0
+.PROGRAM gripper.close(.gripper.no,.time,.reverse)@26/02/16 16:41 #44
 ;
   IF NOT .reverse THEN
     SIGNAL gripper.close[.gripper.no],-gripper.open[.gripper.no]
@@ -13074,7 +4007,7 @@ RGLOG 0
   CALL log("Command close gripper"+$ENCODE(.gripper.no))
 ;
 .END
-.PROGRAM gripper.is.open(.tool.no)@26/02/14 23:19 #0
+.PROGRAM gripper.is.open(.tool.no,.reverse)@26/02/16 16:41 #11
 ; Check if tool is opened
   IF kroset THEN
     SIGNAL -eo.grip.error
@@ -13082,7 +4015,7 @@ RGLOG 0
   END
   TIMER 1 = 0
   WHILE NOT SIG(gripper.opened[.tool.no]) DO
-    CALL gripper.open(.tool.no,0.5,FALSE)
+    CALL gripper.open(.tool.no,0.5,.reverse)
     IF TIMER(1)>3 THEN
       CALL log("Error opening gripper")
       SIGNAL eo.grip.error
@@ -13092,7 +4025,7 @@ RGLOG 0
   END
 ;
 .END
-.PROGRAM gripper.open(.gripper.no,.time,.reverse)@26/02/14 23:19 #0
+.PROGRAM gripper.open(.gripper.no,.time,.reverse)@26/02/16 16:41 #34
 ;
   IF NOT .reverse THEN
     SIGNAL gripper.open[.gripper.no],-gripper.close[.gripper.no]
@@ -13104,7 +4037,7 @@ RGLOG 0
   CALL log("Command open gripper"+$ENCODE(.gripper.no))
 ;
 .END
-.PROGRAM id.to.ij(.id,.i,.j)@26/02/14 22:38 #0
+.PROGRAM id.to.ij(.id,.i,.j)@26/02/16 17:15 #0
 ;
   .p = plate.cells.o+plate.cells.e
   .pair = INT((.id-1)/.p)
@@ -13121,7 +4054,7 @@ RGLOG 0
   CALL log("ID:"+$ENCODE(.id)+" --> i:"+$ENCODE(.i)+" j:"+$ENCODE(.j))
 ;
 .END
-.PROGRAM log(.$msg)@26/02/14 22:38 #0
+.PROGRAM log(.$msg)@26/02/16 16:41 #603
 ;
 ; 1 line = 55 symbols max
   .max.lines = 255
@@ -13136,7 +4069,7 @@ RGLOG 0
   IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
 ;
 .END
-.PROGRAM log.clear()@26/02/14 22:38 #0
+.PROGRAM log.clear()@26/02/16 16:41 #0
 ;
 ; 1 line = 55 symbols max
   .max.lines = 255
@@ -13150,7 +4083,7 @@ RGLOG 0
   IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
 ;
 .END
-.PROGRAM pclog1.pc(.$msg)@26/02/14 17:02 #2
+.PROGRAM pclog1.pc(.$msg)@26/02/16 18:37 #1
 ;
 ; 1 line = 55 symbols max
   .max.lines = 255
@@ -13165,7 +4098,7 @@ RGLOG 0
   IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
 ;
 .END
-.PROGRAM pclog2.pc(.$msg)@26/02/14 17:02 #0
+.PROGRAM pclog2.pc(.$msg)@26/02/16 18:37 #0
 ;
 ; 1 line = 55 symbols max
   .max.lines = 255
@@ -13180,41 +4113,75 @@ RGLOG 0
   IFPWPRINT 3,1,1,9,10=$log.entry[.max.lines-3],$log.entry[.max.lines-2],$log.entry[.max.lines-1],$log.entry[.max.lines]
 ;
 .END
-.PROGRAM pg0()@26/02/14 22:38 #0
+.PROGRAM pg0()@26/02/16 16:41 #0
 ;
   state = 0
   CALL a.main
 ;
 .END
-.PROGRAM safe.home()@26/02/14 22:38 #0
+.PROGRAM safe.home()@26/02/16 16:41 #5
 ;
   IF SIG(do.home) THEN
-    CALL log("Robot is already at home. Skip safe.home program")
+    CALL log("Move robot from HOME to HOME STANDBY")
+    JMOVE #homyak.sby
+    $safe.flag = " "
     RETURN
   END
 ;
   IF SIG(do.home2) THEN
     CALL log("Robot is already at home. Skip safe.home program")
+    $safe.flag = " "
     RETURN
   END
 ;
   CALL log("Performing safe movement to home position")
-  SPEED 250 MM/S ALWAYS
+  SPEED 100 MM/S ALWAYS
   ACCURACY 0.01 ALWAYS
+;
+  SCASE $safe.flag OF
+   SVALUE "shelf.safe":
+    CALL log("Safe move from shelf")
+    TDRAW -40,0,0
+    TDRAW 0,0,-60
+    TDRAW 250,0,0
+    JMOVE #shelf.safe
+   SVALUE "wp.safe":
+    CALL log("Safe move from shelf")
+    TDRAW 0,0,-30
+    LMOVE #wp.safe[current.tool]
+   SVALUE "cnc.out":
+    CALL log("Safe move from CNC")
+    LMOVE #cnc.out
+   SVALUE "cnc.in":
+    CALL log("Safe move from CNC")
+    TDRAW 0,0,-50
+    LMOVE #cnc.in
+    LMOVE #cnc.out
+  END
 ;
   JMOVE #homyak
   JMOVE #homyak.sby
+  $safe.flag = " "
+  CALL log("Robot in home position")
+;
+  SIGNAL -s.inside.cnc
 ;
 .END
-.PROGRAM send.plc.pc()@26/02/14 17:02 #0
+.PROGRAM send.plc.pc()@26/02/16 18:37 #0
 ;
   SOUT eo.grip.opened[1] = gripper.opened[1]
   SOUT eo.grip.opened[2] = gripper.opened[2]
   SOUT eo.grip.sensor[1] = gripper.sensor[1]
   SOUT eo.grip.sensor[2] = gripper.sensor[2]
 ;
+  BITS eo.grip.state[1,0],16 = gripper.id[1]
+  BITS eo.grip.state[2,0],16 = gripper.id[2]
+  BITS eo.cnc.state[1,0],16 = cnc.id[1]
+  BITS eo.cnc.state[2,0],16 = cnc.id[2]
+  BITS eo.wp.processed[0],16 = processed.wp
+;
 .END
-.PROGRAM set.io.pc()@26/02/14 17:07 #1
+.PROGRAM set.io.pc()@26/02/16 18:37 #1
 ;
 ; For KROSET!
   k.shelf.pick = 1
@@ -13266,6 +4233,7 @@ RGLOG 0
 ;
   eo.robot.ready = 113
   eo.task.exec = 114
+  eo.process.err = 115
 ;
   eo.shelf.opened[1] = 129
   eo.shelf.opened[2] = 130
@@ -13276,6 +4244,12 @@ RGLOG 0
   eo.shelf.unlock[2] = 134
   eo.shelf.unlock[3] = 135
   eo.shelf.unlock[4] = 136
+;
+  eo.grip.state[1,0] = 225
+  eo.grip.state[2,0] = 241
+  eo.cnc.state[1,0] = 257
+  eo.cnc.state[2,0] = 273
+  eo.wp.processed[0] = 289
 ;eo.pg.started = 113
 ;eo.pg.completed = 114
 ;eo.process.err = 115
@@ -13372,14 +4346,20 @@ RGLOG 0
   di.ifp.page[8] = 2008
 ;
   s.shelf.failed = 2010
+  s.search.fail = 2011
+  s.inside.cnc = 2012
+  s.mcode.req = 2013
 ;
   s.pr.tch.shelf = 2100
   s.pr.tst.shelf = 2101
   s.hmi.tool.1 = 2102
   s.hmi.chuck.1 = 2103
   s.pr.tch.wp = 2104
-  s.pr.tst.wp = 2105
+  s.pr.tst.pick = 2105
   s.pr.home = 2106
+  s.pr.tst.put = 2107
+  s.pr.cnc.appr = 2108
+  s.pr.cnc.tch = 2109
 ;s.pr.tch.appro = 2010
 ;s.pr.tch.stock = 2011
 ;s.pr.tch.cnc1 = 2012
@@ -13411,10 +4391,10 @@ RGLOG 0
 ;do.workspace[2] = 2102
 ;do.workspace[3] = 2103
 .END
-.PROGRAM set.speed.pc()@26/02/14 17:02 #291629
+.PROGRAM set.speed.pc()@26/02/16 18:37 #0
 ; Set speed from HMI at any time
   .speed = BITS(ei.robot.speed[0],16)
-  .speed = MAXVAL(.speed,5)
+  .speed = MAXVAL(.speed,1)
   .speed = MINVAL(.speed,100)
   IF .speed<>MSPEED THEN
     MON_SPEED .speed
@@ -13422,7 +4402,7 @@ RGLOG 0
   END
 ;
 .END
-.PROGRAM set.tool(.tool.no)@26/02/14 22:38 #0
+.PROGRAM set.tool(.tool.no)@26/02/16 16:41 #68
 ;
   IF .tool.no<>3 THEN
     TOOL tool.gripper[.tool.no]
@@ -13435,7 +4415,7 @@ RGLOG 0
   CALL log("Tool #"+$ENCODE(/L,.tool.no)+" set")
 ;
 .END
-.PROGRAM set.vars.pc()@26/02/14 17:02 #1
+.PROGRAM set.vars.pc()@26/02/16 18:37 #1
 ;
   IF NOT EXISTCHAR("$log.entry[255]") THEN
     FOR .i = 0 TO 256
@@ -13446,7 +4426,7 @@ RGLOG 0
   finger.length = 55
 ;grip.open.tmo = 
 .END
-.PROGRAM shelf.close(.shelf.no)@26/02/14 22:38 #0
+.PROGRAM shelf.close(.shelf.no)@26/02/16 17:15 #0
 ;
   CALL log("Closing shelf"+$ENCODE(.shelf.no))
 ;
@@ -13461,6 +4441,7 @@ RGLOG 0
   POINT .end = shelf.close[.shelf.no,2]
 ;
   JMOVE #shelf.safe
+  BREAK
   $safe.flag = "shelf.safe"
 ;
   LMOVE .start+TRANS(150,0,-50)
@@ -13480,7 +4461,6 @@ RGLOG 0
     ACCURACY 0.1
     LMOVE .start
     BREAK
-    $safe.flag = "shelf.closing"
     IF kroset THEN
       SIGNAL k.shelf.pick
     END
@@ -13489,7 +4469,6 @@ RGLOG 0
     ACCURACY 0.1
     LMOVE .end
     BREAK
-    $safe.flag = "shelf.closed"
     IF kroset THEN
       SIGNAL -k.shelf.pick
     END
@@ -13506,7 +4485,7 @@ RGLOG 0
     LMOVE .end+TRANS(-50,0,-150)
 ;
     LMOVE #shelf.safe
-    $safe.flag = "shelf.safe"
+    BREAK
 ;
     RETURN
   ELSE
@@ -13517,13 +4496,13 @@ RGLOG 0
     LMOVE .start+TRANS(-50,0,-50)
     LMOVE .start+TRANS(150,0,-50)
     JMOVE #shelf.safe
-    $safe.flag = "shelf.safe"
+    BREAK
     JMOVE #homyak
     JMOVE #homyak.sby
   END
 ;
 .END
-.PROGRAM shelf.open(.shelf.no)@26/02/14 22:38 #0
+.PROGRAM shelf.open(.shelf.no)@26/02/16 17:15 #0
 ;
   CALL log("Opening shelf"+$ENCODE(.shelf.no))
 ;
@@ -13538,6 +4517,7 @@ RGLOG 0
   POINT .end = shelf.open[.shelf.no,2]
 ;
   JMOVE #shelf.safe
+  BREAK
   $safe.flag = "shelf.safe"
 ;
   LMOVE .start+TRANS(-50,0,-150)
@@ -13556,7 +4536,6 @@ RGLOG 0
     ACCURACY 0.1
     LMOVE .start
     BREAK
-    $safe.flag = "shelf.opening"
     IF kroset THEN
       SIGNAL k.shelf.pick
     END
@@ -13565,7 +4544,6 @@ RGLOG 0
     ACCURACY 0.1
     LMOVE .end
     BREAK
-    $safe.flag = "shelf.opened"
     IF kroset THEN
       SIGNAL -k.shelf.pick
     END
@@ -13583,7 +4561,7 @@ RGLOG 0
     LMOVE .end+TRANS(150,0,-50)
 ;
     LMOVE #shelf.safe
-    $safe.flag = "shelf.safe"
+    BREAK
 ;
     RETURN
   ELSE
@@ -13593,13 +4571,13 @@ RGLOG 0
     ACCURACY 0.1
     LMOVE .start+TRANS(-50,0,-150)
     JMOVE #shelf.safe
-    $safe.flag = "shelf.safe"
+    BREAK
     JMOVE #homyak
     JMOVE #homyak.sby
   END
 ;
 .END
-.PROGRAM shelf.teach()@26/02/14 22:38 #0
+.PROGRAM shelf.teach()@26/02/16 17:15 #0
 ;
   CALL check.teach.lim
   CALL set.tool(3)
@@ -13636,13 +4614,13 @@ RGLOG 0
   JMOVE #shelf.safe
 ;
 .END
-.PROGRAM shelf.test()@26/02/14 22:38 #0
+.PROGRAM shelf.test()@26/02/16 17:15 #0
 ;
   CALL shelf.open(hmi.shelf.no)
   CALL shelf.close(hmi.shelf.no)
 ;
 .END
-.PROGRAM state0()@26/02/14 22:38 #0; Inititalization of parameters and waiting for progeam start
+.PROGRAM state0()@26/02/16 16:41 #13; Inititalization of parameters and waiting for progeam start
 ; 
   CALL log("State 0: Initialization")
 ;
@@ -13650,31 +4628,38 @@ RGLOG 0
   CALL log("Waiting for task start")
   SWAIT ei.task.start
 ;
+  CALL get.task.data
+;
 ; Resetting signals
   SIGNAL -s.shelf.failed
+  BITS eo.shelf.opened[1],4 = 0
 ;
   SIGNAL -eo.robot.ready
   SIGNAL eo.task.exec
-;
-;
-  gripper.id[1] = 0
-  gripper.id[2] = 0
-  cnc.id[1] = 0
-  cnc.id[2] = 0
-;
-;
   current.shelf = 1
 ;
   state = 1
   RETURN
 ;
 .END
-.PROGRAM state1()@26/02/14 22:38 #0; Check ready shelves
+.PROGRAM state1()@26/02/16 16:41 #13; Check ready shelves
 ;
   CALL log("State 1: Check ready shelves")
   WHILE TRUE DO
+    IF NOT SIG(ei.task.start) THEN
+      state = 255
+      RETURN
+    END
     IF SIG(ei.shelf.ready[current.shelf]) THEN
       CALL log("Shelf"+$ENCODE(current.shelf)+" is ready. Working!")
+;
+      gripper.id[1] = 0
+      gripper.id[2] = 0
+      cnc.id[1] = 0
+      cnc.id[2] = 0
+      current.wp = 1
+      processed.wp = 0
+;
       state = 100
       RETURN
     END
@@ -13685,28 +4670,231 @@ RGLOG 0
   END
 ;
 .END
-.PROGRAM state100()@26/02/14 22:38 #0; Decision making module
+.PROGRAM state10()@26/02/16 16:41 #0; Close shelf
+;
+  CALL log("State 10: Close shelf")
+  CALL shelf.close(current.shelf)
+;
+  IF NOT SIG(s.shelf.failed) THEN
+    state = 1
+    RETURN
+  ELSE
+    state = 255
+    RETURN
+  END
+;
+.END
+.PROGRAM state100()@26/02/16 16:41 #74; Decision making module
 ;
   CALL log("State 100: Decision making module")
   state = 101
   RETURN
 ;
 .END
-.PROGRAM state101()@26/02/14 22:38 #0; Decision making module
+.PROGRAM state101()@26/02/16 16:41 #456; Decision making module
 ;
-  .c1 = SIG(eo.shelf.opened[current.shelf])
-; Open shelf if not opened 
-  IF NOT .c1 THEN
-    state = 2
+  IF st3.tool<>st6.tool AND st5.chuck<>st6.chuck THEN
+    state = 51
+    RETURN
+  END
+  IF st3.tool<>st6.tool AND st5.chuck==st6.chuck THEN
+    state = 52
+    RETURN
+  END
+  IF st3.tool==st6.tool AND st5.chuck<>st6.chuck THEN
+    state = 53
+    RETURN
+  END
+  IF st3.tool==st6.tool AND st5.chuck==st6.chuck THEN
+    state = 54
     RETURN
   END
 ;
-;IF .c1 
 ;
-  state = 7
+; Open shelf if not opened
+;IF .c1 THEN
+;  state = 2
+;  RETURN
+;END
+;
+; Send MFINISH
+;.c1 = SIG (eo.shelf.opened[current.shelf])
+;.c2 = NOT SIG (s.inside.cnc)
+;.c3 = cnc.id[st5.chuck] <> 0
+;.c4 = cnc.id[st6.chuck] == 0
+;.c5 = st6.chuck <> st5.chuck
+;.c6 = SIG (s.mfinish.req)
+;
+;IF .c1 AND .c2 AND (.c3 AND .c4 AND .c5 OR .c3 AND NOT .c5) AND .c6 THEN
+;  state = 8
+;  RETURN
+;END
+;
+;IF st3.tool <> st6.tool THEN
+;   Pick workpiece from stocker
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = NOT SIG (s.inside.cnc)
+;  .c3 = gripper.id[1] == 0
+;  .c4 = gripper.id[2] == 0
+;  .c5 = current.wp <= wp.count
+;
+;  IF .c1 AND .c2 AND .c3 AND .c4 AND .c5 THEN
+;    state = 3
+;    RETURN
+;  END
+;
+;   Move to CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = NOT SIG (s.inside.cnc)
+;   Case 1: 2 grippers
+;  .c3 = gripper.id[st3.tool] <> 0
+;  .c4 = cnc.id[st5.chuck] == 0
+;  .c5 = gripper.id[st6.tool] == 0
+;  .c6 = cnc.id[st6.chuck] <> 0
+;
+;  IF .c1 AND .c2 AND (.c3 AND .c4 OR .c5 AND .c6) THEN
+;    state = 4
+;    RETURN
+;  END
+;
+;   Put workpiece to CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = SIG (s.inside.cnc)
+;  .c3 = gripper.id[st3.tool] <> 0
+;  .c4 = cnc.id[st5.chuck] == 0
+;
+;  IF .c1 AND .c2 AND .c3 AND .c4 THEN
+;    state = 5
+;    RETURN
+;  END
+;
+;   Pick detail from CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = SIG (s.inside.cnc)
+;  .c3 = gripper.id[st6.tool] == 0
+;  .c4 = cnc.id[st6.chuck] <> 0
+;  .c5 = current.wp>2
+;
+;  IF .c1 AND .c2 AND .c3 AND .c4 AND .c5 THEN
+;    state = 6
+;    RETURN
+;  END
+;
+;   Move out CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = SIG (s.inside.cnc)
+;  .c3 = gripper.id[st3.tool] == 0
+;  .c4 = gripper.id[st6.tool] == 0
+;  .c5 = cnc.id[st5.chuck] <> 0
+;
+;  IF .c1 AND .c2 AND (.c3 AND .c4 OR NOT .c4) THEN
+;    state = 7
+;    RETURN
+;  END
+;
+;   Put detail to stocker
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = NOT SIG (s.inside.cnc)
+;  .c3 = gripper.id[st6.tool] <> 0
+;
+;  IF .c1 AND .c2 AND .c3 THEN
+;    state = 9
+;    RETURN
+;  END
+;ELSE
+;   Pick workpiece from stocker
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = NOT SIG (s.inside.cnc)
+;  .c3 = gripper.id[1] == 0
+;  .c4 = gripper.id[2] == 0
+;  .c5 = current.wp <= wp.count
+;  .c6 = cnc.id[1] == 0
+;  .c7 = cnc.id[2] == 0
+;
+;  IF .c1 AND .c2 AND .c3 AND .c4 AND .c5 AND .c6 AND .c7 THEN
+;    state = 3
+;    RETURN
+;  END
+;
+;   Move to CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = NOT SIG (s.inside.cnc)
+;   Case 1: 2 grippers
+;  .c3 = gripper.id[st3.tool] > 0
+;  .c4 = cnc.id[st5.chuck] == 0
+;  .c5 = gripper.id[st6.tool] == 0
+;  .c6 = cnc.id[st6.chuck] <> 0
+;
+;  IF .c1 AND .c2 AND (.c3 AND .c4 OR .c5 AND .c6) THEN
+;    state = 4
+;    RETURN
+;  END
+;
+;   Put workpiece to CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = SIG (s.inside.cnc)
+;  .c3 = gripper.id[st3.tool] > 0
+;  .c4 = cnc.id[st5.chuck] == 0
+;
+;  IF .c1 AND .c2 AND .c3 AND .c4 THEN
+;    state = 5
+;    RETURN
+;  END
+;
+;   Pick detail from CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = SIG (s.inside.cnc)
+;  .c3 = gripper.id[st6.tool] == 0
+;  .c4 = cnc.id[st6.chuck] < 0
+;  .c6 = NOT SIG (s.mfinish.req)
+;
+;  IF .c1 AND .c2 AND .c3 AND .c4 AND .c5 AND .c6 THEN
+;    state = 6
+;    RETURN
+;  END
+;
+;   Put detail to stocker
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = NOT SIG (s.inside.cnc)
+;  .c3 = gripper.id[st6.tool] <> 0
+;  .c4 = NOT SIG (s.mfinish.req)
+;
+;  IF .c1 AND .c2 AND .c3 AND .c4 THEN
+;    state = 9
+;    RETURN
+;  END
+;   Move out CNC
+;  .c1 = SIG (eo.shelf.opened[current.shelf])
+;  .c2 = SIG (s.inside.cnc)
+;  .c3 = gripper.id[st3.tool] == 0
+;  .c4 = gripper.id[st6.tool] == 0
+;  .c5 = cnc.id[st5.chuck] <> 0
+;
+;  IF .c1 AND .c2 AND (.c3 AND .c5 AND .c4 OR NOT .c3 AND NOT .c5) THEN
+;    state = 7
+;    RETURN
+;  END
+;
+;END
+;
+; Close shelf
+;.c1 = SIG (eo.shelf.opened[current.shelf])
+;.c2 = NOT SIG (s.inside.cnc)
+;.c3 = gripper.id[1] == 0
+;.c4 = gripper.id[2] == 0
+;.c14 = .c1 AND .c2 AND .c3 AND .c4
+;.c5 = cnc.id[1] == 0
+;.c6 = cnc.id[2] == 0
+;.c7 = current.wp > wp.count
+;.c57 = .c5 AND .c6 AND .c7
+;
+;IF .c14 AND .c57 THEN
+;  state = 10
+;  RETURN
+;END
 ;
 .END
-.PROGRAM state2()@26/02/14 22:38 #0; Open shelf
+.PROGRAM state2()@26/02/16 16:41 #9; Open shelf
 ;
   CALL log("State 2: Open shelf")
   CALL shelf.open(current.shelf)
@@ -13720,7 +4908,7 @@ RGLOG 0
   END
 ;
 .END
-.PROGRAM state255()@26/02/14 22:38 #0; Task finished
+.PROGRAM state255()@26/02/16 16:41 #0; Task finished
 ;
   CALL log("State 255: Task complete")
 ;
@@ -13730,21 +4918,518 @@ RGLOG 0
   RETURN
 ;
 .END
-.PROGRAM state7()@26/02/14 22:38 #0; Close shelf
+.PROGRAM state3()@26/02/16 16:41 #11; Pick workpiece from shelf
 ;
-  CALL log("State 7: Close shelf")
-  CALL shelf.close(current.shelf)
+  CALL log("State 3: Pick workpiece from shelf")
 ;
-  IF NOT SIG(s.shelf.failed) THEN
-    state = 1
-    RETURN
+  .tool = st3.tool ; Later get from task
+;
+; If continue
+;
+  IF SIG(do.home2) THEN
+    JMOVE #homyak
+  END
+;
+  IF SIG(do.home) THEN
+    JMOVE #wp.safe[.tool]
+  END
+;
+  CALL wp.pick(current.shelf,.tool,current.wp)
+  current.wp = current.wp+1
+;
+  IF NOT SIG(s.search.fail) THEN
+    state = 100
   ELSE
-    state = 255
+    state = 3
+  END
+;
+.END
+.PROGRAM state4()@26/02/16 16:41 #9; Move to CNC
+;
+  CALL log("State 4: Move to CNC")
+;
+  IF st3.tool<>st6.tool AND st5.chuck<>st6.chuck THEN
+    .tool = st3.tool
+    .chuck = st5.chuck
+  END
+  IF st3.tool<>st6.tool AND st5.chuck==st6.chuck THEN
+    IF cnc.id[st6.chuck]<0 THEN
+      .tool = st6.tool
+      .chuck = st6.chuck
+    ELSE
+      .tool = st3.tool
+      .chuck = st5.chuck
+    END
+  END
+  IF st3.tool==st6.tool AND st5.chuck<>st6.chuck THEN
+    IF cnc.id[st5.chuck]==0 AND cnc.id[st6.chuck]==0 THEN
+      .tool = st3.tool
+      .chuck = st5.chuck
+    ELSE
+      .tool = st6.tool
+      .chuck = st6.chuck
+    END
+  END
+  IF st3.tool==st6.tool AND st5.chuck==st6.chuck THEN
+    .tool = st3.tool
+    .chuck = st5.chuck
+  END
+;IF gripper.id[st3.tool] <> 0 AND cnc.id[st5.chuck] == 0 THEN
+;  .tool = st3.tool ; Later get from task
+;  .chuck = st5.chuck ; Later get from task
+;ELSE
+;  .tool = st6.tool ; Later get from task
+;  .chuck = st6.chuck ; Later get from task
+;END
+;
+; If continue
+;
+  IF SIG(do.home2) THEN
+    JMOVE #homyak
+  END
+;
+  CALL cnc.in(.tool,.chuck)
+;
+  state = 100
+;
+.END
+.PROGRAM state5()@26/02/16 16:41 #9; Put workpiece to CNC
+;
+  CALL log("State 5: Put workpiece to CNC")
+;
+  .tool = st3.tool ; Later get from task
+  .chuck = st5.chuck ; Later get from task
+;
+  CALL cnc.put(.tool,.chuck)
+;
+  state = 100
+;
+.END
+.PROGRAM state51()@26/02/16 16:41 #74; Case: st3.tool <> st6.tool; st5.chuck <> st6.chuck
+;
+  .shelf.opened = SIG(eo.shelf.opened[current.shelf])
+  .shelf.closed = NOT .shelf.opened
+  .inside.cnc = SIG(s.inside.cnc)
+  .outside.cnc = NOT .inside.cnc
+;
+  .grip.st3.eq0 = gripper.id[st3.tool]==0
+  .grip.st3.ne0 = gripper.id[st3.tool]<>0
+;
+  .grip.st6.eq0 = gripper.id[st6.tool]==0
+  .grip.st6.ne0 = gripper.id[st6.tool]<>0
+;
+  .chuck.st5.eq0 = cnc.id[st5.chuck]==0
+  .chuck.st5.ne0 = cnc.id[st5.chuck]<>0
+;
+  .chuck.st6.eq0 = cnc.id[st6.chuck]==0
+  .chuck.st6.ne0 = cnc.id[st6.chuck]<>0
+;
+  .mfinish = SIG(s.mfinish.req)
+  .not.max.pick = current.wp<=wp.count
+  .max.pick = NOT .not.max.pick
+;
+  .sh1 = .shelf.opened AND .outside.cnc
+  .sh2 = .shelf.opened AND .inside.cnc
+;
+; Open shelf in not opened
+  IF .shelf.closed THEN
+    state = 2
+    RETURN
+  END
+;
+; Send MFINISH
+  IF .sh1 AND .chuck.st5.ne0 AND .chuck.st6.eq0 AND .mfinish THEN
+    state = 8
+    RETURN
+  END
+;
+; Pick workpiece from shelf
+  IF .sh1 AND .grip.st3.eq0 AND .grip.st6.eq0 AND .not.max.pick THEN
+    state = 3
+    RETURN
+  END
+;
+; Move inside CNC
+  IF .sh1 AND (.grip.st3.ne0 AND .chuck.st5.eq0 OR .grip.st6.eq0 AND .chuck.st6.ne0) THEN
+    state = 4
+    RETURN
+  END
+;
+; Put workpiece to CNC
+  IF .sh2 AND .grip.st3.ne0 AND .chuck.st5.eq0 THEN
+    state = 5
+    RETURN
+  END
+;
+; Pick detail from CNC
+  IF .sh2 AND .grip.st6.eq0 AND .chuck.st6.ne0 THEN
+    state = 6
+    RETURN
+  END
+;
+; Move outside cnc.in
+  IF .sh2 AND (.grip.st3.eq0 AND .chuck.st5.ne0 OR .grip.st6.ne0 AND .chuck.st6.eq0) THEN
+    state = 7
+    RETURN
+  END
+;
+; Put detail to stocker
+  IF .sh1 AND .grip.st3.eq0 AND .grip.st6.ne0 THEN
+    state = 9
+    RETURN
+  END
+;
+; Close shelf
+  .ge = .grip.st3.eq0 AND .grip.st6.eq0
+  .ce = .chuck.st5.eq0 AND .chuck.st6.eq0
+  IF .sh1 AND .ge AND .ce AND .max.pick THEN
+    state = 10
     RETURN
   END
 ;
 .END
-.PROGRAM watchdog.pc()@26/02/14 17:02 #0
+.PROGRAM state52()@26/02/16 16:41 #0; Case: st3.tool <> st6.tool; st5.chuck == st6.chuck
+;
+  .shelf.opened = SIG(eo.shelf.opened[current.shelf])
+  .shelf.closed = NOT .shelf.opened
+  .inside.cnc = SIG(s.inside.cnc)
+  .outside.cnc = NOT .inside.cnc
+;
+  .grip.st3.eq0 = gripper.id[st3.tool]==0
+  .grip.st3.ne0 = gripper.id[st3.tool]<>0
+;
+  .grip.st6.eq0 = gripper.id[st6.tool]==0
+  .grip.st6.ne0 = gripper.id[st6.tool]<>0
+;
+  .chuck.eq0 = cnc.id[st5.chuck]==0
+  .chuck.ne0 = cnc.id[st5.chuck]<>0
+  .chuck.lt0 = cnc.id[st5.chuck]<0
+;
+  .mfinish = SIG(s.mfinish.req)
+  .not.max.pick = current.wp<=wp.count
+  .max.pick = NOT .not.max.pick
+;
+  .sh1 = .shelf.opened AND .outside.cnc
+  .sh2 = .shelf.opened AND .inside.cnc
+;
+; Open shelf in not opened
+  IF .shelf.closed THEN
+    state = 2
+    RETURN
+  END
+;
+; Send MFINISH
+  IF .sh1 AND .chuck.ne0 AND .mfinish THEN
+    state = 8
+    RETURN
+  END
+;
+; Pick workpiece from shelf
+  IF .sh1 AND .grip.st3.eq0 AND .grip.st6.eq0 AND .not.max.pick THEN
+    state = 3
+    RETURN
+  END
+;
+; Move inside CNC
+  IF .sh1 AND (.grip.st3.ne0 AND .chuck.eq0 OR .grip.st6.eq0 AND .chuck.ne0) THEN
+    state = 4
+    RETURN
+  END
+;
+; Put workpiece to CNC
+  IF .sh2 AND .grip.st3.ne0 AND .chuck.eq0 THEN
+    state = 5
+    RETURN
+  END
+;
+; Pick detail from CNC
+  IF .sh2 AND .grip.st6.eq0 AND .chuck.lt0 THEN
+    state = 6
+    RETURN
+  END
+;
+; Move outside cnc.in
+  IF .sh2 AND (.grip.st3.eq0 AND .chuck.ne0 OR .grip.st6.ne0 AND .chuck.eq0) THEN
+    state = 7
+    RETURN
+  END
+;
+; Put detail to stocker
+  IF .sh1 AND .grip.st3.eq0 AND .grip.st6.ne0 THEN
+    state = 9
+    RETURN
+  END
+;
+; Close shelf
+  .ge = .grip.st3.eq0 AND .grip.st6.eq0
+  .ce = .chuck.eq0
+  IF .sh1 AND .ge AND .ce AND .max.pick THEN
+    state = 10
+    RETURN
+  END
+;
+.END
+.PROGRAM state53()@26/02/16 16:41 #0; Case: st3.tool == st6.tool; st5.chuck <> st6.chuck
+;
+  .shelf.opened = SIG(eo.shelf.opened[current.shelf])
+  .shelf.closed = NOT .shelf.opened
+  .inside.cnc = SIG(s.inside.cnc)
+  .outside.cnc = NOT .inside.cnc
+;
+  .grip.eq0 = gripper.id[st3.tool]==0
+  .grip.ne0 = gripper.id[st3.tool]<>0
+  .grip.gt0 = gripper.id[st3.tool]>0
+;
+  .chuck.st5.eq0 = cnc.id[st5.chuck]==0
+  .chuck.st5.ne0 = cnc.id[st5.chuck]<>0
+;
+  .chuck.st6.eq0 = cnc.id[st6.chuck]==0
+  .chuck.st6.ne0 = cnc.id[st6.chuck]<>0
+;
+  .mfinish = SIG(s.mfinish.req)
+  .not.max.pick = current.wp<=wp.count
+  .max.pick = NOT .not.max.pick
+;
+  .sh1 = .shelf.opened AND .outside.cnc
+  .sh2 = .shelf.opened AND .inside.cnc
+;
+; Open shelf in not opened
+  IF .shelf.closed THEN
+    state = 2
+    RETURN
+  END
+;
+; Send MFINISH
+  IF .sh1 AND .chuck.st5.ne0 AND .chuck.st6.eq0 AND .mfinish THEN
+    state = 8
+    RETURN
+  END
+;
+; Pick workpiece from shelf
+  IF .sh1 AND .grip.eq0 AND .chuck.st6.eq0 AND .not.max.pick THEN
+    state = 3
+    RETURN
+  END
+;
+; Move inside CNC
+  IF .sh1 AND (.grip.gt0 AND .chuck.st5.eq0 OR .grip.eq0 AND .chuck.st6.ne0) THEN
+    state = 4
+    RETURN
+  END
+;
+; Put workpiece to CNC
+  IF .sh2 AND .grip.gt0 AND .chuck.st5.eq0 THEN
+    state = 5
+    RETURN
+  END
+;
+; Pick detail from CNC
+  IF .sh2 AND .grip.eq0 AND .chuck.st6.ne0 THEN
+    state = 6
+    RETURN
+  END
+;
+; Move outside cnc.in
+  IF .sh2 AND (.grip.eq0 AND .chuck.st5.ne0 OR .grip.ne0 AND .chuck.st6.eq0) THEN
+    state = 7
+    RETURN
+  END
+;
+; Put detail to stocker
+  IF .sh1 AND .grip.ne0 THEN
+    state = 9
+    RETURN
+  END
+;
+; Close shelf
+  .ge = .grip.eq0
+  .ce = .chuck.st5.eq0 AND .chuck.st6.eq0
+  IF .sh1 AND .ge AND .ce AND .max.pick THEN
+    state = 10
+    RETURN
+  END
+;
+.END
+.PROGRAM state54()@26/02/16 16:41 #0; Case: st3.tool == st6.tool; st5.chuck == st6.chuck
+;
+  .shelf.opened = SIG(eo.shelf.opened[current.shelf])
+  .shelf.closed = NOT .shelf.opened
+  .inside.cnc = SIG(s.inside.cnc)
+  .outside.cnc = NOT .inside.cnc
+;
+  .grip.eq0 = gripper.id[st3.tool]==0
+  .grip.ne0 = gripper.id[st3.tool]<>0
+  .grip.lt0 = gripper.id[st3.tool]<0
+  .grip.gt0 = gripper.id[st3.tool]>0
+;
+  .chuck.eq0 = cnc.id[st5.chuck]==0
+  .chuck.ne0 = cnc.id[st5.chuck]<>0
+  .chuck.lt0 = cnc.id[st5.chuck]<0
+;
+  .mfinish = SIG(s.mfinish.req)
+  .not.max.pick = current.wp<=wp.count
+  .max.pick = NOT .not.max.pick
+;
+  .sh1 = .shelf.opened AND .outside.cnc
+  .sh2 = .shelf.opened AND .inside.cnc
+;
+; Open shelf in not opened
+  IF .shelf.closed THEN
+    state = 2
+    RETURN
+  END
+;
+; Send MFINISH
+  IF .sh1 AND .chuck.ne0 AND .mfinish THEN
+    state = 8
+    RETURN
+  END
+;
+; Pick workpiece from shelf
+  IF .sh1 AND .grip.eq0 AND .chuck.eq0 AND .not.max.pick THEN
+    state = 3
+    RETURN
+  END
+;
+; Move inside CNC
+  IF .sh1 AND (.grip.gt0 AND .chuck.eq0 OR .grip.eq0 AND .chuck.lt0) THEN
+    state = 4
+    RETURN
+  END
+;
+; Put workpiece to CNC
+  IF .sh2 AND .grip.gt0 AND .chuck.eq0 THEN
+    state = 5
+    RETURN
+  END
+;
+; Pick detail from CNC
+  IF .sh2 AND .grip.eq0 AND .chuck.lt0 THEN
+    state = 6
+    RETURN
+  END
+;
+; Move outside cnc.in
+  IF .sh2 AND (.grip.eq0 AND .chuck.ne0 OR .grip.lt0 AND .chuck.eq0) THEN
+    state = 7
+    RETURN
+  END
+;
+; Put detail to stocker
+  IF .sh1 AND .grip.lt0 THEN
+    state = 9
+    RETURN
+  END
+;
+; Close shelf
+  .ge = .grip.eq0
+  .ce = .chuck.eq0
+  IF .sh1 AND .ge AND .ce AND .max.pick THEN
+    state = 10
+    RETURN
+  END
+;
+.END
+.PROGRAM state6()@26/02/16 16:41 #5; Pick detail from CNC
+;
+  CALL log("State 6: Pick detail from CNC")
+;
+  .tool = st6.tool ; Later get from task
+  .chuck = st6.chuck ; Later get from task
+;
+  CALL cnc.pick(.tool,.chuck)
+;
+  state = 100
+;
+.END
+.PROGRAM state7()@26/02/16 16:41 #7; Move outside CNC
+;
+  CALL log("State 7: Move outside CNC")
+;
+  IF st3.tool<>st6.tool AND st5.chuck<>st6.chuck THEN
+    .tool = st6.tool
+    .chuck = st6.chuck
+  END
+  IF st3.tool<>st6.tool AND st5.chuck==st6.chuck THEN
+    IF cnc.id[st6.chuck]>0 THEN
+      .tool = st3.tool
+      .chuck = st5.chuck
+    ELSE
+      .tool = st6.tool
+      .chuck = st6.chuck
+    END
+  END
+  IF st3.tool==st6.tool AND st5.chuck<>st6.chuck THEN
+    IF cnc.id[st5.chuck]<>0 THEN
+      .tool = st3.tool
+      .chuck = st5.chuck
+    ELSE
+      .tool = st6.tool
+      .chuck = st6.chuck
+    END
+  END
+  IF st3.tool==st6.tool AND st5.chuck==st6.chuck THEN
+    .tool = st3.tool
+    .chuck = st5.chuck
+  END
+;.c1 = gripper.id[st6.tool] == 0 AND cnc.id[st6.chuck] <> 0 AND current.wp > 2
+;.c2 = gripper.id[st6.tool] <> 0 AND cnc.id[st6.chuck] == 0 AND current.wp > wp.count
+;IF .c1 OR .c2 THEN
+;  .tool = st6.tool ; Later get from task
+;  .chuck = st6.chuck ; Later get from task
+;ELSE
+;  .tool = st3.tool ; Later get from task
+;  .chuck = st5.chuck ; Later get from task
+;END
+;
+; If continue
+;
+  IF SIG(do.home2) THEN
+    JMOVE #homyak
+  END
+;
+  CALL cnc.out(.tool,.chuck)
+;
+  state = 100
+;
+.END
+.PROGRAM state8()@26/02/16 16:41 #7; Execute MCODE
+;
+  CALL log("State 8: Execute MFINISH")
+;
+  PULSE eo.cnc.mfinish,1
+  cnc.id[st6.chuck] = -cnc.id[st5.chuck]
+  IF st5.chuck<>st6.chuck THEN
+    cnc.id[st5.chuck] = 0
+  END
+  SIGNAL -s.mfinish.req
+;
+  state = 100
+;
+.END
+.PROGRAM state9()@26/02/16 16:41 #4; Put detail to shekf
+;
+  CALL log("State 9: Put detail to shelf")
+;
+  .tool = st6.tool ; Later get from task
+;
+; If continue
+;
+  IF SIG(do.home2) THEN
+    JMOVE #homyak
+  END
+;
+  IF SIG(do.home) THEN
+    JMOVE #wp.safe[.tool]
+  END
+;
+  .wp.id = ABS(gripper.id[.tool])
+  CALL wp.put(current.shelf,.tool,.wp.id)
+;
+  state = 100
+;
+.END
+.PROGRAM watchdog.pc()@26/02/16 18:37 #0
   WHILE TRUE DO
 ;
 ;IF kroset THEN
@@ -13754,53 +5439,13 @@ RGLOG 0
     IF NOT SWITCH(REPEAT ) THEN
       CALL check.teach.pc
     END
-;CALL send.plc.pc
-; Signal retranslation
-;IF SIG (di.ext.ereset) THEN
-;  SIGNAL -eo.process.err
-;  SIGNAL -eo.grip.error
-;END
-;
-;IF SIG (ei.reset.states) THEN
-;  CALL log ("Request reset from HMI")
-;  CALL data.reset
-;END
-;
-;.c = SIG (do.automatic) AND NOT SWITCH(CS)
-;IF .c AND SIG (ei.move.service) AND SIG(do.home) THEN
-;  MC ZPOWER ON
-;  WAIT SWITCH (POWER)
-;  TWAIT 0.1
-;  MC EXECUTE move.service
-;  WAIT NOT SWITCH(CS)
-;  TWAIT 0.5
-;  MC PRIME a.main
-;END
-;IF .c AND SIG (ei.move.home) THEN
-;  MC ZPOWER ON
-;  WAIT SWITCH (POWER)
-;  TWAIT 0.1
-;  MC EXECUTE safe.home
-;  WAIT NOT SWITCH(CS)
-;  TWAIT 0.5
-;  MC PRIME a.main
-;END
-;IF .c AND SIG (ei.rotate.table) AND SIG(do.home)  THEN
-;  MC ZPOWER ON
-;  WAIT SWITCH (POWER)
-;  TWAIT 0.1
-;  MC EXECUTE stocker.rotate
-;  WAIT NOT SWITCH(CS)
-;  TWAIT 0.5
-;  MC PRIME a.main
-;END
-;
+    CALL send.plc.pc
     CALL set.speed.pc
 ;
     TWAIT 0.1
   END
 .END
-.PROGRAM wp.pick(.shelf.no,.tool.no,.wp.no)@26/02/14 22:54 #0
+.PROGRAM wp.pick(.shelf.no,.tool.no,.wp.no)@26/02/16 16:58 #5
 ;
   .$temp = "Pick workpiece. Shelf:"+$ENCODE(.shelf.no)
   .$temp = .$temp+" Tool:"+$ENCODE(.tool.no)
@@ -13811,9 +5456,10 @@ RGLOG 0
   ACCURACY 50 ALWAYS
   CALL set.tool(.tool.no)
 ; gripper.no, time, reverse
-  CALL gripper.open(.tool.no,0,FALSE)
+  CALL gripper.open(.tool.no,0,st3.reverse)
 ;
   CALL id.to.ij(.wp.no,.i,.j)
+  SIGNAL -s.search.fail
 ;
   IF kroset THEN
     .epsilon = -1
@@ -13829,16 +5475,18 @@ RGLOG 0
     .dy = plate.dy*.j+plate.e.dy
   END
   .dz = wp.in.length+grip.jaws.body[.tool.no]-shelf.pick.ovlp ;
-  .z.appro = grip.jaws.full[.tool.no]+10
+  .z.appro = grip.jaws.full[.tool.no]-grip.jaws.body[.tool.no]+shelf.pick.ovlp+10
 ;
 ; Calculate points
   POINT .temp = shelf.frame[.shelf.no,.tool.no,plate.id]
   POINT .x.pick = .temp+TRANS(.dx,-.dy,-.dz)
 ; Approach
   JMOVE #wp.safe[.tool.no]
+  $safe.flag = "wp.safe"
+;
   JAPPRO .x.pick,.z.appro
 ; Check if gripper is opened
-  CALL gripper.is.open(.tool.no)
+  CALL gripper.is.open(.tool.no,st3.reverse)
   IF SIG(eo.grip.error) THEN
 ; Return home if not. Error
     JMOVE #wp.safe[.tool.no]
@@ -13859,7 +5507,7 @@ RGLOG 0
     SIGNAL s.search.fail
   ELSE
     CALL log("Detail found")
-    CALL gripper.close(.tool.no,0.75,FALSE)
+    CALL gripper.close(.tool.no,0.75,st3.reverse)
     gripper.id[.tool.no] = .wp.no
   END
 ;
@@ -13868,7 +5516,7 @@ RGLOG 0
   LMOVE #wp.safe[.tool.no]
 ;
 .END
-.PROGRAM wp.put(.shelf.no,.tool.no,.wp.no)@26/02/14 22:54 #0
+.PROGRAM wp.put(.shelf.no,.tool.no,.wp.no)@26/02/16 16:41 #4
 ;
   .$temp = "Put workpiece. Shelf:"+$ENCODE(.shelf.no)
   .$temp = .$temp+" Tool:"+$ENCODE(.tool.no)
@@ -13889,27 +5537,32 @@ RGLOG 0
     .dy = plate.dy*.j+plate.e.dy
   END
   .dz = wp.out.length+grip.jaws.body[.tool.no]-shelf.put.ovlp ;
-  .z.appro = grip.jaws.full[.tool.no]+10
+  .z.appro = grip.jaws.full[.tool.no]-grip.jaws.body[.tool.no]+shelf.put.ovlp+10
 ;
 ; Calculate points
   POINT .temp = shelf.frame[.shelf.no,.tool.no,plate.id]
   POINT .x.put = .temp+TRANS(.dx,-.dy,-.dz)
 ; Approach
   JMOVE #wp.safe[.tool.no]
+  $safe.flag = "wp.safe"
+;
   JAPPRO .x.put,.z.appro
 ;
   SPEED put.speed MM/S
   XMOVE .x.put TILL gripper.sensor[.tool.no]
   BREAK
   TWAIT 0.1
-  CALL gripper.open(.tool.no,0.75,FALSE)
+  CALL gripper.open(.tool.no,0.75,st6.reverse)
+;
+  gripper.id[.tool.no] = 0
+  processed.wp = processed.wp+1
 ;
   SPEED 20
   LAPPRO .x.put,.z.appro
   LMOVE #wp.safe[.tool.no]
 ;
 .END
-.PROGRAM wp.teach()@26/02/14 23:08 #0
+.PROGRAM wp.teach()@26/02/16 16:41 #0
 ;
   CALL check.teach.lim
 ;
@@ -13954,9 +5607,9 @@ RGLOG 0
     POINT .temp3 = .temp1+TRANS(0,-520,0)
     POINT .temp4 = .temp1+TRANS(390,-520,0)
 ;
-    LAPPRO .temp1,.z.shift+.gc.full
+    LAPPRO .temp1,.z.shift; + .gc.full
     LMOVE .temp1
-    LAPPRO .temp1,.z.shift+.gc.full
+    LAPPRO .temp1,.z.shift; + .gc.full
 ;
     LAPPRO .temp2,.z.shift+.gc.full
     LMOVE .temp2
@@ -13998,7 +5651,7 @@ RGLOG 0
   JMOVE #wp.safe[.tool]
 ;
 .END
-.PROGRAM wp.test()@26/02/14 22:38 #0
+.PROGRAM wp.test()@26/02/16 16:41 #0
 ;
   IF SIG(s.hmi.tool.1) THEN
     .tool = 1
@@ -14010,7 +5663,7 @@ RGLOG 0
   CALL wp.pick(hmi.shelf.no,.tool,hmi.wp.id)
 ;
 .END
-.PROGRAM wp.test.pick()@26/02/14 22:54 #0
+.PROGRAM wp.test.pick()@26/02/16 16:41 #0
 ;
   IF SIG(s.hmi.tool.1) THEN
     .tool = 1
@@ -14022,7 +5675,7 @@ RGLOG 0
   CALL wp.pick(hmi.shelf.no,.tool,hmi.wp.id)
 ;
 .END
-.PROGRAM wp.test.put()@26/02/14 22:54 #0
+.PROGRAM wp.test.put()@26/02/16 16:41 #0
 ;
   IF SIG(s.hmi.tool.1) THEN
     .tool = 1
@@ -14035,6 +5688,12 @@ RGLOG 0
 ;
 .END
 .TRANS
+a 93.772293 821.577637 869.114258 0.004461 89.995865 159.998734
+b 111.000000 821.577637 869.114258 0.004461 89.995865 159.998734
+cnc.point[1,1] -899.975830 331.996765 211.664612 -90.001251 90.001244 -120.956367
+cnc.point[1,2] -899.975464 1000.389648 211.689133 89.997078 89.996483 120.955223
+cnc.point[2,1] -899.975830 331.996765 211.664597 -90.001251 90.001236 -120.956367
+cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 shelf.close[1,1] 750.385193 689.357788 -5.836640 -89.936699 89.997849 -179.967209
 shelf.close[1,2] 751.058228 69.358681 -5.815570 -89.936432 89.997467 -179.967209
 shelf.close[2,1] 750.485474 688.354614 -185.837326 -89.936333 89.997993 -179.967407
@@ -14043,262 +5702,262 @@ shelf.close[3,1] 750.587769 689.344727 -365.837067 -89.936699 89.997963 -179.967
 shelf.close[3,2] 751.259277 69.342216 -365.815063 -89.936386 89.997452 -179.967651
 shelf.close[4,1] 750.684204 689.335449 -545.843933 -89.936646 89.997627 -179.967819
 shelf.close[4,2] 751.359985 69.334229 -545.815002 -89.937027 89.997551 -179.967865
-shelf.frame[1,1,1] 490.508392 559.512695 15.402588 44.486439 179.863174 -45.514656
-shelf.frame[1,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,1] 490.330292 559.328918 -14.671242 47.502068 179.999359 -42.498474
-shelf.frame[1,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[1,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[2,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[3,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
-shelf.frame[4,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104748
+shelf.frame[1,1,1] 490.336334 559.361328 14.701622 71.129318 179.980392 -18.872854
+shelf.frame[1,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,1] 490.305206 559.287415 14.810829 -115.966820 179.980408 154.035370
+shelf.frame[1,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[1,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[2,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[3,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,1] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
+shelf.frame[4,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104744
 shelf.open[1,1] 751.058228 69.358681 -5.815570 -89.936432 89.997467 -179.967209
 shelf.open[1,2] 750.385193 689.357788 -5.836640 -89.936699 89.997849 -179.967209
 shelf.open[2,1] 751.160339 68.347237 -185.815125 -89.937141 89.997467 -179.967407
@@ -14307,17 +5966,26 @@ shelf.open[3,1] 751.259277 69.342216 -365.815063 -89.936386 89.997452 -179.96765
 shelf.open[3,2] 750.587769 689.344727 -365.837067 -89.936699 89.997963 -179.967499
 shelf.open[4,1] 751.359985 69.334229 -545.815002 -89.937027 89.997551 -179.967865
 shelf.open[4,2] 750.684204 689.335449 -545.843933 -89.936646 89.997627 -179.967819
-tool.gripper[1] 93.800003 0.000000 102.000000 0.000000 90.000015 180.000000
-tool.gripper[2] -93.800003 0.000000 102.000000 -180.000000 90.000015 180.000000
-tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
+tool.gripper[1] 93.800003 0.000000 102.000000 0.000000 90.000031 180.000000
+tool.gripper[2] -93.800003 0.000000 102.000000 -180.000000 90.000031 180.000000
+tool.gripper[3] 0.000000 42.000000 102.000000 90.000031 90.000031 0.000000
 .END
 .JOINTS
-#a 169.161453 -12.194666 -112.377380 122.858002 -106.577682 48.976845
-#homyak 0.000000 29.999758 89.999863 0.000000 -45.000000 -0.000220
+#a 0.000000 29.999756 89.999863 0.000000 -70.000084 0.000755
+#b 0.000000 29.999756 89.999863 0.000000 90.000000 0.000439
+#cnc.in -58.787132 -11.963990 86.327026 -51.560951 -58.020184 26.015381
+#cnc.in.base -58.787132 -11.963990 86.327026 -51.560951 -58.020184 26.015381
+#cnc.out -11.054710 30.356359 125.551483 -63.943153 -97.353287 53.886539
+#cnc.out.base -11.054710 30.356359 125.551483 -63.943153 -97.353287 53.886539
+#cnc.point[1,1] -60.352077 -13.151332 100.025772 -44.777374 -66.867599 12.370291
+#cnc.point[1,2] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 12.370290
+#cnc.point[2,1] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 192.370285
+#cnc.point[2,2] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 12.370290
+#homyak -0.000400 29.999758 89.999863 -0.001850 -69.998703 -0.000320
 #homyak.sby 0.000000 29.999758 39.999680 0.000000 -45.000000 -0.000220
 #pick.safe[1] 70.028526 -1.309620 86.930527 -58.916073 108.119202 8.721220
 #pick.safe[2] 70.028526 -1.309990 86.930527 -58.916073 108.119202 -171.277695
-#shelf.point.o[1,1,1] 62.309052 -33.022324 58.987877 -56.176434 112.624290 16.527023
+#shelf.point.o[1,1,1] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
 #shelf.point.o[1,1,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[1,1,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[1,1,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
@@ -14349,7 +6017,7 @@ tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
 #shelf.point.o[1,1,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[1,1,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[1,1,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
-#shelf.point.o[1,2,1] 61.625080 -33.838100 59.780704 -55.433231 112.282333 -161.616547
+#shelf.point.o[1,2,1] 62.274891 -33.061745 59.029911 123.861450 -112.601624 16.619184
 #shelf.point.o[1,2,2] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[1,2,3] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[1,2,4] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
@@ -14573,7 +6241,7 @@ tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
 #shelf.point.o[4,2,30] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[4,2,31] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
 #shelf.point.o[4,2,32] 61.625477 -33.838470 59.780376 -55.433231 112.283028 18.382380
-#shelf.point.x[1,1,1] 79.195366 -26.710735 83.342430 -58.301456 88.915794 22.647945
+#shelf.point.x[1,1,1] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
 #shelf.point.x[1,1,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[1,1,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[1,1,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
@@ -14605,7 +6273,7 @@ tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
 #shelf.point.x[1,1,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[1,1,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[1,1,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
-#shelf.point.x[1,2,1] 78.368805 -27.707552 84.014030 -58.044289 88.689888 -155.526245
+#shelf.point.x[1,2,1] 79.173920 -26.734825 83.361977 121.704437 -88.906868 22.693911
 #shelf.point.x[1,2,2] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[1,2,3] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[1,2,4] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
@@ -14829,7 +6497,7 @@ tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
 #shelf.point.x[4,2,30] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[4,2,31] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
 #shelf.point.x[4,2,32] 78.369209 -27.707920 84.013710 -58.043671 88.691254 24.472679
-#shelf.point.y[1,1,1] 42.736912 2.002028 102.622917 -43.996025 122.211922 37.968529
+#shelf.point.y[1,1,1] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
 #shelf.point.y[1,1,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[1,1,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[1,1,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
@@ -14861,7 +6529,7 @@ tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
 #shelf.point.y[1,1,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[1,1,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[1,1,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
-#shelf.point.y[1,2,1] 41.940140 0.646781 103.301697 -42.620979 121.264359 -139.721313
+#shelf.point.y[1,2,1] 42.720623 1.977938 102.638885 136.029556 -122.188576 38.014484
 #shelf.point.y[1,2,2] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[1,2,3] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[1,2,4] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
@@ -15085,21 +6753,29 @@ tool.gripper[3] 0.000000 42.000000 102.000000 90.000015 90.000015 0.000000
 #shelf.point.y[4,2,30] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[4,2,31] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
 #shelf.point.y[4,2,32] 41.940540 0.646050 103.301048 -42.619751 121.265724 40.277611
-#shelf.safe 80.030273 0.116440 85.895576 29.498642 88.665848 100.664551
-#wp.safe[1] 70.028526 -1.309620 86.930527 -58.916073 108.119202 8.721220
-#wp.safe[2] 70.028526 -1.309990 86.930527 -58.916073 108.119202 -171.277695
+#shelf.safe 80.029877 0.115710 85.894928 -150.501724 -88.665848 -79.334587
+#wp.safe[1] 70.027733 -1.310720 86.930847 121.082443 -108.120567 -171.276062
+#wp.safe[2] 70.028526 -1.309990 86.930527 121.082443 -108.120567 8.722310
 .END
 .REALS
 air.blow.off = 38
 air.blow.on = 37
+cnc.first = 0
 cnc.id[1] = 0
-cnc.id[2] = 0
+cnc.id[2] = -5
 cnc.jaws.body[1] = 23
 cnc.jaws.body[2] = 0
 cnc.jaws.full[1] = 39
 cnc.jaws.full[2] = 0
-current.shelf = 0
-current.tool = 1
+cnc.pick.ovlp = 10
+cnc.put.ovlp = 10
+cnc.rotations[1,1] = 0
+cnc.rotations[1,2] = 180
+cnc.rotations[2,1] = 180
+cnc.rotations[2,2] = 0
+current.shelf = 1
+current.tool = 2
+current.wp = 6
 di.ext.cs = 1067
 di.ext.ereset = 1066
 di.ext.hold = 1069
@@ -15167,11 +6843,15 @@ eo.cnc.ch.close[2] = 100
 eo.cnc.ch.open[1] = 97
 eo.cnc.ch.open[2] = 99
 eo.cnc.mfinish = 101
+eo.cnc.state[1,0] = 257
+eo.cnc.state[2,0] = 273
 eo.grip.error = 83
 eo.grip.opened[1] = 81
 eo.grip.opened[2] = 82
 eo.grip.sensor[1] = 84
 eo.grip.sensor[2] = 85
+eo.grip.state[1,0] = 225
+eo.grip.state[2,0] = 241
 eo.process.err = 115
 eo.robot.ready = 113
 eo.shelf.opened[1] = 129
@@ -15183,6 +6863,7 @@ eo.shelf.unlock[2] = 134
 eo.shelf.unlock[3] = 135
 eo.shelf.unlock[4] = 136
 eo.task.exec = 114
+eo.wp.processed[0] = 289
 finger.length = 55
 grip.jaws.body[1] = 30
 grip.jaws.body[2] = 30
@@ -15190,8 +6871,8 @@ grip.jaws.full[1] = 41
 grip.jaws.full[2] = 41
 gripper.close[1] = 34
 gripper.close[2] = 36
-gripper.id[1] = 1
-gripper.id[2] = 0
+gripper.id[1] = 0
+gripper.id[2] = -4
 gripper.open[1] = 33
 gripper.open[2] = 35
 gripper.opened[1] = 1033
@@ -15216,10 +6897,20 @@ hmi.plate.ox = 0
 hmi.plate.oy = 0
 hmi.plate.rows = 4
 hmi.shelf.no = 1
-hmi.wp.id = 1
+hmi.st3.grip = 1
+hmi.st3.tool = 1
+hmi.st5.chuck = 1
+hmi.st6.chuck = 2
+hmi.st6.grip = 2
+hmi.st6.tool = 2
+hmi.wp.id = 20
 hmi.wp.length = 80
 k.shelf.pick = 1
 kroset = -1
+op3.tool = 1
+op5.chuck = 1
+op6.chuck = 2
+op6.tool = 2
 pick.epsilon = 0.1
 pick.speed = 50
 plate.cells.e = 5
@@ -15231,9 +6922,15 @@ plate.id = 1
 plate.ox = 0
 plate.oy = 0
 plate.rows = 4
+processed.wp = 3
 put.speed = 50
 s.hmi.chuck.1 = 2103
 s.hmi.tool.1 = 2102
+s.inside.cnc = 2012
+s.mcode.req = 2013
+s.mfinish.req = 2013
+s.pr.cnc.appr = 2108
+s.pr.cnc.tch = 2109
 s.pr.home = 2106
 s.pr.tch.shelf = 2100
 s.pr.tch.wp = 2104
@@ -15245,267 +6942,396 @@ s.search.fail = 2011
 s.shelf.failed = 2010
 shelf.pick.ovlp = 10
 shelf.put.ovlp = 10
-state = 0
+st3.reverse = 0
+st3.tool = 1
+st5.chuck = 1
+st6.chuck = 2
+st6.reverse = 0
+st6.tool = 2
+state = 9
+wp.count = 20
 wp.in.length = 80
 wp.mid.length = 80
 wp.out.length = 80
 .END
 .STRINGS
-$log.entry[0] = "00:23:26 ID: 12 --> i: 2 j: 1"
-$log.entry[1] = "00:27:05 KROSET mod activated. Get data from Robot TP"
-$log.entry[2] = "00:27:05 Pick workpiece; Shelf: 1 Tool: 1 ID: 6"
-$log.entry[3] = "00:27:05 Tool #1 set"
-$log.entry[4] = "00:27:05 Gripper 1 opened"
-$log.entry[5] = "00:27:05 ID: 6 --> i: 1 j: 0"
-$log.entry[6] = "00:27:24 KROSET mod activated. Get data from Robot TP"
-$log.entry[7] = "00:27:24 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[8] = "00:27:24 Tool #1 set"
-$log.entry[9] = "00:27:24 Gripper 1 opened"
-$log.entry[10] = "00:27:24 ID: 10 --> i: 2 j: 0"
-$log.entry[11] = "17:28:11 Initialization complete!"
-$log.entry[12] = "17:28:11 Speed 5 was applied"
-$log.entry[13] = "17:29:54 Main program executed"
-$log.entry[14] = "17:29:54 Performing safe movement to home position"
-$log.entry[15] = "17:30:17 KROSET mod activated. Get data from Robot TP"
-$log.entry[16] = "17:30:18 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[17] = "17:30:20 Tool #1 set"
-$log.entry[18] = "17:30:28 Opening shelf 1"
-$log.entry[19] = "17:30:28 Tool #3 set"
-$log.entry[20] = "17:30:32 Gripper 1 closed"
-$log.entry[21] = "17:30:34 Gripper 2 closed"
-$log.entry[22] = "17:30:51 Request unlock shelf 1"
-$log.entry[23] = "17:31:06 Shelf 1 successfully unlocked"
-$log.entry[24] = "17:31:24 Closing shelf 1"
-$log.entry[25] = "17:31:24 Tool #3 set"
-$log.entry[26] = "17:31:50 Opening shelf 1"
-$log.entry[27] = "17:31:50 Tool #3 set"
-$log.entry[28] = "17:31:50 Gripper 1 closed"
-$log.entry[29] = "17:31:50 Gripper 2 closed"
-$log.entry[30] = "17:31:52 Request unlock shelf 1"
-$log.entry[31] = "17:31:52 Shelf 1 successfully unlocked"
-$log.entry[32] = "17:31:57 Closing shelf 1"
-$log.entry[33] = "17:31:58 Tool #3 set"
-$log.entry[34] = "17:31:58 Gripper 1 closed"
-$log.entry[35] = "17:31:58 Gripper 2 closed"
-$log.entry[36] = "17:32:00 Request unlock shelf 1"
-$log.entry[37] = "17:32:00 Shelf 1 successfully unlocked"
-$log.entry[38] = "17:32:10 Opening shelf 1"
-$log.entry[39] = "17:32:10 Tool #3 set"
-$log.entry[40] = "17:32:10 Gripper 1 closed"
-$log.entry[41] = "17:32:10 Gripper 2 closed"
-$log.entry[42] = "17:32:14 Request unlock shelf 1"
-$log.entry[43] = "17:32:14 Shelf 1 successfully unlocked"
-$log.entry[44] = "17:32:28 KROSET mod activated. Get data from Robot TP"
-$log.entry[45] = "17:32:29 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[46] = "17:32:31 Tool #1 set"
-$log.entry[47] = "17:32:34 Gripper 1 opened"
-$log.entry[48] = "17:32:37 ID: 10 --> i: 1 j: 4"
-$log.entry[49] = "17:33:38 KROSET mod activated. Get data from Robot TP"
-$log.entry[50] = "17:33:39 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[51] = "17:33:40 Tool #1 set"
-$log.entry[52] = "17:33:46 Gripper 1 opened"
-$log.entry[53] = "17:33:46 ID: 10 --> i: 1 j: 4"
-$log.entry[54] = "17:34:39 KROSET mod activated. Get data from Robot TP"
-$log.entry[55] = "17:34:39 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[56] = "17:34:39 Tool #1 set"
-$log.entry[57] = "17:34:39 Gripper 1 opened"
-$log.entry[58] = "17:34:39 ID: 10 --> i: 1 j: 4"
-$log.entry[59] = "17:35:02 Tool #1 set"
-$log.entry[60] = "17:35:36 KROSET mod activated. Get data from Robot TP"
-$log.entry[61] = "17:35:36 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[62] = "17:35:36 Tool #1 set"
-$log.entry[63] = "17:35:36 Gripper 1 opened"
-$log.entry[64] = "17:35:36 ID: 10 --> i: 1 j: 4"
-$log.entry[65] = "17:35:48 KROSET mod activated. Get data from Robot TP"
-$log.entry[66] = "17:35:48 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[67] = "17:35:48 Tool #1 set"
-$log.entry[68] = "17:35:48 Gripper 1 opened"
-$log.entry[69] = "17:35:48 ID: 10 --> i: 1 j: 4"
-$log.entry[70] = "17:35:56 KROSET mod activated. Get data from Robot TP"
-$log.entry[71] = "17:35:56 Pick workpiece; Shelf: 1 Tool: 1 ID: 10"
-$log.entry[72] = "17:35:56 Tool #1 set"
-$log.entry[73] = "17:35:56 Gripper 1 opened"
-$log.entry[74] = "17:35:56 ID: 10 --> i: 1 j: 4"
-$log.entry[75] = "22:41:59 KROSET mod activated. Get data from Robot TP"
-$log.entry[76] = "22:41:59 Pick workpiece. Shelf: 1 Tool: 1 ID: 10"
-$log.entry[77] = "22:42:00 Tool #1 set"
-$log.entry[78] = "22:42:00 Command open gripper 1"
-$log.entry[79] = "22:42:00 ID: 10 --> i: 1 j: 4"
-$log.entry[80] = "22:42:15 Command open gripper 1"
-$log.entry[81] = "22:42:15 Command open gripper 1"
-$log.entry[82] = "22:42:15 Error opening gripper"
-$log.entry[83] = "22:44:10 KROSET mod activated. Get data from Robot TP"
-$log.entry[84] = "22:44:10 Pick workpiece. Shelf: 1 Tool: 1 ID: 10"
-$log.entry[85] = "22:44:10 Tool #1 set"
-$log.entry[86] = "22:44:11 Command open gripper 1"
-$log.entry[87] = "22:44:11 ID: 10 --> i: 1 j: 4"
-$log.entry[88] = "22:44:59 KROSET mod activated. Get data from Robot TP"
-$log.entry[89] = "22:44:59 Pick workpiece. Shelf: 1 Tool: 1 ID: 10"
-$log.entry[90] = "22:44:59 Tool #1 set"
-$log.entry[91] = "22:44:59 Command open gripper 1"
-$log.entry[92] = "22:44:59 ID: 10 --> i: 1 j: 4"
-$log.entry[93] = "22:45:03 Distance: 0.04297"
-$log.entry[94] = "22:45:03 Detail found"
-$log.entry[95] = "22:45:03 Command close gripper 1"
-$log.entry[96] = "22:59:15 KROSET mod activated. Get data from Robot TP"
-$log.entry[97] = "22:59:15 Put workpiece. Shelf: 1 Tool: 1 ID: 10"
-$log.entry[98] = "22:59:15 Tool #1 set"
-$log.entry[99] = "22:59:15 ID: 10 --> i: 1 j: 4"
-$log.entry[100] = "22:59:18 Command open gripper 1"
-$log.entry[101] = "22:59:31 KROSET mod activated. Get data from Robot TP"
-$log.entry[102] = "22:59:31 Put workpiece. Shelf: 1 Tool: 2 ID: 10"
-$log.entry[103] = "22:59:31 Tool #2 set"
-$log.entry[104] = "22:59:31 ID: 10 --> i: 1 j: 4"
-$log.entry[105] = "23:00:44 Put workpiece. Shelf: 1 Tool: 2 ID: 10"
-$log.entry[106] = "23:00:45 Tool #2 set"
-$log.entry[107] = "23:00:46 ID: 10 --> i: 1 j: 4"
-$log.entry[108] = "23:01:47 KROSET mod activated. Get data from Robot TP"
-$log.entry[109] = "23:01:48 Put workpiece. Shelf: 1 Tool: 2 ID: 10"
-$log.entry[110] = "23:01:49 Tool #2 set"
-$log.entry[111] = "23:01:52 ID: 10 --> i: 1 j: 4"
-$log.entry[112] = "23:02:49 KROSET mod activated. Get data from Robot TP"
-$log.entry[113] = "23:02:49 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
-$log.entry[114] = "23:02:49 Tool #2 set"
-$log.entry[115] = "23:02:49 ID: 1 --> i: 0 j: 0"
-$log.entry[116] = "23:03:03 Command open gripper 2"
-$log.entry[117] = "23:03:12 KROSET mod activated. Get data from Robot TP"
-$log.entry[118] = "23:03:12 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
-$log.entry[119] = "23:03:12 Tool #2 set"
-$log.entry[120] = "23:03:12 ID: 1 --> i: 0 j: 0"
-$log.entry[121] = "23:04:18 Tool #2 set"
-$log.entry[122] = "23:05:44 KROSET mod activated. Get data from Robot TP"
-$log.entry[123] = "23:05:44 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
-$log.entry[124] = "23:05:44 Tool #2 set"
-$log.entry[125] = "23:05:44 ID: 1 --> i: 0 j: 0"
-$log.entry[126] = "23:05:49 Command open gripper 2"
-$log.entry[127] = "23:06:02 KROSET mod activated. Get data from Robot TP"
-$log.entry[128] = "23:06:02 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[129] = "23:06:02 Tool #1 set"
-$log.entry[130] = "23:06:02 Command open gripper 1"
-$log.entry[131] = "23:06:02 ID: 1 --> i: 0 j: 0"
-$log.entry[132] = "23:06:36 KROSET mod activated. Get data from Robot TP"
-$log.entry[133] = "23:06:36 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
-$log.entry[134] = "23:06:36 Tool #2 set"
-$log.entry[135] = "23:06:36 ID: 1 --> i: 0 j: 0"
-$log.entry[136] = "23:07:04 KROSET mod activated. Get data from Robot TP"
-$log.entry[137] = "23:07:04 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[138] = "23:07:04 Tool #1 set"
-$log.entry[139] = "23:07:04 Command open gripper 1"
-$log.entry[140] = "23:07:04 ID: 1 --> i: 0 j: 0"
-$log.entry[141] = "23:07:18 Distance: 0.02455"
-$log.entry[142] = "23:07:18 Detail found"
-$log.entry[143] = "23:07:18 Command close gripper 1"
-$log.entry[144] = "23:12:02 KROSET mod activated. Get data from Robot TP"
-$log.entry[145] = "23:12:03 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[146] = "23:12:03 Tool #1 set"
-$log.entry[147] = "23:12:03 Command open gripper 1"
-$log.entry[148] = "23:12:03 ID: 1 --> i: 0 j: 0"
-$log.entry[149] = "23:12:06 Distance: 0.02505"
-$log.entry[150] = "23:12:06 Detail found"
-$log.entry[151] = "23:12:06 Command close gripper 1"
-$log.entry[152] = "23:12:11 KROSET mod activated. Get data from Robot TP"
-$log.entry[153] = "23:12:11 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[154] = "23:12:11 Tool #1 set"
-$log.entry[155] = "23:12:11 Command open gripper 1"
-$log.entry[156] = "23:12:11 ID: 1 --> i: 0 j: 0"
-$log.entry[157] = "23:12:14 Distance: 0.01702"
-$log.entry[158] = "23:12:14 Detail found"
-$log.entry[159] = "23:12:14 Command close gripper 1"
-$log.entry[160] = "23:12:46 KROSET mod activated. Get data from Robot TP"
-$log.entry[161] = "23:12:46 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[162] = "23:12:46 Tool #1 set"
-$log.entry[163] = "23:12:47 Command open gripper 1"
-$log.entry[164] = "23:12:47 ID: 1 --> i: 0 j: 0"
-$log.entry[165] = "23:12:50 Distance: 0.02012"
-$log.entry[166] = "23:12:50 Detail found"
-$log.entry[167] = "23:12:50 Command close gripper 1"
-$log.entry[168] = "23:12:56 KROSET mod activated. Get data from Robot TP"
-$log.entry[169] = "23:12:56 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[170] = "23:12:57 Tool #1 set"
-$log.entry[171] = "23:12:57 Command open gripper 1"
-$log.entry[172] = "23:12:57 ID: 1 --> i: 0 j: 0"
-$log.entry[173] = "23:13:08 Distance: 0.0245"
-$log.entry[174] = "23:13:08 Detail found"
-$log.entry[175] = "23:13:08 Command close gripper 1"
-$log.entry[176] = "23:13:41 KROSET mod activated. Get data from Robot TP"
-$log.entry[177] = "23:13:41 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[178] = "23:13:41 Tool #1 set"
-$log.entry[179] = "23:13:41 Command open gripper 1"
-$log.entry[180] = "23:13:41 ID: 1 --> i: 0 j: 0"
-$log.entry[181] = "23:13:43 Distance: 0.02505"
-$log.entry[182] = "23:13:43 Detail found"
-$log.entry[183] = "23:13:43 Command close gripper 1"
-$log.entry[184] = "23:13:48 KROSET mod activated. Get data from Robot TP"
-$log.entry[185] = "23:13:48 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[186] = "23:13:48 Tool #1 set"
-$log.entry[187] = "23:13:48 Command open gripper 1"
-$log.entry[188] = "23:13:48 ID: 1 --> i: 0 j: 0"
-$log.entry[189] = "23:13:50 Distance: 0.0253"
-$log.entry[190] = "23:13:50 Detail found"
-$log.entry[191] = "23:13:51 Command close gripper 1"
-$log.entry[192] = "23:15:16 KROSET mod activated. Get data from Robot TP"
-$log.entry[193] = "23:15:17 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[194] = "23:15:17 Tool #1 set"
-$log.entry[195] = "23:15:17 Command open gripper 1"
-$log.entry[196] = "23:15:17 ID: 1 --> i: 0 j: 0"
-$log.entry[197] = "23:15:20 Distance: 0.01166"
-$log.entry[198] = "23:15:20 Detail found"
-$log.entry[199] = "23:15:20 Command close gripper 1"
-$log.entry[200] = "23:15:26 KROSET mod activated. Get data from Robot TP"
-$log.entry[201] = "23:15:26 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[202] = "23:15:26 Tool #1 set"
-$log.entry[203] = "23:15:26 Command open gripper 1"
-$log.entry[204] = "23:15:26 ID: 1 --> i: 0 j: 0"
-$log.entry[205] = "23:15:29 Distance: 0.0253"
-$log.entry[206] = "23:15:29 Detail found"
-$log.entry[207] = "23:15:29 Command close gripper 1"
-$log.entry[208] = "23:15:39 KROSET mod activated. Get data from Robot TP"
-$log.entry[209] = "23:15:39 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[210] = "23:15:39 Tool #1 set"
-$log.entry[211] = "23:15:39 Command open gripper 1"
-$log.entry[212] = "23:15:39 ID: 1 --> i: 0 j: 0"
-$log.entry[213] = "23:15:40 Distance: 0.02505"
-$log.entry[214] = "23:15:41 Detail found"
-$log.entry[215] = "23:15:41 Command close gripper 1"
-$log.entry[216] = "23:19:42 KROSET mod activated. Get data from Robot TP"
-$log.entry[217] = "23:19:42 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[218] = "23:19:42 Tool #1 set"
-$log.entry[219] = "23:19:42 Command open gripper 1"
-$log.entry[220] = "23:19:42 ID: 1 --> i: 0 j: 0"
-$log.entry[221] = "23:19:44 Distance: 0.0146"
-$log.entry[222] = "23:19:44 Detail found"
-$log.entry[223] = "23:19:44 Command close gripper 1"
-$log.entry[224] = "23:26:09 KROSET mod activated. Get data from Robot TP"
-$log.entry[225] = "23:26:09 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[226] = "23:26:09 Tool #1 set"
-$log.entry[227] = "23:26:09 Command open gripper 1"
-$log.entry[228] = "23:26:09 ID: 1 --> i: 0 j: 0"
-$log.entry[229] = "23:26:11 Distance: 0.03027"
-$log.entry[230] = "23:26:11 Detail found"
-$log.entry[231] = "23:26:12 Command close gripper 1"
-$log.entry[232] = "23:26:21 KROSET mod activated. Get data from Robot TP"
-$log.entry[233] = "23:26:21 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[234] = "23:26:21 Tool #1 set"
-$log.entry[235] = "23:26:21 Command open gripper 1"
-$log.entry[236] = "23:26:21 ID: 1 --> i: 0 j: 0"
-$log.entry[237] = "23:26:23 Distance: 0.02146"
-$log.entry[238] = "23:26:23 Detail found"
-$log.entry[239] = "23:26:24 Command close gripper 1"
-$log.entry[240] = "23:26:53 KROSET mod activated. Get data from Robot TP"
-$log.entry[241] = "23:26:53 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[242] = "23:26:53 Tool #1 set"
-$log.entry[243] = "23:26:53 Command open gripper 1"
-$log.entry[244] = "23:26:53 ID: 1 --> i: 0 j: 0"
-$log.entry[245] = "23:26:54 Distance: 0.02352"
-$log.entry[246] = "23:26:54 Detail found"
-$log.entry[247] = "23:26:55 Command close gripper 1"
-$log.entry[248] = "23:27:01 KROSET mod activated. Get data from Robot TP"
-$log.entry[249] = "23:27:01 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[250] = "23:27:01 Tool #1 set"
-$log.entry[251] = "23:27:02 Command open gripper 1"
-$log.entry[252] = "23:27:02 ID: 1 --> i: 0 j: 0"
-$log.entry[253] = "23:27:03 Distance: 0.02352"
-$log.entry[254] = "23:27:03 Detail found"
-$log.entry[255] = "23:27:04 Command close gripper 1"
-$safe.flag = "shelf.opened"
+$log.entry[0] = "16:53:13 Command open gripper 1"
+$log.entry[1] = "16:53:13 ID: 1 --> i: 0 j: 0"
+$log.entry[2] = "16:53:38 State 3: Pick workpiece from shelf"
+$log.entry[3] = "16:53:38 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[4] = "16:53:38 Tool #1 set"
+$log.entry[5] = "16:53:38 Command open gripper 1"
+$log.entry[6] = "16:53:38 ID: 1 --> i: 0 j: 0"
+$log.entry[7] = "16:55:00 Main program executed"
+$log.entry[8] = "16:55:00 Performing safe movement to home position"
+$log.entry[9] = "16:55:00 Safe move from shelf"
+$log.entry[10] = "16:55:08 Robot in home position"
+$log.entry[11] = "16:55:10 State 0: Initialization"
+$log.entry[12] = "16:55:10 Waiting for task start"
+$log.entry[13] = "16:55:10 KROSET mod activated. Get data from Robot TP"
+$log.entry[14] = "16:55:10 State 1: Check ready shelves"
+$log.entry[15] = "16:55:10 Shelf 1 is ready. Working!"
+$log.entry[16] = "16:55:10 State 100: Decision making module"
+$log.entry[17] = "16:55:10 State 2: Open shelf"
+$log.entry[18] = "16:55:10 Opening shelf 1"
+$log.entry[19] = "16:55:10 Tool #3 set"
+$log.entry[20] = "16:55:10 Command close gripper 1"
+$log.entry[21] = "16:55:10 Command close gripper 2"
+$log.entry[22] = "16:55:13 Request unlock shelf 1"
+$log.entry[23] = "16:55:13 Shelf 1 successfully unlocked"
+$log.entry[24] = "16:55:15 State 100: Decision making module"
+$log.entry[25] = "16:55:15 State 3: Pick workpiece from shelf"
+$log.entry[26] = "16:55:15 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[27] = "16:55:16 Tool #1 set"
+$log.entry[28] = "16:55:16 Command open gripper 1"
+$log.entry[29] = "16:55:16 ID: 1 --> i: 0 j: 0"
+$log.entry[30] = "17:12:55 Main program executed"
+$log.entry[31] = "17:12:55 Performing safe movement to home position"
+$log.entry[32] = "17:12:55 Safe move from shelf"
+$log.entry[33] = "17:13:00 Robot in home position"
+$log.entry[34] = "17:13:01 State 0: Initialization"
+$log.entry[35] = "17:13:01 Waiting for task start"
+$log.entry[36] = "17:13:01 KROSET mod activated. Get data from Robot TP"
+$log.entry[37] = "17:13:01 State 1: Check ready shelves"
+$log.entry[38] = "17:13:02 Shelf 1 is ready. Working!"
+$log.entry[39] = "17:13:02 State 100: Decision making module"
+$log.entry[40] = "17:13:02 State 2: Open shelf"
+$log.entry[41] = "17:13:02 Opening shelf 1"
+$log.entry[42] = "17:13:02 Tool #3 set"
+$log.entry[43] = "17:13:02 Command close gripper 1"
+$log.entry[44] = "17:13:02 Command close gripper 2"
+$log.entry[45] = "17:13:04 Request unlock shelf 1"
+$log.entry[46] = "17:13:04 Shelf 1 successfully unlocked"
+$log.entry[47] = "17:13:06 State 100: Decision making module"
+$log.entry[48] = "17:13:07 State 3: Pick workpiece from shelf"
+$log.entry[49] = "17:13:07 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[50] = "17:13:07 Tool #1 set"
+$log.entry[51] = "17:13:07 Command open gripper 1"
+$log.entry[52] = "17:13:07 ID: 1 --> i: 0 j: 0"
+$log.entry[53] = "17:13:10 Distance: 0.02591"
+$log.entry[54] = "17:13:10 Detail found"
+$log.entry[55] = "17:13:11 Command close gripper 1"
+$log.entry[56] = "17:13:11 State 100: Decision making module"
+$log.entry[57] = "17:13:11 State 4: Move to CNC"
+$log.entry[58] = "17:13:11 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[59] = "17:13:11 Tool #1 set"
+$log.entry[60] = "17:13:13 Waiting for CNC ready"
+$log.entry[61] = "17:13:13 CNC ready signal received"
+$log.entry[62] = "17:13:14 Robot inside CNC"
+$log.entry[63] = "17:13:14 State 100: Decision making module"
+$log.entry[64] = "17:13:14 State 5: Put workpiece to CNC"
+$log.entry[65] = "17:13:14 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[66] = "17:13:15 Tool #1 set"
+$log.entry[67] = "17:13:15 Robot open chuck first"
+$log.entry[68] = "17:13:15 Command open gripper 1"
+$log.entry[69] = "17:13:15 Close CNC chuck 1"
+$log.entry[70] = "17:13:15 CNC chuck 1 closed"
+$log.entry[71] = "17:13:15 State 100: Decision making module"
+$log.entry[72] = "17:13:15 State 7: Move outside CNC"
+$log.entry[73] = "17:13:15 Move outside CNC. Tool: 2 Chuck: 2"
+$log.entry[74] = "17:13:16 Tool #2 set"
+$log.entry[75] = "17:13:16 Robot outside CNC"
+$log.entry[76] = "17:13:16 State 100: Decision making module"
+$log.entry[77] = "17:13:16 State 8: Execute MFINISH"
+$log.entry[78] = "17:13:17 State 100: Decision making module"
+$log.entry[79] = "17:13:17 State 3: Pick workpiece from shelf"
+$log.entry[80] = "17:13:17 Pick workpiece. Shelf: 1 Tool: 1 ID: 2"
+$log.entry[81] = "17:13:17 Tool #1 set"
+$log.entry[82] = "17:13:17 Command open gripper 1"
+$log.entry[83] = "17:13:17 ID: 2 --> i: 0 j: 1"
+$log.entry[84] = "17:13:19 Distance: 0.02451"
+$log.entry[85] = "17:13:19 Detail found"
+$log.entry[86] = "17:13:19 Command close gripper 1"
+$log.entry[87] = "17:13:19 State 100: Decision making module"
+$log.entry[88] = "17:13:20 State 4: Move to CNC"
+$log.entry[89] = "17:13:20 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[90] = "17:13:20 Tool #1 set"
+$log.entry[91] = "17:13:22 Waiting for CNC ready"
+$log.entry[92] = "17:13:22 CNC ready signal received"
+$log.entry[93] = "17:13:23 Robot inside CNC"
+$log.entry[94] = "17:13:23 State 100: Decision making module"
+$log.entry[95] = "17:13:23 State 5: Put workpiece to CNC"
+$log.entry[96] = "17:13:23 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[97] = "17:13:23 Tool #1 set"
+$log.entry[98] = "17:13:23 Robot open chuck first"
+$log.entry[99] = "17:13:24 Command open gripper 1"
+$log.entry[100] = "17:13:24 Close CNC chuck 1"
+$log.entry[101] = "17:13:24 CNC chuck 1 closed"
+$log.entry[102] = "17:13:24 State 100: Decision making module"
+$log.entry[103] = "17:13:24 State 6: Pick detail from CNC"
+$log.entry[104] = "17:13:24 Pick workpiece from CNC. Tool: 2 Chuck: 2"
+$log.entry[105] = "17:13:24 Tool #2 set"
+$log.entry[106] = "17:13:24 Command open gripper 2"
+$log.entry[107] = "17:13:25 Command close gripper 2"
+$log.entry[108] = "17:13:25 Open CNC chuck 2"
+$log.entry[109] = "17:13:25 CNC chuck 2 opened"
+$log.entry[110] = "17:13:25 State 100: Decision making module"
+$log.entry[111] = "17:13:25 State 7: Move outside CNC"
+$log.entry[112] = "17:13:25 Move outside CNC. Tool: 2 Chuck: 2"
+$log.entry[113] = "17:13:25 Tool #2 set"
+$log.entry[114] = "17:13:26 Robot outside CNC"
+$log.entry[115] = "17:13:26 State 100: Decision making module"
+$log.entry[116] = "17:13:26 State 8: Execute MFINISH"
+$log.entry[117] = "17:13:27 State 100: Decision making module"
+$log.entry[118] = "17:13:27 State 9: Put detail to shelf"
+$log.entry[119] = "17:13:27 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
+$log.entry[120] = "17:13:27 Tool #2 set"
+$log.entry[121] = "17:13:27 ID: 1 --> i: 0 j: 0"
+$log.entry[122] = "17:13:29 Command open gripper 2"
+$log.entry[123] = "17:13:29 State 100: Decision making module"
+$log.entry[124] = "17:13:29 State 3: Pick workpiece from shelf"
+$log.entry[125] = "17:13:29 Pick workpiece. Shelf: 1 Tool: 1 ID: 3"
+$log.entry[126] = "17:13:30 Tool #1 set"
+$log.entry[127] = "17:13:30 Command open gripper 1"
+$log.entry[128] = "17:13:30 ID: 3 --> i: 0 j: 2"
+$log.entry[129] = "17:13:32 Distance: 0.02457"
+$log.entry[130] = "17:13:32 Detail found"
+$log.entry[131] = "17:13:32 Command close gripper 1"
+$log.entry[132] = "17:13:32 State 100: Decision making module"
+$log.entry[133] = "17:13:32 State 4: Move to CNC"
+$log.entry[134] = "17:13:32 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[135] = "17:13:32 Tool #1 set"
+$log.entry[136] = "17:13:35 Waiting for CNC ready"
+$log.entry[137] = "17:13:35 CNC ready signal received"
+$log.entry[138] = "17:13:36 Robot inside CNC"
+$log.entry[139] = "17:13:36 State 100: Decision making module"
+$log.entry[140] = "17:13:36 State 5: Put workpiece to CNC"
+$log.entry[141] = "17:13:36 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[142] = "17:13:36 Tool #1 set"
+$log.entry[143] = "17:13:36 Robot open chuck first"
+$log.entry[144] = "17:13:36 Command open gripper 1"
+$log.entry[145] = "17:13:37 Close CNC chuck 1"
+$log.entry[146] = "17:13:37 CNC chuck 1 closed"
+$log.entry[147] = "17:13:37 State 100: Decision making module"
+$log.entry[148] = "17:13:37 State 6: Pick detail from CNC"
+$log.entry[149] = "17:13:37 Pick workpiece from CNC. Tool: 2 Chuck: 2"
+$log.entry[150] = "17:13:37 Tool #2 set"
+$log.entry[151] = "17:13:37 Command open gripper 2"
+$log.entry[152] = "17:13:38 Command close gripper 2"
+$log.entry[153] = "17:13:38 Open CNC chuck 2"
+$log.entry[154] = "17:13:38 CNC chuck 2 opened"
+$log.entry[155] = "17:13:38 State 100: Decision making module"
+$log.entry[156] = "17:13:38 State 7: Move outside CNC"
+$log.entry[157] = "17:13:38 Move outside CNC. Tool: 2 Chuck: 2"
+$log.entry[158] = "17:13:38 Tool #2 set"
+$log.entry[159] = "17:13:39 Robot outside CNC"
+$log.entry[160] = "17:13:39 State 100: Decision making module"
+$log.entry[161] = "17:13:39 State 8: Execute MFINISH"
+$log.entry[162] = "17:13:40 State 100: Decision making module"
+$log.entry[163] = "17:13:40 State 9: Put detail to shelf"
+$log.entry[164] = "17:13:40 Put workpiece. Shelf: 1 Tool: 2 ID: 2"
+$log.entry[165] = "17:13:40 Tool #2 set"
+$log.entry[166] = "17:13:40 ID: 2 --> i: 0 j: 1"
+$log.entry[167] = "17:13:42 Command open gripper 2"
+$log.entry[168] = "17:13:42 State 100: Decision making module"
+$log.entry[169] = "17:13:42 State 3: Pick workpiece from shelf"
+$log.entry[170] = "17:13:42 Pick workpiece. Shelf: 1 Tool: 1 ID: 4"
+$log.entry[171] = "17:13:42 Tool #1 set"
+$log.entry[172] = "17:13:43 Command open gripper 1"
+$log.entry[173] = "17:13:43 ID: 4 --> i: 0 j: 3"
+$log.entry[174] = "17:13:44 Distance: 0.019"
+$log.entry[175] = "17:13:44 Detail found"
+$log.entry[176] = "17:13:45 Command close gripper 1"
+$log.entry[177] = "17:13:45 State 100: Decision making module"
+$log.entry[178] = "17:13:45 State 4: Move to CNC"
+$log.entry[179] = "17:13:45 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[180] = "17:13:45 Tool #1 set"
+$log.entry[181] = "17:13:47 Waiting for CNC ready"
+$log.entry[182] = "17:13:47 CNC ready signal received"
+$log.entry[183] = "17:13:48 Robot inside CNC"
+$log.entry[184] = "17:13:48 State 100: Decision making module"
+$log.entry[185] = "17:13:48 State 5: Put workpiece to CNC"
+$log.entry[186] = "17:13:48 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[187] = "17:13:48 Tool #1 set"
+$log.entry[188] = "17:13:48 Robot open chuck first"
+$log.entry[189] = "17:13:49 Command open gripper 1"
+$log.entry[190] = "17:13:49 Close CNC chuck 1"
+$log.entry[191] = "17:13:49 CNC chuck 1 closed"
+$log.entry[192] = "17:13:49 State 100: Decision making module"
+$log.entry[193] = "17:13:49 State 6: Pick detail from CNC"
+$log.entry[194] = "17:13:49 Pick workpiece from CNC. Tool: 2 Chuck: 2"
+$log.entry[195] = "17:13:49 Tool #2 set"
+$log.entry[196] = "17:13:49 Command open gripper 2"
+$log.entry[197] = "17:13:50 Command close gripper 2"
+$log.entry[198] = "17:13:50 Open CNC chuck 2"
+$log.entry[199] = "17:13:50 CNC chuck 2 opened"
+$log.entry[200] = "17:13:50 State 100: Decision making module"
+$log.entry[201] = "17:13:50 State 7: Move outside CNC"
+$log.entry[202] = "17:13:50 Move outside CNC. Tool: 2 Chuck: 2"
+$log.entry[203] = "17:13:50 Tool #2 set"
+$log.entry[204] = "17:13:51 Robot outside CNC"
+$log.entry[205] = "17:13:51 State 100: Decision making module"
+$log.entry[206] = "17:13:51 State 8: Execute MFINISH"
+$log.entry[207] = "17:13:52 State 100: Decision making module"
+$log.entry[208] = "17:13:52 State 9: Put detail to shelf"
+$log.entry[209] = "17:13:52 Put workpiece. Shelf: 1 Tool: 2 ID: 3"
+$log.entry[210] = "17:13:52 Tool #2 set"
+$log.entry[211] = "17:13:52 ID: 3 --> i: 0 j: 2"
+$log.entry[212] = "17:13:54 Command open gripper 2"
+$log.entry[213] = "17:13:54 State 100: Decision making module"
+$log.entry[214] = "17:13:54 State 3: Pick workpiece from shelf"
+$log.entry[215] = "17:13:54 Pick workpiece. Shelf: 1 Tool: 1 ID: 5"
+$log.entry[216] = "17:13:54 Tool #1 set"
+$log.entry[217] = "17:13:54 Command open gripper 1"
+$log.entry[218] = "17:13:54 ID: 5 --> i: 0 j: 4"
+$log.entry[219] = "17:13:56 Distance: 0.03137"
+$log.entry[220] = "17:13:56 Detail found"
+$log.entry[221] = "17:13:56 Command close gripper 1"
+$log.entry[222] = "17:13:57 State 100: Decision making module"
+$log.entry[223] = "17:13:57 State 4: Move to CNC"
+$log.entry[224] = "17:13:57 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[225] = "17:13:57 Tool #1 set"
+$log.entry[226] = "17:13:59 Waiting for CNC ready"
+$log.entry[227] = "17:13:59 CNC ready signal received"
+$log.entry[228] = "17:14:00 Robot inside CNC"
+$log.entry[229] = "17:14:00 State 100: Decision making module"
+$log.entry[230] = "17:14:00 State 5: Put workpiece to CNC"
+$log.entry[231] = "17:14:00 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[232] = "17:14:00 Tool #1 set"
+$log.entry[233] = "17:14:01 Robot open chuck first"
+$log.entry[234] = "17:14:01 Command open gripper 1"
+$log.entry[235] = "17:14:01 Close CNC chuck 1"
+$log.entry[236] = "17:14:01 CNC chuck 1 closed"
+$log.entry[237] = "17:14:01 State 100: Decision making module"
+$log.entry[238] = "17:14:01 State 6: Pick detail from CNC"
+$log.entry[239] = "17:14:01 Pick workpiece from CNC. Tool: 2 Chuck: 2"
+$log.entry[240] = "17:14:01 Tool #2 set"
+$log.entry[241] = "17:14:02 Command open gripper 2"
+$log.entry[242] = "17:14:02 Command close gripper 2"
+$log.entry[243] = "17:14:02 Open CNC chuck 2"
+$log.entry[244] = "17:14:02 CNC chuck 2 opened"
+$log.entry[245] = "17:14:02 State 100: Decision making module"
+$log.entry[246] = "17:14:02 State 7: Move outside CNC"
+$log.entry[247] = "17:14:02 Move outside CNC. Tool: 2 Chuck: 2"
+$log.entry[248] = "17:14:02 Tool #2 set"
+$log.entry[249] = "17:14:03 Robot outside CNC"
+$log.entry[250] = "17:14:03 State 100: Decision making module"
+$log.entry[251] = "17:14:03 State 8: Execute MFINISH"
+$log.entry[252] = "17:14:04 State 100: Decision making module"
+$log.entry[253] = "17:14:04 State 9: Put detail to shelf"
+$log.entry[254] = "17:14:04 Put workpiece. Shelf: 1 Tool: 2 ID: 4"
+$log.entry[255] = "18:40:16 Initialization complete!"
+$safe.flag = "cnc.out"
+.END
+.IDE_CMT
+@@@ PROJECT @@@
+@@@ PROJECTNAME @@@
+LoadWizardPro_v2
+@@@ HISTORY @@@
+@@@ INSPECTION @@@
+wp.in.length
+grip.jaws.full[2]
+cnc.id[1]
+wp.count
+current.wp
+@@@ CONNECTION @@@
+KROSET R01
+127.0.0.1
+9105
+@@@ PROGRAM @@@
+Group:CNC:1
+1:cnc.in:F
+.tool.no 
+.chuck.no 
+1:cnc.out:F
+.tool.no 
+.chuck.no 
+1:calc.rotation:F
+.tool.no 
+.chuck.no 
+.j6 
+.j 
+1:cnc.put:F
+.tool.no 
+.chuck.no 
+.c1 
+.dz 
+.c2 
+.z.appro 
+.temp 
+.x.put 
+1:cnc.pick:F
+.tool.no 
+.chuck.no 
+.c1 
+.dz 
+.c2 
+.z.appro 
+.temp 
+.x.put 
+1:cnc.teach:F
+.tool 
+.gc.full 
+.full 
+.gc.body 
+.body 
+.chuck 
+.cncc.full 
+.cncc.body 
+.temp 
+.zshift 
+1:cnc.appro.teach:F
+1:cnc.test:F
+Group:Workpiece:2
+2:wp.pick:F
+.shelf.no 
+.tool.no 
+.wp.no 
+.i 
+.j 
+.dx 
+.dy 
+.dz 
+.z.appro 
+.temp 
+.x.pick 
+.epsilon 
+.current 
+.d 
+2:wp.teach:F
+.tool 
+.gc.full 
+.full 
+.gc.body 
+.body 
+.z.shift 
+.po 
+.px 
+.py 
+.f 
+.temp1 
+.temp2 
+.temp3 
+.temp4 
+2:wp.test.pick:F
+.tool 
+2:wp.put:F
+.shelf.no 
+.tool.no 
+.wp.no 
+.i 
+.j 
+.dx 
+.dy 
+.dz 
+.z.appro 
+.temp 
+.x.put 
+2:wp.test.put:F
+.tool 
+Group:Grippers:3
+3:gripper.is.open:F
+.tool.no 
+3:gripper.close:F
+.gripper.no 
+.reverse 
+.time 
+3:gripper.open:F
+.gripper.no 
+.reverse 
+.time 
+Group:Shelves:4
+4:shelf.open:F
+.shelf.no 
+.start 
 .END
