@@ -129,6 +129,22 @@ N_OX301    "eo.wp.processed[12]"
 N_OX302    "eo.wp.processed[13]"
 N_OX303    "eo.wp.processed[14]"
 N_OX304    "eo.wp.processed[15]"
+N_OX305    "eo.next.wp[0]"
+N_OX306    "eo.next.wp[1]"
+N_OX307    "eo.next.wp[2]"
+N_OX308    "eo.next.wp[3]"
+N_OX309    "eo.next.wp[4]"
+N_OX310    "eo.next.wp[5]"
+N_OX311    "eo.next.wp[6]"
+N_OX312    "eo.next.wp[7]"
+N_OX313    "eo.next.wp[8]"
+N_OX314    "eo.next.wp[9]"
+N_OX315    "eo.next.wp[10]"
+N_OX316    "eo.next.wp[11]"
+N_OX317    "eo.next.wp[12]"
+N_OX318    "eo.next.wp[13]"
+N_OX319    "eo.next.wp[14]"
+N_OX320    "eo.next.wp[15]"
 N_WX33    "gripper.opened[1]"
 N_WX34    "gripper.opened[2]"
 N_WX35    "gripper.sensor[1]"
@@ -174,6 +190,313 @@ N_WX237    "ei.robot.speed[12]"
 N_WX238    "ei.robot.speed[13]"
 N_WX239    "ei.robot.speed[14]"
 N_WX240    "ei.robot.speed[15]"
+N_WX652    "d.air.st6"
+N_WX653    "d.air.st5"
+N_WX654    "d.cnc.first"
+N_WX655    "d.st5.g.reverse"
+N_WX656    "d.st3.g.reverse"
+N_WX657    "d.st6.c.no[0]"
+N_WX658    "d.st6.c.no[1]"
+N_WX659    "d.st6.g.no[0]"
+N_WX660    "d.st6.g.no[1]"
+N_WX663    "d.st3.g.no[0]"
+N_WX664    "d.st3.g.no[1]"
+N_WX665    "d.wp.count[0]"
+N_WX666    "d.wp.count[1]"
+N_WX667    "d.wp.count[2]"
+N_WX668    "d.wp.count[3]"
+N_WX669    "d.wp.count[4]"
+N_WX670    "d.wp.count[5]"
+N_WX671    "d.wp.count[6]"
+N_WX672    "d.wp.count[7]"
+N_WX673    "d.plt.o.dy[0]"
+N_WX674    "d.plt.o.dy[1]"
+N_WX675    "d.plt.o.dy[2]"
+N_WX676    "d.plt.o.dy[3]"
+N_WX677    "d.plt.o.dy[4]"
+N_WX678    "d.plt.o.dy[5]"
+N_WX679    "d.plt.o.dy[6]"
+N_WX680    "d.plt.o.dy[7]"
+N_WX681    "d.plt.o.dy[8]"
+N_WX682    "d.plt.o.dy[9]"
+N_WX683    "d.plt.o.dy[10]"
+N_WX684    "d.plt.o.dy[11]"
+N_WX685    "d.plt.o.dy[12]"
+N_WX686    "d.plt.o.dy[13]"
+N_WX687    "d.plt.o.dy[14]"
+N_WX688    "d.plt.o.dy[15]"
+N_WX689    "d.plt.o.dx[0]"
+N_WX690    "d.plt.o.dx[1]"
+N_WX691    "d.plt.o.dx[2]"
+N_WX692    "d.plt.o.dx[3]"
+N_WX693    "d.plt.o.dx[4]"
+N_WX694    "d.plt.o.dx[5]"
+N_WX695    "d.plt.o.dx[6]"
+N_WX696    "d.plt.o.dx[7]"
+N_WX697    "d.plt.o.dx[8]"
+N_WX698    "d.plt.o.dx[9]"
+N_WX699    "d.plt.o.dx[10]"
+N_WX700    "d.plt.o.dx[11]"
+N_WX701    "d.plt.o.dx[12]"
+N_WX702    "d.plt.o.dx[13]"
+N_WX703    "d.plt.o.dx[14]"
+N_WX704    "d.plt.o.dx[15]"
+N_WX705    "d.plt.even.dy[0]"
+N_WX706    "d.plt.even.dy[1]"
+N_WX707    "d.plt.even.dy[2]"
+N_WX708    "d.plt.even.dy[3]"
+N_WX709    "d.plt.even.dy[4]"
+N_WX710    "d.plt.even.dy[5]"
+N_WX711    "d.plt.even.dy[6]"
+N_WX712    "d.plt.even.dy[7]"
+N_WX713    "d.plt.even.dy[8]"
+N_WX714    "d.plt.even.dy[9]"
+N_WX715    "d.plt.even.dy[10]"
+N_WX716    "d.plt.even.dy[11]"
+N_WX717    "d.plt.even.dy[12]"
+N_WX718    "d.plt.even.dy[13]"
+N_WX719    "d.plt.even.dy[14]"
+N_WX720    "d.plt.even.dy[15]"
+N_WX721    "d.plt.dy[0]"
+N_WX722    "d.plt.dy[1]"
+N_WX723    "d.plt.dy[2]"
+N_WX724    "d.plt.dy[3]"
+N_WX725    "d.plt.dy[4]"
+N_WX726    "d.plt.dy[5]"
+N_WX727    "d.plt.dy[6]"
+N_WX728    "d.plt.dy[7]"
+N_WX729    "d.plt.dy[8]"
+N_WX730    "d.plt.dy[9]"
+N_WX731    "d.plt.dy[10]"
+N_WX732    "d.plt.dy[11]"
+N_WX733    "d.plt.dy[12]"
+N_WX734    "d.plt.dy[13]"
+N_WX735    "d.plt.dy[14]"
+N_WX736    "d.plt.dy[15]"
+N_WX737    "d.plt.dx[0]"
+N_WX738    "d.plt.dx[1]"
+N_WX739    "d.plt.dx[2]"
+N_WX740    "d.plt.dx[3]"
+N_WX741    "d.plt.dx[4]"
+N_WX742    "d.plt.dx[5]"
+N_WX743    "d.plt.dx[6]"
+N_WX744    "d.plt.dx[7]"
+N_WX745    "d.plt.dx[8]"
+N_WX746    "d.plt.dx[9]"
+N_WX747    "d.plt.dx[10]"
+N_WX748    "d.plt.dx[11]"
+N_WX749    "d.plt.dx[12]"
+N_WX750    "d.plt.dx[13]"
+N_WX751    "d.plt.dx[14]"
+N_WX752    "d.plt.dx[15]"
+N_WX753    "d.plt.cell.even[0]"
+N_WX754    "d.plt.cell.even[1]"
+N_WX755    "d.plt.cell.even[2]"
+N_WX756    "d.plt.cell.even[3]"
+N_WX757    "d.plt.cell.even[4]"
+N_WX758    "d.plt.cell.even[5]"
+N_WX759    "d.plt.cell.even[6]"
+N_WX760    "d.plt.cell.even[7]"
+N_WX761    "d.plt.cell.odd[0]"
+N_WX762    "d.plt.cell.odd[1]"
+N_WX763    "d.plt.cell.odd[2]"
+N_WX764    "d.plt.cell.odd[3]"
+N_WX765    "d.plt.cell.odd[4]"
+N_WX766    "d.plt.cell.odd[5]"
+N_WX767    "d.plt.cell.odd[6]"
+N_WX768    "d.plt.cell.odd[7]"
+N_WX769    "d.plt.rows[0]"
+N_WX770    "d.plt.rows[1]"
+N_WX771    "d.plt.rows[2]"
+N_WX772    "d.plt.rows[3]"
+N_WX773    "d.plt.rows[4]"
+N_WX774    "d.plt.rows[5]"
+N_WX775    "d.plt.rows[6]"
+N_WX776    "d.plt.rows[7]"
+N_WX777    "d.plt.id[0]"
+N_WX778    "d.plt.id[1]"
+N_WX779    "d.plt.id[2]"
+N_WX780    "d.plt.id[3]"
+N_WX781    "d.plt.id[4]"
+N_WX782    "d.plt.id[5]"
+N_WX783    "d.plt.id[6]"
+N_WX784    "d.plt.id[7]"
+N_WX785    "d.cnc2.jaws.bod[0]"
+N_WX786    "d.cnc2.jaws.bod[1]"
+N_WX787    "d.cnc2.jaws.bod[2]"
+N_WX788    "d.cnc2.jaws.bod[3]"
+N_WX789    "d.cnc2.jaws.bod[4]"
+N_WX790    "d.cnc2.jaws.bod[5]"
+N_WX791    "d.cnc2.jaws.bod[6]"
+N_WX792    "d.cnc2.jaws.bod[7]"
+N_WX793    "d.cnc2.jaws.bod[8]"
+N_WX794    "d.cnc2.jaws.bod[9]"
+N_WX795    "d.cnc2.jaws.bod[10]"
+N_WX796    "d.cnc2.jaws.bod[11]"
+N_WX797    "d.cnc2.jaws.bod[12]"
+N_WX798    "d.cnc2.jaws.bod[13]"
+N_WX799    "d.cnc2.jaws.bod[14]"
+N_WX800    "d.cnc2.jaws.bod[15]"
+N_WX801    "d.cnc2.jaws.ful[0]"
+N_WX802    "d.cnc2.jaws.ful[1]"
+N_WX803    "d.cnc2.jaws.ful[2]"
+N_WX804    "d.cnc2.jaws.ful[3]"
+N_WX805    "d.cnc2.jaws.ful[4]"
+N_WX806    "d.cnc2.jaws.ful[5]"
+N_WX807    "d.cnc2.jaws.ful[6]"
+N_WX808    "d.cnc2.jaws.ful[7]"
+N_WX809    "d.cnc2.jaws.ful[8]"
+N_WX810    "d.cnc2.jaws.ful[9]"
+N_WX811    "d.cnc2.jaws.ful[10]"
+N_WX812    "d.cnc2.jaws.ful[11]"
+N_WX813    "d.cnc2.jaws.ful[12]"
+N_WX814    "d.cnc2.jaws.ful[13]"
+N_WX815    "d.cnc2.jaws.ful[14]"
+N_WX816    "d.cnc2.jaws.ful[15]"
+N_WX817    "d.cnc1.jaws.bod[0]"
+N_WX818    "d.cnc1.jaws.bod[1]"
+N_WX819    "d.cnc1.jaws.bod[2]"
+N_WX820    "d.cnc1.jaws.bod[3]"
+N_WX821    "d.cnc1.jaws.bod[4]"
+N_WX822    "d.cnc1.jaws.bod[5]"
+N_WX823    "d.cnc1.jaws.bod[6]"
+N_WX824    "d.cnc1.jaws.bod[7]"
+N_WX825    "d.cnc1.jaws.bod[8]"
+N_WX826    "d.cnc1.jaws.bod[9]"
+N_WX827    "d.cnc1.jaws.bod[10]"
+N_WX828    "d.cnc1.jaws.bod[11]"
+N_WX829    "d.cnc1.jaws.bod[12]"
+N_WX830    "d.cnc1.jaws.bod[13]"
+N_WX831    "d.cnc1.jaws.bod[14]"
+N_WX832    "d.cnc1.jaws.bod[15]"
+N_WX833    "d.cnc1.jaws.ful[0]"
+N_WX834    "d.cnc1.jaws.ful[1]"
+N_WX835    "d.cnc1.jaws.ful[2]"
+N_WX836    "d.cnc1.jaws.ful[3]"
+N_WX837    "d.cnc1.jaws.ful[4]"
+N_WX838    "d.cnc1.jaws.ful[5]"
+N_WX839    "d.cnc1.jaws.ful[6]"
+N_WX840    "d.cnc1.jaws.ful[7]"
+N_WX841    "d.cnc1.jaws.ful[8]"
+N_WX842    "d.cnc1.jaws.ful[9]"
+N_WX843    "d.cnc1.jaws.ful[10]"
+N_WX844    "d.cnc1.jaws.ful[11]"
+N_WX845    "d.cnc1.jaws.ful[12]"
+N_WX846    "d.cnc1.jaws.ful[13]"
+N_WX847    "d.cnc1.jaws.ful[14]"
+N_WX848    "d.cnc1.jaws.ful[15]"
+N_WX849    "d.g2.jaws.body[0]"
+N_WX850    "d.g2.jaws.body[1]"
+N_WX851    "d.g2.jaws.body[2]"
+N_WX852    "d.g2.jaws.body[3]"
+N_WX853    "d.g2.jaws.body[4]"
+N_WX854    "d.g2.jaws.body[5]"
+N_WX855    "d.g2.jaws.body[6]"
+N_WX856    "d.g2.jaws.body[7]"
+N_WX857    "d.g2.jaws.body[8]"
+N_WX858    "d.g2.jaws.body[9]"
+N_WX859    "d.g2.jaws.body[10]"
+N_WX860    "d.g2.jaws.body[11]"
+N_WX861    "d.g2.jaws.body[12]"
+N_WX862    "d.g2.jaws.body[13]"
+N_WX863    "d.g2.jaws.body[14]"
+N_WX864    "d.g2.jaws.body[15]"
+N_WX865    "d.g2.jaws.full[0]"
+N_WX866    "d.g2.jaws.full[1]"
+N_WX867    "d.g2.jaws.full[2]"
+N_WX868    "d.g2.jaws.full[3]"
+N_WX869    "d.g2.jaws.full[4]"
+N_WX870    "d.g2.jaws.full[5]"
+N_WX871    "d.g2.jaws.full[6]"
+N_WX872    "d.g2.jaws.full[7]"
+N_WX873    "d.g2.jaws.full[8]"
+N_WX874    "d.g2.jaws.full[9]"
+N_WX875    "d.g2.jaws.full[10]"
+N_WX876    "d.g2.jaws.full[11]"
+N_WX877    "d.g2.jaws.full[12]"
+N_WX878    "d.g2.jaws.full[13]"
+N_WX879    "d.g2.jaws.full[14]"
+N_WX880    "d.g2.jaws.full[15]"
+N_WX881    "d.g1.jaws.body[0]"
+N_WX882    "d.g1.jaws.body[1]"
+N_WX883    "d.g1.jaws.body[2]"
+N_WX884    "d.g1.jaws.body[3]"
+N_WX885    "d.g1.jaws.body[4]"
+N_WX886    "d.g1.jaws.body[5]"
+N_WX887    "d.g1.jaws.body[6]"
+N_WX888    "d.g1.jaws.body[7]"
+N_WX889    "d.g1.jaws.body[8]"
+N_WX890    "d.g1.jaws.body[9]"
+N_WX891    "d.g1.jaws.body[10]"
+N_WX892    "d.g1.jaws.body[11]"
+N_WX893    "d.g1.jaws.body[12]"
+N_WX894    "d.g1.jaws.body[13]"
+N_WX895    "d.g1.jaws.body[14]"
+N_WX896    "d.g1.jaws.body[15]"
+N_WX897    "d.g1.jaws.full[0]"
+N_WX898    "d.g1.jaws.full[1]"
+N_WX899    "d.g1.jaws.full[2]"
+N_WX900    "d.g1.jaws.full[3]"
+N_WX901    "d.g1.jaws.full[4]"
+N_WX902    "d.g1.jaws.full[5]"
+N_WX903    "d.g1.jaws.full[6]"
+N_WX904    "d.g1.jaws.full[7]"
+N_WX905    "d.g1.jaws.full[8]"
+N_WX906    "d.g1.jaws.full[9]"
+N_WX907    "d.g1.jaws.full[10]"
+N_WX908    "d.g1.jaws.full[11]"
+N_WX909    "d.g1.jaws.full[12]"
+N_WX910    "d.g1.jaws.full[13]"
+N_WX911    "d.g1.jaws.full[14]"
+N_WX912    "d.g1.jaws.full[15]"
+N_WX913    "d.semiwp.length[0]"
+N_WX914    "d.semiwp.length[1]"
+N_WX915    "d.semiwp.length[2]"
+N_WX916    "d.semiwp.length[3]"
+N_WX917    "d.semiwp.length[4]"
+N_WX918    "d.semiwp.length[5]"
+N_WX919    "d.semiwp.length[6]"
+N_WX920    "d.semiwp.length[7]"
+N_WX921    "d.semiwp.length[8]"
+N_WX922    "d.semiwp.length[9]"
+N_WX923    "d.semiwp.length[10]"
+N_WX924    "d.semiwp.length[11]"
+N_WX925    "d.semiwp.length[12]"
+N_WX926    "d.semiwp.length[13]"
+N_WX927    "d.semiwp.length[14]"
+N_WX928    "d.semiwp.length[15]"
+N_WX929    "d.detail.length[0]"
+N_WX930    "d.detail.length[1]"
+N_WX931    "d.detail.length[2]"
+N_WX932    "d.detail.length[3]"
+N_WX933    "d.detail.length[4]"
+N_WX934    "d.detail.length[5]"
+N_WX935    "d.detail.length[6]"
+N_WX936    "d.detail.length[7]"
+N_WX937    "d.detail.length[8]"
+N_WX938    "d.detail.length[9]"
+N_WX939    "d.detail.length[10]"
+N_WX940    "d.detail.length[11]"
+N_WX941    "d.detail.length[12]"
+N_WX942    "d.detail.length[13]"
+N_WX943    "d.detail.length[14]"
+N_WX944    "d.detail.length[15]"
+N_WX945    "d.wp.length[0]"
+N_WX946    "d.wp.length[1]"
+N_WX947    "d.wp.length[2]"
+N_WX948    "d.wp.length[3]"
+N_WX949    "d.wp.length[4]"
+N_WX950    "d.wp.length[5]"
+N_WX951    "d.wp.length[6]"
+N_WX952    "d.wp.length[7]"
+N_WX953    "d.wp.length[8]"
+N_WX954    "d.wp.length[9]"
+N_WX955    "d.wp.length[10]"
+N_WX956    "d.wp.length[11]"
+N_WX957    "d.wp.length[12]"
+N_WX958    "d.wp.length[13]"
+N_WX959    "d.wp.length[14]"
+N_WX960    "d.wp.length[15]"
 N_INT1    "di.ifp.page[1]"
 N_INT2    "di.ifp.page[2]"
 N_INT3    "di.ifp.page[3]"
@@ -186,6 +509,8 @@ N_INT10    "s.shelf.failed"
 N_INT11    "s.search.fail"
 N_INT12    "s.inside.cnc"
 N_INT13    "s.mfinish.req"
+N_INT14    "s.st5.air.req"
+N_INT15    "s.st6.air.req"
 N_INT100    "s.pr.tch.shelf"
 N_INT101    "s.pr.tst.shelf"
 N_INT102    "s.hmi.tool.1"
@@ -196,6 +521,7 @@ N_INT106    "s.pr.home"
 N_INT107    "s.pr.tst.put"
 N_INT108    "s.pr.cnc.appr"
 N_INT109    "s.pr.cnc.tch"
+N_INT110    "s.pr.tch.air"
 .END
 .INTER_PANEL_D
 0,9,1,6,9
@@ -246,6 +572,8 @@ N_INT109    "s.pr.cnc.tch"
 95,4,2,"TEACH CNC","CHUCK 1","CHUCK 2","",10,4,4,2103,0,0
 96,2,"","  CHUCK 1","   OPEN","",10,4,15,97,0
 97,2,"","  CHUCK 2","   OPEN","",10,4,15,99,0
+98,2,"  PRIME","  TEACH","  CNC","  AIR BLOW",10,4,3,2110,0
+102,4,2,"AIR BLOW","OFF","ON","",10,4,4,38,37,0
 103,2,"","  CHUCK 1","   CLOSE","",10,4,15,98,0
 104,2,"","  CHUCK 2","   CLOSE","",10,4,15,100,0
 105,2,"","   MAIN","<---------","",10,4,11,2001,0
@@ -285,6 +613,8 @@ N_INT109    "s.pr.cnc.tch"
 190,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 191,2,"","   TEACH","    CNC","",10,4,3,2005,0
 192,2,"","   TEACH","   SHELF","",10,4,3,2005,0
+194,8,"hmi.ab.bf.put","AIR BLOW","BEFORE PUT",10,13,4,2,0
+195,8,"hmi.ab.af.pick","AIR BLOW","AFTER PICK",10,13,4,2,0
 196,1," SHELF 1","","","  OPENED",10,15,4,10,129,0
 197,1," SHELF 2","","","  OPENED",10,15,4,10,130,0
 198,1," SHELF 3","","","  OPENED",10,15,4,10,131,0
@@ -321,6 +651,66 @@ N_INT109    "s.pr.cnc.tch"
 .END
 .INTER_PANEL_COLOR_D
 182,3,224,244,28,159,252,255,251,255,0,31,2,241,52,255,
+.END
+.PROGRAM air.blow (.chuck.no)
+  ;
+  .$temp = "Air blow for chuck:" + $ENCODE (.chuck.no)
+  CALL log(.$temp)
+  ;
+  SPEED 30 ALWAYS
+  ACCURACY 5 ALWAYS
+  ;
+  JMOVE #air.safe[.chuck.no]
+  ;
+  SIGNAL air.blow.on
+  ;
+  SPEED air.blow.speed MM/S ALWAYS
+  LMOVE #air.point[.chuck.no, 1]
+  TWAIT air.wait.time
+  LMOVE #air.point[.chuck.no, 2]
+  TWAIT air.wait.time
+  LMOVE #air.point[.chuck.no, 3]
+  TWAIT air.wait.time
+  LMOVE #air.point[.chuck.no, 4]
+  TWAIT air.wait.time
+  ;LMOVE #air.point[.chuck, 5]
+  ;TWAIT air.wait.time
+  ;LMOVE #air.point[.chuck, 6]
+  ;TWAIT air.wait.time
+  ;LMOVE #air.point[.chuck, 7]
+  ;TWAIT air.wait.time
+  ;LMOVE #air.point[.chuck, 8]
+  ;TWAIT air.wait.time
+  BREAK
+  SIGNAL -air.blow.on
+  ;
+  SPEED 30 ALWAYS
+  LMOVE #air.safe[.chuck.no]
+  JMOVE #cnc.in
+  ;
+.END
+.PROGRAM air.teach ()
+  ;
+  IF SIG (s.hmi.chuck.1) THEN
+    .chuck = 1
+  ELSE
+    .chuck = 2
+  END
+  CALL set.tool(3)
+  ;
+  JMOVE #air.safe[.chuck]
+  ;
+  LMOVE #air.point[.chuck, 1]
+  LMOVE #air.point[.chuck, 2]
+  LMOVE #air.point[.chuck, 3]
+  LMOVE #air.point[.chuck, 4]
+  ;LMOVE #air.point[.chuck, 5]
+  ;LMOVE #air.point[.chuck, 6]
+  ;LMOVE #air.point[.chuck, 7]
+  ;LMOVE #air.point[.chuck, 8]
+  ;
+  LMOVE #air.safe[.chuck]
+  ;
 .END
 .PROGRAM safe.home ()
   ;
@@ -1132,22 +1522,30 @@ N_INT109    "s.pr.cnc.tch"
   ;
 .END
 .PROGRAM state0 () ; Inititalization of parameters and waiting for progeam start
-  ; 
+  ;
   CALL log ("State 0: Initialization")
   ;
   SIGNAL eo.robot.ready
   CALL log ("Waiting for task start")
   SWAIT ei.task.start
   ;
-  CALL get.task.data
-  ;
   ; Resetting signals
   SIGNAL -s.shelf.failed
   BITS eo.shelf.opened[1], 4 = 0
   ;
-  SIGNAL -eo.robot.ready
   SIGNAL eo.task.exec
+  SIGNAL -eo.robot.ready
+  SIGNAL -s.st5.air.req
+  SIGNAL -s.st6.air.req
+  SIGNAL -s.mfinish.req
   current.shelf = 1
+  ;
+  IF st5.air.blow THEN
+    SIGNAL s.st5.air.req
+  END
+  IF st6.air.blow THEN
+    SIGNAL s.st6.air.req
+  END
   ;
   state = 1
   RETURN
@@ -1157,10 +1555,12 @@ N_INT109    "s.pr.cnc.tch"
   ;
   CALL log ("State 1: Check ready shelves")
   WHILE TRUE DO
-    IF NOT SIG(ei.task.start) THEN
+    IF NOT SIG (ei.task.start) THEN
       state = 255
       RETURN
     END
+    ;
+    ;
     IF SIG (ei.shelf.ready[current.shelf]) THEN
       CALL log ("Shelf" + $ENCODE (current.shelf) + " is ready. Working!")
       ;
@@ -1170,6 +1570,8 @@ N_INT109    "s.pr.cnc.tch"
       cnc.id[2]     = 0
       current.wp    = 1
       processed.wp  = 0
+      ;
+      CALL get.task.data
       ;
       state = 100
       RETURN
@@ -1332,23 +1734,19 @@ N_INT109    "s.pr.cnc.tch"
     .tool = st3.tool
     .chuck = st5.chuck
   END
-  ;.c1 = gripper.id[st6.tool] == 0 AND cnc.id[st6.chuck] <> 0 AND current.wp > 2
-  ;.c2 = gripper.id[st6.tool] <> 0 AND cnc.id[st6.chuck] == 0 AND current.wp > wp.count
-  ;IF .c1 OR .c2 THEN
-  ;  .tool = st6.tool ; Later get from task
-  ;  .chuck = st6.chuck ; Later get from task
-  ;ELSE
-  ;  .tool = st3.tool ; Later get from task
-  ;  .chuck = st5.chuck ; Later get from task
-  ;END
-  ;
-  ; If continue
   ;
   IF SIG (do.home2) THEN
     JMOVE #homyak
   END
   ;
   CALL cnc.out (.tool, .chuck)
+    ;
+  IF st5.air.blow THEN
+    SIGNAL s.st5.air.req
+  END
+  IF st6.air.blow THEN
+    SIGNAL s.st6.air.req
+  END
   ;
   state = 100
   ;
@@ -1403,12 +1801,33 @@ N_INT109    "s.pr.cnc.tch"
   END
   ;
 .END
+.PROGRAM state11 () ; CNC chuck air blow before put
+  ;
+  CALL log ("State 11: CNC chuck air blow before put")
+  CALL air.blow(st5.chuck)
+  SIGNAL -s.st5.air.req
+  ;
+  state = 100
+  ;
+.END
+.PROGRAM state12 () ; CNC chuck air blow after pick
+  ;
+  CALL log ("State 12: CNC chuck air blow after pick")
+  CALL air.blow(st6.chuck)
+  SIGNAL -s.st6.air.req
+  ;
+  state = 100
+  ;
+.END
 .PROGRAM state51 () ; Case: st3.tool <> st6.tool; st5.chuck <> st6.chuck
   ;
   .shelf.opened = SIG (eo.shelf.opened[current.shelf])
   .shelf.closed = NOT .shelf.opened
   .inside.cnc = SIG (s.inside.cnc)
   .outside.cnc = NOT .inside.cnc
+  ;
+  .st5.air = SIG (s.st5.air.req)
+  .st6.air = SIG (s.st6.air.req)
   ;
   .grip.st3.eq0 = gripper.id[st3.tool] == 0
   .grip.st3.ne0 = gripper.id[st3.tool] <> 0
@@ -1453,6 +1872,11 @@ N_INT109    "s.pr.cnc.tch"
     RETURN
   END
   ;
+  ; Air blow before put workpiece
+  IF .sh2 AND .grip.st3.ne0 AND .chuck.st5.eq0 AND .st5.air THEN
+    state = 11
+    RETURN
+  END
   ; Put workpiece to CNC
   IF .sh2 AND .grip.st3.ne0 AND .chuck.st5.eq0 THEN
     state = 5
@@ -1462,6 +1886,12 @@ N_INT109    "s.pr.cnc.tch"
   ; Pick detail from CNC
   IF .sh2 AND .grip.st6.eq0 AND .chuck.st6.ne0 THEN
     state = 6
+    RETURN
+  END
+  ;
+  ; Air blow after pick workpiece
+  IF .sh2 AND .grip.st6.ne0 AND .chuck.st6.eq0 AND .st6.air THEN
+    state = 12
     RETURN
   END
   ;
@@ -1839,32 +2269,49 @@ N_INT109    "s.pr.cnc.tch"
     st3.reverse = FALSE
     st6.reverse = FALSE
     cnc.first = FALSE
-    ;op12.gripper  = 1
-    ;op2.chuck     = 1
-    ;op34.gripper  = 2
-    ;op3.chuck     = 2
+    ;
+    st5.air.blow = hmi.ab.bf.put <> 0
+    st6.air.blow = hmi.ab.af.pick <> 0
     ;
   ELSE
+    CALL log("Request data from PLC")
     ; Task parameters
-    wp.in.length = hmi.wp.length
-    wp.out.length = hmi.wp.length
-    wp.mid.length = hmi.wp.length
-    grip.jaws.full[1] = hmi.gc1.full
-    grip.jaws.body[1] = hmi.gc1.body
-    grip.jaws.full[2] = hmi.gc2.full
-    grip.jaws.body[2] = hmi.gc2.body
-    cnc.jaws.full[1] = hmi.cnc1c.full
-    cnc.jaws.body[1] = hmi.cnc1c.body
+    wp.in.length = BITS (d.wp.length[0], 16)
+    wp.out.length = BITS (d.detail.length[0], 16)
+    wp.mid.length = BITS (d.semiwp.length[0], 16)
+    grip.jaws.full[1] = BITS (d.g1.jaws.full[0], 16)
+    grip.jaws.body[1] = BITS (d.g1.jaws.body[0], 16)
+    grip.jaws.full[2] = BITS (d.g2.jaws.full[0], 16)
+    grip.jaws.body[2] = BITS (d.g2.jaws.body[0], 16)
+    cnc.jaws.full[1] = BITS (d.cnc1.jaws.ful[0], 16)
+    cnc.jaws.body[1] = BITS (d.cnc1.jaws.bod[0], 16)
+    cnc.jaws.full[2] = BITS (d.cnc2.jaws.ful[0], 16)
+    cnc.jaws.body[2] = BITS (d.cnc2.jaws.bod[0], 16)
     ; Plate parameters (Right in task!)
-    plate.rows = hmi.plate.rows
-    plate.cells.o = hmi.plate.col.o
-    plate.cells.e = hmi.plate.col.e
-    plate.dx = hmi.plate.dx
-    plate.dy = hmi.plate.dy
-    plate.e.dy = hmi.plate.e.dy
-    plate.ox = hmi.plate.ox
-    plate.oy = hmi.plate.oy
-    wp.count = hmi.wp.id
+    plate.id = BITS (d.plt.id[0], 8)
+    plate.rows = BITS (d.plt.rows[0], 8)
+    plate.cells.o = BITS (d.plt.cell.odd[0], 8)
+    plate.cells.e = BITS (d.plt.cell.even[0], 8)
+    plate.dx = BITS (d.plt.dx[0], 16)
+    plate.dy = BITS (d.plt.dy[0], 16)
+    plate.e.dy = BITS (d.plt.even.dy[0], 16)
+    plate.ox = BITS (d.plt.o.dx[0], 16)
+    plate.oy = BITS (d.plt.o.dy[0], 16)
+    ;
+    wp.count = BITS (d.wp.count[0], 8)
+    ;
+    st3.tool = BITS (d.st3.g.no[0], 2)
+    st5.chuck = BITS (d.st5.c.no[0], 2)
+    ;
+    st6.tool = BITS (d.st6.g.no[0], 2)
+    st6.chuck = BITS (d.st6.c.no[0], 2)
+    ;
+    st3.reverse = SIG (d.st3.g.reverse)
+    st6.reverse = SIG (d.st5.g.reverse)
+    cnc.first = SIG (d.cnc.first)
+    ;
+    st5.air.blow = SIG (d.air.st5)
+    st6.air.blow = SIG (d.air.st6)
   END
   ;
 .END
@@ -1929,6 +2376,21 @@ N_INT109    "s.pr.cnc.tch"
   state = 0
   CALL a.main
   ;
+.END
+.PROGRAM test ()
+  FOR .i = 1 TO 4
+    ;FOR .j = 1 TO 2
+    FOR .k = 1 TO 32
+      POINT #shelf.point.o[.i, 1, .k] = #shelf.point.o[1, 1, 1]
+      POINT #shelf.point.x[.i, 1, .k] = #shelf.point.x[1, 1, 1]
+      POINT #shelf.point.y[.i, 1, .k] = #shelf.point.y[1, 1, 1]
+      ;
+      POINT #shelf.point.o[.i, 2, .k] = #shelf.point.o[1, 2, 1]
+      POINT #shelf.point.x[.i, 2, .k] = #shelf.point.x[1, 2, 1]
+      POINT #shelf.point.y[.i, 2, .k] = #shelf.point.y[1, 2, 1]
+    END
+    ;END
+  END
 .END
 .PROGRAM pclog1.pc (.$msg)
   ;
@@ -1999,6 +2461,12 @@ N_INT109    "s.pr.cnc.tch"
   BITS eo.cnc.state[1, 0], 16 = cnc.id[1]
   BITS eo.cnc.state[2, 0], 16 = cnc.id[2]
   BITS eo.wp.processed[0], 16 = processed.wp
+  IF current.wp > wp.count THEN
+    BITS eo.next.wp[0], 16 = -1
+  ELSE
+    BITS eo.next.wp[0], 16 = current.wp
+  END
+  
   ;
 .END
 .PROGRAM check.teach.pc ()
@@ -2029,6 +2497,10 @@ N_INT109    "s.pr.cnc.tch"
   ;
   IF SIG (s.pr.cnc.tch) THEN
     MC PRIME cnc.teach
+  END
+    ;
+  IF SIG (s.pr.tch.air) THEN
+    MC PRIME air.teach
   END
   ;
   IF SIG (s.pr.home) THEN
@@ -2111,25 +2583,13 @@ N_INT109    "s.pr.cnc.tch"
   eo.shelf.cmplt[3]    = 140
   eo.shelf.cmplt[4]    = 141
   ;
+  ; Task state
   eo.grip.state[1, 0]  = 225
   eo.grip.state[2, 0]  = 241
   eo.cnc.state[1, 0]   = 257
   eo.cnc.state[2, 0]   = 273
   eo.wp.processed[0]   = 289
-  ;eo.pg.started = 113
-  ;eo.pg.completed = 114
-  ;eo.process.err = 115
-  ;eo.pg.active = 116
-  ;eo.robot.ready = 117
-  ;;
-  ;; Task state
-  ;st.stocker.cell[1, 0] = 225
-  ;st.gripper[1, 0] = 481
-  ;st.cnc[1, 0] = 513
-  ;st.robot[0] = 545
-  ;st.changer[0] = 561
-  ;st.total.put[0] = 577
-  ;st.cur.cell.id[0] = 593
+  eo.next.wp[0]        = 305
   ;
   ; Inputs
   ;
@@ -2139,6 +2599,7 @@ N_INT109    "s.pr.cnc.tch"
   di.ext.pgreset       = 1068
   di.ext.hold          = 1069
   di.ext.motor.of      = 1070
+  di.ext.slow          = 1071
   ;
   ei.grip.open[1]      = 1081
   ei.grip.close[1]     = 1082
@@ -2163,36 +2624,39 @@ N_INT109    "s.pr.cnc.tch"
   ei.shelf.state[3]    = 1135
   ei.shelf.state[4]    = 1136
   ei.shelf.failed      = 1137
-  ;;ei.mv.home = 1119
-  ;ei.reset.states = 1120
-  ;ei.move.service = 1121
-  ;ei.move.home = 1122
-  ;;
-  ei.robot.speed[0]    = 1225
-  ;; Task data
-  ;d.cnc1.jaws.ful[0] = 1225
-  ;d.cnc1.jaws.bod[0] = 1241
-  ;d.cnc2.jaws.ful[0] = 1257
-  ;d.cnc2.jaws.bod[0] = 1273
-  ;d.chg.jaws.full[0] = 1289
-  ;d.chg.jaws.body[0] = 1305
-  ;d.g1.jaws.full[0] = 1321
-  ;d.g1.jaws.body[0] = 1337
-  ;d.g2.jaws.full[0] = 1353
-  ;d.g2.jaws.body[0] = 1369
-  ;d.obj.new.len[0] = 1385
-  ;d.obj.new.d[0] = 1401
-  ;d.obj.pre.len[0] = 1417
-  ;d.obj.pre.d[0] = 1433
-  ;d.obj.fin.len[0] = 1449
-  ;d.obj.fin.d[0] = 1465
-  ;d.finger.len[0] = 1481
-  ;d.used.cells[0] = 1497
-  ;d.stack.enabled[0] = 1513
-  ;d.cnc1.air.ena[0] = 1529
-  ;d.cnc2.air.ena[0] = 1545
-  ;ei.mon.speed[0] = 1561
   ;
+  ei.robot.speed[0]    = 1225
+  ; Task data
+  d.wp.length[0]       = 1945
+  d.detail.length[0]   = 1929
+  d.semiwp.length[0]   = 1913
+  d.g1.jaws.full[0]    = 1897
+  d.g1.jaws.body[0]    = 1881
+  d.g2.jaws.full[0]    = 1865
+  d.g2.jaws.body[0]    = 1849
+  d.cnc1.jaws.ful[0]   = 1833
+  d.cnc1.jaws.bod[0]   = 1817
+  d.cnc2.jaws.ful[0]   = 1801
+  d.cnc2.jaws.bod[0]   = 1785
+  d.plt.id[0]          = 1777; 8
+  d.plt.rows[0]        = 1769; 8
+  d.plt.cell.odd[0]    = 1761; 8
+  d.plt.cell.even[0]   = 1753; 8
+  d.plt.dx[0]          = 1737
+  d.plt.dy[0]          = 1721
+  d.plt.even.dy[0]     = 1705
+  d.plt.o.dx[0]        = 1689
+  d.plt.o.dy[0]        = 1673
+  d.wp.count[0]        = 1665; 8
+  d.st3.g.no[0]        = 1663; 2
+  d.st5.c.no[0]        = 1661; 2
+  d.st6.g.no[0]        = 1659; 2
+  d.st6.c.no[0]        = 1657; 2
+  d.st3.g.reverse      = 1656
+  d.st5.g.reverse      = 1655
+  d.cnc.first          = 1654
+  d.air.st5            = 1653
+  d.air.st6            = 1652
   ;
   ; Internal signals
   ; IFP page change 2001-2008
@@ -2209,6 +2673,8 @@ N_INT109    "s.pr.cnc.tch"
   s.search.fail  = 2011
   s.inside.cnc   = 2012
   s.mcode.req    = 2013
+  s.st5.air.req  = 2014
+  s.st6.air.req  = 2015
   ;
   s.pr.tch.shelf = 2100
   s.pr.tst.shelf = 2101
@@ -2220,36 +2686,8 @@ N_INT109    "s.pr.cnc.tch"
   s.pr.tst.put   = 2107
   s.pr.cnc.appr  = 2108
   s.pr.cnc.tch   = 2109
-  ;s.pr.tch.appro = 2010
-  ;s.pr.tch.stock = 2011
-  ;s.pr.tch.cnc1 = 2012
-  ;s.pr.tch.cnc2 = 2013
-  ;s.pr.mv.a = 2014
-  ;s.pr.mv.b = 2015
-  ;s.pr.tch.cncin = 2016
-  ;s.pr.tch.chr = 2017
-  ;s.pr.tch.cnc = 2018
-  ;;
-  ;s.hmi.tool[1] = 2030
-  ;s.hmi.tool[2] = 2031
-  ;s.hmi.cnc[1] = 2032
-  ;s.hmi.cnc[2] = 2033
-  ;;
-  ;s.hmi.stack = 2034
-  ;;
-  ;s.search.fail = 2050
-  ;s.cnc.first.it[1] = 2051
-  ;s.cnc.first.it[2] = 2052
-  ;s.cnc.last.it[1] = 2053
-  ;s.cnc.last.it[2] = 2054
-  ;s.first.pick = 2055
-  ;s.inside.cnc[1] = 2056
-  ;s.inside.cnc[2] = 2057
-  ;s.stock.put.req = 2058
-  ;
-  ;do.workspace[1] = 2101
-  ;do.workspace[2] = 2102
-  ;do.workspace[3] = 2103
+  s.pr.tch.air   = 2110
+;
 .END
 .PROGRAM set.vars.pc ()
   ;
@@ -2305,21 +2743,26 @@ N_INT109    "s.pr.cnc.tch"
 	; 127.0.0.1
 	; 9105
 	; @@@ PROGRAM @@@
-	; Group:Safety:1
-	; 1:safe.home:F
-	; Group:CNC:2
-	; 2:cnc.in:F
+	; Group:Air:1
+	; 1:air.blow:F
+	; .chuck.no 
+	; 1:air.teach:F
+	; .chuck 
+	; Group:Safety:2
+	; 2:safe.home:F
+	; Group:CNC:3
+	; 3:cnc.in:F
 	; .tool.no 
 	; .chuck.no 
-	; 2:cnc.out:F
+	; 3:cnc.out:F
 	; .tool.no 
 	; .chuck.no 
-	; 2:calc.rotation:F
+	; 3:calc.rotation:F
 	; .tool.no 
 	; .chuck.no 
 	; .j6 
 	; .j 
-	; 2:cnc.put:F
+	; 3:cnc.put:F
 	; .tool.no 
 	; .chuck.no 
 	; .c1 
@@ -2329,7 +2772,7 @@ N_INT109    "s.pr.cnc.tch"
 	; .temp 
 	; .x.put 
 	; .reverse 
-	; 2:cnc.pick:F
+	; 3:cnc.pick:F
 	; .tool.no 
 	; .chuck.no 
 	; .c1 
@@ -2339,7 +2782,7 @@ N_INT109    "s.pr.cnc.tch"
 	; .temp 
 	; .reverse 
 	; .x.pick 
-	; 2:cnc.teach:F
+	; 3:cnc.teach:F
 	; .tool 
 	; .gc.full 
 	; .full 
@@ -2350,16 +2793,16 @@ N_INT109    "s.pr.cnc.tch"
 	; .cncc.body 
 	; .temp 
 	; .zshift 
-	; 2:cnc.appro.teach:F
-	; 2:cnc.test:F
-	; 2:chuck.open:F
+	; 3:cnc.appro.teach:F
+	; 3:cnc.test:F
+	; 3:chuck.open:F
 	; .chuck.no 
 	; .time 
-	; 2:chuck.close:F
+	; 3:chuck.close:F
 	; .chuck.no 
 	; .time 
-	; Group:Workpiece:3
-	; 3:wp.pick:F
+	; Group:Workpiece:4
+	; 4:wp.pick:F
 	; .shelf.no 
 	; .tool.no 
 	; .wp.no 
@@ -2375,7 +2818,11 @@ N_INT109    "s.pr.cnc.tch"
 	; .current 
 	; .d 
 	; .reverse 
-	; 3:wp.teach:F
+	; .approach 
+	; .x 
+	; .y 
+	; .z 
+	; 4:wp.teach:F
 	; .tool 
 	; .gc.full 
 	; .full 
@@ -2390,9 +2837,9 @@ N_INT109    "s.pr.cnc.tch"
 	; .temp2 
 	; .temp3 
 	; .temp4 
-	; 3:wp.test.pick:F
+	; 4:wp.test.pick:F
 	; .tool 
-	; 3:wp.put:F
+	; 4:wp.put:F
 	; .shelf.no 
 	; .tool.no 
 	; .wp.no 
@@ -2405,65 +2852,79 @@ N_INT109    "s.pr.cnc.tch"
 	; .temp 
 	; .x.put 
 	; .reverse 
-	; 3:wp.test.put:F
+	; .approach 
+	; .x 
+	; .y 
+	; .z 
+	; 4:wp.test.put:F
 	; .tool 
-	; Group:Grippers:4
-	; 4:gripper.is.open:F
+	; Group:Grippers:5
+	; 5:gripper.is.open:F
 	; .tool.no 
 	; .reverse 
-	; 4:gripper.close:F
+	; 5:gripper.close:F
 	; .gripper.no 
 	; .reverse 
 	; .time 
-	; 4:gripper.open:F
+	; 5:gripper.open:F
 	; .gripper.no 
 	; .reverse 
 	; .time 
-	; Group:Shelves:5
-	; 5:id.to.ij:F
+	; Group:Shelves:6
+	; 6:id.to.ij:F
 	; .id 
 	; .i 
 	; .j 
 	; .P 
 	; .pair 
 	; .offset 
-	; 5:shelf.open:F
+	; 6:shelf.open:F
 	; .shelf.no 
 	; .start 
 	; .end 
-	; 5:shelf.close:F
+	; 6:shelf.close:F
 	; .shelf.no 
 	; .start 
 	; .end 
-	; 5:shelf.teach:F
-	; 5:shelf.test:F
-	; Group:States:6
-	; 6:state0:F
-	; 6:state1:F
-	; 6:state2:F
-	; 6:state3:F
+	; 6:shelf.teach:F
+	; 6:shelf.test:F
+	; Group:States:7
+	; 7:state0:F
+	; .air.req 
+	; .air.blow 
+	; 7:state1:F
+	; 7:state2:F
+	; 7:state3:F
 	; .tool 
-	; 6:state4:F
-	; .tool 
-	; .chuck 
-	; 6:state5:F
-	; .tool 
-	; .chuck 
-	; 6:state6:F
+	; 7:state4:F
 	; .tool 
 	; .chuck 
-	; 6:state7:F
+	; 7:state5:F
+	; .tool 
+	; .chuck 
+	; 7:state6:F
+	; .tool 
+	; .chuck 
+	; 7:state7:F
 	; .c1 
 	; .tool 
 	; .chuck 
 	; .c2 
-	; 6:state8:F
+	; .air.blow 
+	; .air.req 
+	; 7:state8:F
 	; .chuck 
-	; 6:state9:F
+	; 7:state9:F
 	; .tool 
 	; .wp.id 
-	; 6:state10:F
-	; 6:state51:F
+	; 7:state10:F
+	; 7:state11:F
+	; .chuck 
+	; .air.req 
+	; 7:state12:F
+	; .chuck 
+	; .air.req 
+	; 7:state51:F
 	; .shelf.opened 
 	; .shelf.closed 
 	; .inside.cnc 
@@ -2485,7 +2946,10 @@ N_INT109    "s.pr.cnc.tch"
 	; .sh2 
 	; .ge 
 	; .ce 
-	; 6:state52:F
+	; .st5.air 
+	; .air.req 
+	; .st6.air 
+	; 7:state52:F
 	; .shelf.opened 
 	; .shelf.closed 
 	; .inside.cnc 
@@ -2506,7 +2970,7 @@ N_INT109    "s.pr.cnc.tch"
 	; .sh2 
 	; .ge 
 	; .ce 
-	; 6:state53:F
+	; 7:state53:F
 	; .shelf.opened 
 	; .shelf.closed 
 	; .inside.cnc 
@@ -2527,7 +2991,7 @@ N_INT109    "s.pr.cnc.tch"
 	; .sh2 
 	; .ge 
 	; .ce 
-	; 6:state54:F
+	; 7:state54:F
 	; .shelf.opened 
 	; .shelf.closed 
 	; .inside.cnc 
@@ -2548,8 +3012,8 @@ N_INT109    "s.pr.cnc.tch"
 	; .sh2 
 	; .ge 
 	; .ce 
-	; 6:state100:F
-	; 6:state101:F
+	; 7:state100:F
+	; 7:state101:F
 	; .c1 
 	; .c2 
 	; .c3 
@@ -2561,47 +3025,64 @@ N_INT109    "s.pr.cnc.tch"
 	; .c7 
 	; .c14 
 	; .c57 
-	; 6:state255:F
-	; Group:Utilities:7
-	; 7:set.tool:F
+	; 7:state255:F
+	; Group:Utilities:8
+	; 8:set.tool:F
 	; .tool.no 
-	; 7:check.teach.lim:F
-	; 7:get.task.data:F
+	; 8:check.teach.lim:F
+	; 8:get.task.data:F
 	; .full 
 	; .body 
 	; .tool 
 	; .chuck 
 	; .reverse 
-	; 7:a.home:F
-	; Group:Log:8
-	; 8:log:F
+	; .air.blow 
+	; .jaws.full 
+	; .jaws.body 
+	; .jaws.ful 
+	; .jaws.bod 
+	; .g.no 
+	; .c.no 
+	; .g.reverse 
+	; 8:a.home:F
+	; Group:Log:9
+	; 9:log:F
 	; .$msg 
 	; .max.lines 
 	; .i 
-	; 8:log.clear:F
+	; 9:log.clear:F
 	; .max.lines 
 	; .i 
 	; 0:a.main:F
 	; 0:pg0:F
-	; Group:PCLog:9
-	; 9:pclog1.pc:B
+	; 0:test:F
+	; Group:PCLog:10
+	; 10:pclog1.pc:B
 	; .$msg 
 	; .max.lines 
 	; .i 
-	; 9:pclog2.pc:B
+	; 10:pclog2.pc:B
 	; .$msg 
 	; .max.lines 
 	; .i 
-	; Group:Watchdog:10
-	; 10:watchdog.pc:B
-	; 10:set.speed.pc:B
+	; Group:Watchdog:11
+	; 11:watchdog.pc:B
+	; 11:set.speed.pc:B
 	; .speed 
 	; .pc 
-	; 10:send.plc.pc:B
-	; 10:check.teach.pc:B
-	; Group:Initialization:11
-	; 11:set.io.pc:B
-	; 11:set.vars.pc:B
+	; 11:send.plc.pc:B
+	; 11:check.teach.pc:B
+	; Group:Initialization:12
+	; 12:set.io.pc:B
+	; .jaws.full 
+	; .jaws.body 
+	; .jaws.ful 
+	; .jaws.bod 
+	; .g.no 
+	; .c.no 
+	; .g.reverse 
+	; .air.req 
+	; 12:set.vars.pc:B
 	; .i 
 	; 0:autostart.pc:B
 	; @@@ TRANS @@@
@@ -2621,6 +3102,8 @@ N_INT109    "s.pr.cnc.tch"
 	; #cnc.in Point inside CNC with correct JT6
 	; #cnc.out Point outside CNC with correct JT6
 	; #cnc.point[] CNC teach point
+	; #air.safe[] Safe point for air blow
+	; #air.point[] Point for air blow
 	; @@@ REALS @@@
 	; state Program state variable
 	; current.tool Current tool number
@@ -2683,6 +3166,10 @@ N_INT109    "s.pr.cnc.tch"
 	; st6.tool State 6 tool
 	; st6.chuck State 6 Chuck
 	; processed.wp Processed workpiece count
+	; air.wait.time Time between air blow points
+	; hmi.ab.bf.put HMI air blow before put
+	; hmi.ab.af.pick HMI Air blow after pick
+	; air.blow.speed Air blow speed (mm/s)
 	; @@@ STRINGS @@@
 	; $log.entry[] Log entry N
 	; $safe.flag Safe flag for returning home
@@ -2756,6 +3243,40 @@ N_INT109    "s.pr.cnc.tch"
 	; eo.data.request[] Request data for shelf N
 	; eo.data.read Data read successful
 	; eo.shelf.cmplt[] Working with shelf N complete
+	; s.pr.tch.air Prime air teach program
+	; s.st5.air.req Air blow before put detail
+	; s.st6.air.req Air blow after pick detail
+	; d.wp.length[] Task data: Workpiece length
+	; d.detail.length[] Task data: Detail length
+	; d.semiwp.length[] Task data: Semi-workpiece length
+	; d.g1.jaws.full[] Task data: Gripper 1 jaws full length
+	; d.g1.jaws.body[] Task data: Gripper 1 jaws body length
+	; d.g2.jaws.full[] Task data: Gripper 2 jaws full length
+	; d.g2.jaws.body[] Task data: Gripper 2 jaws body length
+	; d.plt.id[] Task data: Plate id
+	; d.plt.rows[] Task data: Number of rows
+	; d.plt.cell.odd[] Task data: Number of cells in odd rows
+	; d.plt.cell.even[] Task data: Number of cells in even rows
+	; d.plt.dx[] Task data: Distance betwen rows
+	; d.plt.dy[] Task data: Distance betwen cells
+	; d.plt.even.dy[] Task data: Extra shift for even rows
+	; d.plt.o.dx[] Task data: Distance from OX
+	; d.plt.o.dy[] Task data: Distance from OY
+	; d.wp.count[] Task data: Workpiece count
+	; d.st3.g.no[] Task data: State 3 gripper no
+	; d.st5.c.no[] Task data: State 5 chuck no
+	; d.st6.g.no[] Task data: State 6 gripper no
+	; d.st6.c.no[] Task data: State 6 chuck no
+	; d.st3.g.reverse Task data: Reverse gripper for state3
+	; d.st5.g.reverse Task data: Reverse gripper for state 5
+	; d.cnc.first Task data: If CNC first close chuck
+	; d.air.st5 Task data: Air blow before put
+	; d.air.st6 Task data: Air blow after pick
+	; d.cnc1.jaws.ful[] Task data: CNC 1 Chuck jaws full length
+	; d.cnc1.jaws.bod[] Task data: CNC 1 Chuck jaws body length
+	; d.cnc2.jaws.ful[] Task data: CNC 2 Chuck jaws full length
+	; d.cnc2.jaws.bod[] Task data: CNC 2 Chuck jaws body length
+	; eo.next.wp[] To PLC: Next wp number
 	; @@@ TOOLS @@@
 	; tool.gripper[] Tool coordinates
 	; @@@ BASE @@@
@@ -2766,6 +3287,8 @@ N_INT109    "s.pr.cnc.tch"
 	; st3.reverse Reverse tool for shelf pick
 	; st6.reverse Reverse tool for CNC pick
 	; cnc.first If CNC close chuck first
+	; st5.air.blow Request air blow before put
+	; st6.air.blow Request air blow after pick
 	; @@@ DEFAULTS @@@
 	; BASE: NULL
 	; TOOL: NULL
@@ -2774,8 +3297,8 @@ N_INT109    "s.pr.cnc.tch"
 	; SIGDIM: % % % %
 .END
 .TRANS
-tool.gripper[1] 93.800003 0.000000 102.000000 0.000000 90.000038 -180.000000
-tool.gripper[2] -93.800003 0.000000 102.000000 180.000000 90.000038 -180.000000
+tool.gripper[1] -93.800003 0.000000 102.000000 180.000000 90.000038 -180.000000
+tool.gripper[2] 93.800003 0.000000 102.000000 0.000000 90.000038 -180.000000
 tool.gripper[3] 0.000000 42.000000 102.000000 90.000038 90.000038 0.000000
 shelf.open[1,1] 751.058228 69.358681 -5.815570 -89.936432 89.997467 -179.967209
 shelf.open[1,2] 750.385193 689.357788 -5.836640 -89.936699 89.997849 -179.967209
@@ -3058,776 +3581,776 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #homyak -0.000400 29.999758 89.999863 -0.001850 -69.998703 -0.000320
 #homyak.sby 0.000000 29.999758 39.999680 0.000000 -45.000000 -0.000220
 #shelf.safe 80.029877 0.115710 85.894928 -150.501724 -88.665848 -79.334587
-#shelf.point.o[1,1,1] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,1,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,1] 62.274891 -33.061745 59.029911 123.861450 -112.601624 16.619184
-#shelf.point.o[1,2,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[1,2,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,1] 58.423698 -38.868538 61.895248 127.972450 -110.619278 -153.411728
-#shelf.point.o[2,1,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,1,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,1] 58.421715 -38.870728 61.895248 127.971832 -110.615852 26.590540
-#shelf.point.o[2,2,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[2,2,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,1] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,1,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,1] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[3,2,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,1] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,1,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,1] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,2] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,3] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,4] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,5] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,6] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,7] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,8] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,9] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,10] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,11] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,12] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,13] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,14] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,15] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,16] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,17] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,18] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,19] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,20] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,21] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,22] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,23] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,24] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,25] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,26] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,27] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,28] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,29] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,30] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,31] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.o[4,2,32] 62.274891 -33.061016 59.029911 123.858978 -112.608498 -163.379868
-#shelf.point.x[1,1,1] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,1,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,1] 79.173920 -26.734825 83.361977 121.704437 -88.906868 22.693911
-#shelf.point.x[1,2,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[1,2,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,1] 74.330933 -33.673485 85.868538 123.425247 -87.528084 -146.973358
-#shelf.point.x[2,1,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,1,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,1] 74.332916 -33.402290 86.325722 123.413559 -87.430573 33.179127
-#shelf.point.x[2,2,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[2,2,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,1] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,1,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,1] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[3,2,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,1] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,1,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,1] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,2] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,3] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,4] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,5] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,6] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,7] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,8] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,9] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,10] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,11] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,12] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,13] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,14] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,15] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,16] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,17] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,18] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,19] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,20] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,21] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,22] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,23] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,24] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,25] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,26] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,27] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,28] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,29] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,30] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,31] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.x[4,2,32] 79.168358 -26.741760 83.367195 121.707512 -88.904121 -157.288452
-#shelf.point.y[1,1,1] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,1,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,1] 42.720623 1.977938 102.638885 136.029556 -122.188576 38.014484
-#shelf.point.y[1,2,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[1,2,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,1] 38.292706 -7.328480 105.208015 143.388382 -115.857697 -129.501480
-#shelf.point.y[2,1,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,1,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,1] 38.292706 -7.324100 105.208664 143.379761 -115.859077 50.491901
-#shelf.point.y[2,2,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[2,2,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,1] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,1,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,1] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[3,2,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,1] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,1,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,1] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,2] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,3] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,4] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,5] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,6] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,7] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,8] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,9] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,10] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,11] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,12] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,13] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,14] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,15] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,16] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,17] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,18] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,19] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,20] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,21] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,22] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,23] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,24] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,25] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,26] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,27] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,28] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,29] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,30] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,31] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#shelf.point.y[4,2,32] 42.717846 1.972098 102.640518 136.035095 -122.187889 -141.976730
-#wp.safe[1] 70.027733 -1.310720 86.930847 121.082443 -108.120567 -171.276062
-#wp.safe[2] 70.028526 -1.309990 86.930527 121.082443 -108.120567 8.722310
+#shelf.point.o[1,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,5] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,6] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,7] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,8] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,9] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,10] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,11] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,12] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,13] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,14] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,15] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,16] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,17] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,18] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,19] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,20] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,21] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,22] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,23] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,24] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,25] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,26] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,27] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,28] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,29] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[1,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,5] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,6] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,7] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,8] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,9] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,10] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,11] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,12] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,13] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,14] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,15] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,16] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,17] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,18] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,19] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,20] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,21] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,22] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,23] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,24] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,25] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,26] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,27] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,28] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,29] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,5] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,6] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,7] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,8] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,9] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,10] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,11] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,12] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,13] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,14] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,15] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,16] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,17] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,18] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,19] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,20] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,21] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,22] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,23] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,24] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,25] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,26] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,27] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,28] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,29] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,5] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,6] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,7] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,8] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,9] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,10] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,11] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,12] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,13] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,14] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,15] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,16] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,17] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,18] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,19] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,20] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,21] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,22] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,23] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,24] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,25] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,26] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,27] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,28] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,29] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,5] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,6] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,7] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,8] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,9] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,10] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,11] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,12] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,13] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,14] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,15] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,16] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,17] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,18] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,19] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,20] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,21] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,22] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,23] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,24] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,25] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,26] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,27] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,28] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,29] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,5] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,6] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,7] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,8] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,9] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,10] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,11] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,12] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,13] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,14] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,15] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,16] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,17] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,18] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,19] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,20] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,21] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,22] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,23] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,24] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,25] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,26] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,27] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,28] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,29] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,5] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,6] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,7] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,8] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,9] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,10] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,11] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,12] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,13] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,14] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,15] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,16] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,17] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,18] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,19] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,20] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,21] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,22] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,23] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,24] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,25] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,26] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,27] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,28] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,29] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,5] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,6] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,7] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,8] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,9] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,10] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,11] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,12] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,13] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,14] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,15] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,16] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,17] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,18] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,19] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,20] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,21] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,22] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,23] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,24] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,25] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,26] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,27] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,28] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,29] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.x[1,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,5] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,6] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,7] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,8] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,9] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,10] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,11] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,12] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,13] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,14] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,15] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,16] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,17] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,18] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,19] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,20] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,21] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,22] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,23] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,24] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,25] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,26] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,27] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,28] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,29] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,5] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,6] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,7] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,8] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,9] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,10] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,11] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,12] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,13] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,14] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,15] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,16] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,17] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,18] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,19] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,20] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,21] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,22] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,23] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,24] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,25] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,26] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,27] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,28] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,29] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,5] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,6] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,7] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,8] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,9] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,10] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,11] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,12] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,13] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,14] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,15] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,16] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,17] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,18] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,19] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,20] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,21] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,22] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,23] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,24] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,25] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,26] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,27] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,28] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,29] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,5] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,6] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,7] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,8] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,9] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,10] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,11] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,12] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,13] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,14] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,15] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,16] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,17] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,18] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,19] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,20] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,21] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,22] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,23] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,24] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,25] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,26] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,27] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,28] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,29] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.y[1,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,5] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,6] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,7] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,8] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,9] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,10] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,11] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,12] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,13] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,14] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,15] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,16] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,17] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,18] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,19] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,20] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,21] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,22] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,23] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,24] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,25] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,26] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,27] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,28] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,29] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,5] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,6] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,7] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,8] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,9] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,10] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,11] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,12] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,13] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,14] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,15] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,16] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,17] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,18] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,19] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,20] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,21] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,22] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,23] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,24] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,25] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,26] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,27] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,28] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,29] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,30] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,31] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,5] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,6] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,7] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,8] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,9] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,10] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,11] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,12] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,13] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,14] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,15] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,16] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,17] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,18] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,19] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,20] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,21] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,22] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,23] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,24] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,25] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,26] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,27] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,28] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,29] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,5] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,6] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,7] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,8] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,9] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,10] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,11] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,12] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,13] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,14] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,15] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,16] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,17] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,18] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,19] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,20] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,21] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,22] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,23] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,24] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,25] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,26] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,27] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,28] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,29] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,30] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,31] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,5] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,6] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,7] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,8] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,9] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,10] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,11] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,12] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,13] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,14] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,15] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,16] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,17] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,18] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,19] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,20] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,21] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,22] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,23] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,24] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,25] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,26] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,27] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,28] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,29] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,5] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,6] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,7] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,8] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,9] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,10] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,11] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,12] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,13] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,14] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,15] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,16] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,17] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,18] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,19] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,20] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,21] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,22] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,23] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,24] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,25] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,26] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,27] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,28] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,29] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,30] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,31] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,5] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,6] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,7] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,8] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,9] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,10] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,11] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,12] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,13] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,14] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,15] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,16] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,17] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,18] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,19] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,20] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,21] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,22] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,23] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,24] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,25] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,26] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,27] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,28] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,29] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,5] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,6] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,7] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,8] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,9] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,10] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,11] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,12] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,13] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,14] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,15] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,16] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,17] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,18] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,19] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,20] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,21] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,22] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,23] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,24] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,25] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,26] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,27] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,28] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,29] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,30] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,31] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#wp.safe[1] 69.568573 8.663290 97.904053 114.625549 -68.547127 10.075710
+#wp.safe[2] 69.568573 8.663650 97.904053 114.625549 -68.547127 190.077927
 #cnc.in.base -58.787132 -11.963990 86.327026 -51.560951 -58.020184 26.015381
 #cnc.out.base -11.054710 30.356359 125.551483 -63.943153 -97.353287 53.886539
 #cnc.in -58.787132 -11.963990 86.327026 -51.560951 -58.020184 26.015381
@@ -3836,6 +4359,30 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #cnc.point[1,2] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 12.370290
 #cnc.point[2,1] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 192.370285
 #cnc.point[2,2] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 12.370290
+#air.safe[1] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 -55.306881
+#air.safe[2] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 124.692032
+#air.point[1,1] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[1,2] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[1,3] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[1,4] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[1,5] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[1,6] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[1,7] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[1,8] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.point[2,1] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,2] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,3] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,4] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,5] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,6] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,7] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,8] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#air.pos[1] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 -55.306881
+#air.pos[2] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 124.692032
+#a 70.027725 -1.310749 86.930786 -238.917557 -108.120590 -171.276093
+#pick.safe[1] 70.028526 -1.309620 86.930527 -58.916073 108.119202 8.721220
+#pick.safe[2] 70.028526 -1.309990 86.930527 -58.916073 108.119202 -171.277695
+#b 70.027725 -1.310749 86.930786 -238.917557 -108.120590 -171.276093
 .END
 .REALS
 gripper.open[1] = 33
@@ -4109,6 +4656,340 @@ eo.shelf.cmplt[1] = 138
 eo.shelf.cmplt[2] = 139
 eo.shelf.cmplt[3] = 140
 eo.shelf.cmplt[4] = 141
+s.pr.tch.air = 2110
+air.wait.time = 0.5
+s.st5.air.req = 2014
+s.st6.air.req = 2015
+hmi.ab.bf.put = 0
+hmi.ab.af.pick = 0
+st5.air.blow = 0
+st6.air.blow = 0
+air.blow.speed = 150
+d.wp.length[0] = 1945
+d.wp.length[1] = 1946
+d.wp.length[2] = 1947
+d.wp.length[3] = 1948
+d.wp.length[4] = 1949
+d.wp.length[5] = 1950
+d.wp.length[6] = 1951
+d.wp.length[7] = 1952
+d.wp.length[8] = 1953
+d.wp.length[9] = 1954
+d.wp.length[10] = 1955
+d.wp.length[11] = 1956
+d.wp.length[12] = 1957
+d.wp.length[13] = 1958
+d.wp.length[14] = 1959
+d.wp.length[15] = 1960
+d.detail.length[0] = 1929
+d.detail.length[1] = 1930
+d.detail.length[2] = 1931
+d.detail.length[3] = 1932
+d.detail.length[4] = 1933
+d.detail.length[5] = 1934
+d.detail.length[6] = 1935
+d.detail.length[7] = 1936
+d.detail.length[8] = 1937
+d.detail.length[9] = 1938
+d.detail.length[10] = 1939
+d.detail.length[11] = 1940
+d.detail.length[12] = 1941
+d.detail.length[13] = 1942
+d.detail.length[14] = 1943
+d.detail.length[15] = 1944
+d.semiwp.length[0] = 1913
+d.semiwp.length[1] = 1914
+d.semiwp.length[2] = 1915
+d.semiwp.length[3] = 1916
+d.semiwp.length[4] = 1917
+d.semiwp.length[5] = 1918
+d.semiwp.length[6] = 1919
+d.semiwp.length[7] = 1920
+d.semiwp.length[8] = 1921
+d.semiwp.length[9] = 1922
+d.semiwp.length[10] = 1923
+d.semiwp.length[11] = 1924
+d.semiwp.length[12] = 1925
+d.semiwp.length[13] = 1926
+d.semiwp.length[14] = 1927
+d.semiwp.length[15] = 1928
+d.g1.jaws.full[0] = 1897
+d.g1.jaws.full[1] = 1898
+d.g1.jaws.full[2] = 1899
+d.g1.jaws.full[3] = 1900
+d.g1.jaws.full[4] = 1901
+d.g1.jaws.full[5] = 1902
+d.g1.jaws.full[6] = 1903
+d.g1.jaws.full[7] = 1904
+d.g1.jaws.full[8] = 1905
+d.g1.jaws.full[9] = 1906
+d.g1.jaws.full[10] = 1907
+d.g1.jaws.full[11] = 1908
+d.g1.jaws.full[12] = 1909
+d.g1.jaws.full[13] = 1910
+d.g1.jaws.full[14] = 1911
+d.g1.jaws.full[15] = 1912
+d.g1.jaws.body[0] = 1881
+d.g1.jaws.body[1] = 1882
+d.g1.jaws.body[2] = 1883
+d.g1.jaws.body[3] = 1884
+d.g1.jaws.body[4] = 1885
+d.g1.jaws.body[5] = 1886
+d.g1.jaws.body[6] = 1887
+d.g1.jaws.body[7] = 1888
+d.g1.jaws.body[8] = 1889
+d.g1.jaws.body[9] = 1890
+d.g1.jaws.body[10] = 1891
+d.g1.jaws.body[11] = 1892
+d.g1.jaws.body[12] = 1893
+d.g1.jaws.body[13] = 1894
+d.g1.jaws.body[14] = 1895
+d.g1.jaws.body[15] = 1896
+d.g2.jaws.full[0] = 1865
+d.g2.jaws.full[1] = 1866
+d.g2.jaws.full[2] = 1867
+d.g2.jaws.full[3] = 1868
+d.g2.jaws.full[4] = 1869
+d.g2.jaws.full[5] = 1870
+d.g2.jaws.full[6] = 1871
+d.g2.jaws.full[7] = 1872
+d.g2.jaws.full[8] = 1873
+d.g2.jaws.full[9] = 1874
+d.g2.jaws.full[10] = 1875
+d.g2.jaws.full[11] = 1876
+d.g2.jaws.full[12] = 1877
+d.g2.jaws.full[13] = 1878
+d.g2.jaws.full[14] = 1879
+d.g2.jaws.full[15] = 1880
+d.g2.jaws.body[0] = 1849
+d.g2.jaws.body[1] = 1850
+d.g2.jaws.body[2] = 1851
+d.g2.jaws.body[3] = 1852
+d.g2.jaws.body[4] = 1853
+d.g2.jaws.body[5] = 1854
+d.g2.jaws.body[6] = 1855
+d.g2.jaws.body[7] = 1856
+d.g2.jaws.body[8] = 1857
+d.g2.jaws.body[9] = 1858
+d.g2.jaws.body[10] = 1859
+d.g2.jaws.body[11] = 1860
+d.g2.jaws.body[12] = 1861
+d.g2.jaws.body[13] = 1862
+d.g2.jaws.body[14] = 1863
+d.g2.jaws.body[15] = 1864
+d.plt.id[0] = 1777
+d.plt.id[1] = 1778
+d.plt.id[2] = 1779
+d.plt.id[3] = 1780
+d.plt.id[4] = 1781
+d.plt.id[5] = 1782
+d.plt.id[6] = 1783
+d.plt.id[7] = 1784
+d.plt.rows[0] = 1769
+d.plt.rows[1] = 1770
+d.plt.rows[2] = 1771
+d.plt.rows[3] = 1772
+d.plt.rows[4] = 1773
+d.plt.rows[5] = 1774
+d.plt.rows[6] = 1775
+d.plt.rows[7] = 1776
+d.plt.cell.odd[0] = 1761
+d.plt.cell.odd[1] = 1762
+d.plt.cell.odd[2] = 1763
+d.plt.cell.odd[3] = 1764
+d.plt.cell.odd[4] = 1765
+d.plt.cell.odd[5] = 1766
+d.plt.cell.odd[6] = 1767
+d.plt.cell.odd[7] = 1768
+d.plt.cell.even[0] = 1753
+d.plt.cell.even[1] = 1754
+d.plt.cell.even[2] = 1755
+d.plt.cell.even[3] = 1756
+d.plt.cell.even[4] = 1757
+d.plt.cell.even[5] = 1758
+d.plt.cell.even[6] = 1759
+d.plt.cell.even[7] = 1760
+d.plt.dx[0] = 1737
+d.plt.dx[1] = 1738
+d.plt.dx[2] = 1739
+d.plt.dx[3] = 1740
+d.plt.dx[4] = 1741
+d.plt.dx[5] = 1742
+d.plt.dx[6] = 1743
+d.plt.dx[7] = 1744
+d.plt.dx[8] = 1745
+d.plt.dx[9] = 1746
+d.plt.dx[10] = 1747
+d.plt.dx[11] = 1748
+d.plt.dx[12] = 1749
+d.plt.dx[13] = 1750
+d.plt.dx[14] = 1751
+d.plt.dx[15] = 1752
+d.plt.dy[0] = 1721
+d.plt.dy[1] = 1722
+d.plt.dy[2] = 1723
+d.plt.dy[3] = 1724
+d.plt.dy[4] = 1725
+d.plt.dy[5] = 1726
+d.plt.dy[6] = 1727
+d.plt.dy[7] = 1728
+d.plt.dy[8] = 1729
+d.plt.dy[9] = 1730
+d.plt.dy[10] = 1731
+d.plt.dy[11] = 1732
+d.plt.dy[12] = 1733
+d.plt.dy[13] = 1734
+d.plt.dy[14] = 1735
+d.plt.dy[15] = 1736
+d.plt.even.dy[0] = 1705
+d.plt.even.dy[1] = 1706
+d.plt.even.dy[2] = 1707
+d.plt.even.dy[3] = 1708
+d.plt.even.dy[4] = 1709
+d.plt.even.dy[5] = 1710
+d.plt.even.dy[6] = 1711
+d.plt.even.dy[7] = 1712
+d.plt.even.dy[8] = 1713
+d.plt.even.dy[9] = 1714
+d.plt.even.dy[10] = 1715
+d.plt.even.dy[11] = 1716
+d.plt.even.dy[12] = 1717
+d.plt.even.dy[13] = 1718
+d.plt.even.dy[14] = 1719
+d.plt.even.dy[15] = 1720
+d.plt.o.dx[0] = 1689
+d.plt.o.dx[1] = 1690
+d.plt.o.dx[2] = 1691
+d.plt.o.dx[3] = 1692
+d.plt.o.dx[4] = 1693
+d.plt.o.dx[5] = 1694
+d.plt.o.dx[6] = 1695
+d.plt.o.dx[7] = 1696
+d.plt.o.dx[8] = 1697
+d.plt.o.dx[9] = 1698
+d.plt.o.dx[10] = 1699
+d.plt.o.dx[11] = 1700
+d.plt.o.dx[12] = 1701
+d.plt.o.dx[13] = 1702
+d.plt.o.dx[14] = 1703
+d.plt.o.dx[15] = 1704
+d.plt.o.dy[0] = 1673
+d.plt.o.dy[1] = 1674
+d.plt.o.dy[2] = 1675
+d.plt.o.dy[3] = 1676
+d.plt.o.dy[4] = 1677
+d.plt.o.dy[5] = 1678
+d.plt.o.dy[6] = 1679
+d.plt.o.dy[7] = 1680
+d.plt.o.dy[8] = 1681
+d.plt.o.dy[9] = 1682
+d.plt.o.dy[10] = 1683
+d.plt.o.dy[11] = 1684
+d.plt.o.dy[12] = 1685
+d.plt.o.dy[13] = 1686
+d.plt.o.dy[14] = 1687
+d.plt.o.dy[15] = 1688
+d.wp.count[0] = 1665
+d.wp.count[1] = 1666
+d.wp.count[2] = 1667
+d.wp.count[3] = 1668
+d.wp.count[4] = 1669
+d.wp.count[5] = 1670
+d.wp.count[6] = 1671
+d.wp.count[7] = 1672
+d.st3.g.no[0] = 1663
+d.st3.g.no[1] = 1664
+d.st5.c.no[0] = 1663
+d.st5.c.no[1] = 1664
+d.st6.g.no[0] = 1659
+d.st6.g.no[1] = 1660
+d.st6.c.no[0] = 1657
+d.st6.c.no[1] = 1658
+d.st3.g.reverse = 1656
+d.st5.g.reverse = 1655
+d.cnc.first = 1654
+d.air.st5 = 1653
+d.air.st6 = 1652
+d.cnc1.jaws.ful[0] = 1833
+d.cnc1.jaws.ful[1] = 1834
+d.cnc1.jaws.ful[2] = 1835
+d.cnc1.jaws.ful[3] = 1836
+d.cnc1.jaws.ful[4] = 1837
+d.cnc1.jaws.ful[5] = 1838
+d.cnc1.jaws.ful[6] = 1839
+d.cnc1.jaws.ful[7] = 1840
+d.cnc1.jaws.ful[8] = 1841
+d.cnc1.jaws.ful[9] = 1842
+d.cnc1.jaws.ful[10] = 1843
+d.cnc1.jaws.ful[11] = 1844
+d.cnc1.jaws.ful[12] = 1845
+d.cnc1.jaws.ful[13] = 1846
+d.cnc1.jaws.ful[14] = 1847
+d.cnc1.jaws.ful[15] = 1848
+d.cnc1.jaws.bod[0] = 1817
+d.cnc1.jaws.bod[1] = 1818
+d.cnc1.jaws.bod[2] = 1819
+d.cnc1.jaws.bod[3] = 1820
+d.cnc1.jaws.bod[4] = 1821
+d.cnc1.jaws.bod[5] = 1822
+d.cnc1.jaws.bod[6] = 1823
+d.cnc1.jaws.bod[7] = 1824
+d.cnc1.jaws.bod[8] = 1825
+d.cnc1.jaws.bod[9] = 1826
+d.cnc1.jaws.bod[10] = 1827
+d.cnc1.jaws.bod[11] = 1828
+d.cnc1.jaws.bod[12] = 1829
+d.cnc1.jaws.bod[13] = 1830
+d.cnc1.jaws.bod[14] = 1831
+d.cnc1.jaws.bod[15] = 1832
+d.cnc2.jaws.ful[0] = 1801
+d.cnc2.jaws.ful[1] = 1802
+d.cnc2.jaws.ful[2] = 1803
+d.cnc2.jaws.ful[3] = 1804
+d.cnc2.jaws.ful[4] = 1805
+d.cnc2.jaws.ful[5] = 1806
+d.cnc2.jaws.ful[6] = 1807
+d.cnc2.jaws.ful[7] = 1808
+d.cnc2.jaws.ful[8] = 1809
+d.cnc2.jaws.ful[9] = 1810
+d.cnc2.jaws.ful[10] = 1811
+d.cnc2.jaws.ful[11] = 1812
+d.cnc2.jaws.ful[12] = 1813
+d.cnc2.jaws.ful[13] = 1814
+d.cnc2.jaws.ful[14] = 1815
+d.cnc2.jaws.ful[15] = 1816
+d.cnc2.jaws.bod[0] = 1785
+d.cnc2.jaws.bod[1] = 1786
+d.cnc2.jaws.bod[2] = 1787
+d.cnc2.jaws.bod[3] = 1788
+d.cnc2.jaws.bod[4] = 1789
+d.cnc2.jaws.bod[5] = 1790
+d.cnc2.jaws.bod[6] = 1791
+d.cnc2.jaws.bod[7] = 1792
+d.cnc2.jaws.bod[8] = 1793
+d.cnc2.jaws.bod[9] = 1794
+d.cnc2.jaws.bod[10] = 1795
+d.cnc2.jaws.bod[11] = 1796
+d.cnc2.jaws.bod[12] = 1797
+d.cnc2.jaws.bod[13] = 1798
+d.cnc2.jaws.bod[14] = 1799
+d.cnc2.jaws.bod[15] = 1800
+eo.next.wp[0] = 305
+eo.next.wp[1] = 306
+eo.next.wp[2] = 307
+eo.next.wp[3] = 308
+eo.next.wp[4] = 309
+eo.next.wp[5] = 310
+eo.next.wp[6] = 311
+eo.next.wp[7] = 312
+eo.next.wp[8] = 313
+eo.next.wp[9] = 314
+eo.next.wp[10] = 315
+eo.next.wp[11] = 316
+eo.next.wp[12] = 317
+eo.next.wp[13] = 318
+eo.next.wp[14] = 319
+eo.next.wp[15] = 320
 .END
 .STRINGS
 $log.entry[0] = "22:31:09 Command open gripper 1"
