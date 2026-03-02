@@ -145,6 +145,22 @@ N_OX317    "eo.next.wp[12]"
 N_OX318    "eo.next.wp[13]"
 N_OX319    "eo.next.wp[14]"
 N_OX320    "eo.next.wp[15]"
+N_OX321    "eo.error.code[0]"
+N_OX322    "eo.error.code[1]"
+N_OX323    "eo.error.code[2]"
+N_OX324    "eo.error.code[3]"
+N_OX325    "eo.error.code[4]"
+N_OX326    "eo.error.code[5]"
+N_OX327    "eo.error.code[6]"
+N_OX328    "eo.error.code[7]"
+N_OX329    "eo.error.code[8]"
+N_OX330    "eo.error.code[9]"
+N_OX331    "eo.error.code[10]"
+N_OX332    "eo.error.code[11]"
+N_OX333    "eo.error.code[12]"
+N_OX334    "eo.error.code[13]"
+N_OX335    "eo.error.code[14]"
+N_OX336    "eo.error.code[15]"
 N_WX33    "gripper.opened[1]"
 N_WX34    "gripper.opened[2]"
 N_WX35    "gripper.sensor[1]"
@@ -159,12 +175,14 @@ N_WX81    "ei.grip.open[1]"
 N_WX82    "ei.grip.close[1]"
 N_WX83    "ei.grip.open[2]"
 N_WX84    "ei.grip.close[2]"
+N_WX85    "ei.check.grip"
 N_WX97    "ei.cnc.ch.opd[1]"
 N_WX98    "ei.cnc.ch.clsd[1]"
 N_WX99    "ei.cnc.ch.opd[2]"
 N_WX100    "ei.cnc.ch.clsd[2]"
 N_WX101    "ei.cnc.ready"
 N_WX113    "ei.task.start"
+N_WX114    "ei.data.ready"
 N_WX129    "ei.shelf.ready[1]"
 N_WX130    "ei.shelf.ready[2]"
 N_WX131    "ei.shelf.ready[3]"
@@ -199,6 +217,7 @@ N_WX657    "d.st6.c.no[0]"
 N_WX658    "d.st6.c.no[1]"
 N_WX659    "d.st6.g.no[0]"
 N_WX660    "d.st6.g.no[1]"
+N_WX661    "d.st5.c.no[0]"
 N_WX663    "d.st3.g.no[0]"
 N_WX664    "d.st3.g.no[1]"
 N_WX665    "d.wp.count[0]"
@@ -511,6 +530,7 @@ N_INT12    "s.inside.cnc"
 N_INT13    "s.mfinish.req"
 N_INT14    "s.st5.air.req"
 N_INT15    "s.st6.air.req"
+N_INT50    "s.debug"
 N_INT100    "s.pr.tch.shelf"
 N_INT101    "s.pr.tst.shelf"
 N_INT102    "s.hmi.tool.1"
@@ -550,6 +570,10 @@ N_INT110    "s.pr.tch.air"
 48,4,2,"GRIPPER 2","OPEN","CLOSE","",10,4,4,35,36,0
 49,2,"","   MAIN","<---------","",10,4,11,2001,0
 50,2,"","  TEACH","--------->","",10,4,11,2004,0
+51,4,2,"SHELF 1","","UNLOCK","",10,4,4,0,133,0
+52,4,2,"SHELF 2","","UNLOCK","",10,4,4,0,134,0
+53,4,2,"SHELF 3","","UNLOCK","",10,4,4,0,135,0
+54,4,2,"SHELF 4","","UNLOCK","",10,4,4,0,136,0
 55,4,2,"AIR BLOW","OFF","ON","",10,4,4,38,37,0
 56,2,"  PRIME","  TEACH","  PLATE","",10,4,3,2104,0
 57,8,"hmi.shelf.no"," Shelf No","",10,6,2,1,0
@@ -561,8 +585,10 @@ N_INT110    "s.pr.tch.air"
 64,8,"hmi.wp.id"," WORKPIECE","    ID",10,8,3,1,0
 70,2,"  PRIME","  TEST","  PUT","",10,4,3,2107,0
 77,2,"","   MAIN","<---------","",10,4,11,2001,0
+78,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
 79,2,"","   TEACH","    CNC","",10,4,3,2004,0
 80,2,"","   TEACH","   SHELF","",10,4,3,2005,0
+82,2,"","  PRIME","   HOME","",10,4,8,2106,0
 83,2,"","   TEACH","   DATA","",10,4,3,2007,0
 84,2,"  PRIME","  TEACH","  CNC","",10,4,3,2109,0
 88,4,2,"TEACH TOOL","TOOL 1","TOOL 2","",10,4,4,2102,0,0
@@ -577,17 +603,49 @@ N_INT110    "s.pr.tch.air"
 103,2,"","  CHUCK 1","   CLOSE","",10,4,15,98,0
 104,2,"","  CHUCK 2","   CLOSE","",10,4,15,100,0
 105,2,"","   MAIN","<---------","",10,4,11,2001,0
+106,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
 107,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 108,2,"","   TEACH","   SHELF","",10,4,3,2005,0
+110,2,"","  PRIME","   HOME","",10,4,8,2106,0
 111,2,"","   TEACH","   DATA","",10,4,3,2007,0
 112,2,"  PRIME","  TEACH","  SHELF","",10,4,3,2100,0
 113,8,"hmi.shelf.no"," Shelf No","",10,6,2,1,0
 114,8,"hmi.plate.id"," Plate ID","",10,6,2,1,0
+115,4,2,"SHELF 1","","UNLOCK","",10,4,4,0,133,0
+116,4,2,"SHELF 2","","UNLOCK","",10,4,4,0,134,0
+117,4,2,"SHELF 3","","UNLOCK","",10,4,4,0,135,0
+118,4,2,"SHELF 4","","UNLOCK","",10,4,4,0,136,0
 119,2,"  PRIME","  TEST","  SHELF","",10,4,3,2101,0
 133,2,"","   MAIN","<---------","",10,4,11,2001,0
+134,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
 135,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 136,2,"","   TEACH","    CNC","",10,4,3,2004,0
+138,2,"","  PRIME","   HOME","",10,4,8,2106,0
 139,2,"","   TEACH","   DATA","",10,4,3,2007,0
+140,7,"Workpiece","length",10,15,4,0,0,1945,16,1
+141,7,"Gripper 1","jaws full ",10,15,4,0,0,1897,16,1
+142,7,"Gripper 2","jaws full ",10,15,4,0,0,1865,16,1
+143,7,"CNC Chuck1","jaws full ",10,15,4,0,0,1833,16,1
+144,7,"CNC Chuck2","jaws full ",10,15,4,0,0,1801,16,1
+145,7,"Plate ID","",10,15,2,0,0,1777,8,1
+146,7,"Plate rows","",10,15,2,0,0,1769,8,1
+147,7,"Detail","length",10,15,4,0,0,1929,16,1
+148,7,"Gripper 1","jaws body",10,15,4,0,0,1881,16,1
+149,7,"Gripper 2","jaws body",10,15,4,0,0,1849,16,1
+150,7,"CNC Chuck1","jaws body",10,15,4,0,0,1817,16,1
+151,7,"CNC Chuck2","jaws body",10,15,4,0,0,1785,16,1
+152,7,"Plate col","odd",10,15,2,0,0,1761,8,1
+153,7,"Plate col","even",10,15,2,0,0,1753,8,1
+154,1,"  Single","","","  gripper",10,15,4,10,1659,0
+155,1,"Subspindel","","","",10,15,4,10,1657,0
+156,1,"CNC close","","","  first",10,15,4,10,1654,0
+157,1,"Air before","","","   put",10,15,4,10,1653,0
+158,1,"Air after","","","   pick",10,15,4,10,1652,0
+159,7,"Plate DX","",10,15,4,0,0,1737,16,1
+160,7,"Plate DY","",10,15,4,0,0,1721,16,1
+161,2,"","  DEBUG","","",10,4,11,2008,0
+166,7,"Workpiece","count",10,15,2,0,0,1665,8,1
+167,7,"Plate","even shift",10,15,4,0,0,1705,16,1
 168,8,"hmi.gc1.full","ROB GRIP 1","JAW FULL",10,6,5,2,0
 169,8,"hmi.gc2.full","ROB GRIP 2","JAW FULL",10,6,5,2,0
 170,8,"hmi.cnc1c.full","CNC CHUCK1","JAW FULL",10,6,5,2,0
@@ -599,7 +657,7 @@ N_INT110    "s.pr.tch.air"
 176,8,"hmi.gc2.body","ROB GRIP 2","JAW BODY",10,6,5,2,0
 177,8,"hmi.cnc1c.body","CNC CHUCK1","JAW BODY",10,6,5,2,0
 178,8,"hmi.cnc2c.body","CNC CHUCK2","JAW BODY",10,6,5,2,0
-179,8,"hmi.plate.ox","PLATE OX","  SHIFT",10,8,5,2,0
+179,8,"hmi.plate.dx","PLATE ROW","  SHIFT",10,8,5,2,0
 180,8,"hmi.plate.dy","PLATE CELL","  SHIFT",10,8,5,2,0
 181,8,"hmi.plate.e.dy","PLATE EVEN","  SHIFT",10,8,5,2,0
 182,8,"hmi.st3.tool","  STATE 3 ","  TOOL",10,6,5,2,0
@@ -622,14 +680,20 @@ N_INT110    "s.pr.tch.air"
 200,8,"current.wp"," Next"," workpiece",10,15,4,2,0
 201,8,"gripper.id[1]","Gripper 1","   ID",10,15,4,2,0
 202,8,"gripper.id[2]","Gripper 2","   ID",10,15,4,2,0
-203,1,"INSIDE CNC","","","",10,15,4,10,2012,0
-206,14,"safe.flag","Safe flag","",10,15,0
+203,1," SHELF 1","",""," ENABLED",10,15,4,10,1129,0
+204,1," SHELF 2","",""," ENABLED",10,15,4,10,1130,0
+205,1," SHELF 3","",""," ENABLED",10,15,4,10,1131,0
+206,1," SHELF 4","",""," ENABLED",10,15,4,10,1132,0
 207,8,"state"," State","  ",10,15,4,2,0
 208,8,"cnc.id[1]","Chuck 1","   ID",10,15,4,2,0
 209,8,"cnc.id[2]","Chuck 2","   ID",10,15,4,2,0
 210,8,"hmi.wp.id"," WORKPIECE","    ID",10,8,3,1,0
-214,8,"processed.wp"," Processed"," Workpiece",10,15,4,1,0
+214,1,"INSIDE CNC","","","",10,15,4,10,2012,0
+215,8,"processed.wp"," Processed"," Workpiece",10,15,4,1,0
+216,14,"safe.flag","Safe flag","",10,15,0
 217,2,"","   MAIN","<---------","",10,4,11,2001,0
+218,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
+223,2,""," PLC DATA","","",10,4,11,2006,0
 .END
 .INTER_PANEL_TITLE
 "MAIN",1
@@ -714,6 +778,9 @@ N_INT110    "s.pr.tch.air"
 .END
 .PROGRAM safe.home ()
   ;
+  CALL gripper.close (1, 0, st3.reverse)
+  CALL gripper.close (2, 0, st6.reverse)
+  ;
   IF SIG (do.home) THEN
     CALL log ("Move robot from HOME to HOME STANDBY")
     JMOVE #homyak.sby
@@ -732,22 +799,27 @@ N_INT110    "s.pr.tch.air"
   ACCURACY 0.01 ALWAYS
   ;
   SCASE $safe.flag OF
-    SVALUE "shelf.safe":
+    SVALUE "shelf.work":
       CALL log ("Safe move from shelf")
+      CALL set.tool (3)
       TDRAW -40, 0, 0
       TDRAW 0, 0, -60
       TDRAW 250, 0, 0
       JMOVE #shelf.safe
+    SVALUE "shelf.safe":
+      CALL log ("Safe move from shelf")
+      CALL set.tool (3)
+      JMOVE #shelf.safe
     SVALUE "wp.safe":
       CALL log ("Safe move from shelf")
-      TDRAW 0, 0, -30
+      TDRAW 0, 0, -10
       LMOVE #wp.safe[current.tool]
     SVALUE "cnc.out":
       CALL log ("Safe move from CNC")
       LMOVE #cnc.out
     SVALUE "cnc.in":
       CALL log ("Safe move from CNC")
-      TDRAW 0, 0, -50
+      TDRAW 0, 0, -40
       LMOVE #cnc.in
       LMOVE #cnc.out
   END
@@ -758,6 +830,231 @@ N_INT110    "s.pr.tch.air"
   CALL log ("Robot in home position")
   ;
   SIGNAL -s.inside.cnc
+  ;
+.END
+.PROGRAM wp.pick (.shelf.no,.tool.no,.wp.no)
+  ;
+  .$temp = "Pick workpiece. Shelf:" + $ENCODE (.shelf.no)
+  .$temp = .$temp + " Tool:" + $ENCODE (.tool.no)
+  .$temp = .$temp + " ID:" + $ENCODE (.wp.no)
+  CALL log (.$temp)
+  ;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool (.tool.no)
+  ; gripper.no, time, reverse
+  CALL gripper.open (.tool.no, 0, st3.reverse)
+  ;
+  CALL id.to.ij (.wp.no, .i, .j)
+  SIGNAL -s.search.fail
+  ;
+  IF kroset THEN
+    .epsilon = -1
+  ELSE
+    .epsilon = pick.epsilon
+  END
+  ;
+  ; Calculate shifts
+  .dx = plate.dx * .i
+  IF .i MOD 2 == 0
+    .dy = plate.dy * .j
+  ELSE
+    .dy = plate.dy * .j + plate.e.dy
+  END
+  .dz = wp.in.length + grip.jaws.body[.tool.no] - shelf.pick.ovlp ;
+  .z.appro = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no] + shelf.pick.ovlp + 10
+  ;
+  ; Calculate points
+  POINT .temp = shelf.frame[.shelf.no, .tool.no, plate.id]
+  POINT .x.pick = .temp + TRANS (.dx, -.dy, -.dz)
+  ; Calculate approach point
+  POINT .approach = #wp.safe[.tool.no]
+  .x = DX (.x.pick)
+  .y = DY (.x.pick)
+  .z = DZ (.approach)
+  POINT/X .approach = TRANS (.x)
+  POINT/Y .approach = TRANS (0, .y)
+  POINT/Z .approach = TRANS (0, 0, .z - 180 * (.shelf.no - 1))
+  POINT .#approach = .approach, #wp.safe[.tool.no]
+  ; Approach
+  IF INRANGE (.#approach) == 0 THEN
+    JMOVE .#approach
+  ELSE
+    JMOVE #wp.safe[.tool.no]
+  END
+  $safe.flag = "wp.safe"
+  ;
+  ACCURACY 0.1
+  LAPPRO .x.pick, .z.appro
+  BREAK
+  ; Check if gripper is opened
+  CALL gripper.is.open (.tool.no, st3.reverse)
+  IF SIG (eo.grip.error) THEN
+    ; Return home if not. Error
+    JMOVE #wp.safe[.tool.no]
+    JMOVE #homyak
+    RETURN
+  END
+  ;
+  SPEED pick.speed MM/S
+  XMOVE .x.pick TILL gripper.sensor[.tool.no]
+  BREAK
+  TWAIT 0.1
+  HERE .current
+  ;
+  .d = DISTANCE (.current, .x.pick)
+  CALL log ("Distance:" + $ENCODE (.d))
+  IF DISTANCE (.current, .x.pick) <= .epsilon THEN
+    CALL log ("Detail search failed, move to the next pick")
+    SIGNAL s.search.fail
+  ELSE
+    CALL log ("Detail found")
+    CALL gripper.close (.tool.no, 0.75, st3.reverse)
+    gripper.id[.tool.no] = .wp.no
+  END
+  ;
+  SPEED 20
+  ACCURACY 0.1
+  LAPPRO .x.pick, .z.appro
+  BREAK
+  IF INRANGE (.#approach) == 0 THEN
+    LMOVE .#approach
+  ELSE
+    LMOVE #wp.safe[.tool.no]
+  END
+  ;
+.END
+.PROGRAM wp.teach ()
+  ;
+  CALL check.teach.lim
+  ;
+  IF SIG (s.hmi.tool.1) THEN
+    .tool = 1
+    .gc.full = hmi.gc1.full
+    .gc.body = hmi.gc1.body
+  ELSE
+    .tool = 2
+    .gc.full = hmi.gc2.full
+    .gc.body = hmi.gc2.body
+  END
+  CALL set.tool (.tool)
+  ;
+  JMOVE #wp.safe[.tool]
+  ;
+  JAPPRO #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
+  LMOVE #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id] ; **== TEACH POINT ==**
+  LAPPRO #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
+  ;
+  JAPPRO #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
+  LMOVE #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id] ; **== TEACH POINT ==**
+  LAPPRO #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
+  ;
+  JAPPRO #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
+  LMOVE #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id] ; **== TEACH POINT ==**
+  LAPPRO #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
+  ;
+  ; Calculation
+  .z.shift = hmi.wp.length + .gc.body
+  POINT .po = #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id]
+  POINT .px = #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id]
+  POINT .py = #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id]
+  POINT .f = FRAME (.po, .px, .py, .py)
+  POINT .f = .f + TRANS (0, 0, .z.shift)
+  POINT shelf.frame[hmi.shelf.no, .tool, hmi.plate.id] = .f
+  ;
+  JMOVE #wp.safe[.tool]
+  ;
+.END
+.PROGRAM wp.test.pick ()
+  ;
+  IF SIG (s.hmi.tool.1) THEN
+    .tool = 1
+  ELSE
+    .tool = 2
+  END
+  ;
+  CALL get.task.data
+  CALL wp.pick (hmi.shelf.no, .tool, hmi.wp.id)
+  ;
+.END
+.PROGRAM wp.put (.shelf.no,.tool.no,.wp.no)
+  ;
+  .$temp = "Put workpiece. Shelf:" + $ENCODE (.shelf.no)
+  .$temp = .$temp + " Tool:" + $ENCODE (.tool.no)
+  .$temp = .$temp + " ID:" + $ENCODE (.wp.no)
+  CALL log (.$temp)
+  ;
+  SPEED 100 ALWAYS
+  ACCURACY 50 ALWAYS
+  CALL set.tool (.tool.no)
+  ;
+  CALL id.to.ij (.wp.no, .i, .j)
+  ;
+  ; Calculate shifts
+  .dx = plate.dx * .i
+  IF .i MOD 2 == 0
+    .dy = plate.dy * .j
+  ELSE
+    .dy = plate.dy * .j + plate.e.dy
+  END
+  .dz = wp.out.length + grip.jaws.body[.tool.no] - shelf.put.ovlp ;
+  .z.appro = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no] + shelf.put.ovlp + 10
+  ;
+  ; Calculate points
+  POINT .temp = shelf.frame[.shelf.no, .tool.no, plate.id]
+  POINT .x.put = .temp + TRANS (.dx, -.dy, -.dz)
+  ; Calculate approach point
+  POINT .approach = #wp.safe[.tool.no]
+  .x = DX (.x.put)
+  .y = DY (.x.put)
+  .z = DZ (.approach)
+  POINT/X .approach = TRANS (.x)
+  POINT/Y .approach = TRANS (0, .y)
+  POINT/Z .approach = TRANS (0, 0, .z - 180 * (.shelf.no - 1))
+  POINT .#approach = .approach, #wp.safe[.tool.no]
+  ; Approach
+  IF INRANGE (.#approach) == 0 THEN
+    JMOVE .#approach
+  ELSE
+    JMOVE #wp.safe[.tool.no]
+  END
+  $safe.flag = "wp.safe"
+  ;
+  ACCURACY 0.1
+  LAPPRO .x.put, .z.appro
+  BREAK
+  ;
+  SPEED put.speed MM/S
+  XMOVE .x.put TILL gripper.sensor[.tool.no]
+  BREAK
+  TWAIT 0.1
+  CALL gripper.open (.tool.no, 0.75, st6.reverse)
+  ;
+  gripper.id[.tool.no] = 0
+  processed.wp = processed.wp + 1
+  ;
+  SPEED 20
+  ACCURACY 0.1
+  LAPPRO .x.put, .z.appro
+  BREAK
+  IF INRANGE (.#approach) == 0 THEN
+    LMOVE .#approach
+  ELSE
+    LMOVE #wp.safe[.tool.no]
+  END
+  CALL gripper.close (.tool.no, 0, st6.reverse)
+  ;
+.END
+.PROGRAM wp.test.put ()
+  ;
+  IF SIG (s.hmi.tool.1) THEN
+    .tool = 1
+  ELSE
+    .tool = 2
+  END
+  ;
+  CALL get.task.data
+  CALL wp.put (hmi.shelf.no, .tool, hmi.wp.id)
   ;
 .END
 .PROGRAM cnc.in (.tool.no,.chuck.no)
@@ -771,7 +1068,8 @@ N_INT110    "s.pr.tch.air"
   CALL set.tool (.tool.no)
   CALL calc.rotation(.tool.no, .chuck.no)
   ;
-  ;JMOVE #homyak
+  $safe.flag = "cnc.out"
+  JMOVE #homyak
   JMOVE #cnc.out
   BREAK
   $safe.flag = "cnc.out"
@@ -841,7 +1139,9 @@ N_INT110    "s.pr.tch.air"
   ;
   ; Approach
   JMOVE #cnc.in
+  ACCURACY 0.1
   LAPPRO .x.put, .z.appro
+  BREAK
   ;
   SPEED put.speed MM/S
   XMOVE .x.put TILL gripper.sensor[.tool.no]
@@ -863,9 +1163,11 @@ N_INT110    "s.pr.tch.air"
   gripper.id[.tool.no] = 0
   ;
   SPEED 20
-  LAPPRO .x.put, .z.appro
-  CALL gripper.close (.tool.no, 0, st3.reverse)
+  ACCURACY 0.1
+  LAPPRO .x.put, .z.appro + cnc.jaws.full[.tool.no]
+  BREAK
   LMOVE #cnc.in
+  CALL gripper.close (.tool.no, 0, st3.reverse)
   ;
 .END
 .PROGRAM cnc.pick (.tool.no,.chuck.no)
@@ -886,6 +1188,7 @@ N_INT110    "s.pr.tch.air"
   .dz = .c1 - cnc.pick.ovlp ;
   .c2 = cnc.jaws.full[.tool.no] - cnc.jaws.body[.tool.no]
   .z.appro = .c2 + cnc.pick.ovlp + 10
+  ;.z.appro.pick = grip.jaws.body[.tool.no]
   ;
   ; Calculate points
   POINT .temp = cnc.point[.tool.no, .chuck.no]
@@ -893,7 +1196,9 @@ N_INT110    "s.pr.tch.air"
   ;
   ; Approach
   JMOVE #cnc.in
+  ACCURACY 0.1
   LAPPRO .x.pick, .z.appro
+  BREAK
   ; Check if gripper is opened
   CALL gripper.is.open (.tool.no, st6.reverse)
   IF SIG (eo.grip.error) THEN
@@ -915,7 +1220,9 @@ N_INT110    "s.pr.tch.air"
   cnc.id[.chuck.no] = 0
   ;
   SPEED 20
-  LAPPRO .x.pick, .z.appro
+  ACCURACY 0.1
+  LAPPRO .x.pick, .z.appro + cnc.jaws.full[.tool.no]
+  BREAK
   LMOVE #cnc.in
   ;
 .END
@@ -954,9 +1261,6 @@ N_INT110    "s.pr.tch.air"
   POINT .temp = #cnc.point[.tool, .chuck]
   .zshift = .gc.body + .cncc.body + hmi.wp.length
   POINT cnc.point[.tool, .chuck] = .temp + TRANS (, , .zshift)
-  IF kroset THEN
-    LMOVE cnc.point[.tool, .chuck]
-  END
   ;
   POINT .temp = cnc.point[.tool, .chuck] + TRANS (, , -.zshift)
   LAPPRO .temp, 50
@@ -1003,274 +1307,9 @@ N_INT110    "s.pr.tch.air"
   SIGNAL -eo.cnc.ch.close[.chuck.no]
   ;
 .END
-.PROGRAM wp.pick (.shelf.no,.tool.no,.wp.no)
-  ;
-  .$temp = "Pick workpiece. Shelf:" + $ENCODE (.shelf.no)
-  .$temp = .$temp + " Tool:" + $ENCODE (.tool.no)
-  .$temp = .$temp + " ID:" + $ENCODE (.wp.no)
-  CALL log (.$temp)
-  ;
-  SPEED 100 ALWAYS
-  ACCURACY 50 ALWAYS
-  CALL set.tool (.tool.no)
-  ; gripper.no, time, reverse
-  CALL gripper.open (.tool.no, 0, st3.reverse)
-  ;
-  CALL id.to.ij (.wp.no, .i, .j)
-  SIGNAL -s.search.fail
-  ;
-  IF kroset THEN
-    .epsilon = -1
-  ELSE
-    .epsilon = pick.epsilon
-  END
-  ;
-  ; Calculate shifts
-  .dx = plate.dx * .i
-  IF .i MOD 2 == 0
-    .dy = plate.dy * .j
-  ELSE
-    .dy = plate.dy * .j + plate.e.dy
-  END
-  .dz = wp.in.length + grip.jaws.body[.tool.no] - shelf.pick.ovlp ;
-  .z.appro = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no] + shelf.pick.ovlp + 10
-  ;
-  ; Calculate points
-  POINT .temp = shelf.frame[.shelf.no, .tool.no, plate.id]
-  POINT .x.pick = .temp + TRANS (.dx, -.dy, -.dz)
-  ; Calculate approach point
-  POINT .approach = #wp.safe[.tool.no]
-  .x = DX (.x.pick)
-  .y = DY (.x.pick)
-  .z = DZ (.approach)
-  POINT/X .approach = TRANS (.x)
-  POINT/Y .approach = TRANS (0, .y)
-  POINT/Z .approach = TRANS (0, 0, .z - 180 * (.shelf.no - 1))
-  POINT .#approach = .approach, #wp.safe[.tool.no]
-  ; Approach
-  IF INRANGE (.#approach) == 0 THEN
-    JMOVE .#approach
-  ELSE
-    JMOVE #wp.safe[.tool.no]
-  END
-  $safe.flag = "wp.safe"
-  ;
-  JAPPRO .x.pick, .z.appro
-  ; Check if gripper is opened
-  CALL gripper.is.open (.tool.no, st3.reverse)
-  IF SIG (eo.grip.error) THEN
-    ; Return home if not. Error
-    JMOVE #wp.safe[.tool.no]
-    JMOVE #homyak
-    RETURN
-  END
-  ;
-  SPEED pick.speed MM/S
-  XMOVE .x.pick TILL gripper.sensor[.tool.no]
-  BREAK
-  TWAIT 0.1
-  HERE .current
-  ;
-  .d = DISTANCE (.current, .x.pick)
-  CALL log ("Distance:" + $ENCODE (.d))
-  IF DISTANCE (.current, .x.pick) <= .epsilon THEN
-    CALL log ("Detail search failed, move to the next pick")
-    SIGNAL s.search.fail
-  ELSE
-    CALL log ("Detail found")
-    CALL gripper.close (.tool.no, 0.75, st3.reverse)
-    gripper.id[.tool.no] = .wp.no
-  END
-  ;
-  SPEED 20
-  LAPPRO .x.pick, .z.appro
-  IF INRANGE (.#approach) == 0 THEN
-    JMOVE .#approach
-  ELSE
-    JMOVE #wp.safe[.tool.no]
-  END
-  ;
-.END
-.PROGRAM wp.teach ()
-  ;
-  CALL check.teach.lim
-  ;
-  IF SIG (s.hmi.tool.1) THEN
-    .tool = 1
-    .gc.full = hmi.gc1.full
-    .gc.body = hmi.gc1.body
-  ELSE
-    .tool = 2
-    .gc.full = hmi.gc2.full
-    .gc.body = hmi.gc2.body
-  END
-  CALL set.tool (.tool)
-  ;
-  JMOVE #wp.safe[.tool]
-  ;
-  JAPPRO #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
-  LMOVE #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id] ; **== TEACH POINT ==**
-  LAPPRO #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
-  ;
-  JAPPRO #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
-  LMOVE #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id] ; **== TEACH POINT ==**
-  LAPPRO #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
-  ;
-  JAPPRO #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
-  LMOVE #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id] ; **== TEACH POINT ==**
-  LAPPRO #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id], .gc.full
-  ;
-  ; Calculation
-  .z.shift = hmi.wp.length + .gc.body
-  POINT .po = #shelf.point.o[hmi.shelf.no, .tool, hmi.plate.id]
-  POINT .px = #shelf.point.x[hmi.shelf.no, .tool, hmi.plate.id]
-  POINT .py = #shelf.point.y[hmi.shelf.no, .tool, hmi.plate.id]
-  POINT .f = FRAME (.po, .px, .py, .py)
-  POINT .f = .f + TRANS (0, 0, .z.shift)
-  POINT shelf.frame[hmi.shelf.no, .tool, hmi.plate.id] = .f
-  ;
-  ; Check
-  IF kroset THEN
-    POINT .temp1 = shelf.frame[hmi.shelf.no, .tool, hmi.plate.id]
-    POINT .temp2 = .temp1 + TRANS (390, 0, 0)
-    POINT .temp3 = .temp1 + TRANS (0, -520, 0)
-    POINT .temp4 = .temp1 + TRANS (390, -520, 0)
-    ;
-    LAPPRO .temp1, .z.shift; + .gc.full
-    LMOVE .temp1
-    LAPPRO .temp1, .z.shift; + .gc.full
-    ;
-    LAPPRO .temp2, .z.shift + .gc.full
-    LMOVE .temp2
-    LAPPRO .temp2, .z.shift + .gc.full
-    ;
-    LAPPRO .temp3, .z.shift + .gc.full
-    LMOVE .temp3
-    LAPPRO .temp3, .z.shift + .gc.full
-    ;
-    LAPPRO .temp4, .z.shift + .gc.full
-    LMOVE .temp4
-    LAPPRO .temp4, .z.shift + .gc.full
-  ;  
-  ;ELSE
-  ;  
-  ;  .z.shift = hmi.wp.length + .gc.body
-  ;  POINT .temp1 = shelf.frame[hmi.shelf.no, .tool, hmi.plate.id] + TRANS(0, 0, -.z.shift)
-  ;  POINT .temp2 = .temp1 + TRANS (390, 0)
-  ;  POINT .temp3 = .temp1 + TRANS (0, -520)
-  ;  POINT .temp4 = .temp1 + TRANS (390, -520)
-  ;  
-  ;  LAPPRO .temp1, .gc.full
-  ;  LMOVE .temp1
-  ;  LAPPRO .temp1, .gc.full
-  ;  
-  ;  LAPPRO .temp2, .gc.full
-  ;  LMOVE .temp2
-  ;  LAPPRO .temp2, .gc.full
-  ;  
-  ;  LAPPRO .temp3, .gc.full
-  ;  LMOVE .temp3
-  ;  LAPPRO .temp3, .gc.full
-  ;  
-  ;  LAPPRO .temp4, .gc.full
-  ;  LMOVE .temp4
-  ;  LAPPRO .temp4, .gc.full
-  END
-  ;
-  JMOVE #wp.safe[.tool]
-  ;
-.END
-.PROGRAM wp.test.pick ()
-  ;
-  IF SIG (s.hmi.tool.1) THEN
-    .tool = 1
-  ELSE
-    .tool = 2
-  END
-  ;
-  CALL get.task.data
-  CALL wp.pick (hmi.shelf.no, .tool, hmi.wp.id)
-  ;
-.END
-.PROGRAM wp.put (.shelf.no,.tool.no,.wp.no)
-  ;
-  .$temp = "Put workpiece. Shelf:" + $ENCODE (.shelf.no)
-  .$temp = .$temp + " Tool:" + $ENCODE (.tool.no)
-  .$temp = .$temp + " ID:" + $ENCODE (.wp.no)
-  CALL log (.$temp)
-  ;
-  SPEED 100 ALWAYS
-  ACCURACY 50 ALWAYS
-  CALL set.tool (.tool.no)
-  ;
-  CALL id.to.ij (.wp.no, .i, .j)
-  ;
-  ; Calculate shifts
-  .dx = plate.dx * .i
-  IF .i MOD 2 == 0
-    .dy = plate.dy * .j
-  ELSE
-    .dy = plate.dy * .j + plate.e.dy
-  END
-  .dz = wp.out.length + grip.jaws.body[.tool.no] - shelf.put.ovlp ;
-  .z.appro = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no] + shelf.put.ovlp + 10
-  ;
-  ; Calculate points
-  POINT .temp = shelf.frame[.shelf.no, .tool.no, plate.id]
-  POINT .x.put = .temp + TRANS (.dx, -.dy, -.dz)
-  ; Calculate approach point
-  POINT .approach = #wp.safe[.tool.no]
-  .x = DX (.x.put)
-  .y = DY (.x.put)
-  .z = DZ (.approach)
-  POINT/X .approach = TRANS (.x)
-  POINT/Y .approach = TRANS (0, .y)
-  POINT/Z .approach = TRANS (0, 0, .z - 180 * (.shelf.no - 1))
-  POINT .#approach = .approach, #wp.safe[.tool.no]
-  ; Approach
-  IF INRANGE (.#approach) == 0 THEN
-    JMOVE .#approach
-  ELSE
-    JMOVE #wp.safe[.tool.no]
-  END
-  $safe.flag = "wp.safe"
-  ;
-  JAPPRO .x.put, .z.appro
-  ;
-  SPEED put.speed MM/S
-  XMOVE .x.put TILL gripper.sensor[.tool.no]
-  BREAK
-  TWAIT 0.1
-  CALL gripper.open (.tool.no, 0.75, st6.reverse)
-  ;
-  gripper.id[.tool.no] = 0
-  processed.wp = processed.wp + 1
-  ;
-  SPEED 20
-  LAPPRO .x.put, .z.appro
-  CALL gripper.close (.tool.no, 0, st6.reverse)
-  IF INRANGE (.#approach) == 0 THEN
-    JMOVE .#approach
-  ELSE
-    JMOVE #wp.safe[.tool.no]
-  END
-  ;
-.END
-.PROGRAM wp.test.put ()
-  ;
-  IF SIG (s.hmi.tool.1) THEN
-    .tool = 1
-  ELSE
-    .tool = 2
-  END
-  ;
-  CALL get.task.data
-  CALL wp.put (hmi.shelf.no, .tool, hmi.wp.id)
-  ;
-.END
 .PROGRAM gripper.is.open (.tool.no,.reverse)
   ; Check if tool is opened
-  IF kroset THEN
+  IF NOT SIG(ei.check.grip) THEN
     SIGNAL -eo.grip.error
     RETURN
   END
@@ -1332,7 +1371,7 @@ N_INT110    "s.pr.tch.air"
   CALL log ("Opening shelf" + $ENCODE (.shelf.no))
   ;
   SPEED 60 ALWAYS
-  ACCURACY 50 ALWAYS
+  ACCURACY 5 ALWAYS
   CALL set.tool (3)
   ; gripper.no, time, reverse
   CALL gripper.close (1, 0, FALSE)
@@ -1347,6 +1386,10 @@ N_INT110    "s.pr.tch.air"
   ;
   LMOVE .start + TRANS (-50, 0, -150)
   LMOVE .start + TRANS (-50, 0, 0)
+  $safe.flag = "shelf.work"
+  SPEED 50 MM/S
+  ACCURACY 0.1
+  LMOVE .start
   BREAK
   ; Open shelf
   CALL log ("Request unlock shelf" + $ENCODE (.shelf.no))
@@ -1357,15 +1400,11 @@ N_INT110    "s.pr.tch.air"
     ;
     CALL log ("Shelf" + $ENCODE (.shelf.no) +" successfully unlocked")
     ;
-    SPEED 50 MM/S
-    ACCURACY 0.1
-    LMOVE .start
-    BREAK
     IF kroset THEN
       SIGNAL k.shelf.pick
     END
     ;
-    SPEED 100 MM/S
+    SPEED 200 MM/S
     ACCURACY 0.1
     LMOVE .end
     BREAK
@@ -1386,6 +1425,7 @@ N_INT110    "s.pr.tch.air"
     LMOVE .end + TRANS (150, 0, -50)
     ;
     LMOVE #shelf.safe
+    $safe.flag = "shelf.safe"
     BREAK
     ;
     RETURN
@@ -1394,8 +1434,11 @@ N_INT110    "s.pr.tch.air"
     SIGNAL s.shelf.failed
     SIGNAL -eo.shelf.unlock[.shelf.no]
     ACCURACY 0.1
+    LMOVE .start + TRANS (-50, 0, 0)
+    ACCURACY 0.1
     LMOVE .start + TRANS (-50, 0, -150)
     JMOVE #shelf.safe
+    $safe.flag = "shelf.safe"
     BREAK
     JMOVE #homyak
     JMOVE #homyak.sby
@@ -1407,7 +1450,7 @@ N_INT110    "s.pr.tch.air"
   CALL log ("Closing shelf" + $ENCODE (.shelf.no))
   ;
   SPEED 60 ALWAYS
-  ACCURACY 50 ALWAYS
+  ACCURACY 5 ALWAYS
   CALL set.tool (3)
   ; gripper.no, time, reverse
   CALL gripper.close (1, 0, FALSE)
@@ -1422,8 +1465,14 @@ N_INT110    "s.pr.tch.air"
   ;
   LMOVE .start + TRANS (150, 0, -50)
   LMOVE .start + TRANS (-50, 0, -50)
+  $safe.flag = "shelf.work"
   LMOVE .start + TRANS (-50, 0, 0)
+  SPEED 50 MM/S
+  ACCURACY 0.1
+  LMOVE .start
   BREAK
+  BREAK
+  
   ; Open shelf
   CALL log ("Request unlock shelf" + $ENCODE (.shelf.no))
   SIGNAL eo.shelf.unlock[.shelf.no]
@@ -1433,15 +1482,11 @@ N_INT110    "s.pr.tch.air"
     ;
     CALL log ("Shelf" + $ENCODE (.shelf.no) +" successfully unlocked")
     ;
-    SPEED 50 MM/S
-    ACCURACY 0.1
-    LMOVE .start
-    BREAK
     IF kroset THEN
       SIGNAL k.shelf.pick
     END
     ;
-    SPEED 100 MM/S
+    SPEED 200 MM/S
     ACCURACY 0.1
     LMOVE .end
     BREAK
@@ -1469,9 +1514,12 @@ N_INT110    "s.pr.tch.air"
     SIGNAL s.shelf.failed
     SIGNAL -eo.shelf.unlock[.shelf.no]
     ACCURACY 0.1
+    LMOVE .start + TRANS (-50, 0, 0)
+    ACCURACY 0.1
     LMOVE .start + TRANS (-50, 0, -50)
     LMOVE .start + TRANS (150, 0, -50)
     JMOVE #shelf.safe
+    $safe.flag = "shelf.safe"
     BREAK
     JMOVE #homyak
     JMOVE #homyak.sby
@@ -1538,14 +1586,8 @@ N_INT110    "s.pr.tch.air"
   SIGNAL -s.st5.air.req
   SIGNAL -s.st6.air.req
   SIGNAL -s.mfinish.req
+  SIGNAL -s.inside.cnc
   current.shelf = 1
-  ;
-  IF st5.air.blow THEN
-    SIGNAL s.st5.air.req
-  END
-  IF st6.air.blow THEN
-    SIGNAL s.st6.air.req
-  END
   ;
   state = 1
   RETURN
@@ -1562,7 +1604,11 @@ N_INT110    "s.pr.tch.air"
     ;
     ;
     IF SIG (ei.shelf.ready[current.shelf]) THEN
-      CALL log ("Shelf" + $ENCODE (current.shelf) + " is ready. Working!")
+      CALL log ("Shelf" + $ENCODE (current.shelf) + " is ready. Request data!")
+      ;
+      SIGNAL eo.data.request[current.shelf]
+      SWAIT ei.data.ready
+      SIGNAL -eo.data.request[current.shelf]
       ;
       gripper.id[1] = 0
       gripper.id[2] = 0
@@ -1573,9 +1619,21 @@ N_INT110    "s.pr.tch.air"
       ;
       CALL get.task.data
       ;
+      ;
+      IF st5.air.blow THEN
+        SIGNAL s.st5.air.req
+      END
+      IF st6.air.blow THEN
+        SIGNAL s.st6.air.req
+      END
+      ;
+      SPEED 100
+      JMOVE #homyak
+      ;
       state = 100
       RETURN
     END
+    JMOVE #homyak.sby
     current.shelf = current.shelf + 1
     IF current.shelf == 5 THEN
       current.shelf = 1
@@ -1793,7 +1851,7 @@ N_INT110    "s.pr.tch.air"
   CALL shelf.close(current.shelf)
   ;
   IF NOT SIG(s.shelf.failed) THEN
-    state = 1
+    state = 13
     RETURN
   ELSE
     state = 255
@@ -1817,6 +1875,18 @@ N_INT110    "s.pr.tch.air"
   SIGNAL -s.st6.air.req
   ;
   state = 100
+  ;
+.END
+.PROGRAM state13 () ; Finish shelf
+  ;
+  CALL log("State 13: Finish shelf")
+  PULSE eo.shelf.cmplt[current.shelf], 1
+  ;
+  ;
+  SPEED 100 ALWAYS
+  JMOVE #homyak
+  ;
+  state = 1
   ;
 .END
 .PROGRAM state51 () ; Case: st3.tool <> st6.tool; st5.chuck <> st6.chuck
@@ -2235,8 +2305,8 @@ N_INT110    "s.pr.tch.air"
 .END
 .PROGRAM get.task.data ()
   ;
-  IF kroset THEN
-    CALL log ("KROSET mod activated. Get data from Robot TP")
+  IF SIG(s.debug) THEN
+    CALL log ("DEBUG mod activated. Get data from Robot TP")
     ; Task parameters
     wp.in.length = hmi.wp.length
     wp.out.length = hmi.wp.length
@@ -2254,6 +2324,7 @@ N_INT110    "s.pr.tch.air"
     plate.cells.e = hmi.plate.col.e
     plate.dx = hmi.plate.dx
     plate.dy = hmi.plate.dy
+    ;
     plate.e.dy = hmi.plate.e.dy
     plate.ox = hmi.plate.ox
     plate.oy = hmi.plate.oy
@@ -2274,40 +2345,48 @@ N_INT110    "s.pr.tch.air"
     st6.air.blow = hmi.ab.af.pick <> 0
     ;
   ELSE
-    CALL log("Request data from PLC")
+    CALL log ("Request data from PLC")
     ; Task parameters
-    wp.in.length = BITS (d.wp.length[0], 16)
-    wp.out.length = BITS (d.detail.length[0], 16)
-    wp.mid.length = BITS (d.semiwp.length[0], 16)
-    grip.jaws.full[1] = BITS (d.g1.jaws.full[0], 16)
-    grip.jaws.body[1] = BITS (d.g1.jaws.body[0], 16)
-    grip.jaws.full[2] = BITS (d.g2.jaws.full[0], 16)
-    grip.jaws.body[2] = BITS (d.g2.jaws.body[0], 16)
-    cnc.jaws.full[1] = BITS (d.cnc1.jaws.ful[0], 16)
-    cnc.jaws.body[1] = BITS (d.cnc1.jaws.bod[0], 16)
-    cnc.jaws.full[2] = BITS (d.cnc2.jaws.ful[0], 16)
-    cnc.jaws.body[2] = BITS (d.cnc2.jaws.bod[0], 16)
+    wp.in.length = BITS (d.wp.length[0], 16)/10
+    wp.out.length = BITS (d.detail.length[0], 16)/10
+    wp.mid.length = BITS (d.semiwp.length[0], 16)/10
+    grip.jaws.full[1] = BITS (d.g1.jaws.full[0], 16)/10
+    grip.jaws.body[1] = BITS (d.g1.jaws.body[0], 16)/10
+    grip.jaws.full[2] = BITS (d.g2.jaws.full[0], 16)/10
+    grip.jaws.body[2] = BITS (d.g2.jaws.body[0], 16)/10
+    cnc.jaws.full[1] = BITS (d.cnc1.jaws.ful[0], 16)/10
+    cnc.jaws.body[1] = BITS (d.cnc1.jaws.bod[0], 16)/10
+    cnc.jaws.full[2] = BITS (d.cnc2.jaws.ful[0], 16)/10
+    cnc.jaws.body[2] = BITS (d.cnc2.jaws.bod[0], 16)/10
     ; Plate parameters (Right in task!)
     plate.id = BITS (d.plt.id[0], 8)
     plate.rows = BITS (d.plt.rows[0], 8)
     plate.cells.o = BITS (d.plt.cell.odd[0], 8)
     plate.cells.e = BITS (d.plt.cell.even[0], 8)
-    plate.dx = BITS (d.plt.dx[0], 16)
-    plate.dy = BITS (d.plt.dy[0], 16)
-    plate.e.dy = BITS (d.plt.even.dy[0], 16)
-    plate.ox = BITS (d.plt.o.dx[0], 16)
-    plate.oy = BITS (d.plt.o.dy[0], 16)
+    plate.dx = BITS (d.plt.dx[0], 16)/10
+    plate.dy = BITS (d.plt.dy[0], 16)/10
+    plate.e.dy = BITS (d.plt.even.dy[0], 16)/10
+    plate.ox = BITS (d.plt.o.dx[0], 16)/10
+    plate.oy = BITS (d.plt.o.dy[0], 16)/10
     ;
     wp.count = BITS (d.wp.count[0], 8)
     ;
-    st3.tool = BITS (d.st3.g.no[0], 2)
-    st5.chuck = BITS (d.st5.c.no[0], 2)
+    st3.tool = 1;BITS (d.st3.g.no[0], 2)
+    st5.chuck = 1;BITS (d.st5.c.no[0], 2)
     ;
-    st6.tool = BITS (d.st6.g.no[0], 2)
-    st6.chuck = BITS (d.st6.c.no[0], 2)
+    IF SIG (d.st6.g.no[0]) THEN
+      st6.tool = 1
+    ELSE
+      st6.tool = 2
+    END
+    IF SIG (d.st6.c.no[0]) THEN
+      st6.chuck = 2
+    ELSE
+      st6.chuck = 1
+    END
     ;
-    st3.reverse = SIG (d.st3.g.reverse)
-    st6.reverse = SIG (d.st5.g.reverse)
+    st3.reverse = FALSE;SIG (d.st3.g.reverse)
+    st6.reverse = FALSE;SIG (d.st5.g.reverse)
     cnc.first = SIG (d.cnc.first)
     ;
     st5.air.blow = SIG (d.air.st5)
@@ -2377,21 +2456,6 @@ N_INT110    "s.pr.tch.air"
   CALL a.main
   ;
 .END
-.PROGRAM test ()
-  FOR .i = 1 TO 4
-    ;FOR .j = 1 TO 2
-    FOR .k = 1 TO 32
-      POINT #shelf.point.o[.i, 1, .k] = #shelf.point.o[1, 1, 1]
-      POINT #shelf.point.x[.i, 1, .k] = #shelf.point.x[1, 1, 1]
-      POINT #shelf.point.y[.i, 1, .k] = #shelf.point.y[1, 1, 1]
-      ;
-      POINT #shelf.point.o[.i, 2, .k] = #shelf.point.o[1, 2, 1]
-      POINT #shelf.point.x[.i, 2, .k] = #shelf.point.x[1, 2, 1]
-      POINT #shelf.point.y[.i, 2, .k] = #shelf.point.y[1, 2, 1]
-    END
-    ;END
-  END
-.END
 .PROGRAM pclog1.pc (.$msg)
   ;
   ; 1 line = 55 symbols max
@@ -2434,11 +2498,15 @@ N_INT110    "s.pr.tch.air"
     END
     CALL send.plc.pc
     CALL set.speed.pc
+    CALL check.reset.pc
     ;
     TWAIT 0.1
   END
 .END
 .PROGRAM set.speed.pc ()
+  IF SIG(s.debug) THEN
+    RETURN
+  END
   ; Set speed from HMI at any time
   .speed = BITS (ei.robot.speed[0], 16)
   .speed = MAXVAL (.speed, 1)
@@ -2466,7 +2534,10 @@ N_INT110    "s.pr.tch.air"
   ELSE
     BITS eo.next.wp[0], 16 = current.wp
   END
-  
+  ;
+  ;IF SIG(do.error) THEN
+  ;  BITS(eo.error.code[0], 16) = -ERROR
+  ;END
   ;
 .END
 .PROGRAM check.teach.pc ()
@@ -2505,6 +2576,32 @@ N_INT110    "s.pr.tch.air"
   ;
   IF SIG (s.pr.home) THEN
     MC PRIME a.home
+  END
+  ;
+.END
+.PROGRAM check.reset.pc ()
+  ;
+  IF SIG (di.ext.pgreset) THEN
+    ; Resetting signals
+    SIGNAL -s.shelf.failed
+    BITS eo.shelf.opened[1], 4 = 0
+    ;
+    SIGNAL eo.task.exec
+    SIGNAL -eo.robot.ready
+    SIGNAL -s.st5.air.req
+    SIGNAL -s.st6.air.req
+    SIGNAL -s.mfinish.req
+    current.shelf = 1
+    ;
+    state = 0
+    ;
+    gripper.id[1] = 0
+    gripper.id[2] = 0
+    cnc.id[1]     = 0
+    cnc.id[2]     = 0
+    current.wp    = 1
+    processed.wp  = 0
+    ;
   END
   ;
 .END
@@ -2590,6 +2687,7 @@ N_INT110    "s.pr.tch.air"
   eo.cnc.state[2, 0]   = 273
   eo.wp.processed[0]   = 289
   eo.next.wp[0]        = 305
+  eo.error.code[0]     = 321
   ;
   ; Inputs
   ;
@@ -2605,6 +2703,7 @@ N_INT110    "s.pr.tch.air"
   ei.grip.close[1]     = 1082
   ei.grip.open[2]      = 1083
   ei.grip.close[2]     = 1084
+  ei.check.grip        = 1085
   ;;
   ei.cnc.ch.opd[1]     = 1097
   ei.cnc.ch.clsd[1]    = 1098
@@ -2613,6 +2712,7 @@ N_INT110    "s.pr.tch.air"
   ei.cnc.ready         = 1101
   ;
   ei.task.start        = 1113
+  ei.data.ready        = 1114
   ;
   ei.shelf.ready[1]    = 1129
   ei.shelf.ready[2]    = 1130
@@ -2676,6 +2776,8 @@ N_INT110    "s.pr.tch.air"
   s.st5.air.req  = 2014
   s.st6.air.req  = 2015
   ;
+  s.debug        = 2050
+  ;
   s.pr.tch.shelf = 2100
   s.pr.tst.shelf = 2101
   s.hmi.tool.1   = 2102
@@ -2714,7 +2816,7 @@ N_INT110    "s.pr.tch.air"
   autostart.pc ON
   ERRSTART.PC ON  ;
   ;
-  IFPWPRINT 8, 1, 1, 5, 10 = "Robot: RS013N S/N: XXXXX", "Controller: F60 S/N: XXXXX", " ", "Powered by Robowizard Co.Ltd."
+  IFPWPRINT 8, 1, 1, 5, 10 = "Robot: RS013N S/N: C2615", "Controller: F60 S/N: C11059", " ", "Powered by Robowizard Co.Ltd."
   ;
   CALL set.io.pc
   CALL set.vars.pc
@@ -2738,10 +2840,15 @@ N_INT110    "s.pr.tch.air"
 	; cnc.id[1]
 	; wp.count
 	; current.wp
+	; cnc.id[2]
+	; cnc.pick.ovlp
+	; cnc.put.ovlp
+	; shelf.pick.ovlp
+	; shelf.put.ovlp
 	; @@@ CONNECTION @@@
-	; KROSET R01
-	; 127.0.0.1
-	; 9105
+	; Standard 1
+	; 192.168.0.2
+	; 23
 	; @@@ PROGRAM @@@
 	; Group:Air:1
 	; 1:air.blow:F
@@ -2750,59 +2857,9 @@ N_INT110    "s.pr.tch.air"
 	; .chuck 
 	; Group:Safety:2
 	; 2:safe.home:F
-	; Group:CNC:3
-	; 3:cnc.in:F
-	; .tool.no 
-	; .chuck.no 
-	; 3:cnc.out:F
-	; .tool.no 
-	; .chuck.no 
-	; 3:calc.rotation:F
-	; .tool.no 
-	; .chuck.no 
-	; .j6 
-	; .j 
-	; 3:cnc.put:F
-	; .tool.no 
-	; .chuck.no 
-	; .c1 
-	; .dz 
-	; .c2 
-	; .z.appro 
-	; .temp 
-	; .x.put 
 	; .reverse 
-	; 3:cnc.pick:F
-	; .tool.no 
-	; .chuck.no 
-	; .c1 
-	; .dz 
-	; .c2 
-	; .z.appro 
-	; .temp 
-	; .reverse 
-	; .x.pick 
-	; 3:cnc.teach:F
-	; .tool 
-	; .gc.full 
-	; .full 
-	; .gc.body 
-	; .body 
-	; .chuck 
-	; .cncc.full 
-	; .cncc.body 
-	; .temp 
-	; .zshift 
-	; 3:cnc.appro.teach:F
-	; 3:cnc.test:F
-	; 3:chuck.open:F
-	; .chuck.no 
-	; .time 
-	; 3:chuck.close:F
-	; .chuck.no 
-	; .time 
-	; Group:Workpiece:4
-	; 4:wp.pick:F
+	; Group:Workpiece:3
+	; 3:wp.pick:F
 	; .shelf.no 
 	; .tool.no 
 	; .wp.no 
@@ -2822,7 +2879,7 @@ N_INT110    "s.pr.tch.air"
 	; .x 
 	; .y 
 	; .z 
-	; 4:wp.teach:F
+	; 3:wp.teach:F
 	; .tool 
 	; .gc.full 
 	; .full 
@@ -2833,13 +2890,9 @@ N_INT110    "s.pr.tch.air"
 	; .px 
 	; .py 
 	; .f 
-	; .temp1 
-	; .temp2 
-	; .temp3 
-	; .temp4 
-	; 4:wp.test.pick:F
+	; 3:wp.test.pick:F
 	; .tool 
-	; 4:wp.put:F
+	; 3:wp.put:F
 	; .shelf.no 
 	; .tool.no 
 	; .wp.no 
@@ -2856,8 +2909,59 @@ N_INT110    "s.pr.tch.air"
 	; .x 
 	; .y 
 	; .z 
-	; 4:wp.test.put:F
+	; 3:wp.test.put:F
 	; .tool 
+	; Group:CNC:4
+	; 4:cnc.in:F
+	; .tool.no 
+	; .chuck.no 
+	; 4:cnc.out:F
+	; .tool.no 
+	; .chuck.no 
+	; 4:calc.rotation:F
+	; .tool.no 
+	; .chuck.no 
+	; .j6 
+	; .j 
+	; 4:cnc.put:F
+	; .tool.no 
+	; .chuck.no 
+	; .c1 
+	; .dz 
+	; .c2 
+	; .z.appro 
+	; .temp 
+	; .x.put 
+	; .reverse 
+	; 4:cnc.pick:F
+	; .tool.no 
+	; .chuck.no 
+	; .c1 
+	; .dz 
+	; .c2 
+	; .z.appro 
+	; .temp 
+	; .reverse 
+	; .x.pick 
+	; 4:cnc.teach:F
+	; .tool 
+	; .gc.full 
+	; .full 
+	; .gc.body 
+	; .body 
+	; .chuck 
+	; .cncc.full 
+	; .cncc.body 
+	; .temp 
+	; .zshift 
+	; 4:cnc.appro.teach:F
+	; 4:cnc.test:F
+	; 4:chuck.open:F
+	; .chuck.no 
+	; .time 
+	; 4:chuck.close:F
+	; .chuck.no 
+	; .time 
 	; Group:Grippers:5
 	; 5:gripper.is.open:F
 	; .tool.no 
@@ -2891,8 +2995,9 @@ N_INT110    "s.pr.tch.air"
 	; Group:States:7
 	; 7:state0:F
 	; .air.req 
-	; .air.blow 
 	; 7:state1:F
+	; .air.blow 
+	; .air.req 
 	; 7:state2:F
 	; 7:state3:F
 	; .tool 
@@ -2924,6 +3029,7 @@ N_INT110    "s.pr.tch.air"
 	; 7:state12:F
 	; .chuck 
 	; .air.req 
+	; 7:state13:F
 	; 7:state51:F
 	; .shelf.opened 
 	; .shelf.closed 
@@ -3014,17 +3120,8 @@ N_INT110    "s.pr.tch.air"
 	; .ce 
 	; 7:state100:F
 	; 7:state101:F
-	; .c1 
-	; .c2 
-	; .c3 
 	; .chuck 
-	; .c4 
-	; .c5 
-	; .c6 
 	; .tool 
-	; .c7 
-	; .c14 
-	; .c57 
 	; 7:state255:F
 	; Group:Utilities:8
 	; 8:set.tool:F
@@ -3055,7 +3152,6 @@ N_INT110    "s.pr.tch.air"
 	; .i 
 	; 0:a.main:F
 	; 0:pg0:F
-	; 0:test:F
 	; Group:PCLog:10
 	; 10:pclog1.pc:B
 	; .$msg 
@@ -3072,6 +3168,8 @@ N_INT110    "s.pr.tch.air"
 	; .pc 
 	; 11:send.plc.pc:B
 	; 11:check.teach.pc:B
+	; 11:check.reset.pc:B
+	; .air.req 
 	; Group:Initialization:12
 	; 12:set.io.pc:B
 	; .jaws.full 
@@ -3277,6 +3375,10 @@ N_INT110    "s.pr.tch.air"
 	; d.cnc2.jaws.ful[] Task data: CNC 2 Chuck jaws full length
 	; d.cnc2.jaws.bod[] Task data: CNC 2 Chuck jaws body length
 	; eo.next.wp[] To PLC: Next wp number
+	; s.debug Debug mode
+	; ei.data.ready Data ready
+	; ei.check.grip Check gripper signals
+	; eo.error.code[] Error code
 	; @@@ TOOLS @@@
 	; tool.gripper[] Tool coordinates
 	; @@@ BASE @@@
@@ -3297,291 +3399,291 @@ N_INT110    "s.pr.tch.air"
 	; SIGDIM: % % % %
 .END
 .TRANS
-tool.gripper[1] -93.800003 0.000000 102.000000 180.000000 90.000038 -180.000000
-tool.gripper[2] 93.800003 0.000000 102.000000 0.000000 90.000038 -180.000000
-tool.gripper[3] 0.000000 42.000000 102.000000 90.000038 90.000038 0.000000
-shelf.open[1,1] 751.058228 69.358681 -5.815570 -89.936432 89.997467 -179.967209
-shelf.open[1,2] 750.385193 689.357788 -5.836640 -89.936699 89.997849 -179.967209
-shelf.open[2,1] 751.160339 68.347237 -185.815125 -89.937141 89.997467 -179.967407
-shelf.open[2,2] 750.485474 688.354614 -185.837326 -89.936333 89.997993 -179.967407
-shelf.open[3,1] 751.259277 69.342216 -365.815063 -89.936386 89.997452 -179.967651
+tool.gripper[1] -93.500000 0.000000 102.000000 179.600000 90.000000 -180.000000
+tool.gripper[2] 93.800000 0.000000 102.000000 -0.400000 90.000000 180.000000
+tool.gripper[3] 0.000000 42.000000 102.000000 90.000046 90.000046 0.000000
+shelf.open[1,1] 747.827637 71.125702 -0.758560 -89.934814 89.998093 -179.969879
+shelf.open[1,2] 745.447388 688.132874 -2.633926 -89.931381 89.993843 -179.976761
+shelf.open[2,1] 749.058350 71.428711 -180.295731 -89.937561 89.997787 -179.974121
+shelf.open[2,2] 747.130432 690.488403 -181.262833 -89.932205 89.993896 -179.973602
+shelf.open[3,1] 748.753418 70.852859 -362.520508 -89.937408 89.997330 -179.968277
 shelf.open[3,2] 750.587769 689.344727 -365.837067 -89.936699 89.997963 -179.967499
-shelf.open[4,1] 751.359985 69.334229 -545.815002 -89.937027 89.997551 -179.967865
-shelf.open[4,2] 750.684204 689.335449 -545.843933 -89.936646 89.997627 -179.967819
-shelf.close[1,1] 750.385193 689.357788 -5.836640 -89.936699 89.997849 -179.967209
-shelf.close[1,2] 751.058228 69.358681 -5.815570 -89.936432 89.997467 -179.967209
-shelf.close[2,1] 750.485474 688.354614 -185.837326 -89.936333 89.997993 -179.967407
-shelf.close[2,2] 751.160339 68.347237 -185.815125 -89.937141 89.997467 -179.967407
-shelf.close[3,1] 750.587769 689.344727 -365.837067 -89.936699 89.997963 -179.967499
-shelf.close[3,2] 751.259277 69.342216 -365.815063 -89.936386 89.997452 -179.967651
-shelf.close[4,1] 750.684204 689.335449 -545.843933 -89.936646 89.997627 -179.967819
-shelf.close[4,2] 751.359985 69.334229 -545.815002 -89.937027 89.997551 -179.967865
-shelf.frame[1,1,1] 490.336334 559.361328 14.701620 71.129318 179.980392 -18.872850
-shelf.frame[1,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,1] 490.305206 559.287415 14.810830 -115.966820 179.980408 154.035370
-shelf.frame[1,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[1,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,1] 490.343689 559.408569 -165.307831 77.260986 179.951355 -12.742350
-shelf.frame[2,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,1] 490.313568 559.303772 -165.239304 -119.634041 179.992996 150.925415
-shelf.frame[2,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[2,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,1] 490.343689 559.408569 -345.307831 77.260986 179.951355 -12.742350
-shelf.frame[3,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,1] 490.313568 559.303772 -345.239288 -119.634041 179.992996 150.925415
-shelf.frame[3,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[3,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,1] 490.343689 559.408569 -525.307800 77.260986 179.951355 -12.742350
-shelf.frame[4,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,1] 490.313568 559.303772 -525.239319 -119.634041 179.992996 150.925415
-shelf.frame[4,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-shelf.frame[4,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104736
-cnc.point[2,1] -899.975830 331.996765 211.664597 -90.001251 90.001244 -120.956367
+shelf.open[4,1] 748.158264 71.499474 -542.538391 -89.935318 89.997093 -179.970688
+shelf.open[4,2] 747.691467 689.700500 -542.500549 -89.938187 89.995079 -179.970123
+shelf.close[1,1] 756.662480 682.052000 -2.219540 -92.020500 89.993200 -179.976390
+shelf.close[1,2] 747.810425 69.321686 -0.807724 -89.930878 89.998146 -179.974182
+shelf.close[2,1] 747.126038 688.262085 -181.260986 -89.935059 89.992653 -179.974243
+shelf.close[2,2] 749.057312 69.293213 -180.301163 -89.934486 89.996681 -179.975037
+shelf.close[3,1] 747.115723 687.140198 -364.082336 -89.932388 89.995392 -179.970352
+shelf.close[3,2] 748.712158 69.548447 -362.562592 -89.936043 89.995003 -179.971466
+shelf.close[4,1] 747.638916 688.160278 -542.541565 -89.934952 89.992844 -179.971497
+shelf.close[4,2] 748.154663 69.975052 -542.552307 -89.932426 89.996544 -179.971497
+shelf.frame[1,1,1] 484.824493 556.374878 11.794296 9.989631 179.295944 -80.128227
+shelf.frame[1,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,1] 483.455078 556.716675 10.555649 -7.142845 179.293015 -97.251411
+shelf.frame[1,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[1,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,1] 485.919342 556.899475 -169.109772 -6.384258 179.332108 -96.494400
+shelf.frame[2,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,1] 484.924377 556.578064 -168.650421 -14.883512 179.382812 -105.104507
+shelf.frame[2,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[2,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,1] 487.286835 558.513672 -349.210602 11.109008 179.306473 -78.732979
+shelf.frame[3,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,1] 486.211670 558.072205 -348.938721 -5.539972 179.376541 -95.508514
+shelf.frame[3,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[3,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,1] 487.294373 559.404846 -526.007690 14.424703 179.572800 -75.629883
+shelf.frame[4,1,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,1,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,1] 486.091064 558.754150 -526.274536 10.175898 179.498108 -79.782600
+shelf.frame[4,2,2] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,3] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,4] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,5] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,6] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,7] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,8] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,9] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,10] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,11] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,12] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,13] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,14] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,15] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,16] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,17] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,18] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,19] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,20] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,21] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,22] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,23] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,24] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,25] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,26] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,27] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,28] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+shelf.frame[4,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
+cnc.point[2,1] -997.755493 170.497040 275.006714 -96.029709 92.858856 -117.315056
 cnc.point[1,2] -899.975464 1000.389648 211.689133 89.997078 89.996483 120.955223
-cnc.point[1,1] -899.975830 331.996765 211.664612 -90.001251 90.001251 -120.956367
-cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
+cnc.point[1,1] -1011.229736 65.750862 236.363220 -90.468224 90.399170 -89.983940
+cnc.point[2,2] -958.733765 564.888489 285.474548 85.104179 90.644341 117.292725
 .END
 .JOINTS
 #homyak -0.000400 29.999758 89.999863 -0.001850 -69.998703 -0.000320
 #homyak.sby 0.000000 29.999758 39.999680 0.000000 -45.000000 -0.000220
-#shelf.safe 80.029877 0.115710 85.894928 -150.501724 -88.665848 -79.334587
-#shelf.point.o[1,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.safe 77.267387 4.813991 100.780472 34.271633 76.990814 99.275299
+#shelf.point.o[1,1,1] 61.310108 -32.921947 61.637493 124.915962 -110.608299 19.351801
 #shelf.point.o[1,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[1,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[1,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
@@ -3613,7 +3715,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[1,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[1,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[1,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
-#shelf.point.o[1,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[1,2,1] 61.323215 -33.329288 61.242214 124.759079 -111.912926 199.369659
 #shelf.point.o[1,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[1,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[1,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
@@ -3645,7 +3747,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[1,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[1,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[1,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
-#shelf.point.o[2,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[2,1,1] 57.531204 -39.598171 63.340790 128.748245 -109.376450 29.091648
 #shelf.point.o[2,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[2,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[2,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
@@ -3677,7 +3779,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[2,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[2,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[2,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
-#shelf.point.o[2,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[2,2,1] 57.531204 -39.549992 63.436272 128.886688 -109.226074 209.320969
 #shelf.point.o[2,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[2,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[2,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
@@ -3709,7 +3811,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[2,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[2,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[2,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
-#shelf.point.o[3,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[3,1,1] 54.092693 -48.408554 60.901363 132.361526 -108.304604 36.504688
 #shelf.point.o[3,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[3,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[3,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
@@ -3741,7 +3843,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[3,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[3,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[3,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
-#shelf.point.o[3,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[3,2,1] 54.121689 -48.462208 60.885391 132.353516 -108.253784 216.378265
 #shelf.point.o[3,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[3,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[3,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
@@ -3773,7 +3875,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[3,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[3,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[3,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
-#shelf.point.o[4,1,1] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
+#shelf.point.o[4,1,1] 50.887733 -58.843185 54.637897 135.395859 -107.397537 41.507324
 #shelf.point.o[4,1,2] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[4,1,3] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[4,1,4] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
@@ -3805,7 +3907,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[4,1,30] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[4,1,31] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
 #shelf.point.o[4,1,32] 62.264565 -33.074883 59.042622 123.871902 -112.602997 16.783951
-#shelf.point.o[4,2,1] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
+#shelf.point.o[4,2,1] 50.840866 -58.946850 54.447262 135.184219 -107.659149 221.676773
 #shelf.point.o[4,2,2] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[4,2,3] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[4,2,4] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
@@ -3837,39 +3939,39 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.o[4,2,30] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[4,2,31] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
 #shelf.point.o[4,2,32] 62.274498 -33.061016 59.028614 123.855904 -112.601624 196.616989
-#shelf.point.x[1,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[1,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[1,1,1] 78.142006 -27.174650 85.496727 121.290993 -87.245186 25.370455
+#shelf.point.x[1,1,2] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,3] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,4] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,5] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,6] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,7] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,8] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,9] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,10] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,11] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,12] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,13] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,14] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,15] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,16] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,17] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,18] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,19] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,20] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,21] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,22] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,23] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,24] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,25] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,26] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,27] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,28] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,29] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,30] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,31] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,1,32] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[1,2,1] 78.155113 -27.450592 85.079941 121.807793 -88.380890 205.295013
 #shelf.point.x[1,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[1,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[1,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
@@ -3901,39 +4003,39 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.x[1,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[1,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[1,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
-#shelf.point.x[2,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[2,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[2,1,1] 73.337555 -34.808636 86.917496 123.534752 -86.492622 35.521492
+#shelf.point.x[2,1,2] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,3] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,4] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,5] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,6] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,7] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,8] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,9] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,10] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,11] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,12] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,13] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,14] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,15] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,16] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,17] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,18] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,19] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,20] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,21] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,22] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,23] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,24] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,25] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,26] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,27] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,28] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,29] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,30] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,31] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,1,32] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[2,2,1] 73.461075 -34.822506 86.953995 123.574135 -86.245430 215.535233
 #shelf.point.x[2,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[2,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[2,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
@@ -3965,39 +4067,39 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.x[2,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[2,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[2,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
-#shelf.point.x[3,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[3,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[3,1,1] 68.742012 -44.416908 84.978920 125.955086 -85.726318 43.884228
+#shelf.point.x[3,1,2] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,3] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,4] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,5] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,6] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,7] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,8] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,9] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,10] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,11] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,12] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,13] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,14] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,15] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,16] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,17] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,18] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,19] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,20] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,21] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,22] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,23] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,24] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,25] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,26] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,27] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,28] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,29] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,30] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,31] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,1,32] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[3,2,1] 68.863945 -44.474579 84.903320 125.884338 -85.654228 223.681335
 #shelf.point.x[3,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[3,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[3,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
@@ -4029,39 +4131,39 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.x[3,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[3,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[3,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
-#shelf.point.x[4,1,1] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,2] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,3] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,4] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,5] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,6] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,7] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,8] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,9] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,10] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,11] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,12] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,13] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,14] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,15] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,16] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,17] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,18] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,19] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,20] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,21] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,22] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,23] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,24] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,25] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,26] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,27] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,28] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,29] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,30] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,31] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,1,32] 79.415024 -26.781181 83.552933 121.618927 -88.593758 22.913305
-#shelf.point.x[4,2,1] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
+#shelf.point.x[4,1,1] 64.480515 -55.256325 79.509590 128.498474 -84.799347 49.684872
+#shelf.point.x[4,1,2] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,3] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,4] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,5] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,6] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,7] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,8] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,9] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,10] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,11] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,12] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,13] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,14] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,15] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,16] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,17] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,18] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,19] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,20] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,21] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,22] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,23] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,24] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,25] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,26] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,27] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,28] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,29] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,30] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,31] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,1,32] 79.415024 -26.781183 83.552933 121.618927 -88.593758 22.913305
+#shelf.point.x[4,2,1] 64.412590 -55.266548 79.493301 128.361282 -85.037621 229.992142
 #shelf.point.x[4,2,2] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[4,2,3] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[4,2,4] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
@@ -4093,7 +4195,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.x[4,2,30] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[4,2,31] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
 #shelf.point.x[4,2,32] 78.893898 -26.732269 83.132889 121.796730 -89.250183 202.634308
-#shelf.point.y[1,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[1,1,1] 41.065517 0.785846 104.452003 137.581787 -120.274895 41.613426
 #shelf.point.y[1,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[1,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[1,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
@@ -4125,7 +4227,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[1,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[1,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[1,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
-#shelf.point.y[1,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[1,2,1] 41.158062 0.456981 104.239540 138.108429 -120.949867 221.738358
 #shelf.point.y[1,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[1,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[1,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
@@ -4157,7 +4259,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[1,2,30] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[1,2,31] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[1,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
-#shelf.point.y[2,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[2,1,1] 36.924767 -9.447672 105.979660 144.722198 -113.818359 53.478149
 #shelf.point.y[2,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[2,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[2,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
@@ -4189,7 +4291,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[2,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[2,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[2,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
-#shelf.point.y[2,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[2,2,1] 36.976402 -9.412633 105.998558 144.741272 -113.643272 233.483841
 #shelf.point.y[2,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[2,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[2,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
@@ -4221,7 +4323,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[2,2,30] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[2,2,31] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[2,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
-#shelf.point.y[3,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[3,1,1] 33.510883 -21.747824 103.761169 149.941849 -107.311714 62.041389
 #shelf.point.y[3,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[3,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[3,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
@@ -4253,7 +4355,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[3,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[3,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[3,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
-#shelf.point.y[3,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[3,2,1] 33.553780 -21.777390 103.738037 149.905548 -107.283562 241.876068
 #shelf.point.y[3,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[3,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[3,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
@@ -4285,7 +4387,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[3,2,30] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[3,2,31] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[3,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
-#shelf.point.y[4,1,1] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
+#shelf.point.y[4,1,1] 30.628048 -34.677967 98.394165 153.326859 -101.463554 67.414215
 #shelf.point.y[4,1,2] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[4,1,3] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[4,1,4] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
@@ -4317,7 +4419,7 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[4,1,30] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[4,1,31] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
 #shelf.point.y[4,1,32] 42.921604 1.159607 101.743408 135.868973 -122.108925 37.918297
-#shelf.point.y[4,2,1] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
+#shelf.point.y[4,2,1] 30.595078 -34.780895 98.363205 153.243195 -101.657181 247.712463
 #shelf.point.y[4,2,2] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[4,2,3] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #shelf.point.y[4,2,4] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
@@ -4351,14 +4453,14 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #shelf.point.y[4,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #wp.safe[1] 69.568573 8.663290 97.904053 114.625549 -68.547127 10.075710
 #wp.safe[2] 69.568573 8.663650 97.904053 114.625549 -68.547127 190.077927
-#cnc.in.base -58.787132 -11.963990 86.327026 -51.560951 -58.020184 26.015381
-#cnc.out.base -11.054710 30.356359 125.551483 -63.943153 -97.353287 53.886539
-#cnc.in -58.787132 -11.963990 86.327026 -51.560951 -58.020184 26.015381
-#cnc.out -11.054710 30.356359 125.551483 -63.943153 -97.353287 53.886539
-#cnc.point[1,1] -60.352077 -13.151332 100.025772 -44.777374 -66.867599 12.370291
+#cnc.in.base -79.406677 -5.772483 95.545113 -42.264755 -15.369874 -171.096466
+#cnc.out.base -43.126957 51.450104 133.077347 -97.612473 -47.087402 -111.061012
+#cnc.in -79.406677 -5.772483 95.545113 -42.264755 -15.369874 -171.096466
+#cnc.out -43.126957 51.450104 133.077347 -97.612473 -47.087402 -111.061012
+#cnc.point[1,1] -84.536041 -13.703943 104.777214 -10.618330 -29.069824 -200.677597
 #cnc.point[1,2] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 12.370290
-#cnc.point[2,1] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 192.370285
-#cnc.point[2,2] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 12.370290
+#cnc.point[2,1] -77.965256 -13.449173 103.743896 -24.196554 -57.241516 -13.470392
+#cnc.point[2,2] -75.202377 -12.815167 102.328339 -27.456680 -56.476593 -186.105255
 #air.safe[1] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 -55.306881
 #air.safe[2] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 124.692032
 #air.point[1,1] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
@@ -4379,10 +4481,8 @@ cnc.point[2,2] -899.962524 1000.397705 211.681732 89.996124 89.998634 120.954376
 #air.point[2,8] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
 #air.pos[1] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 -55.306881
 #air.pos[2] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 124.692032
-#a 70.027725 -1.310749 86.930786 -238.917557 -108.120590 -171.276093
 #pick.safe[1] 70.028526 -1.309620 86.930527 -58.916073 108.119202 8.721220
 #pick.safe[2] 70.028526 -1.309990 86.930527 -58.916073 108.119202 -171.277695
-#b 70.027725 -1.310749 86.930786 -238.917557 -108.120590 -171.276093
 .END
 .REALS
 gripper.open[1] = 33
@@ -4420,8 +4520,8 @@ di.ifp.page[5] = 2005
 di.ifp.page[6] = 2006
 di.ifp.page[7] = 2007
 di.ifp.page[8] = 2008
-state = 2
-current.tool = 3
+state = 4
+current.tool = 1
 eo.grip.opened[1] = 81
 eo.grip.opened[2] = 82
 current.shelf = 1
@@ -4490,32 +4590,32 @@ s.pr.tst.shelf = 2101
 gripper.id[1] = 0
 gripper.id[2] = 0
 cnc.id[1] = 0
-cnc.id[2] = 0
+cnc.id[2] = -1
 s.hmi.tool.1 = 2102
 s.hmi.chuck.1 = 2103
 s.pr.tch.wp = 2104
 s.pr.tst.pick = 2105
-hmi.wp.length = 80
-hmi.gc1.full = 41
-hmi.gc1.body = 30
-hmi.gc2.full = 41
-hmi.gc2.body = 30
-hmi.cnc1c.full = 39
-hmi.cnc1c.body = 23
-hmi.cnc2c.full = 39
+hmi.wp.length = 40
+hmi.gc1.full = 40
+hmi.gc1.body = 29
+hmi.gc2.full = 40
+hmi.gc2.body = 29
+hmi.cnc1c.full = 50
+hmi.cnc1c.body = 0
+hmi.cnc2c.full = 50
 hmi.cnc2c.body = 23
 hmi.plate.id = 1
-wp.in.length = 80
-wp.out.length = 80
-wp.mid.length = 80
-grip.jaws.full[1] = 41
-grip.jaws.full[2] = 41
-grip.jaws.body[1] = 30
-grip.jaws.body[2] = 30
-cnc.jaws.body[2] = 0
-cnc.jaws.body[1] = 23
-cnc.jaws.full[1] = 39
-cnc.jaws.full[2] = 0
+wp.in.length = 40
+wp.out.length = 40
+wp.mid.length = 0
+grip.jaws.full[1] = 40
+grip.jaws.full[2] = 40
+grip.jaws.body[1] = 29
+grip.jaws.body[2] = 29
+cnc.jaws.body[2] = 23
+cnc.jaws.body[1] = 0
+cnc.jaws.full[1] = 50
+cnc.jaws.full[2] = 50
 hmi.plate.rows = 4
 hmi.plate.col.e = 5
 hmi.plate.col.o = 5
@@ -4523,7 +4623,7 @@ hmi.plate.dx = 130
 hmi.plate.dy = 130
 plate.rows = 4
 hmi.plate.e.dy = 0
-hmi.plate.ox = 0
+hmi.plate.ox = 130
 hmi.plate.oy = 0
 plate.cells.o = 5
 plate.cells.e = 5
@@ -4532,15 +4632,15 @@ plate.dy = 130
 plate.e.dy = 0
 plate.ox = 0
 plate.oy = 0
-hmi.wp.id = 4
+hmi.wp.id = 16
 plate.id = 1
 s.pr.home = 2106
-shelf.pick.ovlp = 10
+shelf.pick.ovlp = 5
 pick.epsilon = 0.1
 eo.process.err = 115
 s.search.fail = 2011
 pick.speed = 50
-shelf.put.ovlp = 10
+shelf.put.ovlp = 5
 put.speed = 50
 s.pr.tst.put = 2107
 s.inside.cnc = 2012
@@ -4552,8 +4652,8 @@ cnc.put.ovlp = 10
 cnc.pick.ovlp = 10
 s.pr.cnc.appr = 2108
 s.pr.cnc.tch = 2109
-current.wp = 1
-wp.count = 4
+current.wp = 2
+wp.count = 1
 hmi.st3.tool = 1
 hmi.st6.tool = 2
 hmi.st5.chuck = 1
@@ -4899,7 +4999,7 @@ d.wp.count[6] = 1671
 d.wp.count[7] = 1672
 d.st3.g.no[0] = 1663
 d.st3.g.no[1] = 1664
-d.st5.c.no[0] = 1663
+d.st5.c.no[0] = 1661
 d.st5.c.no[1] = 1664
 d.st6.g.no[0] = 1659
 d.st6.g.no[1] = 1660
@@ -4990,263 +5090,282 @@ eo.next.wp[12] = 317
 eo.next.wp[13] = 318
 eo.next.wp[14] = 319
 eo.next.wp[15] = 320
+s.debug = 2050
+ei.data.ready = 1114
+ei.check.grip = 1085
+eo.error.code[0] = 321
+eo.error.code[1] = 322
+eo.error.code[2] = 323
+eo.error.code[3] = 324
+eo.error.code[4] = 325
+eo.error.code[5] = 326
+eo.error.code[6] = 327
+eo.error.code[7] = 328
+eo.error.code[8] = 329
+eo.error.code[9] = 330
+eo.error.code[10] = 331
+eo.error.code[11] = 332
+eo.error.code[12] = 333
+eo.error.code[13] = 334
+eo.error.code[14] = 335
+eo.error.code[15] = 336
 .END
 .STRINGS
-$log.entry[0] = "22:31:09 Command open gripper 1"
-$log.entry[1] = "22:31:09 Close CNC chuck 1"
-$log.entry[2] = "22:31:09 CNC chuck 1 closed"
-$log.entry[3] = "22:31:09 Command close gripper 1"
-$log.entry[4] = "22:31:09 State 100: Decision making module"
-$log.entry[5] = "22:31:09 State 6: Pick detail from CNC"
-$log.entry[6] = "22:31:09 Pick workpiece from CNC. Tool: 2 Chuck: 2"
-$log.entry[7] = "22:31:09 Tool #2 set"
-$log.entry[8] = "22:31:09 Command open gripper 2"
-$log.entry[9] = "22:31:10 Command close gripper 2"
-$log.entry[10] = "22:31:10 Open CNC chuck 2"
-$log.entry[11] = "22:31:10 CNC chuck 2 opened"
-$log.entry[12] = "22:31:10 State 100: Decision making module"
-$log.entry[13] = "22:31:10 State 7: Move outside CNC"
-$log.entry[14] = "22:31:11 Move outside CNC. Tool: 2 Chuck: 2"
-$log.entry[15] = "22:31:11 Tool #2 set"
-$log.entry[16] = "22:31:12 Robot outside CNC"
-$log.entry[17] = "22:31:12 State 100: Decision making module"
-$log.entry[18] = "22:31:12 State 8: Execute MFINISH"
-$log.entry[19] = "22:31:12 State 100: Decision making module"
-$log.entry[20] = "22:31:12 State 9: Put detail to shelf"
-$log.entry[21] = "22:31:12 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
-$log.entry[22] = "22:31:12 Tool #2 set"
-$log.entry[23] = "22:31:12 ID: 1 --> i: 0 j: 0"
-$log.entry[24] = "22:31:15 Command open gripper 2"
-$log.entry[25] = "22:31:15 Command close gripper 2"
-$log.entry[26] = "22:31:54 Main program executed"
-$log.entry[27] = "22:31:54 Performing safe movement to home position"
-$log.entry[28] = "22:31:54 Safe move from shelf"
-$log.entry[29] = "22:31:55 Speed 7 was applied"
-$log.entry[30] = "22:31:57 Robot in home position"
-$log.entry[31] = "22:31:59 State 0: Initialization"
-$log.entry[32] = "22:31:59 Waiting for task start"
-$log.entry[33] = "22:31:59 KROSET mod activated. Get data from Robot TP"
-$log.entry[34] = "22:31:59 State 1: Check ready shelves"
-$log.entry[35] = "22:31:59 Shelf 1 is ready. Working!"
-$log.entry[36] = "22:31:59 State 100: Decision making module"
-$log.entry[37] = "22:31:59 State 2: Open shelf"
-$log.entry[38] = "22:31:59 Opening shelf 1"
-$log.entry[39] = "22:31:59 Tool #3 set"
-$log.entry[40] = "22:32:00 Command close gripper 1"
-$log.entry[41] = "22:32:00 Command close gripper 2"
-$log.entry[42] = "22:32:01 Request unlock shelf 1"
-$log.entry[43] = "22:32:01 Shelf 1 successfully unlocked"
-$log.entry[44] = "22:32:03 State 100: Decision making module"
-$log.entry[45] = "22:32:03 State 3: Pick workpiece from shelf"
-$log.entry[46] = "22:32:03 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[47] = "22:32:03 Tool #1 set"
-$log.entry[48] = "22:32:03 Command open gripper 1"
-$log.entry[49] = "22:32:03 ID: 1 --> i: 0 j: 0"
-$log.entry[50] = "22:32:05 Distance: 0.02313"
-$log.entry[51] = "22:32:05 Detail found"
-$log.entry[52] = "22:32:06 Command close gripper 1"
-$log.entry[53] = "22:32:06 State 100: Decision making module"
-$log.entry[54] = "22:32:06 State 4: Move to CNC"
-$log.entry[55] = "22:32:06 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[56] = "22:32:06 Tool #1 set"
-$log.entry[57] = "22:32:07 Waiting for CNC ready"
-$log.entry[58] = "22:32:07 CNC ready signal received"
-$log.entry[59] = "22:32:08 Robot inside CNC"
-$log.entry[60] = "22:32:08 State 100: Decision making module"
-$log.entry[61] = "22:32:08 State 5: Put workpiece to CNC"
-$log.entry[62] = "22:32:08 Put workpiece in CNC. Tool: 1 Chuck: 1"
-$log.entry[63] = "22:32:08 Tool #1 set"
-$log.entry[64] = "22:32:08 Robot open chuck first"
-$log.entry[65] = "22:32:09 Command open gripper 1"
-$log.entry[66] = "22:32:09 Close CNC chuck 1"
-$log.entry[67] = "22:32:09 CNC chuck 1 closed"
-$log.entry[68] = "22:32:09 Command close gripper 1"
-$log.entry[69] = "22:32:09 State 100: Decision making module"
-$log.entry[70] = "22:32:09 State 7: Move outside CNC"
-$log.entry[71] = "22:32:09 Move outside CNC. Tool: 2 Chuck: 2"
-$log.entry[72] = "22:32:09 Tool #2 set"
-$log.entry[73] = "22:32:10 Robot outside CNC"
-$log.entry[74] = "22:32:10 State 100: Decision making module"
-$log.entry[75] = "22:32:10 State 8: Execute MFINISH"
-$log.entry[76] = "22:32:10 State 100: Decision making module"
-$log.entry[77] = "22:32:10 State 3: Pick workpiece from shelf"
-$log.entry[78] = "22:32:10 Pick workpiece. Shelf: 1 Tool: 1 ID: 2"
-$log.entry[79] = "22:32:10 Tool #1 set"
-$log.entry[80] = "22:32:10 Command open gripper 1"
-$log.entry[81] = "22:32:10 ID: 2 --> i: 0 j: 1"
-$log.entry[82] = "22:32:12 Distance: 0.03273"
-$log.entry[83] = "22:32:12 Detail found"
-$log.entry[84] = "22:32:12 Command close gripper 1"
-$log.entry[85] = "22:32:12 State 100: Decision making module"
-$log.entry[86] = "22:32:12 State 4: Move to CNC"
-$log.entry[87] = "22:32:12 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[88] = "22:32:12 Tool #1 set"
-$log.entry[89] = "22:32:13 Waiting for CNC ready"
-$log.entry[90] = "22:32:13 CNC ready signal received"
-$log.entry[91] = "22:32:14 Robot inside CNC"
-$log.entry[92] = "22:32:14 State 100: Decision making module"
-$log.entry[93] = "22:32:14 State 5: Put workpiece to CNC"
-$log.entry[94] = "22:32:14 Put workpiece in CNC. Tool: 1 Chuck: 1"
-$log.entry[95] = "22:32:14 Tool #1 set"
-$log.entry[96] = "22:32:15 Robot open chuck first"
-$log.entry[97] = "22:32:15 Command open gripper 1"
-$log.entry[98] = "22:32:15 Close CNC chuck 1"
-$log.entry[99] = "22:32:15 CNC chuck 1 closed"
-$log.entry[100] = "22:32:15 Command close gripper 1"
-$log.entry[101] = "22:32:15 State 100: Decision making module"
-$log.entry[102] = "22:32:15 State 6: Pick detail from CNC"
-$log.entry[103] = "22:32:15 Pick workpiece from CNC. Tool: 2 Chuck: 2"
-$log.entry[104] = "22:32:15 Tool #2 set"
-$log.entry[105] = "22:32:16 Command open gripper 2"
-$log.entry[106] = "22:32:16 Command close gripper 2"
-$log.entry[107] = "22:32:16 Open CNC chuck 2"
-$log.entry[108] = "22:32:16 CNC chuck 2 opened"
-$log.entry[109] = "22:32:16 State 100: Decision making module"
-$log.entry[110] = "22:32:16 State 7: Move outside CNC"
-$log.entry[111] = "22:32:16 Move outside CNC. Tool: 2 Chuck: 2"
-$log.entry[112] = "22:32:17 Tool #2 set"
-$log.entry[113] = "22:32:17 Robot outside CNC"
-$log.entry[114] = "22:32:17 State 100: Decision making module"
-$log.entry[115] = "22:32:17 State 8: Execute MFINISH"
-$log.entry[116] = "22:32:17 State 100: Decision making module"
-$log.entry[117] = "22:32:17 State 9: Put detail to shelf"
-$log.entry[118] = "22:32:18 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
-$log.entry[119] = "22:32:18 Tool #2 set"
-$log.entry[120] = "22:32:18 ID: 1 --> i: 0 j: 0"
-$log.entry[121] = "22:32:19 Command open gripper 2"
-$log.entry[122] = "22:32:19 Command close gripper 2"
-$log.entry[123] = "22:32:19 State 100: Decision making module"
-$log.entry[124] = "22:32:19 State 3: Pick workpiece from shelf"
-$log.entry[125] = "22:32:19 Pick workpiece. Shelf: 1 Tool: 1 ID: 3"
-$log.entry[126] = "22:32:20 Tool #1 set"
-$log.entry[127] = "22:32:20 Command open gripper 1"
-$log.entry[128] = "22:32:20 ID: 3 --> i: 0 j: 2"
-$log.entry[129] = "22:32:21 Distance: 0.03752"
-$log.entry[130] = "22:32:21 Detail found"
-$log.entry[131] = "22:32:21 Command close gripper 1"
-$log.entry[132] = "22:32:21 State 100: Decision making module"
-$log.entry[133] = "22:32:21 State 4: Move to CNC"
-$log.entry[134] = "22:32:21 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[135] = "22:32:21 Tool #1 set"
-$log.entry[136] = "22:32:23 Waiting for CNC ready"
-$log.entry[137] = "22:32:23 CNC ready signal received"
-$log.entry[138] = "22:32:23 Robot inside CNC"
-$log.entry[139] = "22:32:23 State 100: Decision making module"
-$log.entry[140] = "22:32:23 State 5: Put workpiece to CNC"
-$log.entry[141] = "22:32:23 Put workpiece in CNC. Tool: 1 Chuck: 1"
-$log.entry[142] = "22:32:23 Tool #1 set"
-$log.entry[143] = "22:32:24 Robot open chuck first"
-$log.entry[144] = "22:32:24 Command open gripper 1"
-$log.entry[145] = "22:32:24 Close CNC chuck 1"
-$log.entry[146] = "22:32:24 CNC chuck 1 closed"
-$log.entry[147] = "22:32:24 Command close gripper 1"
-$log.entry[148] = "22:32:24 State 100: Decision making module"
-$log.entry[149] = "22:32:24 State 6: Pick detail from CNC"
-$log.entry[150] = "22:32:25 Pick workpiece from CNC. Tool: 2 Chuck: 2"
-$log.entry[151] = "22:32:25 Tool #2 set"
-$log.entry[152] = "22:32:25 Command open gripper 2"
-$log.entry[153] = "22:32:25 Command close gripper 2"
-$log.entry[154] = "22:32:25 Open CNC chuck 2"
-$log.entry[155] = "22:32:25 CNC chuck 2 opened"
-$log.entry[156] = "22:32:25 State 100: Decision making module"
-$log.entry[157] = "22:32:26 State 7: Move outside CNC"
-$log.entry[158] = "22:32:26 Move outside CNC. Tool: 2 Chuck: 2"
-$log.entry[159] = "22:32:26 Tool #2 set"
-$log.entry[160] = "22:32:26 Robot outside CNC"
-$log.entry[161] = "22:32:26 State 100: Decision making module"
-$log.entry[162] = "22:32:26 State 8: Execute MFINISH"
-$log.entry[163] = "22:32:26 State 100: Decision making module"
-$log.entry[164] = "22:32:26 State 9: Put detail to shelf"
-$log.entry[165] = "22:32:26 Put workpiece. Shelf: 1 Tool: 2 ID: 2"
-$log.entry[166] = "22:32:27 Tool #2 set"
-$log.entry[167] = "22:32:27 ID: 2 --> i: 0 j: 1"
-$log.entry[168] = "22:32:28 Command open gripper 2"
-$log.entry[169] = "22:32:28 Command close gripper 2"
-$log.entry[170] = "22:32:28 State 100: Decision making module"
-$log.entry[171] = "22:32:28 State 3: Pick workpiece from shelf"
-$log.entry[172] = "22:32:28 Pick workpiece. Shelf: 1 Tool: 1 ID: 4"
-$log.entry[173] = "22:32:28 Tool #1 set"
-$log.entry[174] = "22:32:29 Command open gripper 1"
-$log.entry[175] = "22:32:29 ID: 4 --> i: 0 j: 3"
-$log.entry[176] = "22:32:30 Distance: 0.03"
-$log.entry[177] = "22:32:30 Detail found"
-$log.entry[178] = "22:32:30 Command close gripper 1"
-$log.entry[179] = "22:32:30 State 100: Decision making module"
-$log.entry[180] = "22:32:30 State 4: Move to CNC"
-$log.entry[181] = "22:32:30 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[182] = "22:32:30 Tool #1 set"
-$log.entry[183] = "22:32:31 Waiting for CNC ready"
-$log.entry[184] = "22:32:31 CNC ready signal received"
-$log.entry[185] = "22:32:32 Robot inside CNC"
-$log.entry[186] = "22:32:32 State 100: Decision making module"
-$log.entry[187] = "22:32:32 State 5: Put workpiece to CNC"
-$log.entry[188] = "22:32:32 Put workpiece in CNC. Tool: 1 Chuck: 1"
-$log.entry[189] = "22:32:32 Tool #1 set"
-$log.entry[190] = "22:32:33 Robot open chuck first"
-$log.entry[191] = "22:32:33 Command open gripper 1"
-$log.entry[192] = "22:32:33 Close CNC chuck 1"
-$log.entry[193] = "22:32:33 CNC chuck 1 closed"
-$log.entry[194] = "22:32:33 Command close gripper 1"
-$log.entry[195] = "22:32:33 State 100: Decision making module"
-$log.entry[196] = "22:32:33 State 6: Pick detail from CNC"
-$log.entry[197] = "22:32:33 Pick workpiece from CNC. Tool: 2 Chuck: 2"
-$log.entry[198] = "22:32:33 Tool #2 set"
-$log.entry[199] = "22:32:34 Command open gripper 2"
-$log.entry[200] = "22:32:34 Command close gripper 2"
-$log.entry[201] = "22:32:34 Open CNC chuck 2"
-$log.entry[202] = "22:32:34 CNC chuck 2 opened"
-$log.entry[203] = "22:32:34 State 100: Decision making module"
-$log.entry[204] = "22:32:34 State 7: Move outside CNC"
-$log.entry[205] = "22:32:34 Move outside CNC. Tool: 2 Chuck: 2"
-$log.entry[206] = "22:32:34 Tool #2 set"
-$log.entry[207] = "22:32:35 Robot outside CNC"
-$log.entry[208] = "22:32:35 State 100: Decision making module"
-$log.entry[209] = "22:32:35 State 8: Execute MFINISH"
-$log.entry[210] = "22:32:35 State 100: Decision making module"
-$log.entry[211] = "22:32:35 State 9: Put detail to shelf"
-$log.entry[212] = "22:32:35 Put workpiece. Shelf: 1 Tool: 2 ID: 3"
-$log.entry[213] = "22:32:35 Tool #2 set"
-$log.entry[214] = "22:32:36 ID: 3 --> i: 0 j: 2"
-$log.entry[215] = "22:32:37 Command open gripper 2"
-$log.entry[216] = "22:32:37 Command close gripper 2"
-$log.entry[217] = "22:32:37 State 100: Decision making module"
-$log.entry[218] = "22:32:37 State 4: Move to CNC"
-$log.entry[219] = "22:32:37 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[220] = "22:32:37 Tool #1 set"
-$log.entry[221] = "22:32:38 Waiting for CNC ready"
-$log.entry[222] = "22:32:38 CNC ready signal received"
-$log.entry[223] = "22:32:39 Robot inside CNC"
-$log.entry[224] = "22:32:39 State 100: Decision making module"
-$log.entry[225] = "22:32:39 State 6: Pick detail from CNC"
-$log.entry[226] = "22:32:39 Pick workpiece from CNC. Tool: 2 Chuck: 2"
-$log.entry[227] = "22:32:39 Tool #2 set"
-$log.entry[228] = "22:32:39 Command open gripper 2"
-$log.entry[229] = "22:32:40 Command close gripper 2"
-$log.entry[230] = "22:32:40 Open CNC chuck 2"
-$log.entry[231] = "22:32:40 CNC chuck 2 opened"
-$log.entry[232] = "22:32:40 State 100: Decision making module"
-$log.entry[233] = "22:32:40 State 7: Move outside CNC"
-$log.entry[234] = "22:32:40 Move outside CNC. Tool: 2 Chuck: 2"
-$log.entry[235] = "22:32:40 Tool #2 set"
-$log.entry[236] = "22:32:41 Robot outside CNC"
-$log.entry[237] = "22:32:41 State 100: Decision making module"
-$log.entry[238] = "22:32:41 State 9: Put detail to shelf"
-$log.entry[239] = "22:32:41 Put workpiece. Shelf: 1 Tool: 2 ID: 4"
-$log.entry[240] = "22:32:41 Tool #2 set"
-$log.entry[241] = "22:32:41 ID: 4 --> i: 0 j: 3"
-$log.entry[242] = "22:32:43 Command open gripper 2"
-$log.entry[243] = "22:32:43 Command close gripper 2"
-$log.entry[244] = "22:32:43 State 100: Decision making module"
-$log.entry[245] = "22:32:43 State 10: Close shelf"
-$log.entry[246] = "22:32:43 Closing shelf 1"
-$log.entry[247] = "22:32:43 Tool #3 set"
-$log.entry[248] = "22:32:43 Command close gripper 1"
-$log.entry[249] = "22:32:43 Command close gripper 2"
-$log.entry[250] = "22:32:45 Request unlock shelf 1"
-$log.entry[251] = "22:32:45 Shelf 1 successfully unlocked"
-$log.entry[252] = "22:32:48 State 1: Check ready shelves"
-$log.entry[253] = "22:32:48 Shelf 1 is ready. Working!"
-$log.entry[254] = "22:32:48 State 100: Decision making module"
-$log.entry[255] = "22:32:48 State 2: Open shelf"
-$safe.flag = "shelf.safe"
+$log.entry[0] = "09:20:46 Distance: 0.08927"
+$log.entry[1] = "09:20:46 Detail found"
+$log.entry[2] = "09:20:47 Command close gripper 1"
+$log.entry[3] = "09:21:34 Tool #2 set"
+$log.entry[4] = "09:22:32 Tool #2 set"
+$log.entry[5] = "09:24:39 Tool #2 set"
+$log.entry[6] = "09:25:49 Tool #2 set"
+$log.entry[7] = "09:27:06 Main program executed"
+$log.entry[8] = "09:27:06 Performing safe movement to home position"
+$log.entry[9] = "09:27:07 Safe move from shelf"
+$log.entry[10] = "09:29:03 DEBUG mod activated. Get data from Robot TP"
+$log.entry[11] = "09:29:05 Put workpiece. Shelf: 1 Tool: 1 ID: 20"
+$log.entry[12] = "09:29:05 Tool #1 set"
+$log.entry[13] = "09:29:05 ID: 20 --> i: 3 j: 4"
+$log.entry[14] = "09:29:24 Command open gripper 1"
+$log.entry[15] = "09:29:27 Command close gripper 1"
+$log.entry[16] = "09:29:49 DEBUG mod activated. Get data from Robot TP"
+$log.entry[17] = "09:29:49 Put workpiece. Shelf: 1 Tool: 1 ID: 15"
+$log.entry[18] = "09:29:49 Tool #1 set"
+$log.entry[19] = "09:29:49 ID: 15 --> i: 2 j: 4"
+$log.entry[20] = "09:29:56 DEBUG mod activated. Get data from Robot TP"
+$log.entry[21] = "09:29:56 Put workpiece. Shelf: 1 Tool: 1 ID: 16"
+$log.entry[22] = "09:29:56 Tool #1 set"
+$log.entry[23] = "09:29:56 ID: 16 --> i: 3 j: 0"
+$log.entry[24] = "09:30:09 Command open gripper 1"
+$log.entry[25] = "09:30:11 Command close gripper 1"
+$log.entry[26] = "09:30:38 DEBUG mod activated. Get data from Robot TP"
+$log.entry[27] = "09:30:38 Pick workpiece. Shelf: 1 Tool: 1 ID: 16"
+$log.entry[28] = "09:30:38 Tool #1 set"
+$log.entry[29] = "09:30:38 Command open gripper 1"
+$log.entry[30] = "09:30:38 ID: 16 --> i: 3 j: 0"
+$log.entry[31] = "09:30:43 Distance: 0.27202"
+$log.entry[32] = "09:30:44 Detail found"
+$log.entry[33] = "09:30:44 Command close gripper 1"
+$log.entry[34] = "09:31:12 DEBUG mod activated. Get data from Robot TP"
+$log.entry[35] = "09:31:12 Put workpiece. Shelf: 1 Tool: 1 ID: 16"
+$log.entry[36] = "09:31:12 Tool #1 set"
+$log.entry[37] = "09:31:12 ID: 16 --> i: 3 j: 0"
+$log.entry[38] = "09:31:18 Command open gripper 1"
+$log.entry[39] = "09:31:20 Command close gripper 1"
+$log.entry[40] = "09:32:43 Main program executed"
+$log.entry[41] = "09:32:43 Performing safe movement to home position"
+$log.entry[42] = "09:32:43 Safe move from shelf"
+$log.entry[43] = "09:35:30 Main program executed"
+$log.entry[44] = "09:35:31 Performing safe movement to home position"
+$log.entry[45] = "09:35:31 Safe move from shelf"
+$log.entry[46] = "09:35:53 Robot in home position"
+$log.entry[47] = "09:36:02 State 0: Initialization"
+$log.entry[48] = "09:36:02 Waiting for task start"
+$log.entry[49] = "09:39:13 State 1: Check ready shelves"
+$log.entry[50] = "09:39:13 Shelf 1 is ready. Request data!"
+$log.entry[51] = "09:39:13 DEBUG mod activated. Get data from Robot TP"
+$log.entry[52] = "09:39:13 State 100: Decision making module"
+$log.entry[53] = "09:39:14 State 2: Open shelf"
+$log.entry[54] = "09:39:14 Opening shelf 1"
+$log.entry[55] = "09:39:17 Tool #3 set"
+$log.entry[56] = "09:39:17 Command close gripper 1"
+$log.entry[57] = "09:39:17 Command close gripper 2"
+$log.entry[58] = "09:39:26 Request unlock shelf 1"
+$log.entry[59] = "09:39:26 Shelf 1 successfully unlocked"
+$log.entry[60] = "09:39:38 State 100: Decision making module"
+$log.entry[61] = "09:39:38 State 3: Pick workpiece from shelf"
+$log.entry[62] = "09:39:38 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[63] = "09:39:38 Tool #1 set"
+$log.entry[64] = "09:39:38 Command open gripper 1"
+$log.entry[65] = "09:39:38 ID: 1 --> i: 0 j: 0"
+$log.entry[66] = "09:40:23 Distance: 0.01868"
+$log.entry[67] = "09:40:23 Detail found"
+$log.entry[68] = "09:40:24 Command close gripper 1"
+$log.entry[69] = "09:40:24 State 100: Decision making module"
+$log.entry[70] = "09:40:24 State 4: Move to CNC"
+$log.entry[71] = "09:40:24 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[72] = "09:40:25 Tool #1 set"
+$log.entry[73] = "09:48:15 Main program executed"
+$log.entry[74] = "09:48:15 Performing safe movement to home position"
+$log.entry[75] = "09:48:15 Safe move from shelf"
+$log.entry[76] = "09:48:42 Robot in home position"
+$log.entry[77] = "09:49:23 State 0: Initialization"
+$log.entry[78] = "09:49:23 Waiting for task start"
+$log.entry[79] = "09:49:26 State 1: Check ready shelves"
+$log.entry[80] = "09:49:26 Shelf 1 is ready. Request data!"
+$log.entry[81] = "09:49:26 DEBUG mod activated. Get data from Robot TP"
+$log.entry[82] = "09:49:26 State 100: Decision making module"
+$log.entry[83] = "09:49:26 State 2: Open shelf"
+$log.entry[84] = "09:49:27 Opening shelf 1"
+$log.entry[85] = "09:51:23 Tool #3 set"
+$log.entry[86] = "09:51:23 Command close gripper 1"
+$log.entry[87] = "09:51:23 Command close gripper 2"
+$log.entry[88] = "09:51:31 Request unlock shelf 1"
+$log.entry[89] = "09:51:32 Shelf 1 successfully unlocked"
+$log.entry[90] = "09:57:25 State 100: Decision making module"
+$log.entry[91] = "09:57:25 State 3: Pick workpiece from shelf"
+$log.entry[92] = "09:57:25 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[93] = "09:57:25 Tool #1 set"
+$log.entry[94] = "09:57:25 Command open gripper 1"
+$log.entry[95] = "09:57:25 ID: 1 --> i: 0 j: 0"
+$log.entry[96] = "09:57:59 Distance: 0.01231"
+$log.entry[97] = "09:57:59 Detail found"
+$log.entry[98] = "09:58:00 Command close gripper 1"
+$log.entry[99] = "09:58:00 State 100: Decision making module"
+$log.entry[100] = "09:58:00 State 4: Move to CNC"
+$log.entry[101] = "09:58:00 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[102] = "09:58:04 Tool #1 set"
+$log.entry[103] = "10:00:46 Main program executed"
+$log.entry[104] = "10:00:46 Command close gripper 1"
+$log.entry[105] = "10:00:46 Command close gripper 2"
+$log.entry[106] = "10:00:46 Performing safe movement to home position"
+$log.entry[107] = "10:00:47 Safe move from shelf"
+$log.entry[108] = "10:02:23 Main program executed"
+$log.entry[109] = "10:02:23 Command close gripper 1"
+$log.entry[110] = "10:02:25 Command close gripper 2"
+$log.entry[111] = "10:02:28 Performing safe movement to home position"
+$log.entry[112] = "10:02:29 Safe move from shelf"
+$log.entry[113] = "10:05:36 Main program executed"
+$log.entry[114] = "10:05:36 Command close gripper 1"
+$log.entry[115] = "10:05:36 Command close gripper 2"
+$log.entry[116] = "10:05:36 Robot is already at home. Skip safe.home program"
+$log.entry[117] = "10:05:36 State 0: Initialization"
+$log.entry[118] = "10:05:36 Waiting for task start"
+$log.entry[119] = "10:05:36 State 1: Check ready shelves"
+$log.entry[120] = "10:05:36 Shelf 2 is ready. Request data!"
+$log.entry[121] = "10:05:37 DEBUG mod activated. Get data from Robot TP"
+$log.entry[122] = "10:05:37 State 100: Decision making module"
+$log.entry[123] = "10:05:37 State 2: Open shelf"
+$log.entry[124] = "10:05:37 Opening shelf 2"
+$log.entry[125] = "10:05:41 Tool #3 set"
+$log.entry[126] = "10:05:41 Command close gripper 1"
+$log.entry[127] = "10:05:41 Command close gripper 2"
+$log.entry[128] = "10:05:59 Request unlock shelf 2"
+$log.entry[129] = "10:09:24 Shelf 2 successfully unlocked"
+$log.entry[130] = "10:10:00 State 100: Decision making module"
+$log.entry[131] = "10:10:00 State 3: Pick workpiece from shelf"
+$log.entry[132] = "10:10:00 Pick workpiece. Shelf: 2 Tool: 1 ID: 1"
+$log.entry[133] = "10:10:00 Tool #1 set"
+$log.entry[134] = "10:10:00 Command open gripper 1"
+$log.entry[135] = "10:10:00 ID: 1 --> i: 0 j: 0"
+$log.entry[136] = "10:10:45 Distance: 0.02392"
+$log.entry[137] = "10:10:45 Detail found"
+$log.entry[138] = "10:10:46 Command close gripper 1"
+$log.entry[139] = "10:10:46 State 100: Decision making module"
+$log.entry[140] = "10:10:46 State 4: Move to CNC"
+$log.entry[141] = "10:10:46 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[142] = "10:10:47 Tool #1 set"
+$log.entry[143] = "10:10:56 Waiting for CNC ready"
+$log.entry[144] = "10:11:20 CNC ready signal received"
+$log.entry[145] = "10:11:31 Robot inside CNC"
+$log.entry[146] = "10:11:31 State 100: Decision making module"
+$log.entry[147] = "10:11:51 Main program executed"
+$log.entry[148] = "10:11:51 Command close gripper 1"
+$log.entry[149] = "10:11:51 Command close gripper 2"
+$log.entry[150] = "10:11:51 Performing safe movement to home position"
+$log.entry[151] = "10:11:52 Safe move from CNC"
+$log.entry[152] = "10:12:30 Robot in home position"
+$log.entry[153] = "10:12:40 State 0: Initialization"
+$log.entry[154] = "10:12:40 Waiting for task start"
+$log.entry[155] = "10:16:21 Speed 1 was applied"
+$log.entry[156] = "10:18:32 State 1: Check ready shelves"
+$log.entry[157] = "10:18:33 Shelf 2 is ready. Request data!"
+$log.entry[158] = "10:18:33 Request data from PLC"
+$log.entry[159] = "10:18:33 State 100: Decision making module"
+$log.entry[160] = "10:18:33 State 2: Open shelf"
+$log.entry[161] = "10:18:33 Opening shelf 2"
+$log.entry[162] = "10:19:40 Tool #3 set"
+$log.entry[163] = "10:19:40 Command close gripper 1"
+$log.entry[164] = "10:19:40 Command close gripper 2"
+$log.entry[165] = "10:19:57 Speed 5 was applied"
+$log.entry[166] = "10:20:10 Request unlock shelf 2"
+$log.entry[167] = "10:20:11 Shelf 2 successfully unlocked"
+$log.entry[168] = "10:20:22 State 100: Decision making module"
+$log.entry[169] = "10:20:22 State 3: Pick workpiece from shelf"
+$log.entry[170] = "10:20:22 Pick workpiece. Shelf: 2 Tool: 1 ID: 1"
+$log.entry[171] = "10:20:23 Tool #1 set"
+$log.entry[172] = "10:20:23 Command open gripper 1"
+$log.entry[173] = "10:20:23 ID: 1 --> i: 0 j: 0"
+$log.entry[174] = "10:20:32 Distance: 0.02345"
+$log.entry[175] = "10:20:32 Detail found"
+$log.entry[176] = "10:20:33 Command close gripper 1"
+$log.entry[177] = "10:20:33 State 100: Decision making module"
+$log.entry[178] = "10:20:33 State 4: Move to CNC"
+$log.entry[179] = "10:20:33 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[180] = "10:20:35 Tool #1 set"
+$log.entry[181] = "10:20:44 Waiting for CNC ready"
+$log.entry[182] = "10:20:44 CNC ready signal received"
+$log.entry[183] = "10:20:49 Speed 1 was applied"
+$log.entry[184] = "10:20:52 Robot inside CNC"
+$log.entry[185] = "10:20:52 State 100: Decision making module"
+$log.entry[186] = "10:20:52 State 5: Put workpiece to CNC"
+$log.entry[187] = "10:20:52 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[188] = "10:20:52 Tool #1 set"
+$log.entry[189] = "10:23:04 Tool #1 set"
+$log.entry[190] = "10:26:33 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[191] = "10:26:33 Tool #1 set"
+$log.entry[192] = "10:26:54 Robot open chuck first"
+$log.entry[193] = "10:26:55 Command open gripper 1"
+$log.entry[194] = "10:26:58 Close CNC chuck 1"
+$log.entry[195] = "10:27:03 CNC chuck 1 closed"
+$log.entry[196] = "10:28:35 Main program executed"
+$log.entry[197] = "10:28:35 Command close gripper 1"
+$log.entry[198] = "10:28:37 Command close gripper 2"
+$log.entry[199] = "10:28:38 Performing safe movement to home position"
+$log.entry[200] = "10:28:39 Safe move from CNC"
+$log.entry[201] = "10:28:54 Speed 5 was applied"
+$log.entry[202] = "10:29:39 Main program executed"
+$log.entry[203] = "10:29:39 Command close gripper 1"
+$log.entry[204] = "10:29:39 Command close gripper 2"
+$log.entry[205] = "10:29:40 Move robot from HOME to HOME STANDBY"
+$log.entry[206] = "10:29:40 State 0: Initialization"
+$log.entry[207] = "10:29:43 Waiting for task start"
+$log.entry[208] = "10:29:44 State 1: Check ready shelves"
+$log.entry[209] = "10:29:44 Shelf 1 is ready. Request data!"
+$log.entry[210] = "10:29:44 Request data from PLC"
+$log.entry[211] = "10:29:44 State 100: Decision making module"
+$log.entry[212] = "10:29:44 State 2: Open shelf"
+$log.entry[213] = "10:29:44 Opening shelf 1"
+$log.entry[214] = "10:29:48 Tool #3 set"
+$log.entry[215] = "10:29:48 Command close gripper 1"
+$log.entry[216] = "10:29:48 Command close gripper 2"
+$log.entry[217] = "10:29:57 Request unlock shelf 1"
+$log.entry[218] = "10:29:57 Shelf 1 successfully unlocked"
+$log.entry[219] = "10:30:08 State 100: Decision making module"
+$log.entry[220] = "10:31:12 State 3: Pick workpiece from shelf"
+$log.entry[221] = "10:31:12 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[222] = "10:31:12 Tool #1 set"
+$log.entry[223] = "10:31:12 Command open gripper 1"
+$log.entry[224] = "10:31:12 ID: 1 --> i: 0 j: 0"
+$log.entry[225] = "10:31:21 Distance: 0.01767"
+$log.entry[226] = "10:31:21 Detail found"
+$log.entry[227] = "10:31:22 Command close gripper 1"
+$log.entry[228] = "10:31:22 State 100: Decision making module"
+$log.entry[229] = "10:31:22 State 4: Move to CNC"
+$log.entry[230] = "10:31:22 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[231] = "10:31:24 Tool #1 set"
+$log.entry[232] = "10:31:33 Waiting for CNC ready"
+$log.entry[233] = "10:31:33 CNC ready signal received"
+$log.entry[234] = "10:31:36 Robot inside CNC"
+$log.entry[235] = "10:31:36 State 100: Decision making module"
+$log.entry[236] = "10:31:36 State 5: Put workpiece to CNC"
+$log.entry[237] = "10:31:36 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[238] = "10:31:36 Tool #1 set"
+$log.entry[239] = "10:31:39 Robot open chuck first"
+$log.entry[240] = "10:31:39 Command open gripper 1"
+$log.entry[241] = "10:31:40 Close CNC chuck 1"
+$log.entry[242] = "10:31:49 CNC chuck 1 closed"
+$log.entry[243] = "10:31:50 Command close gripper 1"
+$log.entry[244] = "10:31:51 State 100: Decision making module"
+$log.entry[245] = "10:31:51 State 7: Move outside CNC"
+$log.entry[246] = "10:31:51 Move outside CNC. Tool: 2 Chuck: 2"
+$log.entry[247] = "10:31:51 Tool #2 set"
+$log.entry[248] = "10:31:54 Robot outside CNC"
+$log.entry[249] = "10:31:54 State 100: Decision making module"
+$log.entry[250] = "10:31:54 State 8: Execute MFINISH"
+$log.entry[251] = "10:31:54 State 100: Decision making module"
+$log.entry[252] = "10:31:54 State 4: Move to CNC"
+$log.entry[253] = "10:31:54 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[254] = "10:31:54 Tool #1 set"
+$log.entry[255] = "10:32:03 Waiting for CNC ready"
+$safe.flag = "cnc.out"
 .END
