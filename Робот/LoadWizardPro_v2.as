@@ -584,6 +584,7 @@ N_INT110    "s.pr.tch.air"
 63,2,"  PRIME","  TEST","  PICK","",10,4,3,2105,0
 64,8,"hmi.wp.id"," WORKPIECE","    ID",10,8,3,1,0
 70,2,"  PRIME","  TEST","  PUT","",10,4,3,2107,0
+76,2,""," PLC DATA","","",10,4,11,2006,0
 77,2,"","   MAIN","<---------","",10,4,11,2001,0
 78,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
 79,2,"","   TEACH","    CNC","",10,4,3,2004,0
@@ -1126,6 +1127,7 @@ N_INT110    "s.pr.tch.air"
   ACCURACY 50 ALWAYS
   CALL set.tool (.tool.no)
   CALL calc.rotation (.tool.no, .chuck.no)
+  CALL chuck.open (.chuck.no, 0.1)
   ;
   ; Calculate shifts
   .c1 = wp.in.length + grip.jaws.body[.tool.no] + cnc.jaws.body[.chuck.no]
@@ -1150,12 +1152,12 @@ N_INT110    "s.pr.tch.air"
   ;
   IF cnc.first THEN
     CALL log ("CNC close chuck first")
-    CALL chuck.close (.chuck.no, 0.75)
+    CALL chuck.close (.chuck.no, 0.1)
     CALL gripper.open (.tool.no, 0.75, st3.reverse)
   ELSE
     CALL log ("Robot open chuck first")
     CALL gripper.open (.tool.no, 0.75, st3.reverse)
-    CALL chuck.close (.chuck.no, 0.75)
+    CALL chuck.close (.chuck.no, 0.1)
   END
   ;
   SIGNAL s.mfinish.req
@@ -1214,7 +1216,7 @@ N_INT110    "s.pr.tch.air"
   BREAK
   TWAIT 0.1
   CALL gripper.close (.tool.no, 0.75, st6.reverse)
-  CALL chuck.open (.chuck.no, 0.75)
+  CALL chuck.open (.chuck.no, 0.1)
   ;
   gripper.id[.tool.no] = cnc.id[.chuck.no]
   cnc.id[.chuck.no] = 0
@@ -2816,7 +2818,11 @@ N_INT110    "s.pr.tch.air"
   autostart.pc ON
   ERRSTART.PC ON  ;
   ;
-  IFPWPRINT 8, 1, 1, 5, 10 = "Robot: RS013N S/N: C2615", "Controller: F60 S/N: C11059", " ", "Powered by Robowizard Co.Ltd."
+  .cont.no = SYSDATA(CONT.NO)
+  .robot.no = SYSDATA(ZROB.MGFNO)
+  .$robot.str = "Robot: RS013N S/N: C" + $ENCODE(/L, .robot.no)
+  .$cont.str = "Controller: F60 S/N: C" + $ENCODE(/L, .cont.no)
+  IFPWPRINT 8, 1, 1, 5, 10 = .$robot.str, .$cont.str, " ", "Powered by Robowizard Co.Ltd."
   ;
   CALL set.io.pc
   CALL set.vars.pc
@@ -2846,9 +2852,9 @@ N_INT110    "s.pr.tch.air"
 	; shelf.pick.ovlp
 	; shelf.put.ovlp
 	; @@@ CONNECTION @@@
-	; Standard 1
-	; 192.168.0.2
-	; 23
+	; KROSET R01
+	; 127.0.0.1
+	; 9105
 	; @@@ PROGRAM @@@
 	; Group:Air:1
 	; 1:air.blow:F
