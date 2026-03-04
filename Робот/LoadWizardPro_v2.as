@@ -208,6 +208,102 @@ N_WX237    "ei.robot.speed[12]"
 N_WX238    "ei.robot.speed[13]"
 N_WX239    "ei.robot.speed[14]"
 N_WX240    "ei.robot.speed[15]"
+N_WX241    "ei.pr.pick.shlf[0]"
+N_WX242    "ei.pr.pick.shlf[1]"
+N_WX243    "ei.pr.pick.shlf[2]"
+N_WX244    "ei.pr.pick.shlf[3]"
+N_WX245    "ei.pr.pick.shlf[4]"
+N_WX246    "ei.pr.pick.shlf[5]"
+N_WX247    "ei.pr.pick.shlf[6]"
+N_WX248    "ei.pr.pick.shlf[7]"
+N_WX249    "ei.pr.put.shlf[0]"
+N_WX250    "ei.pr.put.shlf[1]"
+N_WX251    "ei.pr.put.shlf[2]"
+N_WX252    "ei.pr.put.shlf[3]"
+N_WX253    "ei.pr.put.shlf[4]"
+N_WX254    "ei.pr.put.shlf[5]"
+N_WX255    "ei.pr.put.shlf[6]"
+N_WX256    "ei.pr.put.shlf[7]"
+N_WX257    "ei.pr.pick.cnc[0]"
+N_WX258    "ei.pr.pick.cnc[1]"
+N_WX259    "ei.pr.pick.cnc[2]"
+N_WX260    "ei.pr.pick.cnc[3]"
+N_WX261    "ei.pr.pick.cnc[4]"
+N_WX262    "ei.pr.pick.cnc[5]"
+N_WX263    "ei.pr.pick.cnc[6]"
+N_WX264    "ei.pr.pick.cnc[7]"
+N_WX265    "ei.pr.put.cnc[0]"
+N_WX266    "ei.pr.put.cnc[1]"
+N_WX267    "ei.pr.put.cnc[2]"
+N_WX268    "ei.pr.put.cnc[3]"
+N_WX269    "ei.pr.put.cnc[4]"
+N_WX270    "ei.pr.put.cnc[5]"
+N_WX271    "ei.pr.put.cnc[6]"
+N_WX272    "ei.pr.put.cnc[7]"
+N_WX273    "ei.t.cnc.open[1,0]"
+N_WX274    "ei.t.cnc.open[1,1]"
+N_WX275    "ei.t.cnc.open[1,2]"
+N_WX276    "ei.t.cnc.open[1,3]"
+N_WX277    "ei.t.cnc.open[1,4]"
+N_WX278    "ei.t.cnc.open[1,5]"
+N_WX279    "ei.t.cnc.open[1,6]"
+N_WX280    "ei.t.cnc.open[1,7]"
+N_WX281    "ei.t.cnc.open[2,0]"
+N_WX282    "ei.t.cnc.open[2,1]"
+N_WX283    "ei.t.cnc.open[2,2]"
+N_WX284    "ei.t.cnc.open[2,3]"
+N_WX285    "ei.t.cnc.open[2,4]"
+N_WX286    "ei.t.cnc.open[2,5]"
+N_WX287    "ei.t.cnc.open[2,6]"
+N_WX288    "ei.t.cnc.open[2,7]"
+N_WX289    "ei.t.cnc.close[1,0]"
+N_WX290    "ei.t.cnc.close[1,1]"
+N_WX291    "ei.t.cnc.close[1,2]"
+N_WX292    "ei.t.cnc.close[1,3]"
+N_WX293    "ei.t.cnc.close[1,4]"
+N_WX294    "ei.t.cnc.close[1,5]"
+N_WX295    "ei.t.cnc.close[1,6]"
+N_WX296    "ei.t.cnc.close[1,7]"
+N_WX298    "ei.t.cnc.close[2,1]"
+N_WX299    "ei.t.cnc.close[2,2]"
+N_WX300    "ei.t.cnc.close[2,3]"
+N_WX301    "ei.t.cnc.close[2,4]"
+N_WX302    "ei.t.cnc.close[2,5]"
+N_WX303    "ei.t.cnc.close[2,6]"
+N_WX304    "ei.t.cnc.close[2,0]"
+N_WX305    "ei.t.grip.op[1,0]"
+N_WX321    "ei.t.grip.cl[1,0]"
+N_WX322    "ei.t.grip.cl[1,1]"
+N_WX323    "ei.t.grip.cl[1,2]"
+N_WX324    "ei.t.grip.cl[1,3]"
+N_WX325    "ei.t.grip.cl[1,4]"
+N_WX326    "ei.t.grip.cl[1,5]"
+N_WX327    "ei.t.grip.cl[1,6]"
+N_WX328    "ei.t.grip.cl[1,7]"
+N_WX329    "ei.t.grip.cl[2,0]"
+N_WX330    "ei.t.grip.cl[2,1]"
+N_WX331    "ei.t.grip.cl[2,2]"
+N_WX332    "ei.t.grip.cl[2,3]"
+N_WX333    "ei.t.grip.cl[2,4]"
+N_WX334    "ei.t.grip.cl[2,5]"
+N_WX335    "ei.t.grip.cl[2,6]"
+N_WX336    "ei.t.grip.cl[2,7]"
+N_WX337    "ei.xmove.spd[0]"
+N_WX338    "ei.xmove.spd[1]"
+N_WX339    "ei.xmove.spd[2]"
+N_WX340    "ei.xmove.spd[3]"
+N_WX341    "ei.xmove.spd[4]"
+N_WX342    "ei.xmove.spd[5]"
+N_WX343    "ei.xmove.spd[6]"
+N_WX344    "ei.xmove.spd[7]"
+N_WX345    "ei.blow.spd[0]"
+N_WX346    "ei.blow.spd[1]"
+N_WX347    "ei.blow.spd[2]"
+N_WX348    "ei.blow.spd[3]"
+N_WX349    "ei.blow.spd[4]"
+N_WX350    "ei.blow.spd[5]"
+N_WX351    "ei.blow.spd[6]"
+N_WX352    "ei.blow.spd[7]"
 N_WX652    "d.air.st6"
 N_WX653    "d.air.st5"
 N_WX654    "d.cnc.first"
@@ -542,6 +638,8 @@ N_INT107    "s.pr.tst.put"
 N_INT108    "s.pr.cnc.appr"
 N_INT109    "s.pr.cnc.tch"
 N_INT110    "s.pr.tch.air"
+N_INT111    "s.pr.tst.cncpi"
+N_INT112    "s.pr.tst.cncpu"
 .END
 .INTER_PANEL_D
 0,9,1,6,9
@@ -592,10 +690,12 @@ N_INT110    "s.pr.tch.air"
 82,2,"","  PRIME","   HOME","",10,4,8,2106,0
 83,2,"","   TEACH","   DATA","",10,4,3,2007,0
 84,2,"  PRIME","  TEACH","  CNC","",10,4,3,2109,0
+86,2,"  PRIME","  CNC","  TEST","  PICK",10,4,3,2111,0
 88,4,2,"TEACH TOOL","TOOL 1","TOOL 2","",10,4,4,2102,0,0
 89,4,2,"GRIPPER 1","OPEN","CLOSE","",10,4,4,33,34,0
 90,4,2,"GRIPPER 2","OPEN","CLOSE","",10,4,4,35,36,0
 91,2,"  PRIME","  TEACH","  CNC","  APPROACH",10,4,3,2108,0
+93,2,"  PRIME","  CNC","  TEST","  PUT",10,4,3,2112,0
 95,4,2,"TEACH CNC","CHUCK 1","CHUCK 2","",10,4,4,2103,0,0
 96,2,"","  CHUCK 1","   OPEN","",10,4,15,97,0
 97,2,"","  CHUCK 2","   OPEN","",10,4,15,99,0
@@ -607,6 +707,7 @@ N_INT110    "s.pr.tch.air"
 106,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
 107,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 108,2,"","   TEACH","   SHELF","",10,4,3,2005,0
+109,2,""," PLC DATA","","",10,4,11,2006,0
 110,2,"","  PRIME","   HOME","",10,4,8,2106,0
 111,2,"","   TEACH","   DATA","",10,4,3,2007,0
 112,2,"  PRIME","  TEACH","  SHELF","",10,4,3,2100,0
@@ -617,6 +718,7 @@ N_INT110    "s.pr.tch.air"
 117,4,2,"SHELF 3","","UNLOCK","",10,4,4,0,135,0
 118,4,2,"SHELF 4","","UNLOCK","",10,4,4,0,136,0
 119,2,"  PRIME","  TEST","  SHELF","",10,4,3,2101,0
+132,2,""," PLC DATA","","",10,4,11,2006,0
 133,2,"","   MAIN","<---------","",10,4,11,2001,0
 134,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
 135,2,"","   TEACH","   PLATE","",10,4,3,2003,0
@@ -644,7 +746,11 @@ N_INT110    "s.pr.tch.air"
 158,1,"Air after","","","   pick",10,15,4,10,1652,0
 159,7,"Plate DX","",10,15,4,0,0,1737,16,1
 160,7,"Plate DY","",10,15,4,0,0,1721,16,1
-161,2,"","  DEBUG","","",10,4,11,2008,0
+161,2,"","   MAIN","<---------","",10,4,11,2001,0
+162,2,"","  DEBUG","","",10,4,11,2008,0
+163,2,"","   TEACH","   PLATE","",10,4,3,2003,0
+164,2,"","   TEACH","    CNC","",10,4,3,2004,0
+165,2,"","   TEACH","   SHELF","",10,4,3,2005,0
 166,7,"Workpiece","count",10,15,2,0,0,1665,8,1
 167,7,"Plate","even shift",10,15,4,0,0,1705,16,1
 168,8,"hmi.gc1.full","ROB GRIP 1","JAW FULL",10,6,5,2,0
@@ -670,7 +776,7 @@ N_INT110    "s.pr.tch.air"
 188,8,"hmi.plate.oy","PLATE OY","  SHIFT",10,5,5,2,0
 189,2,"","   MAIN","<---------","",10,4,11,2001,0
 190,2,"","   TEACH","   PLATE","",10,4,3,2003,0
-191,2,"","   TEACH","    CNC","",10,4,3,2005,0
+191,2,"","   TEACH","    CNC","",10,4,3,2004,0
 192,2,"","   TEACH","   SHELF","",10,4,3,2005,0
 194,8,"hmi.ab.bf.put","AIR BLOW","BEFORE PUT",10,13,4,2,0
 195,8,"hmi.ab.af.pick","AIR BLOW","AFTER PICK",10,13,4,2,0
@@ -702,7 +808,7 @@ N_INT110    "s.pr.tch.air"
 "TEACH PLATE",1
 "TEACH CNC",1
 "TEACH SHELF",1
-"",0
+"PLC DATA",1
 "TEACH DATA",1
 "DEBUG",1
 "",0
@@ -722,12 +828,13 @@ N_INT110    "s.pr.tch.air"
   .$temp = "Air blow for chuck:" + $ENCODE (.chuck.no)
   CALL log(.$temp)
   ;
-  SPEED 30 ALWAYS
+  SPEED 15 ALWAYS
   ACCURACY 5 ALWAYS
   ;
   JMOVE #air.safe[.chuck.no]
   ;
-  SIGNAL air.blow.on
+  BREAK
+  SIGNAL air.blow.on, -air.blow.off
   ;
   SPEED air.blow.speed MM/S ALWAYS
   LMOVE #air.point[.chuck.no, 1]
@@ -747,7 +854,7 @@ N_INT110    "s.pr.tch.air"
   ;LMOVE #air.point[.chuck, 8]
   ;TWAIT air.wait.time
   BREAK
-  SIGNAL -air.blow.on
+  SIGNAL -air.blow.on, air.blow.off
   ;
   SPEED 30 ALWAYS
   LMOVE #air.safe[.chuck.no]
@@ -814,7 +921,7 @@ N_INT110    "s.pr.tch.air"
     SVALUE "wp.safe":
       CALL log ("Safe move from shelf")
       TDRAW 0, 0, -10
-      LMOVE #wp.safe[current.tool]
+      JMOVE #wp.safe[current.tool]
     SVALUE "cnc.out":
       CALL log ("Safe move from CNC")
       LMOVE #cnc.out
@@ -873,8 +980,8 @@ N_INT110    "s.pr.tch.air"
   .x = DX (.x.pick)
   .y = DY (.x.pick)
   .z = DZ (.approach)
-  POINT/X .approach = TRANS (.x)
-  POINT/Y .approach = TRANS (0, .y)
+  ;POINT/X .approach = TRANS (.x)
+  ;POINT/Y .approach = TRANS (0, .y)
   POINT/Z .approach = TRANS (0, 0, .z - 180 * (.shelf.no - 1))
   POINT .#approach = .approach, #wp.safe[.tool.no]
   ; Approach
@@ -910,7 +1017,7 @@ N_INT110    "s.pr.tch.air"
     SIGNAL s.search.fail
   ELSE
     CALL log ("Detail found")
-    CALL gripper.close (.tool.no, 0.75, st3.reverse)
+    CALL gripper.close (.tool.no, grip.cl.tmr[.tool.no], st3.reverse)
     gripper.id[.tool.no] = .wp.no
   END
   ;
@@ -1009,8 +1116,8 @@ N_INT110    "s.pr.tch.air"
   .x = DX (.x.put)
   .y = DY (.x.put)
   .z = DZ (.approach)
-  POINT/X .approach = TRANS (.x)
-  POINT/Y .approach = TRANS (0, .y)
+  ;POINT/X .approach = TRANS (.x)
+  ;POINT/Y .approach = TRANS (0, .y)
   POINT/Z .approach = TRANS (0, 0, .z - 180 * (.shelf.no - 1))
   POINT .#approach = .approach, #wp.safe[.tool.no]
   ; Approach
@@ -1029,7 +1136,7 @@ N_INT110    "s.pr.tch.air"
   XMOVE .x.put TILL gripper.sensor[.tool.no]
   BREAK
   TWAIT 0.1
-  CALL gripper.open (.tool.no, 0.75, st6.reverse)
+  CALL gripper.open (.tool.no, grip.op.tmr[.tool.no], st6.reverse)
   ;
   gripper.id[.tool.no] = 0
   processed.wp = processed.wp + 1
@@ -1127,12 +1234,12 @@ N_INT110    "s.pr.tch.air"
   ACCURACY 50 ALWAYS
   CALL set.tool (.tool.no)
   CALL calc.rotation (.tool.no, .chuck.no)
-  CALL chuck.open (.chuck.no, 0.1)
+  CALL chuck.open (.chuck.no, 0)
   ;
   ; Calculate shifts
   .c1 = wp.in.length + grip.jaws.body[.tool.no] + cnc.jaws.body[.chuck.no]
   .dz = .c1 - cnc.put.ovlp ;
-  .c2 = cnc.jaws.full[.tool.no] - cnc.jaws.body[.tool.no]
+  .c2 = cnc.jaws.full[.chuck.no] - cnc.jaws.body[.chuck.no]
   .z.appro = .c2 + cnc.put.ovlp + 10
   ;
   ; Calculate points
@@ -1152,12 +1259,12 @@ N_INT110    "s.pr.tch.air"
   ;
   IF cnc.first THEN
     CALL log ("CNC close chuck first")
-    CALL chuck.close (.chuck.no, 0.1)
-    CALL gripper.open (.tool.no, 0.75, st3.reverse)
+    CALL chuck.close (.chuck.no, cnc.cl.tmr[.chuck.no])
+    CALL gripper.open (.tool.no, grip.op.tmr[.tool.no], st3.reverse)
   ELSE
     CALL log ("Robot open chuck first")
-    CALL gripper.open (.tool.no, 0.75, st3.reverse)
-    CALL chuck.close (.chuck.no, 0.1)
+    CALL gripper.open (.tool.no, grip.op.tmr[.tool.no], st3.reverse)
+    CALL chuck.close (.chuck.no, cnc.cl.tmr[.chuck.no])
   END
   ;
   SIGNAL s.mfinish.req
@@ -1166,7 +1273,7 @@ N_INT110    "s.pr.tch.air"
   ;
   SPEED 20
   ACCURACY 0.1
-  LAPPRO .x.put, .z.appro + cnc.jaws.full[.tool.no]
+  LAPPRO .x.put, .z.appro
   BREAK
   LMOVE #cnc.in
   CALL gripper.close (.tool.no, 0, st3.reverse)
@@ -1188,7 +1295,8 @@ N_INT110    "s.pr.tch.air"
   ; Calculate shifts
   .c1 = wp.out.length + grip.jaws.body[.tool.no] + cnc.jaws.body[.chuck.no]
   .dz = .c1 - cnc.pick.ovlp ;
-  .c2 = cnc.jaws.full[.tool.no] - cnc.jaws.body[.tool.no]
+  .c2 = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no]
+  ;.c3 = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no]
   .z.appro = .c2 + cnc.pick.ovlp + 10
   ;.z.appro.pick = grip.jaws.body[.tool.no]
   ;
@@ -1211,19 +1319,19 @@ N_INT110    "s.pr.tch.air"
     RETURN
   END
   ;
-  SPEED put.speed MM/S
+  SPEED pick.speed MM/S
   XMOVE .x.pick TILL gripper.sensor[.tool.no]
   BREAK
   TWAIT 0.1
-  CALL gripper.close (.tool.no, 0.75, st6.reverse)
-  CALL chuck.open (.chuck.no, 0.1)
+  CALL gripper.close (.tool.no, grip.cl.tmr[.tool.no], st6.reverse)
+  CALL chuck.open (.chuck.no, cnc.op.tmr[.chuck.no])
   ;
   gripper.id[.tool.no] = cnc.id[.chuck.no]
   cnc.id[.chuck.no] = 0
   ;
   SPEED 20
   ACCURACY 0.1
-  LAPPRO .x.pick, .z.appro + cnc.jaws.full[.tool.no]
+  LAPPRO .x.pick, cnc.jaws.full[.tool.no] + 10
   BREAK
   LMOVE #cnc.in
   ;
@@ -1278,20 +1386,32 @@ N_INT110    "s.pr.tch.air"
   LMOVE #cnc.out.base
   ;
 .END
-.PROGRAM cnc.test ()
+.PROGRAM cnc.test.pick ()
   ;
-  CALL cnc.put (1, 1)
-  CALL cnc.pick (2, 2)
-  LMOVE #cnc.out
-  CALL cnc.put (1, 1)
-  CALL cnc.pick (2, 1)
-  LMOVE #cnc.out
-  
+  IF SIG (s.hmi.tool.1) THEN
+    .tool = 1
+  ELSE
+    .tool = 2
+  END
+  ;
+  IF SIG (s.hmi.chuck.1) THEN
+    .chuck = 1
+  ELSE
+    .chuck = 2
+  END
+  ;
+  CALL get.task.data
+  CALL cnc.pick (.tool, .chuck)
   ;
 .END
 .PROGRAM chuck.open (.chuck.no,.time)
   ;
   CALL log ("Open CNC chuck" + $ENCODE (.chuck.no))
+  IF SIG (ei.cnc.ch.opd[.chuck.no]) THEN
+    CALL log ("CNC chuck" + $ENCODE (.chuck.no) + " already opened")
+    RETURN
+  END
+  ;
   SIGNAL eo.cnc.ch.open[.chuck.no]
   SWAIT ei.cnc.ch.opd[.chuck.no]
   CALL log ("CNC chuck" + $ENCODE (.chuck.no) + " opened")
@@ -1308,6 +1428,23 @@ N_INT110    "s.pr.tch.air"
   TWAIT .time
   SIGNAL -eo.cnc.ch.close[.chuck.no]
   ;
+.END
+.PROGRAM cnc.test.put ()
+  ;
+  IF SIG (s.hmi.tool.1) THEN
+    .tool = 1
+  ELSE
+    .tool = 2
+  END
+  ;
+  IF SIG (s.hmi.chuck.1) THEN
+    .chuck = 1
+  ELSE
+    .chuck = 2
+  END
+  ;
+  CALL get.task.data
+  CALL cnc.put (.tool, .chuck)
 .END
 .PROGRAM gripper.is.open (.tool.no,.reverse)
   ; Check if tool is opened
@@ -1341,6 +1478,10 @@ N_INT110    "s.pr.tch.air"
 .END
 .PROGRAM gripper.open (.gripper.no,.time,.reverse)
   ;
+  IF SIG(ei.check.grip) AND SIG(gripper.opened[.gripper.no]) THEN
+    CALL log("Gripper" + $ENCODE(.gripper.no) + "already opened")
+    RETURN
+  END
   IF NOT .reverse THEN
     SIGNAL gripper.open[.gripper.no], -gripper.close[.gripper.no]
   ELSE
@@ -1589,7 +1730,7 @@ N_INT110    "s.pr.tch.air"
   SIGNAL -s.st6.air.req
   SIGNAL -s.mfinish.req
   SIGNAL -s.inside.cnc
-  current.shelf = 1
+  current.shelf = 0
   ;
   state = 1
   RETURN
@@ -1604,6 +1745,10 @@ N_INT110    "s.pr.tch.air"
       RETURN
     END
     ;
+    current.shelf = current.shelf + 1
+    IF current.shelf == 5 THEN
+      current.shelf = 1
+    END
     ;
     IF SIG (ei.shelf.ready[current.shelf]) THEN
       CALL log ("Shelf" + $ENCODE (current.shelf) + " is ready. Request data!")
@@ -1636,10 +1781,6 @@ N_INT110    "s.pr.tch.air"
       RETURN
     END
     JMOVE #homyak.sby
-    current.shelf = current.shelf + 1
-    IF current.shelf == 5 THEN
-      current.shelf = 1
-    END
   END
   ;
 .END
@@ -1995,6 +2136,9 @@ N_INT110    "s.pr.tch.air"
   .inside.cnc = SIG (s.inside.cnc)
   .outside.cnc = NOT .inside.cnc
   ;
+  .st5.air = SIG (s.st5.air.req)
+  .st6.air = SIG (s.st6.air.req)
+  ;
   .grip.st3.eq0 = gripper.id[st3.tool] == 0
   .grip.st3.ne0 = gripper.id[st3.tool] <> 0
   ;
@@ -2036,6 +2180,12 @@ N_INT110    "s.pr.tch.air"
     RETURN
   END
   ;
+  ; Air blow before put workpiece
+  IF .sh2 AND .grip.st3.ne0 AND .chuck.eq0 AND .st5.air THEN
+    state = 11
+    RETURN
+  END
+  ;
   ; Put workpiece to CNC
   IF .sh2 AND .grip.st3.ne0 AND .chuck.eq0 THEN
     state = 5
@@ -2045,6 +2195,11 @@ N_INT110    "s.pr.tch.air"
   ; Pick detail from CNC
   IF .sh2 AND .grip.st6.eq0 AND .chuck.lt0 THEN
     state = 6
+    RETURN
+  END
+  ; Air blow after pick workpiece
+  IF .sh2 AND .grip.st6.ne0 AND .chuck.eq0 AND .st6.air THEN
+    state = 12
     RETURN
   END
   ;
@@ -2075,6 +2230,9 @@ N_INT110    "s.pr.tch.air"
   .shelf.closed = NOT .shelf.opened
   .inside.cnc = SIG (s.inside.cnc)
   .outside.cnc = NOT .inside.cnc
+  ;
+  .st5.air = SIG (s.st5.air.req)
+  .st6.air = SIG (s.st6.air.req)
   ;
   .grip.eq0 = gripper.id[st3.tool] == 0
   .grip.ne0 = gripper.id[st3.tool] <> 0
@@ -2117,6 +2275,11 @@ N_INT110    "s.pr.tch.air"
     RETURN
   END
   ;
+  ; Air blow before put workpiece
+  IF .sh2 AND .grip.gt0 AND .chuck.st5.eq0 AND .st5.air THEN
+    state = 11
+    RETURN
+  END
   ; Put workpiece to CNC
   IF .sh2 AND .grip.gt0 AND .chuck.st5.eq0 THEN
     state = 5
@@ -2126,6 +2289,11 @@ N_INT110    "s.pr.tch.air"
   ; Pick detail from CNC
   IF .sh2 AND .grip.eq0 AND .chuck.st6.ne0 THEN
     state = 6
+    RETURN
+  END
+  ; Air blow after pick workpiece
+  IF .sh2 AND .grip.ne0 AND .chuck.st6.eq0 AND .st6.air THEN
+    state = 12
     RETURN
   END
   ;
@@ -2156,6 +2324,9 @@ N_INT110    "s.pr.tch.air"
   .shelf.closed = NOT .shelf.opened
   .inside.cnc = SIG (s.inside.cnc)
   .outside.cnc = NOT .inside.cnc
+  ;
+  .st5.air = SIG (s.st5.air.req)
+  .st6.air = SIG (s.st6.air.req)
   ;
   .grip.eq0 = gripper.id[st3.tool] == 0
   .grip.ne0 = gripper.id[st3.tool] <> 0
@@ -2197,6 +2368,12 @@ N_INT110    "s.pr.tch.air"
     RETURN
   END
   ;
+  ; Air blow before put workpiece
+  IF .sh2 AND .grip.gt0 AND .chuck.eq0 AND .st5.air THEN
+    state = 11
+    RETURN
+  END
+  ;
   ; Put workpiece to CNC
   IF .sh2 AND .grip.gt0 AND .chuck.eq0 THEN
     state = 5
@@ -2206,6 +2383,11 @@ N_INT110    "s.pr.tch.air"
   ; Pick detail from CNC
   IF .sh2 AND .grip.eq0 AND .chuck.lt0 THEN
     state = 6
+    RETURN
+  END
+  ; Air blow after pick workpiece
+  IF .sh2 AND .grip.lt0 AND .chuck.eq0 AND .st6.air THEN
+    state = 12
     RETURN
   END
   ;
@@ -2307,7 +2489,7 @@ N_INT110    "s.pr.tch.air"
 .END
 .PROGRAM get.task.data ()
   ;
-  IF SIG(s.debug) THEN
+  IF SIG(s.debug) AND NOT SWITCH(REPEAT) THEN
     CALL log ("DEBUG mod activated. Get data from Robot TP")
     ; Task parameters
     wp.in.length = hmi.wp.length
@@ -2319,6 +2501,8 @@ N_INT110    "s.pr.tch.air"
     grip.jaws.body[2] = hmi.gc2.body
     cnc.jaws.full[1] = hmi.cnc1c.full
     cnc.jaws.body[1] = hmi.cnc1c.body
+    cnc.jaws.full[2] = hmi.cnc2c.full
+    cnc.jaws.body[2] = hmi.cnc2c.body
     ; Plate parameters (Right in task!)
     plate.id = hmi.plate.id
     plate.rows = hmi.plate.rows
@@ -2395,6 +2579,26 @@ N_INT110    "s.pr.tch.air"
     st6.air.blow = SIG (d.air.st6)
   END
   ;
+  grip.op.tmr[1] = BITS(ei.t.grip.op[1,0], 8)/10
+  grip.op.tmr[2] = BITS(ei.t.grip.op[2,0], 8)/10
+  grip.cl.tmr[1] = BITS(ei.t.grip.cl[1,0], 8)/10
+  grip.cl.tmr[2] = BITS(ei.t.grip.cl[2,0], 8)/10
+  ;
+  cnc.op.tmr[1] = BITS(ei.t.cnc.open[1,0], 8)/10
+  cnc.op.tmr[2] = BITS(ei.t.cnc.open[2,0], 8)/10
+  cnc.cl.tmr[1] = BITS(ei.t.cnc.close[1,0], 8)/10
+  cnc.cl.tmr[2] = BITS(ei.t.cnc.close[2,0], 8)/10
+  ;
+  cnc.pick.ovlp = BITS(ei.pr.pick.cnc[0], 8)
+  cnc.put.ovlp = BITS(ei.pr.put.cnc[0], 8)
+  shelf.pick.ovl = BITS(ei.pr.pick.shlf[0], 8)
+  shelf.put.ovlp = BITS(ei.pr.put.shlf[0], 8)
+  ;
+  pick.speed = BITS(ei.xmove.spd[0], 8)
+  put.speed = pick.speed
+  air.blow.speed = BITS(ei.blow.spd[0], 8)
+  ;
+  
 .END
 .PROGRAM a.home ()
   ;
@@ -2502,6 +2706,11 @@ N_INT110    "s.pr.tch.air"
     CALL set.speed.pc
     CALL check.reset.pc
     ;
+    IF SIG(di.ext.ereset) THEN
+      SIGNAL -eo.grip.error
+      SIGNAL -eo.process.err
+    END
+    ;
     TWAIT 0.1
   END
 .END
@@ -2578,6 +2787,14 @@ N_INT110    "s.pr.tch.air"
   ;
   IF SIG (s.pr.home) THEN
     MC PRIME a.home
+  END
+  ;
+    IF SIG (s.pr.tst.cncpi) THEN
+    MC PRIME cnc.test.pick
+  END
+  ;
+    IF SIG (s.pr.tst.cncpu) THEN
+    MC PRIME cnc.test.put
   END
   ;
 .END
@@ -2727,6 +2944,25 @@ N_INT110    "s.pr.tch.air"
   ei.shelf.state[4]    = 1136
   ei.shelf.failed      = 1137
   ;
+  ei.pr.pick.shlf[0]   = 1241; 8 bit
+  ei.pr.put.shlf[0]    = 1249; 8 bit
+  ei.pr.pick.cnc[0]    = 1257; 8 bit
+  ei.pr.put.cnc[0]     = 1265; 8 bit
+  ;
+  ei.t.cnc.open[1, 0]  = 1273; 8 bit
+  ei.t.cnc.open[2, 0]  = 1281; 8 bit
+  ei.t.cnc.close[1, 0] = 1289; 8 bit
+  ei.t.cnc.close[2, 0] = 1304; 8 bit
+  ;
+  ei.t.grip.op[1, 0]   = 1305
+  ei.t.grip.op[2, 0]   = 1313
+  ei.t.grip.cl[1, 0]   = 1321
+  ei.t.grip.cl[2, 0]   = 1329
+  ;
+  ei.xmove.spd[0]      = 1337
+  ei.blow.spd[0]       = 1345
+  ;
+  ;
   ei.robot.speed[0]    = 1225
   ; Task data
   d.wp.length[0]       = 1945
@@ -2791,6 +3027,8 @@ N_INT110    "s.pr.tch.air"
   s.pr.cnc.appr  = 2108
   s.pr.cnc.tch   = 2109
   s.pr.tch.air   = 2110
+  s.pr.tst.cncpi = 2111
+  s.pr.tst.cncpu = 2112
 ;
 .END
 .PROGRAM set.vars.pc ()
@@ -2841,20 +3079,23 @@ N_INT110    "s.pr.tch.air"
 	; LoadWizardPro_v2
 	; @@@ HISTORY @@@
 	; @@@ INSPECTION @@@
-	; wp.in.length
-	; grip.jaws.full[2]
-	; cnc.id[1]
-	; wp.count
-	; current.wp
-	; cnc.id[2]
-	; cnc.pick.ovlp
-	; cnc.put.ovlp
+	; wp.out.length
+	; grip.jaws.body[2]
+	; cnc.jaws.body[2]
+	; cnc.jaws.full[2]
+	; hmi.cnc2c.body
 	; shelf.pick.ovlp
 	; shelf.put.ovlp
+	; cnc.pick.ovlp
+	; put.speed
+	; st3.tool
+	; st6.tool
+	; st5.chuck
+	; st6.chuck
 	; @@@ CONNECTION @@@
-	; KROSET R01
-	; 127.0.0.1
-	; 9105
+	; Standard 1
+	; 192.168.0.2
+	; 23
 	; @@@ PROGRAM @@@
 	; Group:Air:1
 	; 1:air.blow:F
@@ -2961,13 +3202,18 @@ N_INT110    "s.pr.tch.air"
 	; .temp 
 	; .zshift 
 	; 4:cnc.appro.teach:F
-	; 4:cnc.test:F
+	; 4:cnc.test.pick:F
+	; .tool 
+	; .chuck 
 	; 4:chuck.open:F
 	; .chuck.no 
 	; .time 
 	; 4:chuck.close:F
 	; .chuck.no 
 	; .time 
+	; 4:cnc.test.put:F
+	; .tool 
+	; .chuck 
 	; Group:Grippers:5
 	; 5:gripper.is.open:F
 	; .tool.no 
@@ -3082,6 +3328,9 @@ N_INT110    "s.pr.tch.air"
 	; .sh2 
 	; .ge 
 	; .ce 
+	; .st5.air 
+	; .air.req 
+	; .st6.air 
 	; 7:state53:F
 	; .shelf.opened 
 	; .shelf.closed 
@@ -3103,6 +3352,9 @@ N_INT110    "s.pr.tch.air"
 	; .sh2 
 	; .ge 
 	; .ce 
+	; .st5.air 
+	; .air.req 
+	; .st6.air 
 	; 7:state54:F
 	; .shelf.opened 
 	; .shelf.closed 
@@ -3124,6 +3376,9 @@ N_INT110    "s.pr.tch.air"
 	; .sh2 
 	; .ge 
 	; .ce 
+	; .st5.air 
+	; .air.req 
+	; .st6.air 
 	; 7:state100:F
 	; 7:state101:F
 	; .chuck 
@@ -3385,6 +3640,18 @@ N_INT110    "s.pr.tch.air"
 	; ei.data.ready Data ready
 	; ei.check.grip Check gripper signals
 	; eo.error.code[] Error code
+	; s.pr.tst.cncpi Prime CNC test pick
+	; s.pr.tst.cncpu Prime CNC test put
+	; ei.pr.pick.shlf[] Shelf pick overlap val
+	; ei.pr.put.shlf[] Shelf put overlap val
+	; ei.pr.pick.cnc[] CNC pick overlap val
+	; ei.pr.put.cnc[] CNC put overlap val
+	; ei.t.cnc.open[] CNC chuck open wait time
+	; ei.t.cnc.close[] CNC chuck close time
+	; ei.t.grip.cl[] Gripper close time
+	; ei.t.grip.op[] Gripper open time
+	; ei.xmove.spd[] XMOVE speed
+	; ei.blow.spd[] HMI Air blow speed
 	; @@@ TOOLS @@@
 	; tool.gripper[] Tool coordinates
 	; @@@ BASE @@@
@@ -3405,8 +3672,8 @@ N_INT110    "s.pr.tch.air"
 	; SIGDIM: % % % %
 .END
 .TRANS
-tool.gripper[1] -93.500000 0.000000 102.000000 179.600000 90.000000 -180.000000
-tool.gripper[2] 93.800000 0.000000 102.000000 -0.400000 90.000000 180.000000
+tool.gripper[1] -94.000000 -1.500000 102.000000 179.600006 89.900002 -180.000000
+tool.gripper[2] 93.599998 0.000000 102.000000 0.700000 90.300011 180.000000
 tool.gripper[3] 0.000000 42.000000 102.000000 90.000046 90.000046 0.000000
 shelf.open[1,1] 747.827637 71.125702 -0.758560 -89.934814 89.998093 -179.969879
 shelf.open[1,2] 745.447388 688.132874 -2.633926 -89.931381 89.993843 -179.976761
@@ -3416,7 +3683,7 @@ shelf.open[3,1] 748.753418 70.852859 -362.520508 -89.937408 89.997330 -179.96827
 shelf.open[3,2] 750.587769 689.344727 -365.837067 -89.936699 89.997963 -179.967499
 shelf.open[4,1] 748.158264 71.499474 -542.538391 -89.935318 89.997093 -179.970688
 shelf.open[4,2] 747.691467 689.700500 -542.500549 -89.938187 89.995079 -179.970123
-shelf.close[1,1] 756.662480 682.052000 -2.219540 -92.020500 89.993200 -179.976390
+shelf.close[1,1] 745.429138 687.181702 -2.621048 -89.932899 89.993103 -179.977158
 shelf.close[1,2] 747.810425 69.321686 -0.807724 -89.930878 89.998146 -179.974182
 shelf.close[2,1] 747.126038 688.262085 -181.260986 -89.935059 89.992653 -179.974243
 shelf.close[2,2] 749.057312 69.293213 -180.301163 -89.934486 89.996681 -179.975037
@@ -3680,10 +3947,10 @@ shelf.frame[4,2,29] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.1
 shelf.frame[4,2,30] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
 shelf.frame[4,2,31] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
 shelf.frame[4,2,32] 1010.194336 169.186951 205.613434 44.896072 179.865082 -45.104733
-cnc.point[2,1] -997.755493 170.497040 275.006714 -96.029709 92.858856 -117.315056
+cnc.point[2,1] -1002.876343 77.479698 242.755905 -90.045998 89.946999 -90.001434
 cnc.point[1,2] -899.975464 1000.389648 211.689133 89.997078 89.996483 120.955223
-cnc.point[1,1] -1011.229736 65.750862 236.363220 -90.468224 90.399170 -89.983940
-cnc.point[2,2] -958.733765 564.888489 285.474548 85.104179 90.644341 117.292725
+cnc.point[1,1] -1003.931335 76.937141 241.550674 -90.469170 91.337952 -89.994102
+cnc.point[2,2] -1000.531860 677.902039 245.002518 89.331146 89.763901 89.989349
 .END
 .JOINTS
 #homyak -0.000400 29.999758 89.999863 -0.001850 -69.998703 -0.000320
@@ -4459,28 +4726,28 @@ cnc.point[2,2] -958.733765 564.888489 285.474548 85.104179 90.644341 117.292725
 #shelf.point.y[4,2,32] 42.849712 1.713312 102.326057 135.920044 -122.132950 217.865097
 #wp.safe[1] 69.568573 8.663290 97.904053 114.625549 -68.547127 10.075710
 #wp.safe[2] 69.568573 8.663650 97.904053 114.625549 -68.547127 190.077927
-#cnc.in.base -79.406677 -5.772483 95.545113 -42.264755 -15.369874 -171.096466
+#cnc.in.base -84.195648 -4.285471 91.769966 -41.476643 -8.286439 -171.234955
 #cnc.out.base -43.126957 51.450104 133.077347 -97.612473 -47.087402 -111.061012
-#cnc.in -79.406677 -5.772483 95.545113 -42.264755 -15.369874 -171.096466
-#cnc.out -43.126957 51.450104 133.077347 -97.612473 -47.087402 -111.061012
-#cnc.point[1,1] -84.536041 -13.703943 104.777214 -10.618330 -29.069824 -200.677597
+#cnc.in -84.195648 -4.285471 91.769966 -41.476643 -8.286439 8.765045
+#cnc.out -43.126957 51.450104 133.077347 -97.612473 -47.087402 68.938988
+#cnc.point[1,1] -84.090393 -12.710776 104.950249 -11.827882 -28.350220 -200.477524
 #cnc.point[1,2] -60.352077 -13.151331 100.025772 -44.777370 -66.867599 12.370290
-#cnc.point[2,1] -77.965256 -13.449173 103.743896 -24.196554 -57.241516 -13.470392
-#cnc.point[2,2] -75.202377 -12.815167 102.328339 -27.456680 -56.476593 -186.105255
-#air.safe[1] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 -55.306881
-#air.safe[2] -57.285339 -9.694410 94.164749 -68.602943 -36.010441 124.692032
-#air.point[1,1] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
-#air.point[1,2] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
-#air.point[1,3] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
-#air.point[1,4] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
+#cnc.point[2,1] -84.091583 -12.650552 104.976646 -11.891251 -28.317949 -20.127518
+#cnc.point[2,2] -68.558907 -12.732677 93.745041 -53.403576 -26.661074 -160.591949
+#air.safe[1] -83.724182 -4.380736 91.813301 -41.950989 -8.770523 -78.255249
+#air.safe[2] -84.161491 -4.293500 91.774529 -41.510479 -8.320084 -259.742584
+#air.point[1,1] -85.949661 -9.497313 104.454941 38.612728 -22.176592 -161.664597
+#air.point[1,2] -82.884117 -13.386027 108.153511 2.799932 -45.468979 -105.645348
+#air.point[1,3] -78.105072 -15.883361 98.175499 -67.386620 -36.291275 -60.350830
+#air.point[1,4] -80.487839 -13.116292 102.256645 -40.008076 -31.745682 -86.323883
 #air.point[1,5] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
 #air.point[1,6] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
 #air.point[1,7] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
 #air.point[1,8] -69.880371 -0.027380 114.132500 2.425250 -37.085720 -119.422638
-#air.point[2,1] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
-#air.point[2,2] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
-#air.point[2,3] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
-#air.point[2,4] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
+#air.point[2,1] -68.286430 -11.734765 96.219658 -51.448360 -27.873688 -270.580566
+#air.point[2,2] -72.674232 -10.750724 93.804016 -16.976776 -21.557922 -256.352203
+#air.point[2,3] -66.789398 -11.150400 91.233910 -81.833557 -39.973759 -200.366135
+#air.point[2,4] -71.128357 -13.040737 93.643036 -35.302765 -23.319857 -266.497040
 #air.point[2,5] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
 #air.point[2,6] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
 #air.point[2,7] -49.743019 -15.565080 80.582024 -81.669289 -41.258469 139.686676
@@ -4526,8 +4793,8 @@ di.ifp.page[5] = 2005
 di.ifp.page[6] = 2006
 di.ifp.page[7] = 2007
 di.ifp.page[8] = 2008
-state = 4
-current.tool = 1
+state = 1
+current.tool = 3
 eo.grip.opened[1] = 81
 eo.grip.opened[2] = 82
 current.shelf = 1
@@ -4596,12 +4863,12 @@ s.pr.tst.shelf = 2101
 gripper.id[1] = 0
 gripper.id[2] = 0
 cnc.id[1] = 0
-cnc.id[2] = -1
+cnc.id[2] = 0
 s.hmi.tool.1 = 2102
 s.hmi.chuck.1 = 2103
 s.pr.tch.wp = 2104
 s.pr.tst.pick = 2105
-hmi.wp.length = 40
+hmi.wp.length = 94
 hmi.gc1.full = 40
 hmi.gc1.body = 29
 hmi.gc2.full = 40
@@ -4609,16 +4876,16 @@ hmi.gc2.body = 29
 hmi.cnc1c.full = 50
 hmi.cnc1c.body = 0
 hmi.cnc2c.full = 50
-hmi.cnc2c.body = 23
+hmi.cnc2c.body = 1
 hmi.plate.id = 1
-wp.in.length = 40
-wp.out.length = 40
+wp.in.length = 94
+wp.out.length = 94
 wp.mid.length = 0
 grip.jaws.full[1] = 40
 grip.jaws.full[2] = 40
 grip.jaws.body[1] = 29
 grip.jaws.body[2] = 29
-cnc.jaws.body[2] = 23
+cnc.jaws.body[2] = 1
 cnc.jaws.body[1] = 0
 cnc.jaws.full[1] = 50
 cnc.jaws.full[2] = 50
@@ -4641,25 +4908,25 @@ plate.oy = 0
 hmi.wp.id = 16
 plate.id = 1
 s.pr.home = 2106
-shelf.pick.ovlp = 5
+shelf.pick.ovlp = 4
 pick.epsilon = 0.1
 eo.process.err = 115
 s.search.fail = 2011
-pick.speed = 50
-shelf.put.ovlp = 5
-put.speed = 50
+pick.speed = 12
+shelf.put.ovlp = 2
+put.speed = 12
 s.pr.tst.put = 2107
 s.inside.cnc = 2012
 cnc.rotations[1,1] = 0
 cnc.rotations[1,2] = 180
 cnc.rotations[2,1] = 180
 cnc.rotations[2,2] = 0
-cnc.put.ovlp = 10
-cnc.pick.ovlp = 10
+cnc.put.ovlp = 2
+cnc.pick.ovlp = 2
 s.pr.cnc.appr = 2108
 s.pr.cnc.tch = 2109
-current.wp = 2
-wp.count = 1
+current.wp = 4
+wp.count = 3
 hmi.st3.tool = 1
 hmi.st6.tool = 2
 hmi.st5.chuck = 1
@@ -4667,12 +4934,12 @@ hmi.st6.chuck = 2
 st3.tool = 1
 st5.chuck = 1
 st6.tool = 2
-st6.chuck = 2
+st6.chuck = 1
 s.mfinish.req = 2013
 st3.reverse = 0
 st6.reverse = 0
 cnc.first = 0
-processed.wp = 0
+processed.wp = 3
 eo.grip.state[1,0] = 225
 eo.grip.state[1,1] = 226
 eo.grip.state[1,2] = 227
@@ -4768,8 +5035,8 @@ s.st5.air.req = 2014
 s.st6.air.req = 2015
 hmi.ab.bf.put = 0
 hmi.ab.af.pick = 0
-st5.air.blow = 0
-st6.air.blow = 0
+st5.air.blow = -1
+st6.air.blow = -1
 air.blow.speed = 150
 d.wp.length[0] = 1945
 d.wp.length[1] = 1946
@@ -5115,263 +5382,370 @@ eo.error.code[12] = 333
 eo.error.code[13] = 334
 eo.error.code[14] = 335
 eo.error.code[15] = 336
+s.pr.tst.cncpi = 2111
+s.pr.tst.cncpu = 2112
+ei.pr.pick.shlf[7] = 1248
+ei.pr.pick.shlf[6] = 1247
+ei.pr.pick.shlf[5] = 1246
+ei.pr.pick.shlf[4] = 1245
+ei.pr.pick.shlf[3] = 1244
+ei.pr.pick.shlf[2] = 1243
+ei.pr.pick.shlf[1] = 1242
+ei.pr.pick.shlf[0] = 1241
+ei.pr.put.shlf[0] = 1249
+ei.pr.put.shlf[1] = 1250
+ei.pr.put.shlf[2] = 1251
+ei.pr.put.shlf[3] = 1252
+ei.pr.put.shlf[4] = 1253
+ei.pr.put.shlf[5] = 1254
+ei.pr.put.shlf[6] = 1255
+ei.pr.put.shlf[7] = 1256
+ei.pr.pick.cnc[0] = 1257
+ei.pr.pick.cnc[1] = 1258
+ei.pr.pick.cnc[2] = 1259
+ei.pr.pick.cnc[3] = 1260
+ei.pr.pick.cnc[4] = 1261
+ei.pr.pick.cnc[5] = 1262
+ei.pr.pick.cnc[6] = 1263
+ei.pr.pick.cnc[7] = 1264
+ei.pr.put.cnc[0] = 1265
+ei.pr.put.cnc[1] = 1266
+ei.pr.put.cnc[2] = 1267
+ei.pr.put.cnc[3] = 1268
+ei.pr.put.cnc[4] = 1269
+ei.pr.put.cnc[5] = 1270
+ei.pr.put.cnc[6] = 1271
+ei.pr.put.cnc[7] = 1272
+ei.t.cnc.open[1,0] = 1273
+ei.t.cnc.open[1,1] = 1274
+ei.t.cnc.open[1,2] = 1275
+ei.t.cnc.open[1,3] = 1276
+ei.t.cnc.open[1,4] = 1277
+ei.t.cnc.open[1,5] = 1278
+ei.t.cnc.open[1,6] = 1279
+ei.t.cnc.open[1,7] = 1280
+ei.t.cnc.open[2,0] = 1281
+ei.t.cnc.open[2,1] = 1282
+ei.t.cnc.open[2,2] = 1283
+ei.t.cnc.open[2,3] = 1284
+ei.t.cnc.open[2,4] = 1285
+ei.t.cnc.open[2,5] = 1286
+ei.t.cnc.open[2,6] = 1287
+ei.t.cnc.open[2,7] = 1288
+ei.t.cnc.close[1,0] = 1289
+ei.t.cnc.close[1,1] = 1290
+ei.t.cnc.close[1,2] = 1291
+ei.t.cnc.close[1,3] = 1292
+ei.t.cnc.close[1,4] = 1293
+ei.t.cnc.close[1,5] = 1294
+ei.t.cnc.close[1,6] = 1295
+ei.t.cnc.close[1,7] = 1296
+ei.t.cnc.close[2,0] = 1304
+ei.t.cnc.close[2,1] = 1298
+ei.t.cnc.close[2,2] = 1299
+ei.t.cnc.close[2,3] = 1300
+ei.t.cnc.close[2,4] = 1301
+ei.t.cnc.close[2,5] = 1302
+ei.t.cnc.close[2,6] = 1303
+ei.t.cnc.close[2,7] = 1304
+ei.t.grip.cl[1,0] = 1321
+ei.t.grip.cl[1,1] = 1322
+ei.t.grip.cl[1,2] = 1323
+ei.t.grip.cl[1,3] = 1324
+ei.t.grip.cl[1,4] = 1325
+ei.t.grip.cl[1,5] = 1326
+ei.t.grip.cl[1,6] = 1327
+ei.t.grip.cl[1,7] = 1328
+ei.t.grip.cl[2,0] = 1329
+ei.t.grip.cl[2,1] = 1330
+ei.t.grip.cl[2,2] = 1331
+ei.t.grip.cl[2,3] = 1332
+ei.t.grip.cl[2,4] = 1333
+ei.t.grip.cl[2,5] = 1334
+ei.t.grip.cl[2,6] = 1335
+ei.t.grip.cl[2,7] = 1336
+ei.t.grip.op[1,0] = 1305
+grip.op.tmr[1] = 1
+grip.op.tmr[2] = 1
+grip.cl.tmr[1] = 1
+grip.cl.tmr[2] = 1
+cnc.op.tmr[1] = 1.5
+cnc.op.tmr[2] = 1.5
+cnc.cl.tmr[1] = 1.5
+cnc.cl.tmr[2] = 2
+ei.xmove.spd[0] = 1337
+ei.xmove.spd[1] = 1338
+ei.xmove.spd[2] = 1339
+ei.xmove.spd[3] = 1340
+ei.xmove.spd[4] = 1341
+ei.xmove.spd[5] = 1342
+ei.xmove.spd[6] = 1343
+ei.xmove.spd[7] = 1344
+ei.blow.spd[0] = 1345
+ei.blow.spd[1] = 1346
+ei.blow.spd[2] = 1347
+ei.blow.spd[3] = 1348
+ei.blow.spd[4] = 1349
+ei.blow.spd[5] = 1350
+ei.blow.spd[6] = 1351
+ei.blow.spd[7] = 1352
 .END
 .STRINGS
-$log.entry[0] = "09:20:46 Distance: 0.08927"
-$log.entry[1] = "09:20:46 Detail found"
-$log.entry[2] = "09:20:47 Command close gripper 1"
-$log.entry[3] = "09:21:34 Tool #2 set"
-$log.entry[4] = "09:22:32 Tool #2 set"
-$log.entry[5] = "09:24:39 Tool #2 set"
-$log.entry[6] = "09:25:49 Tool #2 set"
-$log.entry[7] = "09:27:06 Main program executed"
-$log.entry[8] = "09:27:06 Performing safe movement to home position"
-$log.entry[9] = "09:27:07 Safe move from shelf"
-$log.entry[10] = "09:29:03 DEBUG mod activated. Get data from Robot TP"
-$log.entry[11] = "09:29:05 Put workpiece. Shelf: 1 Tool: 1 ID: 20"
-$log.entry[12] = "09:29:05 Tool #1 set"
-$log.entry[13] = "09:29:05 ID: 20 --> i: 3 j: 4"
-$log.entry[14] = "09:29:24 Command open gripper 1"
-$log.entry[15] = "09:29:27 Command close gripper 1"
-$log.entry[16] = "09:29:49 DEBUG mod activated. Get data from Robot TP"
-$log.entry[17] = "09:29:49 Put workpiece. Shelf: 1 Tool: 1 ID: 15"
-$log.entry[18] = "09:29:49 Tool #1 set"
-$log.entry[19] = "09:29:49 ID: 15 --> i: 2 j: 4"
-$log.entry[20] = "09:29:56 DEBUG mod activated. Get data from Robot TP"
-$log.entry[21] = "09:29:56 Put workpiece. Shelf: 1 Tool: 1 ID: 16"
-$log.entry[22] = "09:29:56 Tool #1 set"
-$log.entry[23] = "09:29:56 ID: 16 --> i: 3 j: 0"
-$log.entry[24] = "09:30:09 Command open gripper 1"
-$log.entry[25] = "09:30:11 Command close gripper 1"
-$log.entry[26] = "09:30:38 DEBUG mod activated. Get data from Robot TP"
-$log.entry[27] = "09:30:38 Pick workpiece. Shelf: 1 Tool: 1 ID: 16"
-$log.entry[28] = "09:30:38 Tool #1 set"
-$log.entry[29] = "09:30:38 Command open gripper 1"
-$log.entry[30] = "09:30:38 ID: 16 --> i: 3 j: 0"
-$log.entry[31] = "09:30:43 Distance: 0.27202"
-$log.entry[32] = "09:30:44 Detail found"
-$log.entry[33] = "09:30:44 Command close gripper 1"
-$log.entry[34] = "09:31:12 DEBUG mod activated. Get data from Robot TP"
-$log.entry[35] = "09:31:12 Put workpiece. Shelf: 1 Tool: 1 ID: 16"
-$log.entry[36] = "09:31:12 Tool #1 set"
-$log.entry[37] = "09:31:12 ID: 16 --> i: 3 j: 0"
-$log.entry[38] = "09:31:18 Command open gripper 1"
-$log.entry[39] = "09:31:20 Command close gripper 1"
-$log.entry[40] = "09:32:43 Main program executed"
-$log.entry[41] = "09:32:43 Performing safe movement to home position"
-$log.entry[42] = "09:32:43 Safe move from shelf"
-$log.entry[43] = "09:35:30 Main program executed"
-$log.entry[44] = "09:35:31 Performing safe movement to home position"
-$log.entry[45] = "09:35:31 Safe move from shelf"
-$log.entry[46] = "09:35:53 Robot in home position"
-$log.entry[47] = "09:36:02 State 0: Initialization"
-$log.entry[48] = "09:36:02 Waiting for task start"
-$log.entry[49] = "09:39:13 State 1: Check ready shelves"
-$log.entry[50] = "09:39:13 Shelf 1 is ready. Request data!"
-$log.entry[51] = "09:39:13 DEBUG mod activated. Get data from Robot TP"
-$log.entry[52] = "09:39:13 State 100: Decision making module"
-$log.entry[53] = "09:39:14 State 2: Open shelf"
-$log.entry[54] = "09:39:14 Opening shelf 1"
-$log.entry[55] = "09:39:17 Tool #3 set"
-$log.entry[56] = "09:39:17 Command close gripper 1"
-$log.entry[57] = "09:39:17 Command close gripper 2"
-$log.entry[58] = "09:39:26 Request unlock shelf 1"
-$log.entry[59] = "09:39:26 Shelf 1 successfully unlocked"
-$log.entry[60] = "09:39:38 State 100: Decision making module"
-$log.entry[61] = "09:39:38 State 3: Pick workpiece from shelf"
-$log.entry[62] = "09:39:38 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[63] = "09:39:38 Tool #1 set"
-$log.entry[64] = "09:39:38 Command open gripper 1"
-$log.entry[65] = "09:39:38 ID: 1 --> i: 0 j: 0"
-$log.entry[66] = "09:40:23 Distance: 0.01868"
-$log.entry[67] = "09:40:23 Detail found"
-$log.entry[68] = "09:40:24 Command close gripper 1"
-$log.entry[69] = "09:40:24 State 100: Decision making module"
-$log.entry[70] = "09:40:24 State 4: Move to CNC"
-$log.entry[71] = "09:40:24 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[72] = "09:40:25 Tool #1 set"
-$log.entry[73] = "09:48:15 Main program executed"
-$log.entry[74] = "09:48:15 Performing safe movement to home position"
-$log.entry[75] = "09:48:15 Safe move from shelf"
-$log.entry[76] = "09:48:42 Robot in home position"
-$log.entry[77] = "09:49:23 State 0: Initialization"
-$log.entry[78] = "09:49:23 Waiting for task start"
-$log.entry[79] = "09:49:26 State 1: Check ready shelves"
-$log.entry[80] = "09:49:26 Shelf 1 is ready. Request data!"
-$log.entry[81] = "09:49:26 DEBUG mod activated. Get data from Robot TP"
-$log.entry[82] = "09:49:26 State 100: Decision making module"
-$log.entry[83] = "09:49:26 State 2: Open shelf"
-$log.entry[84] = "09:49:27 Opening shelf 1"
-$log.entry[85] = "09:51:23 Tool #3 set"
-$log.entry[86] = "09:51:23 Command close gripper 1"
-$log.entry[87] = "09:51:23 Command close gripper 2"
-$log.entry[88] = "09:51:31 Request unlock shelf 1"
-$log.entry[89] = "09:51:32 Shelf 1 successfully unlocked"
-$log.entry[90] = "09:57:25 State 100: Decision making module"
-$log.entry[91] = "09:57:25 State 3: Pick workpiece from shelf"
-$log.entry[92] = "09:57:25 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[93] = "09:57:25 Tool #1 set"
-$log.entry[94] = "09:57:25 Command open gripper 1"
-$log.entry[95] = "09:57:25 ID: 1 --> i: 0 j: 0"
-$log.entry[96] = "09:57:59 Distance: 0.01231"
-$log.entry[97] = "09:57:59 Detail found"
-$log.entry[98] = "09:58:00 Command close gripper 1"
-$log.entry[99] = "09:58:00 State 100: Decision making module"
-$log.entry[100] = "09:58:00 State 4: Move to CNC"
-$log.entry[101] = "09:58:00 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[102] = "09:58:04 Tool #1 set"
-$log.entry[103] = "10:00:46 Main program executed"
-$log.entry[104] = "10:00:46 Command close gripper 1"
-$log.entry[105] = "10:00:46 Command close gripper 2"
-$log.entry[106] = "10:00:46 Performing safe movement to home position"
-$log.entry[107] = "10:00:47 Safe move from shelf"
-$log.entry[108] = "10:02:23 Main program executed"
-$log.entry[109] = "10:02:23 Command close gripper 1"
-$log.entry[110] = "10:02:25 Command close gripper 2"
-$log.entry[111] = "10:02:28 Performing safe movement to home position"
-$log.entry[112] = "10:02:29 Safe move from shelf"
-$log.entry[113] = "10:05:36 Main program executed"
-$log.entry[114] = "10:05:36 Command close gripper 1"
-$log.entry[115] = "10:05:36 Command close gripper 2"
-$log.entry[116] = "10:05:36 Robot is already at home. Skip safe.home program"
-$log.entry[117] = "10:05:36 State 0: Initialization"
-$log.entry[118] = "10:05:36 Waiting for task start"
-$log.entry[119] = "10:05:36 State 1: Check ready shelves"
-$log.entry[120] = "10:05:36 Shelf 2 is ready. Request data!"
-$log.entry[121] = "10:05:37 DEBUG mod activated. Get data from Robot TP"
-$log.entry[122] = "10:05:37 State 100: Decision making module"
-$log.entry[123] = "10:05:37 State 2: Open shelf"
-$log.entry[124] = "10:05:37 Opening shelf 2"
-$log.entry[125] = "10:05:41 Tool #3 set"
-$log.entry[126] = "10:05:41 Command close gripper 1"
-$log.entry[127] = "10:05:41 Command close gripper 2"
-$log.entry[128] = "10:05:59 Request unlock shelf 2"
-$log.entry[129] = "10:09:24 Shelf 2 successfully unlocked"
-$log.entry[130] = "10:10:00 State 100: Decision making module"
-$log.entry[131] = "10:10:00 State 3: Pick workpiece from shelf"
-$log.entry[132] = "10:10:00 Pick workpiece. Shelf: 2 Tool: 1 ID: 1"
-$log.entry[133] = "10:10:00 Tool #1 set"
-$log.entry[134] = "10:10:00 Command open gripper 1"
-$log.entry[135] = "10:10:00 ID: 1 --> i: 0 j: 0"
-$log.entry[136] = "10:10:45 Distance: 0.02392"
-$log.entry[137] = "10:10:45 Detail found"
-$log.entry[138] = "10:10:46 Command close gripper 1"
-$log.entry[139] = "10:10:46 State 100: Decision making module"
-$log.entry[140] = "10:10:46 State 4: Move to CNC"
-$log.entry[141] = "10:10:46 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[142] = "10:10:47 Tool #1 set"
-$log.entry[143] = "10:10:56 Waiting for CNC ready"
-$log.entry[144] = "10:11:20 CNC ready signal received"
-$log.entry[145] = "10:11:31 Robot inside CNC"
-$log.entry[146] = "10:11:31 State 100: Decision making module"
-$log.entry[147] = "10:11:51 Main program executed"
-$log.entry[148] = "10:11:51 Command close gripper 1"
-$log.entry[149] = "10:11:51 Command close gripper 2"
-$log.entry[150] = "10:11:51 Performing safe movement to home position"
-$log.entry[151] = "10:11:52 Safe move from CNC"
-$log.entry[152] = "10:12:30 Robot in home position"
-$log.entry[153] = "10:12:40 State 0: Initialization"
-$log.entry[154] = "10:12:40 Waiting for task start"
-$log.entry[155] = "10:16:21 Speed 1 was applied"
-$log.entry[156] = "10:18:32 State 1: Check ready shelves"
-$log.entry[157] = "10:18:33 Shelf 2 is ready. Request data!"
-$log.entry[158] = "10:18:33 Request data from PLC"
-$log.entry[159] = "10:18:33 State 100: Decision making module"
-$log.entry[160] = "10:18:33 State 2: Open shelf"
-$log.entry[161] = "10:18:33 Opening shelf 2"
-$log.entry[162] = "10:19:40 Tool #3 set"
-$log.entry[163] = "10:19:40 Command close gripper 1"
-$log.entry[164] = "10:19:40 Command close gripper 2"
-$log.entry[165] = "10:19:57 Speed 5 was applied"
-$log.entry[166] = "10:20:10 Request unlock shelf 2"
-$log.entry[167] = "10:20:11 Shelf 2 successfully unlocked"
-$log.entry[168] = "10:20:22 State 100: Decision making module"
-$log.entry[169] = "10:20:22 State 3: Pick workpiece from shelf"
-$log.entry[170] = "10:20:22 Pick workpiece. Shelf: 2 Tool: 1 ID: 1"
-$log.entry[171] = "10:20:23 Tool #1 set"
-$log.entry[172] = "10:20:23 Command open gripper 1"
-$log.entry[173] = "10:20:23 ID: 1 --> i: 0 j: 0"
-$log.entry[174] = "10:20:32 Distance: 0.02345"
-$log.entry[175] = "10:20:32 Detail found"
-$log.entry[176] = "10:20:33 Command close gripper 1"
-$log.entry[177] = "10:20:33 State 100: Decision making module"
-$log.entry[178] = "10:20:33 State 4: Move to CNC"
-$log.entry[179] = "10:20:33 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[180] = "10:20:35 Tool #1 set"
-$log.entry[181] = "10:20:44 Waiting for CNC ready"
-$log.entry[182] = "10:20:44 CNC ready signal received"
-$log.entry[183] = "10:20:49 Speed 1 was applied"
-$log.entry[184] = "10:20:52 Robot inside CNC"
-$log.entry[185] = "10:20:52 State 100: Decision making module"
-$log.entry[186] = "10:20:52 State 5: Put workpiece to CNC"
-$log.entry[187] = "10:20:52 Put workpiece in CNC. Tool: 1 Chuck: 1"
-$log.entry[188] = "10:20:52 Tool #1 set"
-$log.entry[189] = "10:23:04 Tool #1 set"
-$log.entry[190] = "10:26:33 Put workpiece in CNC. Tool: 1 Chuck: 1"
-$log.entry[191] = "10:26:33 Tool #1 set"
-$log.entry[192] = "10:26:54 Robot open chuck first"
-$log.entry[193] = "10:26:55 Command open gripper 1"
-$log.entry[194] = "10:26:58 Close CNC chuck 1"
-$log.entry[195] = "10:27:03 CNC chuck 1 closed"
-$log.entry[196] = "10:28:35 Main program executed"
-$log.entry[197] = "10:28:35 Command close gripper 1"
-$log.entry[198] = "10:28:37 Command close gripper 2"
-$log.entry[199] = "10:28:38 Performing safe movement to home position"
-$log.entry[200] = "10:28:39 Safe move from CNC"
-$log.entry[201] = "10:28:54 Speed 5 was applied"
-$log.entry[202] = "10:29:39 Main program executed"
-$log.entry[203] = "10:29:39 Command close gripper 1"
-$log.entry[204] = "10:29:39 Command close gripper 2"
-$log.entry[205] = "10:29:40 Move robot from HOME to HOME STANDBY"
-$log.entry[206] = "10:29:40 State 0: Initialization"
-$log.entry[207] = "10:29:43 Waiting for task start"
-$log.entry[208] = "10:29:44 State 1: Check ready shelves"
-$log.entry[209] = "10:29:44 Shelf 1 is ready. Request data!"
-$log.entry[210] = "10:29:44 Request data from PLC"
-$log.entry[211] = "10:29:44 State 100: Decision making module"
-$log.entry[212] = "10:29:44 State 2: Open shelf"
-$log.entry[213] = "10:29:44 Opening shelf 1"
-$log.entry[214] = "10:29:48 Tool #3 set"
-$log.entry[215] = "10:29:48 Command close gripper 1"
-$log.entry[216] = "10:29:48 Command close gripper 2"
-$log.entry[217] = "10:29:57 Request unlock shelf 1"
-$log.entry[218] = "10:29:57 Shelf 1 successfully unlocked"
-$log.entry[219] = "10:30:08 State 100: Decision making module"
-$log.entry[220] = "10:31:12 State 3: Pick workpiece from shelf"
-$log.entry[221] = "10:31:12 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
-$log.entry[222] = "10:31:12 Tool #1 set"
-$log.entry[223] = "10:31:12 Command open gripper 1"
-$log.entry[224] = "10:31:12 ID: 1 --> i: 0 j: 0"
-$log.entry[225] = "10:31:21 Distance: 0.01767"
-$log.entry[226] = "10:31:21 Detail found"
-$log.entry[227] = "10:31:22 Command close gripper 1"
-$log.entry[228] = "10:31:22 State 100: Decision making module"
-$log.entry[229] = "10:31:22 State 4: Move to CNC"
-$log.entry[230] = "10:31:22 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[231] = "10:31:24 Tool #1 set"
-$log.entry[232] = "10:31:33 Waiting for CNC ready"
-$log.entry[233] = "10:31:33 CNC ready signal received"
-$log.entry[234] = "10:31:36 Robot inside CNC"
-$log.entry[235] = "10:31:36 State 100: Decision making module"
-$log.entry[236] = "10:31:36 State 5: Put workpiece to CNC"
-$log.entry[237] = "10:31:36 Put workpiece in CNC. Tool: 1 Chuck: 1"
-$log.entry[238] = "10:31:36 Tool #1 set"
-$log.entry[239] = "10:31:39 Robot open chuck first"
-$log.entry[240] = "10:31:39 Command open gripper 1"
-$log.entry[241] = "10:31:40 Close CNC chuck 1"
-$log.entry[242] = "10:31:49 CNC chuck 1 closed"
-$log.entry[243] = "10:31:50 Command close gripper 1"
-$log.entry[244] = "10:31:51 State 100: Decision making module"
-$log.entry[245] = "10:31:51 State 7: Move outside CNC"
-$log.entry[246] = "10:31:51 Move outside CNC. Tool: 2 Chuck: 2"
-$log.entry[247] = "10:31:51 Tool #2 set"
-$log.entry[248] = "10:31:54 Robot outside CNC"
-$log.entry[249] = "10:31:54 State 100: Decision making module"
-$log.entry[250] = "10:31:54 State 8: Execute MFINISH"
-$log.entry[251] = "10:31:54 State 100: Decision making module"
-$log.entry[252] = "10:31:54 State 4: Move to CNC"
-$log.entry[253] = "10:31:54 Move inisde CNC. Tool: 1 Chuck: 1"
-$log.entry[254] = "10:31:54 Tool #1 set"
-$log.entry[255] = "10:32:03 Waiting for CNC ready"
-$safe.flag = "cnc.out"
+$log.entry[0] = "16:35:03 State 5: Put workpiece to CNC"
+$log.entry[1] = "16:35:03 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[2] = "16:35:03 Tool #1 set"
+$log.entry[3] = "16:35:03 Open CNC chuck 1"
+$log.entry[4] = "16:35:03 CNC chuck 1 opened"
+$log.entry[5] = "16:35:12 Robot open chuck first"
+$log.entry[6] = "16:35:13 Command open gripper 1"
+$log.entry[7] = "16:35:13 Close CNC chuck 1"
+$log.entry[8] = "16:35:13 CNC chuck 1 closed"
+$log.entry[9] = "16:35:15 Command close gripper 1"
+$log.entry[10] = "16:35:16 State 100: Decision making module"
+$log.entry[11] = "16:35:16 State 7: Move outside CNC"
+$log.entry[12] = "16:35:16 Move outside CNC. Tool: 1 Chuck: 1"
+$log.entry[13] = "16:35:16 Tool #1 set"
+$log.entry[14] = "16:35:18 Robot outside CNC"
+$log.entry[15] = "16:35:18 State 100: Decision making module"
+$log.entry[16] = "16:35:18 State 8: Execute MFINISH"
+$log.entry[17] = "16:35:18 State 100: Decision making module"
+$log.entry[18] = "16:35:18 State 9: Put detail to shelf"
+$log.entry[19] = "16:35:18 Put workpiece. Shelf: 1 Tool: 2 ID: 2"
+$log.entry[20] = "16:35:18 Tool #2 set"
+$log.entry[21] = "16:35:18 ID: 2 --> i: 0 j: 1"
+$log.entry[22] = "16:35:27 Command open gripper 2"
+$log.entry[23] = "16:36:08 Command close gripper 2"
+$log.entry[24] = "16:36:08 State 100: Decision making module"
+$log.entry[25] = "16:36:08 State 4: Move to CNC"
+$log.entry[26] = "16:36:08 Move inisde CNC. Tool: 2 Chuck: 1"
+$log.entry[27] = "16:36:08 Tool #2 set"
+$log.entry[28] = "16:36:13 Waiting for CNC ready"
+$log.entry[29] = "16:36:13 CNC ready signal received"
+$log.entry[30] = "16:36:15 Robot inside CNC"
+$log.entry[31] = "16:36:15 State 100: Decision making module"
+$log.entry[32] = "16:36:15 State 6: Pick detail from CNC"
+$log.entry[33] = "16:36:15 Pick workpiece from CNC. Tool: 2 Chuck: 1"
+$log.entry[34] = "16:36:15 Tool #2 set"
+$log.entry[35] = "16:36:15 Command open gripper 2"
+$log.entry[36] = "16:36:19 Command close gripper 2"
+$log.entry[37] = "16:36:19 Open CNC chuck 1"
+$log.entry[38] = "16:36:23 CNC chuck 1 opened"
+$log.entry[39] = "16:36:25 State 100: Decision making module"
+$log.entry[40] = "16:36:25 State 12: CNC chuck air blow after pick"
+$log.entry[41] = "16:36:25 Air blow for chuck: 1"
+$log.entry[42] = "16:36:33 State 100: Decision making module"
+$log.entry[43] = "16:36:34 State 7: Move outside CNC"
+$log.entry[44] = "16:36:34 Move outside CNC. Tool: 2 Chuck: 1"
+$log.entry[45] = "16:36:34 Tool #2 set"
+$log.entry[46] = "16:36:35 Robot outside CNC"
+$log.entry[47] = "16:36:36 State 100: Decision making module"
+$log.entry[48] = "16:36:36 State 9: Put detail to shelf"
+$log.entry[49] = "16:36:36 Put workpiece. Shelf: 1 Tool: 2 ID: 3"
+$log.entry[50] = "16:36:36 Tool #2 set"
+$log.entry[51] = "16:36:36 ID: 3 --> i: 0 j: 2"
+$log.entry[52] = "16:36:44 Command open gripper 2"
+$log.entry[53] = "16:36:45 Command close gripper 2"
+$log.entry[54] = "16:36:45 State 100: Decision making module"
+$log.entry[55] = "16:36:45 State 10: Close shelf"
+$log.entry[56] = "16:36:45 Closing shelf 1"
+$log.entry[57] = "16:36:46 Tool #3 set"
+$log.entry[58] = "16:36:46 Command close gripper 1"
+$log.entry[59] = "16:36:46 Command close gripper 2"
+$log.entry[60] = "16:36:52 Request unlock shelf 1"
+$log.entry[61] = "16:36:52 Shelf 1 successfully unlocked"
+$log.entry[62] = "16:36:58 State 13: Finish shelf"
+$log.entry[63] = "16:36:59 State 1: Check ready shelves"
+$log.entry[64] = "16:37:58 Shelf 1 is ready. Request data!"
+$log.entry[65] = "16:37:58 Request data from PLC"
+$log.entry[66] = "16:37:58 State 100: Decision making module"
+$log.entry[67] = "16:37:58 State 2: Open shelf"
+$log.entry[68] = "16:37:58 Opening shelf 1"
+$log.entry[69] = "16:38:00 Tool #3 set"
+$log.entry[70] = "16:38:00 Command close gripper 1"
+$log.entry[71] = "16:38:00 Command close gripper 2"
+$log.entry[72] = "16:38:06 Request unlock shelf 1"
+$log.entry[73] = "16:38:06 Shelf 1 successfully unlocked"
+$log.entry[74] = "16:38:12 State 100: Decision making module"
+$log.entry[75] = "16:38:12 State 3: Pick workpiece from shelf"
+$log.entry[76] = "16:38:12 Pick workpiece. Shelf: 1 Tool: 1 ID: 1"
+$log.entry[77] = "16:38:12 Tool #1 set"
+$log.entry[78] = "16:38:13 Command open gripper 1"
+$log.entry[79] = "16:38:13 ID: 1 --> i: 0 j: 0"
+$log.entry[80] = "16:38:19 Distance: 0.01908"
+$log.entry[81] = "16:38:19 Detail found"
+$log.entry[82] = "16:38:20 Command close gripper 1"
+$log.entry[83] = "16:38:21 State 100: Decision making module"
+$log.entry[84] = "16:38:21 State 4: Move to CNC"
+$log.entry[85] = "16:38:21 Move inisde CNC. Tool: 1 Chuck: 1"
+$log.entry[86] = "16:38:21 Tool #1 set"
+$log.entry[87] = "16:39:15 Waiting for CNC ready"
+$log.entry[88] = "16:39:15 CNC ready signal received"
+$log.entry[89] = "16:39:17 Robot inside CNC"
+$log.entry[90] = "16:39:17 State 100: Decision making module"
+$log.entry[91] = "16:39:17 State 11: CNC chuck air blow before put"
+$log.entry[92] = "16:39:17 Air blow for chuck: 1"
+$log.entry[93] = "16:39:26 State 100: Decision making module"
+$log.entry[94] = "16:39:26 State 5: Put workpiece to CNC"
+$log.entry[95] = "16:39:26 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[96] = "16:39:26 Tool #1 set"
+$log.entry[97] = "16:39:26 Open CNC chuck 1"
+$log.entry[98] = "16:39:26 CNC chuck 1 opened"
+$log.entry[99] = "16:39:29 Robot open chuck first"
+$log.entry[100] = "16:39:30 Command open gripper 1"
+$log.entry[101] = "16:39:30 Close CNC chuck 1"
+$log.entry[102] = "16:39:30 CNC chuck 1 closed"
+$log.entry[103] = "16:39:51 Command close gripper 1"
+$log.entry[104] = "16:39:51 State 100: Decision making module"
+$log.entry[105] = "16:39:51 State 7: Move outside CNC"
+$log.entry[106] = "16:39:52 Move outside CNC. Tool: 1 Chuck: 1"
+$log.entry[107] = "16:39:52 Tool #1 set"
+$log.entry[108] = "16:39:53 Robot outside CNC"
+$log.entry[109] = "16:39:53 State 100: Decision making module"
+$log.entry[110] = "16:39:53 State 8: Execute MFINISH"
+$log.entry[111] = "16:39:54 State 100: Decision making module"
+$log.entry[112] = "16:39:54 State 3: Pick workpiece from shelf"
+$log.entry[113] = "16:39:54 Pick workpiece. Shelf: 1 Tool: 1 ID: 2"
+$log.entry[114] = "16:39:54 Tool #1 set"
+$log.entry[115] = "16:39:54 Command open gripper 1"
+$log.entry[116] = "16:39:54 ID: 2 --> i: 0 j: 1"
+$log.entry[117] = "16:40:26 Distance: 0.02597"
+$log.entry[118] = "16:40:26 Detail found"
+$log.entry[119] = "16:40:27 Command close gripper 1"
+$log.entry[120] = "16:40:27 State 100: Decision making module"
+$log.entry[121] = "16:40:27 State 4: Move to CNC"
+$log.entry[122] = "16:40:27 Move inisde CNC. Tool: 2 Chuck: 1"
+$log.entry[123] = "16:40:28 Tool #2 set"
+$log.entry[124] = "16:40:55 Waiting for CNC ready"
+$log.entry[125] = "16:40:55 CNC ready signal received"
+$log.entry[126] = "16:40:57 Robot inside CNC"
+$log.entry[127] = "16:40:57 State 100: Decision making module"
+$log.entry[128] = "16:40:57 State 6: Pick detail from CNC"
+$log.entry[129] = "16:40:57 Pick workpiece from CNC. Tool: 2 Chuck: 1"
+$log.entry[130] = "16:40:57 Tool #2 set"
+$log.entry[131] = "16:40:58 Command open gripper 2"
+$log.entry[132] = "16:41:01 Command close gripper 2"
+$log.entry[133] = "16:41:02 Open CNC chuck 1"
+$log.entry[134] = "16:41:02 CNC chuck 1 opened"
+$log.entry[135] = "16:41:03 State 100: Decision making module"
+$log.entry[136] = "16:41:04 State 11: CNC chuck air blow before put"
+$log.entry[137] = "16:41:04 Air blow for chuck: 1"
+$log.entry[138] = "16:41:12 State 100: Decision making module"
+$log.entry[139] = "16:41:12 State 5: Put workpiece to CNC"
+$log.entry[140] = "16:41:12 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[141] = "16:41:12 Tool #1 set"
+$log.entry[142] = "16:41:12 Open CNC chuck 1"
+$log.entry[143] = "16:41:12 CNC chuck 1 opened"
+$log.entry[144] = "16:41:21 Robot open chuck first"
+$log.entry[145] = "16:41:22 Command open gripper 1"
+$log.entry[146] = "16:41:22 Close CNC chuck 1"
+$log.entry[147] = "16:41:22 CNC chuck 1 closed"
+$log.entry[148] = "16:41:24 Command close gripper 1"
+$log.entry[149] = "16:41:25 State 100: Decision making module"
+$log.entry[150] = "16:41:25 State 7: Move outside CNC"
+$log.entry[151] = "16:41:25 Move outside CNC. Tool: 1 Chuck: 1"
+$log.entry[152] = "16:41:25 Tool #1 set"
+$log.entry[153] = "16:41:26 Robot outside CNC"
+$log.entry[154] = "16:41:27 State 100: Decision making module"
+$log.entry[155] = "16:41:27 State 8: Execute MFINISH"
+$log.entry[156] = "16:41:27 State 100: Decision making module"
+$log.entry[157] = "16:41:27 State 9: Put detail to shelf"
+$log.entry[158] = "16:41:27 Put workpiece. Shelf: 1 Tool: 2 ID: 1"
+$log.entry[159] = "16:41:27 Tool #2 set"
+$log.entry[160] = "16:41:27 ID: 1 --> i: 0 j: 0"
+$log.entry[161] = "16:41:59 Command open gripper 2"
+$log.entry[162] = "16:41:59 Command close gripper 2"
+$log.entry[163] = "16:41:59 State 100: Decision making module"
+$log.entry[164] = "16:41:59 State 3: Pick workpiece from shelf"
+$log.entry[165] = "16:41:59 Pick workpiece. Shelf: 1 Tool: 1 ID: 3"
+$log.entry[166] = "16:42:00 Tool #1 set"
+$log.entry[167] = "16:42:00 Command open gripper 1"
+$log.entry[168] = "16:42:00 ID: 3 --> i: 0 j: 2"
+$log.entry[169] = "16:42:03 Speed 50 was applied"
+$log.entry[170] = "16:42:05 Distance: 0.02637"
+$log.entry[171] = "16:42:05 Detail found"
+$log.entry[172] = "16:42:06 Command close gripper 1"
+$log.entry[173] = "16:42:07 State 100: Decision making module"
+$log.entry[174] = "16:42:07 State 4: Move to CNC"
+$log.entry[175] = "16:42:07 Move inisde CNC. Tool: 2 Chuck: 1"
+$log.entry[176] = "16:42:07 Tool #2 set"
+$log.entry[177] = "16:42:09 Waiting for CNC ready"
+$log.entry[178] = "16:42:09 CNC ready signal received"
+$log.entry[179] = "16:42:10 Robot inside CNC"
+$log.entry[180] = "16:42:10 State 100: Decision making module"
+$log.entry[181] = "16:42:10 State 6: Pick detail from CNC"
+$log.entry[182] = "16:42:10 Pick workpiece from CNC. Tool: 2 Chuck: 1"
+$log.entry[183] = "16:42:10 Tool #2 set"
+$log.entry[184] = "16:42:10 Command open gripper 2"
+$log.entry[185] = "16:42:14 Command close gripper 2"
+$log.entry[186] = "16:42:14 Open CNC chuck 1"
+$log.entry[187] = "16:42:14 CNC chuck 1 opened"
+$log.entry[188] = "16:42:16 State 100: Decision making module"
+$log.entry[189] = "16:42:16 State 11: CNC chuck air blow before put"
+$log.entry[190] = "16:42:16 Air blow for chuck: 1"
+$log.entry[191] = "16:42:23 State 100: Decision making module"
+$log.entry[192] = "16:42:23 State 5: Put workpiece to CNC"
+$log.entry[193] = "16:42:23 Put workpiece in CNC. Tool: 1 Chuck: 1"
+$log.entry[194] = "16:42:23 Tool #1 set"
+$log.entry[195] = "16:42:23 Open CNC chuck 1"
+$log.entry[196] = "16:42:23 CNC chuck 1 opened"
+$log.entry[197] = "16:42:29 Robot open chuck first"
+$log.entry[198] = "16:42:31 Command open gripper 1"
+$log.entry[199] = "16:42:31 Close CNC chuck 1"
+$log.entry[200] = "16:42:31 CNC chuck 1 closed"
+$log.entry[201] = "16:42:33 Command close gripper 1"
+$log.entry[202] = "16:42:33 State 100: Decision making module"
+$log.entry[203] = "16:42:33 State 7: Move outside CNC"
+$log.entry[204] = "16:42:33 Move outside CNC. Tool: 1 Chuck: 1"
+$log.entry[205] = "16:42:33 Tool #1 set"
+$log.entry[206] = "16:42:34 Robot outside CNC"
+$log.entry[207] = "16:42:34 State 100: Decision making module"
+$log.entry[208] = "16:42:34 State 8: Execute MFINISH"
+$log.entry[209] = "16:42:35 State 100: Decision making module"
+$log.entry[210] = "16:42:35 State 9: Put detail to shelf"
+$log.entry[211] = "16:42:35 Put workpiece. Shelf: 1 Tool: 2 ID: 2"
+$log.entry[212] = "16:42:35 Tool #2 set"
+$log.entry[213] = "16:42:35 ID: 2 --> i: 0 j: 1"
+$log.entry[214] = "16:42:40 Command open gripper 2"
+$log.entry[215] = "16:42:40 Command close gripper 2"
+$log.entry[216] = "16:42:40 State 100: Decision making module"
+$log.entry[217] = "16:42:40 State 4: Move to CNC"
+$log.entry[218] = "16:42:40 Move inisde CNC. Tool: 2 Chuck: 1"
+$log.entry[219] = "16:42:41 Tool #2 set"
+$log.entry[220] = "16:42:42 Waiting for CNC ready"
+$log.entry[221] = "16:42:42 CNC ready signal received"
+$log.entry[222] = "16:42:43 Robot inside CNC"
+$log.entry[223] = "16:42:43 State 100: Decision making module"
+$log.entry[224] = "16:42:43 State 6: Pick detail from CNC"
+$log.entry[225] = "16:42:44 Pick workpiece from CNC. Tool: 2 Chuck: 1"
+$log.entry[226] = "16:42:44 Tool #2 set"
+$log.entry[227] = "16:42:44 Command open gripper 2"
+$log.entry[228] = "16:42:47 Command close gripper 2"
+$log.entry[229] = "16:42:48 Open CNC chuck 1"
+$log.entry[230] = "16:42:51 CNC chuck 1 opened"
+$log.entry[231] = "16:42:53 State 100: Decision making module"
+$log.entry[232] = "16:42:53 State 12: CNC chuck air blow after pick"
+$log.entry[233] = "16:42:53 Air blow for chuck: 1"
+$log.entry[234] = "16:42:59 State 100: Decision making module"
+$log.entry[235] = "16:42:59 State 7: Move outside CNC"
+$log.entry[236] = "16:42:59 Move outside CNC. Tool: 2 Chuck: 1"
+$log.entry[237] = "16:42:59 Tool #2 set"
+$log.entry[238] = "16:43:00 Robot outside CNC"
+$log.entry[239] = "16:43:00 State 100: Decision making module"
+$log.entry[240] = "16:43:00 State 9: Put detail to shelf"
+$log.entry[241] = "16:43:01 Put workpiece. Shelf: 1 Tool: 2 ID: 3"
+$log.entry[242] = "16:43:01 Tool #2 set"
+$log.entry[243] = "16:43:01 ID: 3 --> i: 0 j: 2"
+$log.entry[244] = "16:43:06 Command open gripper 2"
+$log.entry[245] = "16:43:06 Command close gripper 2"
+$log.entry[246] = "16:43:06 State 100: Decision making module"
+$log.entry[247] = "16:43:06 State 10: Close shelf"
+$log.entry[248] = "16:43:06 Closing shelf 1"
+$log.entry[249] = "16:43:06 Tool #3 set"
+$log.entry[250] = "16:43:07 Command close gripper 1"
+$log.entry[251] = "16:43:07 Command close gripper 2"
+$log.entry[252] = "16:43:09 Request unlock shelf 1"
+$log.entry[253] = "16:43:10 Shelf 1 successfully unlocked"
+$log.entry[254] = "16:43:15 State 13: Finish shelf"
+$log.entry[255] = "16:43:15 State 1: Check ready shelves"
+$safe.flag = "shelf.work"
 .END
