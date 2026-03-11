@@ -1858,15 +1858,6 @@ N_INT112    "s.pr.tst.cncpu"
     .tool = st3.tool
     .chuck = st5.chuck
   END
-  ;IF gripper.id[st3.tool] <> 0 AND cnc.id[st5.chuck] == 0 THEN
-  ;  .tool = st3.tool ; Later get from task
-  ;  .chuck = st5.chuck ; Later get from task
-  ;ELSE
-  ;  .tool = st6.tool ; Later get from task
-  ;  .chuck = st6.chuck ; Later get from task
-  ;END
-  ;
-  ; If continue
   ;
   IF SIG (do.home2) THEN
     JMOVE #homyak
@@ -3263,10 +3254,8 @@ N_INT112    "s.pr.tst.cncpu"
 	; .tool 
 	; .chuck 
 	; 7:state7:F
-	; .c1 
 	; .tool 
 	; .chuck 
-	; .c2 
 	; .air.blow 
 	; .air.req 
 	; 7:state8:F
