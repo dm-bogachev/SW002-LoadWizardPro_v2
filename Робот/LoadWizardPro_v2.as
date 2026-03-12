@@ -984,6 +984,9 @@ N_INT112    "s.pr.tst.cncpu"
   ;POINT/Y .approach = TRANS (0, .y)
   POINT/Z .approach = TRANS (0, 0, .z - 180 * (.shelf.no - 1))
   POINT .#approach = .approach, #wp.safe[.tool.no]
+  POINT .post.pick = .approach
+  POINT/X .post.pick = TRANS (.x)
+  POINT/Y .post.pick = TRANS (0, .y)
   ; Approach
   IF INRANGE (.#approach) == 0 THEN
     JMOVE .#approach
@@ -1024,6 +1027,11 @@ N_INT112    "s.pr.tst.cncpu"
   SPEED 20
   ACCURACY 0.1
   LAPPRO .x.pick, .z.appro
+  ;
+  IF INRANGE (.post.pick) == 0 THEN
+    LMOVE .post.pick
+  END
+  ;
   BREAK
   IF INRANGE (.#approach) == 0 THEN
     LMOVE .#approach
@@ -2480,7 +2488,7 @@ N_INT112    "s.pr.tst.cncpu"
 .END
 .PROGRAM get.task.data ()
   ;
-  IF SIG(s.debug) AND NOT SWITCH(REPEAT) THEN
+  IF SIG (s.debug) AND NOT SWITCH (REPEAT) THEN
     CALL log ("DEBUG mod activated. Get data from Robot TP")
     ; Task parameters
     wp.in.length = hmi.wp.length
@@ -2521,30 +2529,49 @@ N_INT112    "s.pr.tst.cncpu"
     st5.air.blow = hmi.ab.bf.put <> 0
     st6.air.blow = hmi.ab.af.pick <> 0
     ;
+    grip.op.tmr[1] = 1
+    grip.op.tmr[2] = 1
+    grip.cl.tmr[1] = 1
+    grip.cl.tmr[2] = 1
+    ;
+    cnc.op.tmr[1] = 1
+    cnc.op.tmr[2] = 1
+    cnc.cl.tmr[1] = 1
+    cnc.cl.tmr[2] = 1
+    ;
+    cnc.pick.ovlp = 5
+    cnc.put.ovlp = 5
+    shelf.pick.ovl = 5
+    shelf.put.ovlp = 5
+    ;
+    pick.speed = 20
+    put.speed = pick.speed
+    air.blow.speed = 20
+    ;
   ELSE
     CALL log ("Request data from PLC")
     ; Task parameters
-    wp.in.length = BITS (d.wp.length[0], 16)/10
-    wp.out.length = BITS (d.detail.length[0], 16)/10
-    wp.mid.length = BITS (d.semiwp.length[0], 16)/10
-    grip.jaws.full[1] = BITS (d.g1.jaws.full[0], 16)/10
-    grip.jaws.body[1] = BITS (d.g1.jaws.body[0], 16)/10
-    grip.jaws.full[2] = BITS (d.g2.jaws.full[0], 16)/10
-    grip.jaws.body[2] = BITS (d.g2.jaws.body[0], 16)/10
-    cnc.jaws.full[1] = BITS (d.cnc1.jaws.ful[0], 16)/10
-    cnc.jaws.body[1] = BITS (d.cnc1.jaws.bod[0], 16)/10
-    cnc.jaws.full[2] = BITS (d.cnc2.jaws.ful[0], 16)/10
-    cnc.jaws.body[2] = BITS (d.cnc2.jaws.bod[0], 16)/10
+    wp.in.length = BITS (d.wp.length[0], 16) / 10
+    wp.out.length = BITS (d.detail.length[0], 16) / 10
+    wp.mid.length = BITS (d.semiwp.length[0], 16) / 10
+    grip.jaws.full[1] = BITS (d.g1.jaws.full[0], 16) / 10
+    grip.jaws.body[1] = BITS (d.g1.jaws.body[0], 16) / 10
+    grip.jaws.full[2] = BITS (d.g2.jaws.full[0], 16) / 10
+    grip.jaws.body[2] = BITS (d.g2.jaws.body[0], 16) / 10
+    cnc.jaws.full[1] = BITS (d.cnc1.jaws.ful[0], 16) / 10
+    cnc.jaws.body[1] = BITS (d.cnc1.jaws.bod[0], 16) / 10
+    cnc.jaws.full[2] = BITS (d.cnc2.jaws.ful[0], 16) / 10
+    cnc.jaws.body[2] = BITS (d.cnc2.jaws.bod[0], 16) / 10
     ; Plate parameters (Right in task!)
     plate.id = BITS (d.plt.id[0], 8)
     plate.rows = BITS (d.plt.rows[0], 8)
     plate.cells.o = BITS (d.plt.cell.odd[0], 8)
     plate.cells.e = BITS (d.plt.cell.even[0], 8)
-    plate.dx = BITS (d.plt.dx[0], 16)/10
-    plate.dy = BITS (d.plt.dy[0], 16)/10
-    plate.e.dy = BITS (d.plt.even.dy[0], 16)/10
-    plate.ox = BITS (d.plt.o.dx[0], 16)/10
-    plate.oy = BITS (d.plt.o.dy[0], 16)/10
+    plate.dx = BITS (d.plt.dx[0], 16) / 10
+    plate.dy = BITS (d.plt.dy[0], 16) / 10
+    plate.e.dy = BITS (d.plt.even.dy[0], 16) / 10
+    plate.ox = BITS (d.plt.o.dx[0], 16) / 10
+    plate.oy = BITS (d.plt.o.dy[0], 16) / 10
     ;
     wp.count = BITS (d.wp.count[0], 8)
     ;
@@ -2568,28 +2595,27 @@ N_INT112    "s.pr.tst.cncpu"
     ;
     st5.air.blow = SIG (d.air.st5)
     st6.air.blow = SIG (d.air.st6)
+    ;
+    grip.op.tmr[1] = BITS (ei.t.grip.op[1, 0], 8) / 10
+    grip.op.tmr[2] = BITS (ei.t.grip.op[2, 0], 8) / 10
+    grip.cl.tmr[1] = BITS (ei.t.grip.cl[1, 0], 8) / 10
+    grip.cl.tmr[2] = BITS (ei.t.grip.cl[2, 0], 8) / 10
+    ;
+    cnc.op.tmr[1] = BITS (ei.t.cnc.open[1, 0], 8) / 10
+    cnc.op.tmr[2] = BITS (ei.t.cnc.open[2, 0], 8) / 10
+    cnc.cl.tmr[1] = BITS (ei.t.cnc.close[1, 0], 8) / 10
+    cnc.cl.tmr[2] = BITS (ei.t.cnc.close[2, 0], 8) / 10
+    ;
+    cnc.pick.ovlp = BITS (ei.pr.pick.cnc[0], 8)
+    cnc.put.ovlp = BITS (ei.pr.put.cnc[0], 8)
+    shelf.pick.ovl = BITS (ei.pr.pick.shlf[0], 8)
+    shelf.put.ovlp = BITS (ei.pr.put.shlf[0], 8)
+    ;
+    pick.speed = BITS (ei.xmove.spd[0], 8)
+    put.speed = pick.speed
+    air.blow.speed = BITS (ei.blow.spd[0], 8)
   END
   ;
-  grip.op.tmr[1] = BITS(ei.t.grip.op[1,0], 8)/10
-  grip.op.tmr[2] = BITS(ei.t.grip.op[2,0], 8)/10
-  grip.cl.tmr[1] = BITS(ei.t.grip.cl[1,0], 8)/10
-  grip.cl.tmr[2] = BITS(ei.t.grip.cl[2,0], 8)/10
-  ;
-  cnc.op.tmr[1] = BITS(ei.t.cnc.open[1,0], 8)/10
-  cnc.op.tmr[2] = BITS(ei.t.cnc.open[2,0], 8)/10
-  cnc.cl.tmr[1] = BITS(ei.t.cnc.close[1,0], 8)/10
-  cnc.cl.tmr[2] = BITS(ei.t.cnc.close[2,0], 8)/10
-  ;
-  cnc.pick.ovlp = BITS(ei.pr.pick.cnc[0], 8)
-  cnc.put.ovlp = BITS(ei.pr.put.cnc[0], 8)
-  shelf.pick.ovl = BITS(ei.pr.pick.shlf[0], 8)
-  shelf.put.ovlp = BITS(ei.pr.put.shlf[0], 8)
-  ;
-  pick.speed = BITS(ei.xmove.spd[0], 8)
-  put.speed = pick.speed
-  air.blow.speed = BITS(ei.blow.spd[0], 8)
-  ;
-  
 .END
 .PROGRAM a.home ()
   ;
@@ -3084,9 +3110,9 @@ N_INT112    "s.pr.tst.cncpu"
 	; st5.chuck
 	; st6.chuck
 	; @@@ CONNECTION @@@
-	; Standard 1
-	; 192.168.0.2
-	; 23
+	; KROSET R01
+	; 127.0.0.1
+	; 9105
 	; @@@ PROGRAM @@@
 	; Group:Air:1
 	; 1:air.blow:F
@@ -3661,8 +3687,8 @@ N_INT112    "s.pr.tst.cncpu"
 	; SIGDIM: % % % %
 .END
 .TRANS
-tool.gripper[1] -94.000000 -1.500000 102.000000 179.600006 89.900002 -180.000000
-tool.gripper[2] 93.599998 0.000000 102.000000 0.700000 90.300011 180.000000
+tool.gripper[1] -93.800000 0.000000 102.000000 180.000000 90.000000 -180.000000
+tool.gripper[2] 93.800000 0.000000 102.000000 0.000000 90.000110 180.000000
 tool.gripper[3] 0.000000 42.000000 102.000000 90.000046 90.000046 0.000000
 shelf.open[1,1] 747.827637 71.125702 -0.758560 -89.934814 89.998093 -179.969879
 shelf.open[1,2] 745.447388 688.132874 -2.633926 -89.931381 89.993843 -179.976761
