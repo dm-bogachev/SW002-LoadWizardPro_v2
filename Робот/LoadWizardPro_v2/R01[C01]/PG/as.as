@@ -1,3 +1,0 @@
-.ROBOTDATA1
-CONT_NO       11059   1     -165901
-.END
