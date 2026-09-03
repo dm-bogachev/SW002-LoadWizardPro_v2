@@ -875,6 +875,7 @@ N_OX74    "do.emg|Dedicated output: EMERGENCY"
 N_OX75    "do.hold|Dedicated output: HOLD"
 N_OX76    "do.safety.fence|Dedicated output: SAFETY FENCE"
 N_OX77    "do.bat.alarm|Dedicated output: BATTERY ALARM"
+N_OX78    "o.debug|Debug enabled"
 N_OX81    "eo.grip.opened[1]|To PLC: Gripper N is opened"
 N_OX82    "eo.grip.opened[2]|To PLC: Gripper N is opened"
 N_OX83    "eo.grip.error|To PLC: Gripper error"
@@ -1482,7 +1483,6 @@ N_INT12    "s.inside.cnc|Robot is inside CNC"
 N_INT13    "s.mfinish.req|Request MFINISH"
 N_INT14    "s.st5.air.req|Air blow before put detail"
 N_INT15    "s.st6.air.req|Air blow after pick detail"
-N_INT50    "s.debug|Debug mode"
 N_INT100    "s.pr.tch.shelf|Prime shelf.teach program"
 N_INT101    "s.pr.tst.shelf|Prime shelf.test"
 N_INT102    "s.hmi.tool.1|Selected TOOL 1 on HMI"
@@ -1540,7 +1540,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 70,2,"  PRIME","  TEST","  PUT","",10,4,3,2107,0
 76,2,""," PLC DATA","","",10,4,11,2006,0
 77,2,"","   MAIN","<---------","",10,4,11,2001,0
-78,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
+78,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,78,0
 79,2,"","   TEACH","    CNC","",10,4,3,2004,0
 80,2,"","   TEACH","   SHELF","",10,4,3,2005,0
 82,2,"","  PRIME","   HOME","",10,4,8,2106,0
@@ -1560,7 +1560,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 103,2,"","  CHUCK 1","   CLOSE","",10,4,15,98,0
 104,2,"","  CHUCK 2","   CLOSE","",10,4,15,100,0
 105,2,"","   MAIN","<---------","",10,4,11,2001,0
-106,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
+106,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,78,0
 107,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 108,2,"","   TEACH","   SHELF","",10,4,3,2005,0
 109,2,""," PLC DATA","","",10,4,11,2006,0
@@ -1576,7 +1576,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 119,2,"  PRIME","  TEST","  SHELF","",10,4,3,2101,0
 132,2,""," PLC DATA","","",10,4,11,2006,0
 133,2,"","   MAIN","<---------","",10,4,11,2001,0
-134,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
+134,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,78,0
 135,2,"","   TEACH","   PLATE","",10,4,3,2003,0
 136,2,"","   TEACH","    CNC","",10,4,3,2004,0
 138,2,"","  PRIME","   HOME","",10,4,8,2106,0
@@ -1655,7 +1655,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 215,8,"processed.wp"," Processed"," Workpiece",10,15,4,1,0
 216,14,"safe.flag","Safe flag","",10,15,0
 217,2,"","   MAIN","<---------","",10,4,11,2001,0
-218,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,2050,0
+218,4,2,"DEBUG","DISABLED","ENABLED","",10,4,4,0,78,0
 223,2,""," PLC DATA","","",10,4,11,2006,0
 .END
 .INTER_PANEL_TITLE
@@ -1830,31 +1830,6 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
     current.wp    = 1
     processed.wp  = 0
     ;
-  END
-  ;
-.END
-.PROGRAM check.teach.lim ()
-  ;
-  IF hmi.shelf.no < 1 THEN
-    CALL log ("Wrong teach parameters: Shelf No")
-    HALT
-  END
-  IF hmi.shelf.no > 4 THEN
-    CALL log ("Wrong teach parameters: Shelf No")
-    HALT
-  END
-  ;
-  IF hmi.plate.id < 1 THEN
-    CALL log ("Wrong teach parameters: Plate Id")
-    HALT
-  END
-  IF hmi.plate.id > 64 THEN
-    CALL log ("Wrong teach parameters: Plate Id")
-    HALT
-  END
-  IF hmi.wp.length < 0 THEN
-    CALL log ("Wrong teach parameters: Workpiece length")
-    HALT
   END
   ;
 .END
@@ -2101,8 +2076,6 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
   ;
 .END
 .PROGRAM cnc.teach ()
-  ;
-  CALL check.teach.lim
   ;
   IF SIG (s.hmi.tool.1) THEN
     .tool = 1
@@ -2552,6 +2525,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
   do.hold              = 75
   do.safety.fence      = 76
   do.bat.alarm         = 77
+  o.debug              = 78
   ;
   eo.grip.opened[1]    = 81
   eo.grip.opened[2]    = 82
@@ -2705,7 +2679,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
   s.st5.air.req  = 2014
   s.st6.air.req  = 2015
   ;
-  s.debug        = 2050
+  ;s.debug        = 2050
   ;
   s.pr.tch.shelf = 2100
   s.pr.tst.shelf = 2101
@@ -2922,7 +2896,6 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 .end
 .PROGRAM shelf.teach ()
   ;
-  CALL check.teach.lim
   CALL set.tool (3)
   ; gripper.no, time, reverse
   CALL gripper.close (1, 0, FALSE)
@@ -3883,8 +3856,6 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 .END
 .PROGRAM wp.teach ()
   ;
-  CALL check.teach.lim
-  ;
   IF SIG (s.hmi.tool.1) THEN
     .tool = 1
     .gc.full = hmi.gc1.full
@@ -3949,7 +3920,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 .PROGRAM Comment___ () ; Comments for IDE. Do not use.
 	; @@@ PROJECT @@@
 	; @@@ PROJECTNAME @@@
-	; LoadWizardPro_v2
+	; LoadWizardPro
 	; @@@ HISTORY @@@
 	; @@@ INSPECTION @@@
 	; wp.out.length
@@ -4268,7 +4239,6 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 	;   Group:Utilities:8
 	;     8:set.tool:F
 	;       .tool.no 
-	;     8:check.teach.lim:F
 	;     8:get.task.data:F
 	;       .full 
 	;       .body 
@@ -4528,7 +4498,6 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 	; d.cnc2.jaws.ful[] Task data: CNC 2 Chuck jaws full length
 	; d.cnc2.jaws.bod[] Task data: CNC 2 Chuck jaws body length
 	; eo.next.wp[] To PLC: Next wp number
-	; s.debug Debug mode
 	; ei.data.ready Data ready
 	; ei.check.grip Check gripper signals
 	; eo.error.code[] Error code
@@ -4544,6 +4513,7 @@ N_INT112    "s.pr.tst.cncpu|Prime CNC test put"
 	; ei.t.grip.op[] Gripper open time
 	; ei.xmove.spd[] XMOVE speed
 	; ei.blow.spd[] HMI Air blow speed
+	; o.debug Debug enabled
 	; @@@ TOOLS @@@
 	; tool.gripper[] Tool coordinates
 	; @@@ BASE @@@
@@ -6255,7 +6225,6 @@ eo.next.wp[12] = 317
 eo.next.wp[13] = 318
 eo.next.wp[14] = 319
 eo.next.wp[15] = 320
-s.debug = 2050
 ei.data.ready = 1114
 ei.check.grip = 1085
 eo.error.code[0] = 321
@@ -6381,6 +6350,7 @@ ei.blow.spd[4] = 1349
 ei.blow.spd[5] = 1350
 ei.blow.spd[6] = 1351
 ei.blow.spd[7] = 1352
+o.debug = 78
 .END
 .STRINGS
 $log.entry[0] = "16:35:03 State 5: Put workpiece to CNC"
