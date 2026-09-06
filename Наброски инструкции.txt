@@ -1,0 +1,133 @@
+Для обучения точек открытия/закрытия полки надло выполнять программу по шагам до нужных точек, обучить точки и выполнить далее. При этом когда полка закрыта, мы обучаем первую точку открытия посередине паза и вторую точку закрытия на дальнем к станку краю паза (Z+), когда полка открыта, обучаем первую точку закрытия в середине паза и вторую точку открытия на дальнем краю паза (Z-)
+Напиши инструкцию
+  ;
+  ; Preaprations for teaching
+  TOOL t.pin
+  SIGNAL gripper.close[1], -gripper.open[1]
+  SIGNAL gripper.close[2], -gripper.open[2]
+  JMOVE #shelf.safe
+  ;
+  ; Teach points for open shelf
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  BREAK
+  ; Teach this point for shelf open
+  LMOVE shelf.open[hmi.shelf.no, 1] ; **== TEACH POINT ==**
+  ; Teach this point for shelf close
+  LMOVE shelf.close[hmi.shelf.no, 2] ; **== TEACH POINT ==**
+  ;
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  JMOVE #shelf.safe
+  ;
+  ; Teach points for close shelf
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (150, 0, -150)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  BREAK
+  ; Teach this point for shelf close
+  LMOVE shelf.close[hmi.shelf.no, 1] ; **== TEACH POINT ==**
+  ; Teach this point for shelf open
+  LMOVE shelf.open[hmi.shelf.no, 2] ; **== TEACH POINT ==**
+  ;
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (150, 0, -150)
+  JMOVE #shelf.safe
+  ;
+
+  ;
+  ; Preaprations for teaching
+  TOOL t.pin
+  SIGNAL gripper.close[1], -gripper.open[1]
+  SIGNAL gripper.close[2], -gripper.open[2]
+  JMOVE #shelf.safe
+  ;
+  ; Teach points for open shelf
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  BREAK
+  ; Teach this point for shelf open
+  LMOVE shelf.open[hmi.shelf.no, 1] ; **== TEACH POINT ==**
+  ; Teach this point for shelf close
+  LMOVE shelf.close[hmi.shelf.no, 2] ; **== TEACH POINT ==**
+  ;
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  LMOVE shelf.open[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  JMOVE #shelf.safe
+  ;
+  ; Teach points for close shelf
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (150, 0, -150)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  BREAK
+  ; Teach this point for shelf close
+  LMOVE shelf.close[hmi.shelf.no, 1] ; **== TEACH POINT ==**
+  ; Teach this point for shelf open
+  LMOVE shelf.open[hmi.shelf.no, 2] ; **== TEACH POINT ==**
+  ;
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, 0)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (-50, 0, -150)
+  LMOVE shelf.close[hmi.shelf.no, 1] + TRANS (150, 0, -150)
+  JMOVE #shelf.safe
+  ;
+
+
+## Обучение точек открытия и закрытия полки
+
+Программу необходимо выполнять **по шагам (Step)** до указанных ниже строк. Подготовительные команды (`TOOL`, `SIGNAL`, перемещения в безопасную позицию и т. п.) выполняются программой автоматически.
+
+### 1. Полка открыта
+
+Откройте полку и выполняйте программу **по шагам до строки**:
+
+```text
+LMOVE shelf.open[hmi.shelf.no, 1] ; **== TEACH POINT ==**
+```
+
+В этой точке:
+
+1. Обучите **точку открытия №1** — **в середине паза**.
+2. После этого, **не выполняя промежуточные шаги программы**, обучите следующую точку:
+
+```text
+LMOVE shelf.close[hmi.shelf.no, 2] ; **== TEACH POINT ==**
+```
+
+Эту точку обучите **на дальнем от станка краю паза, в направлении Z+**.
+
+После обучения обеих точек продолжите выполнение программы по шагам.
+
+---
+
+### 2. Полка закрыта
+
+После завершения перемещений первого участка выполняйте программу **по шагам до строки**:
+
+```text
+LMOVE shelf.close[hmi.shelf.no, 1] ; **== TEACH POINT ==**
+```
+
+В этой точке:
+
+1. Обучите **точку закрытия №1** — **в середине паза**.
+2. После этого, **не выполняя промежуточные шаги программы**, обучите следующую точку:
+
+```text
+LMOVE shelf.open[hmi.shelf.no, 2] ; **== TEACH POINT ==**
+```
+
+Эту точку обучите **на дальнем от станка краю паза, в направлении Z-**.
+
+После обучения обеих точек продолжите выполнение программы по шагам до её завершения.
+
+### Сводная таблица
+
+| Состояние полки | Строка программы                     | Что обучить       | Положение                           |
+| --------------- | ------------------------------------ | ----------------- | ----------------------------------- |
+| **Открыта**     | `LMOVE shelf.open[hmi.shelf.no, 1]`  | Точка открытия №1 | Середина паза                       |
+| **Открыта**     | `LMOVE shelf.close[hmi.shelf.no, 2]` | Точка закрытия №2 | Дальний от станка край паза, **Z+** |
+| **Закрыта**     | `LMOVE shelf.close[hmi.shelf.no, 1]` | Точка закрытия №1 | Середина паза                       |
+| **Закрыта**     | `LMOVE shelf.open[hmi.shelf.no, 2]`  | Точка открытия №2 | Дальний от станка край паза, **Z-** |
+
+**Важно:** в каждом месте остановки (`BREAK`) сначала обучите **обе расположенные подряд точки**, и только после этого продолжайте выполнение программы по шагам.
