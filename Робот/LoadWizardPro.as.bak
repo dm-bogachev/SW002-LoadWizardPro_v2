@@ -192,9 +192,9 @@ N_WX225    "ei.t.cnc.open[1,0]"
 N_WX233    "ei.t.cnc.close[1,0]"
 N_WX241    "ei.t.cnc.open[2,0]"
 N_WX249    "ei.t.cnc.close[2,0]"
-N_WX321    "d.wp.length[0]"
-N_WX329    "d.semiwp.length[0]"
-N_WX337    "d.detail.length[0]"
+N_WX321    "d.wp0.l[0]"
+N_WX329    "d.wp1.l[0]"
+N_WX337    "d.wp2.l[0]"
 N_WX345    "d.g1.jaws.full[0]"
 N_WX353    "d.g1.jaws.body[0]"
 N_WX361    "d.g2.jaws.full[0]"
@@ -213,7 +213,8 @@ N_WX481    "d.plt.o.dx[0]"
 N_WX497    "d.plt.o.dy[0]"
 N_WX513    "d.cnc.pg.no[0]"
 N_WX521    "d.chg.pg.no[0]"
-N_WX529    "d.air.pg.no[0]"
+N_WX529    "d.air.pg.no[1,0]"
+N_WX537    "d.air.pg.no[2,0]"
 N_WX545    "d.wp.count[0]"
 N_WX561    "d.gp.reverse[1]"
 N_WX562    "d.gp.reverse[2]"
@@ -259,6 +260,7 @@ N_INT109    "s.pr.cnc.tch"
 N_INT110    "s.pr.tch.air"
 N_INT111    "s.pr.tst.cncpi"
 N_INT112    "s.pr.tst.cncpu"
+N_INT113    "s.pr.tst.plate"
 .END
 .INTER_PANEL_D
 0,9,1,6,9
@@ -298,6 +300,7 @@ N_INT112    "s.pr.tst.cncpu"
 60,4,2,"TEACH TOOL","TOOL 1","TOOL 2","",10,4,4,2102,0,0
 61,4,2,"GRIPPER 1","OPEN","CLOSE","",10,4,4,33,34,0
 62,4,2,"GRIPPER 2","OPEN","CLOSE","",10,4,4,35,36,0
+63,2,"  PRIME","  TEST","  PLATE","",10,4,3,2113,0
 70,2,"  PRIME","  TEST","  PICK","",10,4,3,2105,0
 71,2,"  PRIME","  TEST","  PUT","",10,4,3,2107,0
 76,2,""," PLC DATA","","",10,4,11,2006,0
@@ -606,20 +609,24 @@ N_INT112    "s.pr.tst.cncpu"
   IF SIG (s.pr.cnc.tch) THEN
     MC PRIME cnc.teach
   END
-    ;
+  ;
   IF SIG (s.pr.tch.air) THEN
     MC PRIME air.teach
+  END
+  ;
+  IF SIG (s.pr.tst.plate) THEN
+    MC PRIME plate.test
   END
   ;
   IF SIG (s.pr.home) THEN
     MC PRIME a.home
   END
   ;
-    IF SIG (s.pr.tst.cncpi) THEN
+  IF SIG (s.pr.tst.cncpi) THEN
     MC PRIME cnc.test.pick
   END
   ;
-    IF SIG (s.pr.tst.cncpu) THEN
+  IF SIG (s.pr.tst.cncpu) THEN
     MC PRIME cnc.test.put
   END
   ;
@@ -721,9 +728,9 @@ N_INT112    "s.pr.tst.cncpu"
   CALL gripper.open (.tool.no, 0, st6.reverse)
   ;
   ; Calculate shifts
-  .c1 = wp.out.length + grip.jaws.body[.tool.no] + cnc.jaws.body[.chuck.no]
+  .c1 = wp2.l + gp.jaws.body[.tool.no] + cnc.jaws.body[.chuck.no]
   .dz = .c1 - cnc.pick.ovlp ;
-  .c2 = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no]
+  .c2 = gp.jaws.full[.tool.no] - gp.jaws.body[.tool.no]
   ;.c3 = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no]
   .z.appro = .c2 + cnc.pick.ovlp + 10
   ;.z.appro.pick = grip.jaws.body[.tool.no]
@@ -777,7 +784,7 @@ N_INT112    "s.pr.tst.cncpu"
   CALL chuck.open (.chuck.no, 0)
   ;
   ; Calculate shifts
-  .c1 = wp.in.length + grip.jaws.body[.tool.no] + cnc.jaws.body[.chuck.no]
+  .c1 = wp0.l + gp.jaws.body[.tool.no] + cnc.jaws.body[.chuck.no]
   .dz = .c1 - cnc.put.ovlp ;
   .c2 = cnc.jaws.full[.chuck.no] - cnc.jaws.body[.chuck.no]
   .z.appro = .c2 + cnc.put.ovlp + 10
@@ -904,134 +911,147 @@ N_INT112    "s.pr.tst.cncpu"
   IFPWPRINT 8, 1, 1, 5, 10 = .$robot.str, .$cont.str, " ", "Powered by Robowizard Co.Ltd."
   ;
 .END
+.PROGRAM get.from.hmi ()
+  ;
+  ; Task parameters
+  wp0.l = hmi.wp.length
+  wp2.l = hmi.wp.length
+  wp1.l = hmi.wp.length
+  gp.jaws.full[1] = hmi.gc1.full
+  gp.jaws.body[1] = hmi.gc1.body
+  gp.jaws.full[2] = hmi.gc2.full
+  gp.jaws.body[2] = hmi.gc2.body
+  cnc.jaws.full[1] = hmi.cnc1c.full
+  cnc.jaws.body[1] = hmi.cnc1c.body
+  cnc.jaws.full[2] = hmi.cnc2c.full
+  cnc.jaws.body[2] = hmi.cnc2c.body
+  ; Plate parameters (Right in task!)
+  plate.id = hmi.plate.id
+  plate.rows = hmi.plate.rows
+  plate.cells.o = hmi.plate.col.o
+  plate.cells.e = hmi.plate.col.e
+  plate.dx = hmi.plate.dx
+  plate.dy = hmi.plate.dy
+  ;
+  plate.e.dy = hmi.plate.e.dy
+  plate.ox = hmi.plate.ox
+  plate.oy = hmi.plate.oy
+  ;
+  wp.count = hmi.wp.id
+  ;
+  st3.tool = hmi.st3.tool
+  st5.chuck = hmi.st5.chuck
+  ;
+  st6.tool = hmi.st6.tool
+  st6.chuck = hmi.st6.chuck
+  ;
+  st3.reverse = FALSE
+  st6.reverse = FALSE
+  cnc.first = FALSE
+  ;
+  st5.air.blow = hmi.ab.bf.put <> 0
+  st6.air.blow = hmi.ab.af.pick <> 0
+  ;
+  grip.op.tmr[1] = 1
+  grip.op.tmr[2] = 1
+  grip.cl.tmr[1] = 1
+  grip.cl.tmr[2] = 1
+  ;
+  cnc.op.tmr[1] = 1
+  cnc.op.tmr[2] = 1
+  cnc.cl.tmr[1] = 1
+  cnc.cl.tmr[2] = 1
+  ;
+  cnc.pick.ovlp = 5
+  cnc.put.ovlp = 5
+  shelf.pick.ovl = 5
+  shelf.put.ovlp = 5
+  ;
+  pick.speed = 20
+  put.speed = pick.speed
+  air.blow.speed = 20
+  ;
+  ;
+.END
+.PROGRAM get.from.plc ()
+  ;
+  ; Task parameters
+  wp0.l = BITS (d.wp0.l[0], 8)
+  wp2.l = BITS (d.wp2.l[0], 8)
+  wp1.l = BITS (d.wp1.l[0], 8)
+  gp.jaws.full[1] = BITS (d.g1.jaws.full[0], 8)
+  gp.jaws.body[1] = BITS (d.g1.jaws.body[0], 8)
+  gp.jaws.full[2] = BITS (d.g2.jaws.full[0], 8)
+  gp.jaws.body[2] = BITS (d.g2.jaws.body[0], 8)
+  cnc.jaws.full[1] = BITS (d.cnc1.jaws.ful[0], 8)
+  cnc.jaws.body[1] = BITS (d.cnc1.jaws.bod[0], 8)
+  cnc.jaws.full[2] = BITS (d.cnc2.jaws.ful[0], 8)
+  cnc.jaws.body[2] = BITS (d.cnc2.jaws.bod[0], 8)
+  ; Plate parameters
+  plate.rows = BITS (d.plt.rows[0], 4)
+  plate.cells.o = BITS (d.plt.cell.odd[0], 4)
+  plate.cells.e = BITS (d.plt.cell.even[0], 4)
+  plate.dx = BITS (d.plt.dx[0], 16) / 10
+  plate.dy = BITS (d.plt.dy[0], 16) / 10
+  plate.e.dy = BITS (d.plt.even.dy[0], 16) / 10
+  plate.ox = BITS (d.plt.o.dx[0], 16) / 10
+  plate.oy = BITS (d.plt.o.dy[0], 16) / 10
+  ;
+  wp.count = BITS (d.wp.count[0], 8)
+  ;
+  cnc.pg.no = BITS(d.cnc.pg.no[0], 8)
+  air.pg.no[1] = BITS(d.air.pg.no[1, 0], 8)
+  air.pg.no[2] = BITS(d.air.pg.no[2, 0], 8)
+  chg.pg.no = BITS(d.chg.pg.no[0], 8)
+  ;
+  ;st3.tool = 1;BITS (d.st3.g.no[0], 2)
+  ;st5.chuck = 1;BITS (d.st5.c.no[0], 2)
+  ;;
+  ;IF SIG (d.st6.g.no[0]) THEN
+  ;  st6.tool = 1
+  ;ELSE
+  ;  st6.tool = 2
+  ;END
+  ;IF SIG (d.st6.c.no[0]) THEN
+  ;  st6.chuck = 2
+  ;ELSE
+  ;  st6.chuck = 1
+  ;END
+  ;;
+  ;st3.reverse = FALSE;SIG (d.st3.g.reverse)
+  ;st6.reverse = FALSE;SIG (d.st5.g.reverse)
+  ;cnc.first = SIG (d.cnc.first)
+  ;;
+  ;st5.air.blow = SIG (d.air.st5)
+  ;st6.air.blow = SIG (d.air.st6)
+  ;;
+  ;grip.op.tmr[1] = BITS (ei.t.grip.op[1, 0], 8) / 10
+  ;grip.op.tmr[2] = BITS (ei.t.grip.op[2, 0], 8) / 10
+  ;grip.cl.tmr[1] = BITS (ei.t.grip.cl[1, 0], 8) / 10
+  ;grip.cl.tmr[2] = BITS (ei.t.grip.cl[2, 0], 8) / 10
+  ;;
+  ;cnc.op.tmr[1] = BITS (ei.t.cnc.open[1, 0], 8) / 10
+  ;cnc.op.tmr[2] = BITS (ei.t.cnc.open[2, 0], 8) / 10
+  ;cnc.cl.tmr[1] = BITS (ei.t.cnc.close[1, 0], 8) / 10
+  ;cnc.cl.tmr[2] = BITS (ei.t.cnc.close[2, 0], 8) / 10
+  ;;
+  ;cnc.pick.ovlp = BITS (ei.pr.pick.cnc[0], 8)
+  ;cnc.put.ovlp = BITS (ei.pr.put.cnc[0], 8)
+  ;shelf.pick.ovl = BITS (ei.pr.pick.shlf[0], 8)
+  ;shelf.put.ovlp = BITS (ei.pr.put.shlf[0], 8)
+  ;;
+  ;pick.speed = BITS (ei.xmove.spd[0], 8)
+  ;put.speed = pick.speed
+  ;air.blow.speed = BITS (ei.blow.spd[0], 8)
+.END
 .PROGRAM get.task.data ()
   ;
-  IF SIG (o.debug) AND NOT SWITCH (REPEAT) THEN
-    CALL log ("DEBUG mod activated. Get data from Robot TP")
-    ; Task parameters
-    wp.in.length = hmi.wp.length
-    wp.out.length = hmi.wp.length
-    wp.mid.length = hmi.wp.length
-    grip.jaws.full[1] = hmi.gc1.full
-    grip.jaws.body[1] = hmi.gc1.body
-    grip.jaws.full[2] = hmi.gc2.full
-    grip.jaws.body[2] = hmi.gc2.body
-    cnc.jaws.full[1] = hmi.cnc1c.full
-    cnc.jaws.body[1] = hmi.cnc1c.body
-    cnc.jaws.full[2] = hmi.cnc2c.full
-    cnc.jaws.body[2] = hmi.cnc2c.body
-    ; Plate parameters (Right in task!)
-    plate.id = hmi.plate.id
-    plate.rows = hmi.plate.rows
-    plate.cells.o = hmi.plate.col.o
-    plate.cells.e = hmi.plate.col.e
-    plate.dx = hmi.plate.dx
-    plate.dy = hmi.plate.dy
-    ;
-    plate.e.dy = hmi.plate.e.dy
-    plate.ox = hmi.plate.ox
-    plate.oy = hmi.plate.oy
-    ;
-    wp.count = hmi.wp.id
-    ;
-    st3.tool = hmi.st3.tool
-    st5.chuck = hmi.st5.chuck
-    ;
-    st6.tool = hmi.st6.tool
-    st6.chuck = hmi.st6.chuck
-    ;
-    st3.reverse = FALSE
-    st6.reverse = FALSE
-    cnc.first = FALSE
-    ;
-    st5.air.blow = hmi.ab.bf.put <> 0
-    st6.air.blow = hmi.ab.af.pick <> 0
-    ;
-    grip.op.tmr[1] = 1
-    grip.op.tmr[2] = 1
-    grip.cl.tmr[1] = 1
-    grip.cl.tmr[2] = 1
-    ;
-    cnc.op.tmr[1] = 1
-    cnc.op.tmr[2] = 1
-    cnc.cl.tmr[1] = 1
-    cnc.cl.tmr[2] = 1
-    ;
-    cnc.pick.ovlp = 5
-    cnc.put.ovlp = 5
-    shelf.pick.ovl = 5
-    shelf.put.ovlp = 5
-    ;
-    pick.speed = 20
-    put.speed = pick.speed
-    air.blow.speed = 20
-    ;
+  IF SIG (o.debug) AND THEN
+    CALL log ("DEBUG mod activated. Get task data from Robot HMI")
+    CALL get.from.hmi
   ELSE
-    CALL log ("Request data from PLC")
-    ; Task parameters
-    wp.in.length = BITS (d.wp.length[0], 16) / 10
-    wp.out.length = BITS (d.detail.length[0], 16) / 10
-    wp.mid.length = BITS (d.semiwp.length[0], 16) / 10
-    grip.jaws.full[1] = BITS (d.g1.jaws.full[0], 16) / 10
-    grip.jaws.body[1] = BITS (d.g1.jaws.body[0], 16) / 10
-    grip.jaws.full[2] = BITS (d.g2.jaws.full[0], 16) / 10
-    grip.jaws.body[2] = BITS (d.g2.jaws.body[0], 16) / 10
-    cnc.jaws.full[1] = BITS (d.cnc1.jaws.ful[0], 16) / 10
-    cnc.jaws.body[1] = BITS (d.cnc1.jaws.bod[0], 16) / 10
-    cnc.jaws.full[2] = BITS (d.cnc2.jaws.ful[0], 16) / 10
-    cnc.jaws.body[2] = BITS (d.cnc2.jaws.bod[0], 16) / 10
-    ; Plate parameters (Right in task!)
-    plate.id = BITS (d.plt.id[0], 8)
-    plate.rows = BITS (d.plt.rows[0], 8)
-    plate.cells.o = BITS (d.plt.cell.odd[0], 8)
-    plate.cells.e = BITS (d.plt.cell.even[0], 8)
-    plate.dx = BITS (d.plt.dx[0], 16) / 10
-    plate.dy = BITS (d.plt.dy[0], 16) / 10
-    plate.e.dy = BITS (d.plt.even.dy[0], 16) / 10
-    plate.ox = BITS (d.plt.o.dx[0], 16) / 10
-    plate.oy = BITS (d.plt.o.dy[0], 16) / 10
-    ;
-    wp.count = BITS (d.wp.count[0], 8)
-    ;
-    st3.tool = 1;BITS (d.st3.g.no[0], 2)
-    st5.chuck = 1;BITS (d.st5.c.no[0], 2)
-    ;
-    IF SIG (d.st6.g.no[0]) THEN
-      st6.tool = 1
-    ELSE
-      st6.tool = 2
-    END
-    IF SIG (d.st6.c.no[0]) THEN
-      st6.chuck = 2
-    ELSE
-      st6.chuck = 1
-    END
-    ;
-    st3.reverse = FALSE;SIG (d.st3.g.reverse)
-    st6.reverse = FALSE;SIG (d.st5.g.reverse)
-    cnc.first = SIG (d.cnc.first)
-    ;
-    st5.air.blow = SIG (d.air.st5)
-    st6.air.blow = SIG (d.air.st6)
-    ;
-    grip.op.tmr[1] = BITS (ei.t.grip.op[1, 0], 8) / 10
-    grip.op.tmr[2] = BITS (ei.t.grip.op[2, 0], 8) / 10
-    grip.cl.tmr[1] = BITS (ei.t.grip.cl[1, 0], 8) / 10
-    grip.cl.tmr[2] = BITS (ei.t.grip.cl[2, 0], 8) / 10
-    ;
-    cnc.op.tmr[1] = BITS (ei.t.cnc.open[1, 0], 8) / 10
-    cnc.op.tmr[2] = BITS (ei.t.cnc.open[2, 0], 8) / 10
-    cnc.cl.tmr[1] = BITS (ei.t.cnc.close[1, 0], 8) / 10
-    cnc.cl.tmr[2] = BITS (ei.t.cnc.close[2, 0], 8) / 10
-    ;
-    cnc.pick.ovlp = BITS (ei.pr.pick.cnc[0], 8)
-    cnc.put.ovlp = BITS (ei.pr.put.cnc[0], 8)
-    shelf.pick.ovl = BITS (ei.pr.pick.shlf[0], 8)
-    shelf.put.ovlp = BITS (ei.pr.put.shlf[0], 8)
-    ;
-    pick.speed = BITS (ei.xmove.spd[0], 8)
-    put.speed = pick.speed
-    air.blow.speed = BITS (ei.blow.spd[0], 8)
+    CALL log ("Get task data from PLC")
+    CALL get.from.plc
   END
   ;
 .END
@@ -1459,9 +1479,9 @@ N_INT112    "s.pr.tst.cncpu"
   ;
   ;
   ; Task data
-  d.wp.length[0]       = 1321
-  d.semiwp.length[0]   = 1329
-  d.detail.length[0]   = 1337
+  d.wp0.l[0]       = 1321
+  d.wp1.l[0]   = 1329
+  d.wp2.l[0]   = 1337
   d.g1.jaws.full[0]    = 1345
   d.g1.jaws.body[0]    = 1353
   d.g2.jaws.full[0]    = 1361
@@ -1482,7 +1502,8 @@ N_INT112    "s.pr.tst.cncpu"
   ;
   d.cnc.pg.no[0]       = 1513
   d.chg.pg.no[0]       = 1521
-  d.air.pg.no[0]       = 1529
+  d.air.pg.no[1, 0]    = 1529
+  d.air.pg.no[2, 0]    = 1537
   d.wp.count[0]        = 1545; 8
   ;
   d.gp.reverse[1]      = 1561
@@ -1539,6 +1560,7 @@ N_INT112    "s.pr.tst.cncpu"
   s.pr.tch.air   = 2110
   s.pr.tst.cncpi = 2111
   s.pr.tst.cncpu = 2112
+  s.pr.tst.plate = 2113
   ;
 .END
 .PROGRAM set.speed.pc ()
@@ -2579,8 +2601,8 @@ N_INT112    "s.pr.tst.cncpu"
   ELSE
     .dy = plate.dy * .j + plate.e.dy + plate.oy
   END
-  .dz = wp.in.length + grip.jaws.body[.tool.no] - shelf.pick.ovlp ;
-  .z.appro = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no] + shelf.pick.ovlp + 10
+  .dz = wp0.l + gp.jaws.body[.tool.no] - shelf.pick.ovlp ;
+  .z.appro = gp.jaws.full[.tool.no] - gp.jaws.body[.tool.no] + shelf.pick.ovlp + 10
   ;
   ; Calculate points
   POINT .temp = shelf.frame[.shelf.no, .tool.no]
@@ -2668,8 +2690,8 @@ N_INT112    "s.pr.tst.cncpu"
   ELSE
     .dy = plate.dy * .j + plate.e.dy
   END
-  .dz = wp.out.length + grip.jaws.body[.tool.no] - shelf.put.ovlp ;
-  .z.appro = grip.jaws.full[.tool.no] - grip.jaws.body[.tool.no] + shelf.put.ovlp + 10
+  .dz = wp2.l + gp.jaws.body[.tool.no] - shelf.put.ovlp ;
+  .z.appro = gp.jaws.full[.tool.no] - gp.jaws.body[.tool.no] + shelf.put.ovlp + 10
   ;
   ; Calculate points
   POINT .temp = shelf.frame[.shelf.no, .tool.no]
@@ -2746,8 +2768,6 @@ N_INT112    "s.pr.tst.cncpu"
 	; LoadWizardPro
 	; @@@ HISTORY @@@
 	; @@@ INSPECTION @@@
-	; wp.out.length
-	; grip.jaws.body[2]
 	; cnc.jaws.body[2]
 	; cnc.jaws.full[2]
 	; hmi.cnc2c.body
@@ -3074,6 +3094,8 @@ N_INT112    "s.pr.tst.cncpu"
 	;       .c.no 
 	;       .g.reverse 
 	;     8:a.home:F
+	;     8:get.from.plc:F
+	;     8:get.from.hmi:F
 	;   Group:Log:9
 	;     9:log:F
 	;       .$msg 
@@ -3109,9 +3131,6 @@ N_INT112    "s.pr.tst.cncpu"
 	;       .jaws.body 
 	;       .jaws.ful 
 	;       .jaws.bod 
-	;       .g.no 
-	;       .c.no 
-	;       .g.reverse 
 	;       .air.req 
 	;     12:set.vars.pc:B
 	;       .i 
@@ -3142,7 +3161,7 @@ N_INT112    "s.pr.tst.cncpu"
 	; #air.pos[] 
 	; #pick.safe[] 
 	; @@@ REALS @@@
-	; wp.mid.length Task data: Workpiece length after first process
+	; wp1.l Task data: Workpiece length after first process
 	; hmi.st5.chuck Chuck for state 5
 	; grip.cl.tmr[] 
 	; grip.op.tmr[] 
@@ -3158,7 +3177,7 @@ N_INT112    "s.pr.tst.cncpu"
 	; plate.e.dy Task data: Even rows extra shift
 	; plate.oy Task data: Distance for first cell from origin Y
 	; plate.dy Task data: Distance between plate cells
-	; grip.jaws.full[] Task data: Gripper N jaws full length
+	; gp.jaws.full[] Task data: Gripper N jaws full length
 	; hmi.ab.bf.put HMI air blow before put
 	; air.wait.time Time between air blow points
 	; processed.wp Processed workpiece count
@@ -3195,10 +3214,10 @@ N_INT112    "s.pr.tst.cncpu"
 	; current.shelf Current shelf
 	; state Program state variable
 	; cnc.jaws.full[] Task data: CNC chuck N jaws full length
-	; wp.out.length Task data: Workpiece final length
-	; wp.in.length Task data: Workpiece lengh on shelf
+	; wp2.l Task data: Workpiece final length
+	; wp0.l Task data: Workpiece lengh on shelf
 	; hmi.plate.id Shelf plate ID for teach
-	; grip.jaws.body[] Task data: Gripper N jaws body length
+	; gp.jaws.body[] Task data: Gripper N jaws body length
 	; hmi.cnc2c.full CNC chuck 2 full length
 	; hmi.cnc1c.body CNC chuck 1 body length
 	; hmi.plate.rows Number of plate rows
@@ -3217,23 +3236,23 @@ N_INT112    "s.pr.tst.cncpu"
 	; @@@ INTEGER @@@
 	; @@@ SIGNALS @@@
 	; ei.shelf.state[] 
-	; ei.subspindel 
+	; ei.subspindel Subspindel exists
 	; ei.t.cnc.close[] 
 	; di.ifp.page[] Open IFP page i
-	; do.error 
-	; d.cnc.first 
-	; d.chg.pg.no[] 
+	; do.error Dedicated output: ERROR
+	; d.cnc.first Task data: If CNC first close chuck
+	; d.chg.pg.no[] Changer station program number
 	; ei.shelf.ready[] 
 	; ei.grip.close[] 
 	; ei.t.cnc.open[] 
 	; ei.t.grip.cl[] 
-	; d.cnc.run.pg 
+	; d.cnc.run.pg CNC run PG request
 	; s.shelf.failed Internal signal for failed shelf unlock
 	; s.pr.tch.shelf Prime shelf.teach program
-	; d.i.change 
+	; d.i.change Use internal change
 	; s.pr.tst.shelf Prime shelf.test
-	; do.teach.lock 
-	; do.teach 
+	; do.teach.lock Dedicated output: TEACH LOCK
+	; do.teach Dedicated output: TEACH
 	; s.hmi.tool.1 Selected TOOL 1 on HMI
 	; s.hmi.chuck.1 Selected CNC CHUCK 1 on HMI
 	; s.pr.tch.wp Prime wp.teach program
@@ -3245,102 +3264,103 @@ N_INT112    "s.pr.tst.cncpu"
 	; d.g2.jaws.body[] 
 	; d.cnc2.jaws.ful[] 
 	; d.cnc2.jaws.bod[] 
-	; d.e.change 
-	; d.detail.length[] 
+	; d.e.change Use external change
+	; d.wp2.l[] 
 	; d.gp.chg.i[] 
-	; do.home 
-	; do.motor.on 
-	; do.home2 
+	; do.home Dedicated output: HOME1
+	; do.motor.on Dedicated output: MOTOR ON
+	; do.home2 Dedicated output: HOME2
 	; ei.robot.speed[] 
 	; ei.overshoot[] 
-	; ei.i.changer 
+	; ei.i.changer Internal change station exists
 	; ei.grip.open[] 
 	; ei.check.grip[] 
 	; ei.blow.spd[] 
 	; ei.cnc.ch.clsd[] 
 	; d.gp.reverse[] 
 	; d.gp.chg.e[] 
-	; di.ext.hold 
-	; d.gp.first 
+	; di.ext.hold Dedicated input: EXTERNAL HOLD
+	; d.gp.first Task data: If Gripper first close chuck
 	; d.rdy.pick[] 
-	; air.blow.off 
-	; d.semiwp.length[] 
+	; air.blow.off Air blow on signal
+	; d.wp1.l[] 
 	; d.wp.count[] 
-	; di.ext.cs 
-	; di.ext.ereset 
+	; di.ext.cs Dedicated input: EXTERNAL CS
+	; di.ext.ereset Dedicated input: EXTERNAL ERROR RESET
 	; d.plt.even.dy[] 
-	; d.wp.length[] 
+	; d.wp0.l[] 
 	; s.pr.home Prime a.home program
-	; di.ext.pgreset 
+	; di.ext.pgreset Dedicated input: EXTERNAL PGRESET
 	; d.plt.o.dy[] 
 	; s.search.fail Failed to pick workpiece
 	; d.plt.rows[] 
-	; di.ext.slow 
-	; di.ext.motor.on 
+	; di.ext.slow Dedicated input: EXTERNAL SLOW REPEAT MODE
+	; di.ext.motor.on Dedicated input: EXTERNAL MOTOR ON
 	; s.pr.tst.put Prime test.put
 	; s.inside.cnc Robot is inside CNC
-	; ei.e.changer 
-	; ei.data.ready 
-	; ei.cnc.ready 
+	; ei.e.changer External change station exists
+	; ei.data.ready Data ready
+	; ei.cnc.ready From CNC: CNC Ready for waiting
 	; ei.cnc.ch.opd[] 
-	; d.air.pg.no[] 
+	; d.air.pg.no[] Air blow program number
 	; d.air.blow[] 
 	; s.pr.cnc.appr Prime cnc.appro.teach program
 	; s.pr.cnc.tch Prime cnc.teach program
-	; d.cnc.pg.no[] 
-	; do.hold 
+	; d.cnc.pg.no[] CNC program number
+	; do.hold Dedicated output: HOLD
 	; d.plt.cell.even[] 
 	; d.plt.dy[] 
 	; d.plt.cell.odd[] 
 	; d.plt.dx[] 
-	; do.automatic 
-	; do.bat.alarm 
-	; do.emg 
-	; do.cs 
-	; di.ext.motor.of 
+	; do.automatic Dedicated output: AUTOMATIC
+	; do.bat.alarm Dedicated output: BATTERY ALARM
+	; do.emg Dedicated output: EMERGENCY
+	; do.cs Dedicated output: CS
+	; di.ext.motor.of Dedicated input: EXTERNAL MOTOR OFF
 	; s.pr.tch.air Prime air teach program
 	; s.st5.air.req Air blow before put detail
 	; s.st6.air.req Air blow after pick detail
 	; d.cnc1.jaws.ful[] 
 	; d.cnc1.jaws.bod[] 
-	; air.blow.on 
-	; eo.air.enabled 
+	; air.blow.on Air blow on signal
+	; eo.air.enabled Air blow is enabled
 	; ei.xmove.spd[] 
-	; ei.task.start 
+	; ei.task.start From PLC: Start task
 	; ei.t.grip.op[] 
 	; eo.shelf.cmplt[] 
-	; eo.robot.ready 
-	; eo.process.err 
-	; eo.next.wp[] 
+	; eo.robot.ready To PLC: Robot ready for task
+	; eo.process.err Error during process
+	; eo.next.wp[] To PLC: Next wp number
 	; eo.grip.state[] 
 	; eo.grip.sensor[] 
 	; eo.grip.error[] 
 	; eo.gp.s.opened[] 
 	; eo.gp.c.opened[] 
 	; eo.gp.c.closed[] 
-	; eo.error.code[] 
+	; eo.error.code[] Error code
 	; eo.data.request[] 
-	; eo.data.read 
+	; eo.data.read Data read successful
 	; eo.cnc.state[] 
-	; eo.cnc.mfinish 
+	; eo.cnc.mfinish To CNC: MCODE Finished
 	; eo.cnc.ch.open[] 
 	; eo.cnc.ch.close[] 
 	; s.mcode.req 
-	; o.debug 
-	; k.shelf.pick 
+	; o.debug Robot is in debug mode
+	; k.shelf.pick Signal for working in Kroset
 	; gripper.sensor[] 
 	; gripper.opened[] 
 	; gripper.open[] 
 	; gripper.close[] 
-	; eo.wp.processed[] 
-	; eo.task.exec 
+	; eo.wp.processed[] To PLC: Processed wp count
+	; eo.task.exec To PLC: Task is executed
 	; eo.shelf.unlock[] 
 	; eo.shelf.opened[] 
 	; s.pr.tst.cncpi Prime CNC test pick
 	; s.pr.tst.cncpu Prime CNC test put
-	; ei.shelf.failed 
-	; do.safety.fence 
-	; do.power.on 
+	; ei.shelf.failed From PLC: Shelf open failed
+	; do.safety.fence Dedicated output: SAFETY FENCE
+	; do.power.on Dedicated output: POWER ON
+	; s.pr.tst.plate Prime test plate
 	; @@@ TOOLS @@@
 	; t.gripper[] 
 	; t.calib[] 
@@ -3470,7 +3490,7 @@ d.g2.jaws.body[0] = 1369
 d.cnc2.jaws.ful[0] = 1393
 d.cnc2.jaws.bod[0] = 1401
 d.e.change = 1571
-d.detail.length[0] = 1337
+d.wp2.l[0] = 1337
 d.gp.chg.i[2] = 1578
 do.home = 71
 do.motor.on = 65
@@ -3495,12 +3515,12 @@ d.gp.reverse[1] = 1561
 d.rdy.pick[2] = 1567
 d.rdy.pick[1] = 1566
 air.blow.off = 38
-d.semiwp.length[0] = 1329
+d.wp1.l[0] = 1329
 d.wp.count[0] = 1545
 di.ext.cs = 1067
 di.ext.ereset = 1066
 d.plt.even.dy[0] = 1465
-d.wp.length[0] = 1321
+d.wp0.l[0] = 1321
 s.pr.home = 2106
 di.ext.pgreset = 1068
 d.plt.o.dy[0] = 1497
@@ -3514,7 +3534,7 @@ ei.e.changer = 1121
 ei.data.ready = 1114
 ei.cnc.ready = 1101
 ei.cnc.ch.opd[2] = 1099
-d.air.pg.no[0] = 1529
+d.air.pg.no[1,0] = 1529
 d.air.blow[2] = 1565
 s.pr.cnc.appr = 2108
 s.pr.cnc.tch = 2109
@@ -3528,7 +3548,7 @@ do.automatic = 68
 do.bat.alarm = 77
 do.emg = 74
 do.cs = 67
-wp.mid.length = 0
+wp1.l = 0
 st3.reverse = 0
 st6.reverse = 0
 cnc.first = 0
@@ -3558,8 +3578,8 @@ hmi.wp.id = 16
 plate.e.dy = 0
 plate.oy = 0
 plate.dy = 130
-grip.jaws.full[1] = 40
-grip.jaws.full[2] = 40
+gp.jaws.full[1] = 40
+gp.jaws.full[2] = 40
 hmi.ab.bf.put = 0
 air.wait.time = 0.5
 processed.wp = 3
@@ -3603,13 +3623,13 @@ current.tool = 3
 current.shelf = 1
 state = 1
 cnc.jaws.full[2] = 50
-wp.out.length = 94
+wp2.l = 94
 cnc.jaws.body[1] = 0
-wp.in.length = 94
+wp0.l = 94
 hmi.plate.id = 1
-grip.jaws.body[1] = 29
+gp.jaws.body[1] = 29
 hmi.cnc2c.full = 50
-grip.jaws.body[2] = 29
+gp.jaws.body[2] = 29
 hmi.cnc1c.body = 0
 hmi.plate.rows = 4
 hmi.plate.col.e = 5
@@ -3693,6 +3713,8 @@ ei.cnc.ch.opd[1] = 1097
 ei.cnc.ch.clsd[2] = 1100
 do.safety.fence = 76
 do.power.on = 73
+d.air.pg.no[2,0] = 1537
+s.pr.tst.plate = 2113
 .END
 .STRINGS
 $log.entry[0] = "16:35:03 State 5: Put workpiece to CNC"
